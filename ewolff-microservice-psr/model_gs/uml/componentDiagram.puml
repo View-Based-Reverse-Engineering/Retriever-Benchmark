@@ -6,8 +6,8 @@ component [catalog] as catalog{
 	component [CatalogController] as CatalogController
 	component [ItemRepository] as ItemRepository
 	component [CatalogApp] as CatalogApp
-	
-	catalogInterface -- catalogIn 
+
+	catalogInterface -- catalogIn
 	catalogIn -- CatalogController
 	CatalogController ..> ItemRepository : requires
 	CatalogApp ..> ItemRepository : requires
@@ -19,14 +19,13 @@ component [customer] as customer {
 	component [CustomerController] as CustomerController
 	component [CustomerRepository] as CustomerRepository
 	component [CustomerApp] as CustomerApp
-	
+
 	customerInterface --customerIn
 	customerIn -- CustomerController
 	CustomerController ..> CustomerRepository : requires
 	CustomerApp ..> CustomerRepository : requires
 }
 
-'path not sure
 interface "/order" as orderInterface
 component [order] as order {
 	portin " " as orderIn
@@ -37,7 +36,7 @@ component [order] as order {
 	component [CatalogClient] as CatalogClient
 	portout " " as orderCustomer
 	portout " " as orderCatalog
-	
+
 	orderInterface -- orderIn
 	orderIn -- OrderController
 	OrderController ..> OrderRepository : requires
@@ -59,7 +58,7 @@ interface "/api" as entryPoint
 component [zuul] as zuul
 
 entryPoint -- zuul
-zuul ..> orderInterface : depends on 
+zuul ..> orderInterface : depends on
 zuul ..> catalogInterface : depends on
 zuul ..> customerInterface : depends on
 
@@ -67,7 +66,5 @@ order ..> eureka : use
 catalog ..> eureka : use
 customer ..> eureka : use
 zuul ..> eureka : use
-
-
 
 @enduml

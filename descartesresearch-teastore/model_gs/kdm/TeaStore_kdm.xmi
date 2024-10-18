@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="ASCII"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm" xmlns:source="http://www.eclipse.org/MoDisco/kdm/source">
+  <model xsi:type="source:InventoryModel" name="TeaStore">
+    <inventoryElement xsi:type="source:Project" name="TeaStore">
+      <inventoryElement xsi:type="source:Configuration" name=".classpath" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\.classpath"/>
+      <inventoryElement xsi:type="source:Configuration" name=".project" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\.project"/>
+      <inventoryElement xsi:type="source:Directory" name=".settings" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\.settings">
+        <inventoryElement xsi:type="source:Configuration" name="org.eclipse.core.resources.prefs" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\.settings\org.eclipse.core.resources.prefs"/>
+        <inventoryElement xsi:type="source:Configuration" name="org.eclipse.jdt.core.prefs" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\.settings\org.eclipse.jdt.core.prefs"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="bin" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin">
+        <inventoryElement xsi:type="source:Directory" name="tools" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools">
+          <inventoryElement xsi:type="source:Directory" name="descartes" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes">
+            <inventoryElement xsi:type="source:Directory" name="teastore" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore">
+              <inventoryElement xsi:type="source:Directory" name="auth" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth">
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\rest">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AuthCartRest.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\rest\AuthCartRest.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="AuthUserActionsRest.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\rest\AuthUserActionsRest.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ReadyRest.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\rest\ReadyRest.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="security" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security">
+                  <inventoryElement xsi:type="source:BinaryFile" name="BCryptProvider.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security\BCryptProvider.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ConstantKeyProvider.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security\ConstantKeyProvider.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="IKeyProvider.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security\IKeyProvider.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ISecurityProvider.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security\ISecurityProvider.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ISessionIdGenerator.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security\ISessionIdGenerator.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RandomSessionIdGenerator.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security\RandomSessionIdGenerator.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ShaSecurityProvider.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\security\ShaSecurityProvider.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="startup" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\startup">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AuthStartup.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\auth\startup\AuthStartup.class"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="dockermemoryconfigurator" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\dockermemoryconfigurator">
+                <inventoryElement xsi:type="source:BinaryFile" name="Configurator.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\dockermemoryconfigurator\Configurator.class"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="entities" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities">
+                <inventoryElement xsi:type="source:BinaryFile" name="Category.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\Category.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ImageSize.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\ImageSize.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ImageSizePreset.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\ImageSizePreset.class"/>
+                <inventoryElement xsi:type="source:Directory" name="message" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\message">
+                  <inventoryElement xsi:type="source:BinaryFile" name="SessionBlob.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\message\SessionBlob.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:BinaryFile" name="Order.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\Order.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="OrderItem.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\OrderItem.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="Product.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\Product.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="User.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\entities\User.class"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="image" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image">
+                <inventoryElement xsi:type="source:Directory" name="cache" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractCache.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\AbstractCache.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractQueueCache.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\AbstractQueueCache.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractTreeCache.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\AbstractTreeCache.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="entry" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\entry">
+                    <inventoryElement xsi:type="source:BinaryFile" name="AbstractEntry.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\entry\AbstractEntry.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="CountedEntry.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\entry\CountedEntry.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ICachable.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\entry\ICachable.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="ICacheEntry.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\entry\ICacheEntry.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="SimpleEntry.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\entry\SimpleEntry.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="TimedEntry.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\entry\TimedEntry.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:BinaryFile" name="FirstInFirstOut.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\FirstInFirstOut.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="IDataCache.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\IDataCache.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LastInFirstOut.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\LastInFirstOut.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LeastFrequentlyUsed.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\LeastFrequentlyUsed.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LeastRecentlyUsed.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\LeastRecentlyUsed.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="MostRecentlyUsed.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\MostRecentlyUsed.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RandomReplacement.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\RandomReplacement.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="rules" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\rules">
+                    <inventoryElement xsi:type="source:BinaryFile" name="CacheAll.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\cache\rules\CacheAll.class"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:BinaryFile" name="ImageDB.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\ImageDB.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ImageDBKey.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\ImageDBKey.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ImageProvider.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\ImageProvider.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="ImageScaler.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\ImageScaler.class"/>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\rest">
+                  <inventoryElement xsi:type="source:BinaryFile" name="ImageProviderEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\rest\ImageProviderEndpoint.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="setup" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup">
+                  <inventoryElement xsi:type="source:BinaryFile" name="CachingMode.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\CachingMode.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CachingRule.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\CachingRule.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CreatorFactory.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\CreatorFactory.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CreatorRunner.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\CreatorRunner.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ImageCreator.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\ImageCreator.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ImageIDFactory.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\ImageIDFactory.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ImageProviderStartup.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\ImageProviderStartup.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="SetupController$SetupControllerConstants.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\SetupController$SetupControllerConstants.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="SetupController.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\SetupController.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="StorageMode.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\StorageMode.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="StorageRule.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\setup\StorageRule.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="storage" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\storage">
+                  <inventoryElement xsi:type="source:BinaryFile" name="DriveStorage.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\storage\DriveStorage.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="IDataStorage.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\storage\IDataStorage.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="NoStorage.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\storage\NoStorage.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="rules" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\storage\rules">
+                    <inventoryElement xsi:type="source:BinaryFile" name="StoreAll.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\storage\rules\StoreAll.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="StoreLargeImages.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\storage\rules\StoreLargeImages.class"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:BinaryFile" name="StoreImage.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\image\StoreImage.class"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="kieker" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker">
+                <inventoryElement xsi:type="source:Directory" name="probes" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\probes">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractOperationExecutionWithParameterAspect.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\probes\AbstractOperationExecutionWithParameterAspect.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="records" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\probes\records">
+                    <inventoryElement xsi:type="source:BinaryFile" name="IPayloadCharacterization.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\probes\records\IPayloadCharacterization.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="OperationExecutionWithParametersRecord.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\probes\records\OperationExecutionWithParametersRecord.class"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="rabbitmq" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq">
+                  <inventoryElement xsi:type="source:BinaryFile" name="DisplayLogs.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\DisplayLogs.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="FileWriterDaemon.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\FileWriterDaemon.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="IndexServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\IndexServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LogConsumer.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\LogConsumer.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LogReaderDaemon.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\LogReaderDaemon.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LogReaderStartup.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\LogReaderStartup.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="MemoryLogStorage.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\MemoryLogStorage.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="Reset.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\kieker\rabbitmq\Reset.class"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="persistence" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence">
+                <inventoryElement xsi:type="source:Directory" name="daemons" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\daemons">
+                  <inventoryElement xsi:type="source:BinaryFile" name="InitialDataGenerationDaemon.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\daemons\InitialDataGenerationDaemon.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="domain" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain">
+                  <inventoryElement xsi:type="source:BinaryFile" name="CategoryRepository.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\CategoryRepository.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="converters" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\converters">
+                    <inventoryElement xsi:type="source:BinaryFile" name="LocalDateAttributeConverter.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\converters\LocalDateAttributeConverter.class"/>
+                    <inventoryElement xsi:type="source:BinaryFile" name="LocalDateTimeAttributeConverter.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\converters\LocalDateTimeAttributeConverter.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:BinaryFile" name="OrderItemRepository.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\OrderItemRepository.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="OrderRepository.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\OrderRepository.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="PersistenceCategory.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\PersistenceCategory.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="PersistenceOrder.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\PersistenceOrder.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="PersistenceOrderItem.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\PersistenceOrderItem.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="PersistenceProduct.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\PersistenceProduct.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="PersistenceUser.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\PersistenceUser.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ProductRepository.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\ProductRepository.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="UserRepository.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\domain\UserRepository.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="repository" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\repository">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractPersistenceRepository.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\repository\AbstractPersistenceRepository.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CacheManager.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\repository\CacheManager.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="DatabaseManagementEntity.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\repository\DatabaseManagementEntity.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="DataGenerator.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\repository\DataGenerator.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="EMFManager.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\repository\EMFManager.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest">
+                  <inventoryElement xsi:type="source:BinaryFile" name="CacheManagerEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest\CacheManagerEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CategoryEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest\CategoryEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="DatabaseGenerationEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest\DatabaseGenerationEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="OrderEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest\OrderEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="OrderItemEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest\OrderItemEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ProductEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest\ProductEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="UserEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\rest\UserEndpoint.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\servlet">
+                  <inventoryElement xsi:type="source:BinaryFile" name="IndexServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\persistence\servlet\IndexServlet.class"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="recommender" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender">
+                <inventoryElement xsi:type="source:Directory" name="algorithm" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractRecommender.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\AbstractRecommender.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="impl" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl">
+                    <inventoryElement xsi:type="source:Directory" name="cf" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\cf">
+                      <inventoryElement xsi:type="source:BinaryFile" name="PreprocessedSlopeOneRecommender.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\cf\PreprocessedSlopeOneRecommender.class"/>
+                      <inventoryElement xsi:type="source:BinaryFile" name="SlopeOneRecommender.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\cf\SlopeOneRecommender.class"/>
+                    </inventoryElement>
+                    <inventoryElement xsi:type="source:BinaryFile" name="DummyRecommender.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\DummyRecommender.class"/>
+                    <inventoryElement xsi:type="source:Directory" name="orderbased" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\orderbased">
+                      <inventoryElement xsi:type="source:BinaryFile" name="OrderBasedRecommender.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\orderbased\OrderBasedRecommender.class"/>
+                    </inventoryElement>
+                    <inventoryElement xsi:type="source:Directory" name="pop" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\pop">
+                      <inventoryElement xsi:type="source:BinaryFile" name="PopularityBasedRecommender.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\pop\PopularityBasedRecommender.class"/>
+                    </inventoryElement>
+                    <inventoryElement xsi:type="source:BinaryFile" name="UseFallBackException.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\impl\UseFallBackException.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:BinaryFile" name="IRecommender.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\IRecommender.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="OrderItemSet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\OrderItemSet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RecommenderSelector.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\algorithm\RecommenderSelector.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\rest">
+                  <inventoryElement xsi:type="source:BinaryFile" name="RecommendEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\rest\RecommendEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RecommendSingleEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\rest\RecommendSingleEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="TrainEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\rest\TrainEndpoint.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\servlet">
+                  <inventoryElement xsi:type="source:BinaryFile" name="IndexServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\servlet\IndexServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RecommenderStartup.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\servlet\RecommenderStartup.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RetrainDaemon$1.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\servlet\RetrainDaemon$1.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RetrainDaemon.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\servlet\RetrainDaemon.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="TrainingSynchronizer.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\recommender\servlet\TrainingSynchronizer.class"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="registry" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry">
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry\rest">
+                  <inventoryElement xsi:type="source:BinaryFile" name="HeartbeatInfo.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry\rest\HeartbeatInfo.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="Registry.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry\rest\Registry.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RegistryREST.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry\rest\RegistryREST.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RegistryStartup.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry\rest\RegistryStartup.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry\servlet">
+                  <inventoryElement xsi:type="source:BinaryFile" name="IndexServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registry\servlet\IndexServlet.class"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="registryclient" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient">
+                <inventoryElement xsi:type="source:Directory" name="loadbalancers" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\loadbalancers">
+                  <inventoryElement xsi:type="source:BinaryFile" name="EndpointClientCollection.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\loadbalancers\EndpointClientCollection.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoadBalancerTimeoutException.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\loadbalancers\LoadBalancerTimeoutException.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoadBalancerUpdaterDaemon.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\loadbalancers\LoadBalancerUpdaterDaemon.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ServiceLoadBalancer.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\loadbalancers\ServiceLoadBalancer.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ServiceLoadBalancerResult.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\loadbalancers\ServiceLoadBalancerResult.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:BinaryFile" name="RegistryClient.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\RegistryClient.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="RegistryClientHeartbeatDaemon.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\RegistryClientHeartbeatDaemon.class"/>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest">
+                  <inventoryElement xsi:type="source:BinaryFile" name="CharResponseWrapper.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\CharResponseWrapper.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="HttpWrapper.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\HttpWrapper.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoadBalancedCRUDOperations.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\LoadBalancedCRUDOperations.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoadBalancedImageOperations.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\LoadBalancedImageOperations.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoadBalancedRecommenderOperations.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\LoadBalancedRecommenderOperations.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoadBalancedStoreOperations.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\LoadBalancedStoreOperations.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="NonBalancedCRUDOperations.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\NonBalancedCRUDOperations.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ResponseWrapper.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\ResponseWrapper.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RestUtil.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\RestUtil.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="TrackingFilter.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\rest\TrackingFilter.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:BinaryFile" name="Service.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\Service.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="StartupCallback.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\StartupCallback.class"/>
+                <inventoryElement xsi:type="source:BinaryFile" name="StartupCallbackTask.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\StartupCallbackTask.class"/>
+                <inventoryElement xsi:type="source:Directory" name="tracing" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\tracing">
+                  <inventoryElement xsi:type="source:BinaryFile" name="Tracing.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\tracing\Tracing.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="util" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\util">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractCRUDEndpoint.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\util\AbstractCRUDEndpoint.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="NotFoundException.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\util\NotFoundException.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="RESTClient.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\util\RESTClient.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="TimeoutException.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\registryclient\util\TimeoutException.class"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="webui" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui">
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\rest">
+                  <inventoryElement xsi:type="source:BinaryFile" name="ReadyRest.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\rest\ReadyRest.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet">
+                  <inventoryElement xsi:type="source:BinaryFile" name="AboutUsServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\AboutUsServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="AbstractUIServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\AbstractUIServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CartActionServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\CartActionServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CartServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\CartServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="CategoryServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\CategoryServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="DataBaseActionServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\DataBaseActionServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="DataBaseServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\DataBaseServlet.class"/>
+                  <inventoryElement xsi:type="source:Directory" name="elhelper" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\elhelper">
+                    <inventoryElement xsi:type="source:BinaryFile" name="ELHelperUtils.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\elhelper\ELHelperUtils.class"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ErrorServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\ErrorServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="IndexServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\IndexServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoginActionServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\LoginActionServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="LoginServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\LoginServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="OrderServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\OrderServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ProductServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\ProductServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="ProfileServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\ProfileServlet.class"/>
+                  <inventoryElement xsi:type="source:BinaryFile" name="StatusServlet.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\servlet\StatusServlet.class"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="startup" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\startup">
+                  <inventoryElement xsi:type="source:BinaryFile" name="WebuiStartup.class" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\bin\tools\descartes\teastore\webui\startup\WebuiStartup.class"/>
+                </inventoryElement>
+              </inventoryElement>
+            </inventoryElement>
+          </inventoryElement>
+        </inventoryElement>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="java2kdmFragments" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments">
+        <inventoryElement xsi:type="source:SourceFile" name="Package2Directory_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\Package2Directory_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.auth.rest_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.auth.rest_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.auth.security_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.auth.security_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.auth.startup_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.auth.startup_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.dockermemoryconfigurator_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.dockermemoryconfigurator_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.entities.message_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.entities.message_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.entities_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.entities_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image.cache.entry_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image.cache.entry_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image.cache.rules_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image.cache.rules_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image.cache_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image.cache_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image.rest_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image.rest_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image.setup_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image.setup_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image.storage.rules_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image.storage.rules_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image.storage_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image.storage_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.image_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.image_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.kieker.probes.records_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.kieker.probes.records_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.kieker.probes_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.kieker.probes_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.persistence.daemons_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.persistence.daemons_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.persistence.domain.converters_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.persistence.domain.converters_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.persistence.domain_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.persistence.domain_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.persistence.repository_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.persistence.repository_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.persistence.rest_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.persistence.rest_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.persistence.servlet_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.persistence.servlet_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.recommender.algorithm.impl.cf_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.recommender.algorithm.impl.cf_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.recommender.algorithm.impl.orderbased_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.recommender.algorithm.impl.orderbased_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.recommender.algorithm.impl.pop_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.recommender.algorithm.impl.pop_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.recommender.algorithm.impl_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.recommender.algorithm.impl_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.recommender.algorithm_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.recommender.algorithm_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.recommender.rest_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.recommender.rest_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.recommender.servlet_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.recommender.servlet_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.registry.rest_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.registry.rest_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.registry.servlet_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.registry.servlet_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.registryclient.loadbalancers_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.registryclient.loadbalancers_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.registryclient.rest_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.registryclient.rest_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.registryclient.tracing_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.registryclient.tracing_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.registryclient.util_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.registryclient.util_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.registryclient_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.registryclient_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.webui.rest_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.webui.rest_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.webui.servlet.elhelper_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.webui.servlet.elhelper_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.webui.servlet_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.webui.servlet_java2kdm.xmi"/>
+        <inventoryElement xsi:type="source:SourceFile" name="tools.descartes.teastore.webui.startup_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\java2kdmFragments\tools.descartes.teastore.webui.startup_java2kdm.xmi"/>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:Directory" name="src" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src">
+        <inventoryElement xsi:type="source:Directory" name="tools" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools">
+          <inventoryElement xsi:type="source:Directory" name="descartes" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes">
+            <inventoryElement xsi:type="source:Directory" name="teastore" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore">
+              <inventoryElement xsi:type="source:Directory" name="auth" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth">
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\rest">
+                  <inventoryElement xsi:type="source:SourceFile" name="AuthCartRest.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\rest\AuthCartRest.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="AuthUserActionsRest.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\rest\AuthUserActionsRest.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ReadyRest.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\rest\ReadyRest.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="security" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security">
+                  <inventoryElement xsi:type="source:SourceFile" name="BCryptProvider.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security\BCryptProvider.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ConstantKeyProvider.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security\ConstantKeyProvider.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="IKeyProvider.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security\IKeyProvider.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ISecurityProvider.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security\ISecurityProvider.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ISessionIdGenerator.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security\ISessionIdGenerator.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RandomSessionIdGenerator.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security\RandomSessionIdGenerator.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ShaSecurityProvider.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\security\ShaSecurityProvider.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="startup" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\startup">
+                  <inventoryElement xsi:type="source:SourceFile" name="AuthStartup.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\auth\startup\AuthStartup.java"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="dockermemoryconfigurator" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\dockermemoryconfigurator">
+                <inventoryElement xsi:type="source:SourceFile" name="Configurator.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\dockermemoryconfigurator\Configurator.java"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="entities" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities">
+                <inventoryElement xsi:type="source:SourceFile" name="Category.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\Category.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ImageSize.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\ImageSize.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ImageSizePreset.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\ImageSizePreset.java"/>
+                <inventoryElement xsi:type="source:Directory" name="message" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\message">
+                  <inventoryElement xsi:type="source:SourceFile" name="SessionBlob.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\message\SessionBlob.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:SourceFile" name="Order.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\Order.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="OrderItem.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\OrderItem.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="Product.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\Product.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="User.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\entities\User.java"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="image" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image">
+                <inventoryElement xsi:type="source:Directory" name="cache" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache">
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractCache.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\AbstractCache.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractQueueCache.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\AbstractQueueCache.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractTreeCache.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\AbstractTreeCache.java"/>
+                  <inventoryElement xsi:type="source:Directory" name="entry" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\entry">
+                    <inventoryElement xsi:type="source:SourceFile" name="AbstractEntry.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\entry\AbstractEntry.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="CountedEntry.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\entry\CountedEntry.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="ICachable.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\entry\ICachable.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="ICacheEntry.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\entry\ICacheEntry.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="SimpleEntry.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\entry\SimpleEntry.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="TimedEntry.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\entry\TimedEntry.java"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:SourceFile" name="FirstInFirstOut.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\FirstInFirstOut.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="IDataCache.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\IDataCache.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LastInFirstOut.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\LastInFirstOut.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LeastFrequentlyUsed.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\LeastFrequentlyUsed.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LeastRecentlyUsed.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\LeastRecentlyUsed.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="MostRecentlyUsed.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\MostRecentlyUsed.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RandomReplacement.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\RandomReplacement.java"/>
+                  <inventoryElement xsi:type="source:Directory" name="rules" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\rules">
+                    <inventoryElement xsi:type="source:SourceFile" name="CacheAll.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\cache\rules\CacheAll.java"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:SourceFile" name="ImageDB.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\ImageDB.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ImageDBKey.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\ImageDBKey.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ImageProvider.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\ImageProvider.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="ImageScaler.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\ImageScaler.java"/>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\rest">
+                  <inventoryElement xsi:type="source:SourceFile" name="ImageProviderEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\rest\ImageProviderEndpoint.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="setup" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup">
+                  <inventoryElement xsi:type="source:SourceFile" name="CachingMode.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\CachingMode.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CachingRule.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\CachingRule.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CreatorFactory.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\CreatorFactory.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CreatorRunner.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\CreatorRunner.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ImageCreator.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\ImageCreator.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ImageIDFactory.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\ImageIDFactory.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ImageProviderStartup.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\ImageProviderStartup.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="SetupController.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\SetupController.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="StorageMode.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\StorageMode.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="StorageRule.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\setup\StorageRule.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="storage" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\storage">
+                  <inventoryElement xsi:type="source:SourceFile" name="DriveStorage.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\storage\DriveStorage.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="IDataStorage.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\storage\IDataStorage.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="NoStorage.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\storage\NoStorage.java"/>
+                  <inventoryElement xsi:type="source:Directory" name="rules" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\storage\rules">
+                    <inventoryElement xsi:type="source:SourceFile" name="StoreAll.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\storage\rules\StoreAll.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="StoreLargeImages.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\storage\rules\StoreLargeImages.java"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:SourceFile" name="StoreImage.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\image\StoreImage.java"/>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="kieker" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker">
+                <inventoryElement xsi:type="source:Directory" name="probes" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\probes">
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractOperationExecutionWithParameterAspect.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\probes\AbstractOperationExecutionWithParameterAspect.java"/>
+                  <inventoryElement xsi:type="source:Directory" name="records" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\probes\records">
+                    <inventoryElement xsi:type="source:SourceFile" name="IPayloadCharacterization.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\probes\records\IPayloadCharacterization.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="OperationExecutionWithParametersRecord.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\probes\records\OperationExecutionWithParametersRecord.java"/>
+                  </inventoryElement>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="rabbitmq" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq">
+                  <inventoryElement xsi:type="source:SourceFile" name="DisplayLogs.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\DisplayLogs.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="FileWriterDaemon.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\FileWriterDaemon.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="IndexServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\IndexServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LogConsumer.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\LogConsumer.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LogReaderDaemon.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\LogReaderDaemon.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LogReaderStartup.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\LogReaderStartup.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="MemoryLogStorage.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\MemoryLogStorage.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="Reset.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\kieker\rabbitmq\Reset.java"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="persistence" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence">
+                <inventoryElement xsi:type="source:Directory" name="daemons" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\daemons">
+                  <inventoryElement xsi:type="source:SourceFile" name="InitialDataGenerationDaemon.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\daemons\InitialDataGenerationDaemon.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="domain" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain">
+                  <inventoryElement xsi:type="source:SourceFile" name="CategoryRepository.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\CategoryRepository.java"/>
+                  <inventoryElement xsi:type="source:Directory" name="converters" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\converters">
+                    <inventoryElement xsi:type="source:SourceFile" name="LocalDateAttributeConverter.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\converters\LocalDateAttributeConverter.java"/>
+                    <inventoryElement xsi:type="source:SourceFile" name="LocalDateTimeAttributeConverter.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\converters\LocalDateTimeAttributeConverter.java"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:SourceFile" name="OrderItemRepository.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\OrderItemRepository.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="OrderRepository.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\OrderRepository.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="PersistenceCategory.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\PersistenceCategory.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="PersistenceOrder.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\PersistenceOrder.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="PersistenceOrderItem.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\PersistenceOrderItem.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="PersistenceProduct.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\PersistenceProduct.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="PersistenceUser.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\PersistenceUser.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ProductRepository.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\ProductRepository.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="UserRepository.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\domain\UserRepository.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="repository" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\repository">
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractPersistenceRepository.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\repository\AbstractPersistenceRepository.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CacheManager.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\repository\CacheManager.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="DatabaseManagementEntity.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\repository\DatabaseManagementEntity.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="DataGenerator.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\repository\DataGenerator.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="EMFManager.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\repository\EMFManager.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest">
+                  <inventoryElement xsi:type="source:SourceFile" name="CacheManagerEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest\CacheManagerEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CategoryEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest\CategoryEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="DatabaseGenerationEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest\DatabaseGenerationEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="OrderEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest\OrderEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="OrderItemEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest\OrderItemEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ProductEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest\ProductEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="UserEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\rest\UserEndpoint.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\servlet">
+                  <inventoryElement xsi:type="source:SourceFile" name="IndexServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\persistence\servlet\IndexServlet.java"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="recommender" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender">
+                <inventoryElement xsi:type="source:Directory" name="algorithm" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm">
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractRecommender.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\AbstractRecommender.java"/>
+                  <inventoryElement xsi:type="source:Directory" name="impl" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl">
+                    <inventoryElement xsi:type="source:Directory" name="cf" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\cf">
+                      <inventoryElement xsi:type="source:SourceFile" name="PreprocessedSlopeOneRecommender.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\cf\PreprocessedSlopeOneRecommender.java"/>
+                      <inventoryElement xsi:type="source:SourceFile" name="SlopeOneRecommender.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\cf\SlopeOneRecommender.java"/>
+                    </inventoryElement>
+                    <inventoryElement xsi:type="source:SourceFile" name="DummyRecommender.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\DummyRecommender.java"/>
+                    <inventoryElement xsi:type="source:Directory" name="orderbased" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\orderbased">
+                      <inventoryElement xsi:type="source:SourceFile" name="OrderBasedRecommender.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\orderbased\OrderBasedRecommender.java"/>
+                    </inventoryElement>
+                    <inventoryElement xsi:type="source:Directory" name="pop" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\pop">
+                      <inventoryElement xsi:type="source:SourceFile" name="PopularityBasedRecommender.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\pop\PopularityBasedRecommender.java"/>
+                    </inventoryElement>
+                    <inventoryElement xsi:type="source:SourceFile" name="UseFallBackException.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\impl\UseFallBackException.java"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:SourceFile" name="IRecommender.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\IRecommender.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="OrderItemSet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\OrderItemSet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RecommenderSelector.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\algorithm\RecommenderSelector.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\rest">
+                  <inventoryElement xsi:type="source:SourceFile" name="RecommendEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\rest\RecommendEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RecommendSingleEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\rest\RecommendSingleEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="TrainEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\rest\TrainEndpoint.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\servlet">
+                  <inventoryElement xsi:type="source:SourceFile" name="IndexServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\servlet\IndexServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RecommenderStartup.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\servlet\RecommenderStartup.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RetrainDaemon.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\servlet\RetrainDaemon.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="TrainingSynchronizer.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\recommender\servlet\TrainingSynchronizer.java"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="registry" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry">
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry\rest">
+                  <inventoryElement xsi:type="source:SourceFile" name="HeartbeatInfo.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry\rest\HeartbeatInfo.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="Registry.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry\rest\Registry.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RegistryREST.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry\rest\RegistryREST.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RegistryStartup.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry\rest\RegistryStartup.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry\servlet">
+                  <inventoryElement xsi:type="source:SourceFile" name="IndexServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registry\servlet\IndexServlet.java"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="registryclient" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient">
+                <inventoryElement xsi:type="source:Directory" name="loadbalancers" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\loadbalancers">
+                  <inventoryElement xsi:type="source:SourceFile" name="EndpointClientCollection.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\loadbalancers\EndpointClientCollection.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoadBalancerTimeoutException.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\loadbalancers\LoadBalancerTimeoutException.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoadBalancerUpdaterDaemon.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\loadbalancers\LoadBalancerUpdaterDaemon.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ServiceLoadBalancer.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\loadbalancers\ServiceLoadBalancer.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ServiceLoadBalancerResult.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\loadbalancers\ServiceLoadBalancerResult.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:SourceFile" name="RegistryClient.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\RegistryClient.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="RegistryClientHeartbeatDaemon.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\RegistryClientHeartbeatDaemon.java"/>
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest">
+                  <inventoryElement xsi:type="source:SourceFile" name="CharResponseWrapper.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\CharResponseWrapper.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="HttpWrapper.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\HttpWrapper.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoadBalancedCRUDOperations.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\LoadBalancedCRUDOperations.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoadBalancedImageOperations.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\LoadBalancedImageOperations.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoadBalancedRecommenderOperations.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\LoadBalancedRecommenderOperations.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoadBalancedStoreOperations.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\LoadBalancedStoreOperations.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="NonBalancedCRUDOperations.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\NonBalancedCRUDOperations.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ResponseWrapper.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\ResponseWrapper.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RestUtil.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\RestUtil.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="TrackingFilter.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\rest\TrackingFilter.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:SourceFile" name="Service.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\Service.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="StartupCallback.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\StartupCallback.java"/>
+                <inventoryElement xsi:type="source:SourceFile" name="StartupCallbackTask.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\StartupCallbackTask.java"/>
+                <inventoryElement xsi:type="source:Directory" name="tracing" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\tracing">
+                  <inventoryElement xsi:type="source:SourceFile" name="Tracing.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\tracing\Tracing.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="util" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\util">
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractCRUDEndpoint.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\util\AbstractCRUDEndpoint.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="NotFoundException.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\util\NotFoundException.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="RESTClient.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\util\RESTClient.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="TimeoutException.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\registryclient\util\TimeoutException.java"/>
+                </inventoryElement>
+              </inventoryElement>
+              <inventoryElement xsi:type="source:Directory" name="webui" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui">
+                <inventoryElement xsi:type="source:Directory" name="rest" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\rest">
+                  <inventoryElement xsi:type="source:SourceFile" name="ReadyRest.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\rest\ReadyRest.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="servlet" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet">
+                  <inventoryElement xsi:type="source:SourceFile" name="AboutUsServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\AboutUsServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="AbstractUIServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\AbstractUIServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CartActionServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\CartActionServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CartServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\CartServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="CategoryServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\CategoryServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="DataBaseActionServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\DataBaseActionServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="DataBaseServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\DataBaseServlet.java"/>
+                  <inventoryElement xsi:type="source:Directory" name="elhelper" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\elhelper">
+                    <inventoryElement xsi:type="source:SourceFile" name="ELHelperUtils.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\elhelper\ELHelperUtils.java"/>
+                  </inventoryElement>
+                  <inventoryElement xsi:type="source:SourceFile" name="ErrorServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\ErrorServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="IndexServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\IndexServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoginActionServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\LoginActionServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="LoginServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\LoginServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="OrderServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\OrderServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ProductServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\ProductServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="ProfileServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\ProfileServlet.java"/>
+                  <inventoryElement xsi:type="source:SourceFile" name="StatusServlet.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\servlet\StatusServlet.java"/>
+                </inventoryElement>
+                <inventoryElement xsi:type="source:Directory" name="startup" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\startup">
+                  <inventoryElement xsi:type="source:SourceFile" name="WebuiStartup.java" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\src\tools\descartes\teastore\webui\startup\WebuiStartup.java"/>
+                </inventoryElement>
+              </inventoryElement>
+            </inventoryElement>
+          </inventoryElement>
+        </inventoryElement>
+      </inventoryElement>
+      <inventoryElement xsi:type="source:SourceFile" name="TeaStore_java.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\TeaStore_java.xmi"/>
+      <inventoryElement xsi:type="source:SourceFile" name="TeaStore_java2kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\TeaStore_java2kdm.xmi"/>
+      <inventoryElement xsi:type="source:SourceFile" name="TeaStore_jsp.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\TeaStore_jsp.xmi"/>
+      <inventoryElement xsi:type="source:SourceFile" name="TeaStore_kdm.xmi" path="C:\Users\dr6817\Arbeitsplatz\MoDisco\TeaStore\TeaStore_kdm.xmi"/>
+    </inventoryElement>
+  </model>
+</kdm:Segment>

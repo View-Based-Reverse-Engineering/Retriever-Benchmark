@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ASCII"?>
+<javaapplication:Java2File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <file href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.2/@inventoryElement.0"/>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="16" startPosition="627" endLine="16" endPosition="670">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="17" startPosition="672" endLine="17" endPosition="718">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="18" startPosition="720" endLine="18" endPosition="766">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="20" startPosition="770" endLine="20" endPosition="810">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.3"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="21" startPosition="812" endLine="21" endPosition="874">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.4"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="22" startPosition="876" endLine="22" endPosition="931">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.5"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="23" startPosition="933" endLine="23" endPosition="1014">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.6"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="24" startPosition="1016" endLine="24" endPosition="1079">
+    <node href="../TeaStore_java.xmi#//@compilationUnits.159/@imports.7"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="26" startPosition="1083" endLine="30" endPosition="1202">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="26" startPosition="1083" endLine="59" endPosition="2208">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1091" endLine="27" endPosition="1167">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@comments.0/@tags.0/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="27" startPosition="1091" endLine="27" endPosition="1167">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@comments.0/@tags.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1172" endLine="28" endPosition="1193">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@comments.0/@tags.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="28" startPosition="1179" endLine="28" endPosition="1193">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@comments.0/@tags.1/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="31" startPosition="1204" endLine="31" endPosition="1216">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@annotations.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="33" startPosition="1282" endLine="38" endPosition="1353">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="33" startPosition="1282" endLine="35" endPosition="1315">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.0/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="34" startPosition="1291" endLine="34" endPosition="1309">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.0/@comments.0/@tags.0/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="34" startPosition="1291" endLine="34" endPosition="1309">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.0/@comments.0/@tags.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="36" startPosition="1343" endLine="38" endPosition="1353">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.0/@body"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="40" startPosition="1358" endLine="46" endPosition="1667">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="40" startPosition="1358" endLine="43" endPosition="1507">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="1370" endLine="41" endPosition="1435">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@comments.0/@tags.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="1375" endLine="41" endPosition="1435">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@comments.0/@tags.0/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="41" startPosition="1415" endLine="41" endPosition="1434">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@comments.0/@tags.0/@fragments.0/@parameters.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="1444" endLine="42" endPosition="1498">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@comments.0/@tags.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="42" startPosition="1456" endLine="42" endPosition="1498">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@comments.0/@tags.1/@fragments.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="44" startPosition="1520" endLine="44" endPosition="1524">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@returnType"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="44" startPosition="1542" endLine="44" endPosition="1567">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@parameters.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="44" startPosition="1570" endLine="46" endPosition="1667">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@body"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="1578" endLine="45" endPosition="1660">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="1578" endLine="45" endPosition="1659">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="1578" endLine="45" endPosition="1604">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@expression/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="1578" endLine="45" endPosition="1592">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@expression/@expression/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="1616" endLine="45" endPosition="1658">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="45" startPosition="1616" endLine="45" endPosition="1641">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.1/@body/@statements.0/@expression/@arguments.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="48" startPosition="1672" endLine="51" endPosition="1826">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@comments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="48" startPosition="1672" endLine="57" endPosition="2203">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="1684" endLine="49" endPosition="1751">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@comments.0/@tags.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="1689" endLine="49" endPosition="1751">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@comments.0/@tags.0/@fragments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="49" startPosition="1731" endLine="49" endPosition="1750">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@comments.0/@tags.0/@fragments.0/@parameters.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1760" endLine="50" endPosition="1817">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@comments.0/@tags.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="50" startPosition="1772" endLine="50" endPosition="1817">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@comments.0/@tags.1/@fragments.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1839" endLine="52" endPosition="1843">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@returnType"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1863" endLine="52" endPosition="1888">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@parameters.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="52" startPosition="1890" endLine="57" endPosition="2203">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1901" endLine="53" endPosition="1969">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1901" endLine="53" endPosition="1968">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1923" endLine="53" endPosition="1967">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1923" endLine="53" endPosition="1930">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@arguments.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1936" endLine="53" endPosition="1949">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@arguments.0/@arguments.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1936" endLine="53" endPosition="1966">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@arguments.0/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1936" endLine="53" endPosition="1943">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@arguments.0/@arguments.0/@expression/@qualifier"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="53" startPosition="1944" endLine="53" endPosition="1949">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.0/@expression/@arguments.0/@arguments.0/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="1976" endLine="55" endPosition="2108">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="1976" endLine="54" endPosition="1995">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="1976" endLine="55" endPosition="2109">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="2030" endLine="54" endPosition="2042">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="2030" endLine="54" endPosition="2037">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.0/@qualifier"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="2038" endLine="54" endPosition="2042">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="2044" endLine="54" endPosition="2051">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.1/@qualifier"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="2044" endLine="54" endPosition="2057">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="54" startPosition="2052" endLine="54" endPosition="2057">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.1"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="2067" endLine="55" endPosition="2086">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="2067" endLine="55" endPosition="2074">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.2/@qualifier"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="2075" endLine="55" endPosition="2086">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="2088" endLine="55" endPosition="2107">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.3"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="2088" endLine="55" endPosition="2095">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.3/@qualifier"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="55" startPosition="2096" endLine="55" endPosition="2107">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.1/@expression/@arguments.3"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="2116" endLine="56" endPosition="2130">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.2/@expression/@expression/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="2116" endLine="56" endPosition="2196">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.2"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="2116" endLine="56" endPosition="2195">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.2/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="2116" endLine="56" endPosition="2142">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.2/@expression/@expression"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="2152" endLine="56" endPosition="2194">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.2/@expression/@arguments.0"/>
+  </children>
+  <children xsi:type="javaapplication:JavaNodeSourceRegion" startLine="56" startPosition="2152" endLine="56" endPosition="2177">
+    <node href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2/@ownedElements.0/@bodyDeclarations.2/@body/@statements.2/@expression/@arguments.0/@expression"/>
+  </children>
+  <unit href="../TeaStore_java.xmi#//@compilationUnits.159"/>
+  <parent href="Package2Directory_java2kdm.xmi#/40"/>
+</javaapplication:Java2File>

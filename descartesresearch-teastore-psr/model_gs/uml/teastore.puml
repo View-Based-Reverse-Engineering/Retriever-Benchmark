@@ -1,0 +1,43 @@
+@startuml
+skinparam fixCircleLabelOverlapping true
+skinparam componentStyle uml2
+
+package "Frontend" {
+    component [Web UI]
+        interface "Web UI" as interface.WebUI
+        [Web UI] -- interface.WebUI
+}
+
+package "Database" {
+    component [MariaDB]
+        interface "Persistence" as interface.Persistence
+        [MariaDB] -- interface.Persistence
+}
+
+package "Services" {
+    component [Authentication Service]
+        interface "Shopping Cart\nAuthentication" as interface.AuthCart
+
+    component [Registry Service]
+
+    component [Image Service]
+        [Registry Service]..>[Image Service] : requires
+
+    component [Persistence Service]
+        [Registry Service]..>[Persistence Service] : requires
+
+    component [Recommendation Service]
+        [Registry Service]..>[Recommendation Service] : requires
+
+}
+
+interface "Load Balancer" as interface.LoadBalancer
+    [Registry Service] -- interface.LoadBalancer
+    [Authentication Service] ..> interface.LoadBalancer : requires
+    [Web UI] ..> interface.LoadBalancer : requires
+
+[Authentication Service] -- interface.AuthCart
+[Registry Service]..>interface.AuthCart : requires
+
+[Persistence Service]..>interface.Persistence : requires
+@enduml

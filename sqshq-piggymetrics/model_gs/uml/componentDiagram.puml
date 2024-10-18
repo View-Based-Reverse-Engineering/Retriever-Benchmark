@@ -21,7 +21,7 @@ component [notification-service] as NotiService{
 	component [FrequencyReaderConverter] as FrequencyReaderConverter
 	component [FrequencyWriterConverter] as FrequencyWriterConverter
 	portout " " as NotiAccount
-	
+
 	notificationInterface -- NotiIn1
 	recipientsInterface -- NotiIn2
 	NotiIn2 -- RecipientController
@@ -34,7 +34,6 @@ component [notification-service] as NotiService{
 	AccountServiceClient .. NotiAccount
 	RecipientRepository ..> FrequencyReaderConverter : requires
 	RecipientRepository ..> FrequencyWriterConverter : requires
-	
 }
 
 interface "/accounts" as AccountInterface
@@ -50,7 +49,7 @@ component [account-service] as AccService{
 	component [StatisticsServiceClientFallback] as StatisticsServiceClientFallback
 	portout " " as AccountAuth
 	portout " " as AccountStatistic
-	
+
 	AccountInterface -- AccountNoti
 	AccountNoti -- AccountController
 	AccountController ..> AccountServiceImpl : requires
@@ -61,7 +60,6 @@ component [account-service] as AccService{
 	AuthServiceClient .. AccountAuth
 	StatisticsServiceClient .. AccountStatistic
 }
-
 
 interface "/uaa/users" as authInterface
 interface "/statistics" as statisticsInterface
@@ -74,7 +72,7 @@ component [auth-service] as AuthService{
 	component [UserSeriveImpl] as UserSeriveImpl
 	component [UserRepository] as UserRepository
 	component [MongoUserDetailsService] as MongoUserDetailsService
-	
+
 	authInterface -- AuthAccount
 	AuthAccount -- UserController
 	UserController ..> UserSeriveImpl : requires
@@ -95,7 +93,7 @@ component [statistics-service] as StatService{
 	component [DataPointIdWriterConverter] as DataPointIdWriterConverter
 	component [ExchangeRatesClientFallback] as ExchangeRatesClientFallback
 	portout " " as StatisticsOut
-	
+
 	statisticsInterface -- StatisticAccount
 	StatisticAccount -- StatisticsController
 	StatisticsController ..> StatisticsServiceImpl : requires
@@ -108,8 +106,6 @@ component [statistics-service] as StatService{
 	ExchangeRatesClient .. StatisticsOut
 	StatisticsOut ..> StatisticsOutInterface : requires
 }
-
-'component [monitoring] as monitoring
 
 gateway ..> notificationInterface : depends on
 gateway ..> recipientsInterface : depends on
@@ -129,9 +125,5 @@ NotiAccount ..> registry : use
 StatService ..> registry : use
 AuthService ..> registry : use
 gateway ..> registry : use
-
-
-	
-
 
 @enduml

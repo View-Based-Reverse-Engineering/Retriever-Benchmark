@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:javaapplication="http://www.eclipse.org/MoDisco/Java/Composition/0.1.incubation/javaApplication">
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.rest_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.rest_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.rest_java2kdm.xmi#/2"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.security_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.security_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.security_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.security_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.security_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.security_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.security_java2kdm.xmi#/6"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.auth.startup_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.dockermemoryconfigurator_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.entities_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.entities_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.entities_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.entities_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.entities_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.entities_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.entities_java2kdm.xmi#/6"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.2/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.2/@inventoryElement.3"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.entities.message_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.image_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.image_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.image_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.image_java2kdm.xmi#/4"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/6"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/7"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/8"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache_java2kdm.xmi#/9"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.0/@inventoryElement.3"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache.entry_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache.entry_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache.entry_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache.entry_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache.entry_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache.entry_java2kdm.xmi#/5"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedPackages.0/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.0/@inventoryElement.11"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image.cache.rules_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.5"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image.rest_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.6"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/6"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/7"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/8"/>
+    <java2FileChildren href="tools.descartes.teastore.image.setup_java2kdm.xmi#/9"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedPackages.3"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.7"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image.storage_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.image.storage_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.image.storage_java2kdm.xmi#/2"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.3/@ownedPackages.3/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.3/@inventoryElement.7/@inventoryElement.3"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.image.storage.rules_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.image.storage.rules_java2kdm.xmi#/1"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.4/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.probes_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.4/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.probes.records_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.probes.records_java2kdm.xmi#/1"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.4/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/6"/>
+    <java2FileChildren href="tools.descartes.teastore.kieker.rabbitmq_java2kdm.xmi#/7"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.5/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.daemons_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.5/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/6"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/7"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/8"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain_java2kdm.xmi#/9"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.5/@ownedPackages.1/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.1/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain.converters_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.domain.converters_java2kdm.xmi#/1"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.5/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.2"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.repository_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.repository_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.repository_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.repository_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.repository_java2kdm.xmi#/4"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.5/@ownedPackages.3"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.3"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.rest_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.rest_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.rest_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.rest_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.rest_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.rest_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.rest_java2kdm.xmi#/6"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.5/@ownedPackages.4"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.5/@inventoryElement.4"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.persistence.servlet_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.6/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.6/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm_java2kdm.xmi#/3"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.6/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.6/@inventoryElement.0/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm.impl_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm.impl_java2kdm.xmi#/1"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.6/@ownedPackages.0/@ownedPackages.0/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.6/@inventoryElement.0/@inventoryElement.1/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm.impl.cf_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm.impl.cf_java2kdm.xmi#/1"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.6/@ownedPackages.0/@ownedPackages.0/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.6/@inventoryElement.0/@inventoryElement.1/@inventoryElement.2"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm.impl.orderbased_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.6/@ownedPackages.0/@ownedPackages.0/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.6/@inventoryElement.0/@inventoryElement.1/@inventoryElement.3"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.algorithm.impl.pop_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.6/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.6/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.rest_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.rest_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.rest_java2kdm.xmi#/2"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.6/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.6/@inventoryElement.2"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.servlet_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.servlet_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.servlet_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.recommender.servlet_java2kdm.xmi#/3"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.7/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.7/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.registry.rest_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.registry.rest_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.registry.rest_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.registry.rest_java2kdm.xmi#/3"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.7/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.7/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.registry.servlet_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.8"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.8"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient_java2kdm.xmi#/4"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.8/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.8/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.loadbalancers_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.loadbalancers_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.loadbalancers_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.loadbalancers_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.loadbalancers_java2kdm.xmi#/4"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.8/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.8/@inventoryElement.3"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/6"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/7"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/8"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.rest_java2kdm.xmi#/9"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.8/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.8/@inventoryElement.7"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.tracing_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.8/@ownedPackages.3"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.8/@inventoryElement.8"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.util_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.util_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.util_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.registryclient.util_java2kdm.xmi#/3"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.0"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.rest_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.1"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.1"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/0"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/1"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/2"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/3"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/4"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/5"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/6"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/7"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/8"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/9"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/10"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/11"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/12"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/13"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet_java2kdm.xmi#/14"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.1/@ownedPackages.0"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.1/@inventoryElement.7"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.servlet.elhelper_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+  <javaapplication:Java2Directory>
+    <javaPackage href="../TeaStore_java.xmi#//@ownedElements.0/@ownedPackages.0/@ownedPackages.0/@ownedPackages.9/@ownedPackages.2"/>
+    <directory href="../TeaStore_kdm.xmi#//@model.0/@inventoryElement.0/@inventoryElement.4/@inventoryElement.0/@inventoryElement.0/@inventoryElement.0/@inventoryElement.9/@inventoryElement.2"/>
+    <parent href="../TeaStore_java2kdm.xmi#/"/>
+    <java2FileChildren href="tools.descartes.teastore.webui.startup_java2kdm.xmi#/"/>
+  </javaapplication:Java2Directory>
+</xmi:XMI>

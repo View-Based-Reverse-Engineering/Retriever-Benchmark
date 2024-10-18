@@ -1,8 +1,5 @@
 @startuml
-
-
 interface "/owners" as ownerInterface
-'interfaces of PetResource
 interface "/petTypes" as petInterface1
 interface "/owners/{ownerId}/pets" as petInterface2
 interface "/owners/*/pets/{petId}" as petInterface3
@@ -16,7 +13,7 @@ component [customer-service] as customer {
 	component [OwnerRepository] as OwnerRepository
 	component [PetResource] as PetResource
 	component [PetRepository] as PetRepository
-	
+
 	ownerInterface -- ownerIn
 	ownerIn -- OwnerResource
 	petInterface1 -- petIn1
@@ -30,19 +27,17 @@ component [customer-service] as customer {
 	PetResource ..> PetRepository : requires
 }
 
-
 interface "/vets" as vetsInterface
 component [vets-service] as vets {
 	portIn " " as vetIn
 	component [VetResource] as VetResource
 	component [VetRepository] as VetRepository
-	
+
 	vetsInterface -- vetIn
 	vetIn -- VetResource
 	VetResource ..> VetRepository : requires
 }
 
-'interfaces of VisitResource
 interface "owners/*/pets/{petId}/visits" as visitInterface1
 interface "pets/visits" as visitInterface2
 component [visits-service] as visits{
@@ -50,7 +45,7 @@ component [visits-service] as visits{
 	portin " " as visitIn2
 	component [VisitResource] as VisitResource
 	component [VisitRepository] as VisitRepository
-	
+
 	visitInterface1 -- visitIn1
 	visitInterface2 -- visitIn2
 	visitIn1 -- VisitResource
@@ -64,7 +59,7 @@ component [api-gateway] as gateway{
 	component [ApiGatewayController] as ApiGatewayController
 	component [CustomersServiceClient] as CustomersServiceClient
 	component [VisitsServiceClient] as VisitsServiceClient
-	
+
 	gatewayInterface -- gatewayIn
 	gatewayIn -- ApiGatewayController
 	ApiGatewayController ..> CustomersServiceClient : requires
@@ -102,5 +97,4 @@ gateway ..> zipkin : Sends Tracing Data
 customer ..> zipkin : Sends Tracing Data
 visits ..> zipkin : Sends Tracing Data
 vets ..> zipkin : Sends Tracing Data
-
 @enduml
