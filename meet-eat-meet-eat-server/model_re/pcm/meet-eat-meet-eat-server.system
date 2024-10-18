@@ -1,639 +1,639 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_pkHfsHhLEe-hQ4lD3nxZDg">
-  <assemblyContexts__ComposedStructure id="_pj-VwHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ParticipationService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_phlJF3hLEe-hQ4lD3nxZDg"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_NqW0UI1kEe-l6cGEwpzo6Q">
+  <assemblyContexts__ComposedStructure id="_NqO4gI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_SubscriptionController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn-1wI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VwXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TagService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_phlJGnhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4gY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_BookmarkService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn-1xI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VwnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_RatingRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_phlJHHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4go1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_ReportRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn-1xo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-Vw3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_ParticipationRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_phlJHnhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4g41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_RatingService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn-1yo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VxHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$4 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_phlwIHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4hI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$8 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn-1zI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VxXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_UserSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_phlwJHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4hY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_SubscriptionRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn-1zo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VxnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_TagController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_ph1AsnhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4ho1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ParticipationService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn_c0o1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-Vx3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_ReportController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_ph1AwnhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4h41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_UserService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn_c3Y1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VyHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_BookmarkSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_ph1AxXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4iI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SubscriptionSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Nn_c4I1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VyXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_TagRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piDDIXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4iY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_BookmarkSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NoOGWI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VynhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_BookmarkController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piDDMXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4io1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_TokenController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Noa6qo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-Vy3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piDDNHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4i41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$9 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Noa6rI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VzHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_UserRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piDqMXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4jI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$14 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Noa6ro1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VzXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_EmailService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piDqNHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4jY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_OfferSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NobhsI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-VznhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_UserService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piDqP3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4jo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ReportService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NooWD41kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-Vz3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_RatingService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piDqQ3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4j41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_TokenRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Noo9EY1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V0HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_SubscriptionRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piERQXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4kI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_SubscriptionService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Noo9FY1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V0XhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$2 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piERQ3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4kY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Noo9GI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V0nhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_BookmarkService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piERR3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqO4ko1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_TagSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Noo9HI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V03hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_TokenRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piERSXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfkI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_JavaMailSender Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_No1KVY1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V1HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_RatingController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piE4VHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfkY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_OfferService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_No1KXo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V1XhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_ReportSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piE4V3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfko1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_ParticipationRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_No1KYI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V1nhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piXMQHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfk41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_UserRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_No1KYo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V13hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$6 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piXzQXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPflI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_ReportSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_No1xYo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V2HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_SubscriptionService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piXzRXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPflY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$3 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpClvo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V2XhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SubscriptionSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piXzSHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPflo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_TagRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpClwI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V2nhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_TokenController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pilOq3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfl41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_BookmarkController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpDMy41kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-V23hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_OfferRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pilOrXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfmI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_OfferController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpDMzo1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-80HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_OfferService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pil1tnhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfmY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpDM0o1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-80XhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_TokenSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pil1unhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfmo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_BookmarkRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpDM1I1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-80nhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_BookmarkRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piyqB3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfm41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_RatingRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpDM1o1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-803hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ReportService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_piyqCnhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfnI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_ParticipationSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpDz041kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-81HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_SubscriptionController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pizREnhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfnY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_TagController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpbnT41kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-81XhLEe-hQ4lD3nxZDg" entityName="meet_eat_server Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="meet-eat-meet-eat-server.repository#_pjwTUHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfno1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_OfferRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpbnUY1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-81nhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_OfferSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pizRF3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfn41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_UserSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpcOU41kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-813hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_ParticipationSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pjLEiHhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfoI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_RatingController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpobmY1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-82HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_ParticipationController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pjWqy3hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfoY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_RatingSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NpobnI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-82XhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$8 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pjXRwXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfoo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_ParticipationController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Np0o141kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-82nhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_TagSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pjXRxXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfo41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_EmailService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Np0o2o1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-823hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_controller_OfferController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pjiQ73hLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfpI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_TokenSecurityService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Np0o3o1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-83HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$12 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pjiQ8XhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfpY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TagService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Np_n_I1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-83XhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_ReportRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pji38XhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfpo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$2 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_Np_n_o1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-83nhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_RatingSecurityService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pji39HhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfp41kEe-l6cGEwpzo6Q" entityName="meet_eat_server Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="meet-eat-meet-eat-server.repository#_NqCEMI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_pj-833hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_JavaMailSender Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_pjueLXhLEe-hQ4lD3nxZDg"/>
+  <assemblyContexts__ComposedStructure id="_NqPfqI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_controller_ReportController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="meet-eat-meet-eat-server.repository#_NqAPBI1kEe-l6cGEwpzo6Q"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAK8HhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_SubscriptionService Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqEXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyAHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_OfferRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V23hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pilOrHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1sHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyAXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4VXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDJnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyAnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_BookmarkService Connector" requiringAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERRHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pilOr3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyA3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_SubscriptionRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-V2HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzRHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyBHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4VXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqyXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyBXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_BookmarkService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERRHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDJ3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyBnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1XhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4VnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyB3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRE3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AwHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyCHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjiQ8HhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizREHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkAyCXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjiQ8HhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDJHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZEHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-80XhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1uXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZEXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vz3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqNXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqQnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZEnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRFXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDLnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZE3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzRnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERTnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZFHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqPnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZFXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_OfferService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pilOrnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqOHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZFnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V13hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDInhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZF3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlwInhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqD3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZGHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqNXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMP3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZGXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_BookmarkRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-V0nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqBnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERRXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZGnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1t3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERUnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZG3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjiQ8HhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqx3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZHHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJH3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4UXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZHXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlwInhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1At3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkBZHnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-813hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjLEhnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqynhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAIHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRE3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERTXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAIXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDI3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAInhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRE3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqyXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAI3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_SubscriptionService Connector" requiringAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1s3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAJHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRFXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizREXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAJXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRFnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAJnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pji38nhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqvHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAJ3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_TokenRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V03hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERSHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAKHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlwInhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqv3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAKXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_RatingService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-Vz3hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqOXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAKnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjiQ8HhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERS3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCAK3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_EmailService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VzXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqMnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqPHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCALHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vy3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqNXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDM3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCALXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJH3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqFnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCALnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ReportService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-803hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqCHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqO3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnMHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRFXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AunhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnMXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-813hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjLEhnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqE3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnMnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V13hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AtXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnM3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VyHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1Aw3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqxnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnNHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VxXhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlwI3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnNXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_UserSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vy3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlwIXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDMnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnNnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_SubscriptionService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqOnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnN3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_TagSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VxnhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRw3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AsHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnOHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pji38nhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDL3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnOXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ReportService Connector" requiringAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-803hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqCHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1tXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnOnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-83nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pji383hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnO3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzRnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqwHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnPHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-813hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjLEhnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDLXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnPXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V2XhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzR3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnPnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlwInhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4UHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkCnP3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4VXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AwHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOQHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDJXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOQXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ReportService Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-803hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqCHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AwXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOQnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-813hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjLEh3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOQ3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AuHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDORHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AtnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDORXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TagService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VxnhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VwXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJGHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AsXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDORnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pji38nhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqDnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOR3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1t3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqEHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOSHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_RatingService Connector" requiringAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-Vz3hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1snhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOSXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-813hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjLEhnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERU3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOSnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1t3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDKXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOS3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-82nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRxHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOTHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERTHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOTXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ParticipationService Connector" requiringAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VwHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJFHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1sXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOTnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V13hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERSnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOT3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pji38nhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERT3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOUHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_OfferSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-823hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRFHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjiQ7XhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOUXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqw3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkDOUnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJH3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDK3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1UHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V2nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pilOqnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1UXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VyHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1Aw3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqEnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1UnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqFXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1U3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqF3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1VHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VyHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1Aw3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERVHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1VXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V2HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqNXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQ3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1VnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_OfferService Connector" requiringAssemblyContext_AssemblyConnector="_pj-823hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pilOrnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjiQ7nhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1V3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4VXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERTXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1WHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VyHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1Aw3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AtHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1WXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_TagRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-VwXhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VyXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDIHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJGXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1WnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDMHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1W3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJH3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqxHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1XHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AvXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1XXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ParticipationService Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VwHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJFHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqwnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1XnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V13hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqC3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1X3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1t3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqvnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1YHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzRnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1Av3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1YXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_RatingService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-Vz3hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERUXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1YnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzRnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqFHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1Y3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_RatingRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vz3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VwnhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJG3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqQXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1ZHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_JavaMailSender Connector" requiringAssemblyContext_AssemblyConnector="_pj-VzXhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-833hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjueLHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqM3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1ZXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxXhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlwInhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDKnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkD1ZnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqNXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1tHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcYHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VxHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJH3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AuXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcYXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-813hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjLEhnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AvnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcYnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqvXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcY3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4UnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcZHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_ParticipationService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VwHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJFHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqN3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcZXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1t3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AvHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcZnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pji38nhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1Au3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcZ3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqxXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcaHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRE3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDJnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcaXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-82XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjXRwHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqDHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcanhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_BookmarkService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERRHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqPXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEca3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V0XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERQnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERUHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcbHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_ReportRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-803hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pji38HhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqCXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcbXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4VXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqDXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcbnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V2XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzRnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDKHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcb3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VzHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqMHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqNnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEccHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_pj-V1HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRFXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piE4U3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEccXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-81HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRE3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piyqDXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEccnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V0nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VznhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDqNXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piERRnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcc3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_TokenSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_pj-V2nhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80XhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pil1uHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pilOqXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcdHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-81nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pizRFXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqwXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcdXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_pj-Vx3hLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-83HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjiQ8HhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1As3hLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcdnhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_repository_ParticipationRepository Connector" requiringAssemblyContext_AssemblyConnector="_pj-VwHhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-Vw3hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJHXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJFnhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEcd3hLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_pj-VynhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-VyHhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1Aw3hLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piDDLHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkEceHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_OfferService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VwHhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-80HhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pilOrnhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_phlJFXhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkFDcHhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_pj-VyHhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V1nhLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXMPXhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_ph1AxHhLEe-hQ4lD3nxZDg"/>
-  </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_pkFDcXhLEe-hQ4lD3nxZDg" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_pj-82HhLEe-hQ4lD3nxZDg" providingAssemblyContext_AssemblyConnector="_pj-V13hLEe-hQ4lD3nxZDg">
-    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_piXzQHhLEe-hQ4lD3nxZDg"/>
-    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_pjWqyHhLEe-hQ4lD3nxZDg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUwI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ko1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9GY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMwY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUwY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4kY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c041kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9Fo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUwo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_RatingService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4g41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1x41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KWo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUw41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NoOGVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OvI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUxI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c3o1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClxI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUxY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_ReportRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqO4jo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4go1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1xY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NooWDo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUxo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ko1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9GY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oAo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUx41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ReportService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NooWDY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c1I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUyI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c3o1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o0o1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUyY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OwY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUyo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c241kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUy41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ko1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9GY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o0Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqRUzI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o3I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oCI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR70I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oA41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR70Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o3I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMw41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR70o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1xYI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OwI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR7041kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_BookmarkService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4gY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1wY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMyo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR71I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_ParticipationRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqO4ho1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfko1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KX41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c0Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR71Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_OfferService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c1Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR71o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4iI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c341kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR7141kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o3I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OxI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR72I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0o1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR72Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o3I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0B0Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR72o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_OfferService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfmI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMzI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR7241kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMyY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR73I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobk41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR73Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1xYI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClwY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR73o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClvY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oBI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR7341kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ParticipationService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ho1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1z41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c2o1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR74I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqPflI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1xYY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR74Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_TokenSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4io1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o241kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6qY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR74o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c041kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDM0Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqR7441kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_RatingService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4g41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1x41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npn0kY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi4I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n_Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobl41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi4Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c3o1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-Ov41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi4o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_SubscriptionService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4kI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9Eo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-Ovo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi441kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_BookmarkRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDM041kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1w41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi5I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c041kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1wo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi5Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_TagRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqPfpY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClv41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n-41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi5o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ReportService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NooWDY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oAY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi541kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4iY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NoOGV41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi6I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4i41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6q41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OuY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi6Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfn41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpcOUY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OwY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi6o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ko1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9GY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-Owo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi641kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfoY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobmo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0B0I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi7I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6r41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OvY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi7Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ReportService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NooWDY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KWY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi7o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n_Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NqAPAo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi741kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfn41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpcOUY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpobkY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi8I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_JavaMailSender Connector" requiringAssemblyContext_AssemblyConnector="_NqPfo41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfkI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KVI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o2Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqSi8Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oCY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ8I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_OfferSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfmI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6sI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMzY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ8Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_BookmarkService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4gY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1wY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c2Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ8o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o0I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ841kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfoY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobmo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npn0kI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ9I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfn41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpcOUY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o0I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ9Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_UserSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4kY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfn41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpcOUI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9F41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ9o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClvY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClw41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ941kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1xYI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oBY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ-I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfoY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobmo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMxI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ-Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$4 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o3I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npoblo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ-o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_RatingRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqO4g41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfm41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDM1Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1yY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ-41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4g41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c041kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1yI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ_I1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClvY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-Ou41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ_Y1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6r41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpoblI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ_o1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClvY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0B041kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTJ_41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4i41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6q41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npn0ko1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTKAI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfn41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpcOUY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMyY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTKAY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4i41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6q41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0B0o1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTKAo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4i41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6q41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMyI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTKA41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfoY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobmo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OxY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTKBI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$13 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ko1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9GY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npn0j41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTKBY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_SubscriptionRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqO4kI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4hY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1zY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9E41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTKBo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_SubscriptionService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4kI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9Eo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c1o1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxAI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n_Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o1Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxAY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobm41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxAo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n_Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClwo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxA41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6r41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o041kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxBI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6r41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMwI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxBY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$9 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4i41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6q41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oBo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxBo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$12 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6r41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n_41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxB41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4hI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1y41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-Ow41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxCI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMxY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxCY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$3 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpClvY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npn0jY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxCo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$7 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfoY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobmo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NqAPAI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxC41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4jY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6sY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxDI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4kI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c041kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9FI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxDY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_BookmarkService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4gY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1wY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KXY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxDo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ParticipationService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ho1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1z41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0Bzo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxD41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1xYI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpobkI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxEI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_RatingService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4g41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1x41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c2I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxEY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfpI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o3Y1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxEo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_OfferService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4ho1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c0I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxE41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c3o1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpoblY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxFI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpobkY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxFY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_OfferRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfno1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpbnUI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KXI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxFo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfn41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpcOUY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oA41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxF41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_EmailService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfo41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o2I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c141kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxGI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_TagSecurityService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfnY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ko1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9Go1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpbnTo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqTxGY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NoOGVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMwo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYEI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NoOGVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o1o1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYEY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_SubscriptionService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4kI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9Eo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KW41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYEo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6rY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oB41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYE41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4hI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1y41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npobko1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYFI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfn41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpcOUo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYFY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$2 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpo1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n_Y1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-Ouo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYFo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4hI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1y41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NqAPAY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYF41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$11 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPflI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1xYI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0B1I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYGI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4hI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1y41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0o1I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYGY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-Oxo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYGo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6rY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Npn0jo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYG41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NoOGVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NqAPA41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYHI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$6 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfnI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDz0I1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0Bz41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYHY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_NqO4gI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6rY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-OuI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYHo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$5 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfqI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c3o1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_oAI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYH41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_ParticipationService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4ho1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1z41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KWI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYII1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4ko1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9G41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYIY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoo1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6rY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np0BzY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYIo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TokenService Connector" requiringAssemblyContext_AssemblyConnector="_NqO4io1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMz41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6qI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYI41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$10 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfoI1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4iY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NoOGVo1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpobmI1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYJI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfkY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c041kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KV41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYJY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_TagService Connector" requiringAssemblyContext_AssemblyConnector="_NqPfnY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfpY1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Np_n-o1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpbnTY1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYJo1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$8 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4hI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn-1y41kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMx41kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYJ41kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_TokenRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqPfmY1kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4j41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noo9EI1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDM0I1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYKI1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_service_security_SecurityService$14 Connector" requiringAssemblyContext_AssemblyConnector="_NqPfl41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqO4jI1kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Noa6rY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_NpDMxo1kEe-l6cGEwpzo6Q"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_NqUYKY1kEe-l6cGEwpzo6Q" entityName="meet_eat_server_repository_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="_NqO4h41kEe-l6cGEwpzo6Q" providingAssemblyContext_AssemblyConnector="_NqPfk41kEe-l6cGEwpzo6Q">
+    <providedRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_No1KYY1kEe-l6cGEwpzo6Q"/>
+    <requiredRole_AssemblyConnector href="meet-eat-meet-eat-server.repository#_Nn_c3I1kEe-l6cGEwpzo6Q"/>
   </connectors__ComposedStructure>
 </system:System>

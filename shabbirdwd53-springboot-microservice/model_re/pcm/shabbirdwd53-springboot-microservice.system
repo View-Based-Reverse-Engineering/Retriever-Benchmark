@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_qEjTQnhLEe-16JSl0_ld0w">
-  <assemblyContexts__ComposedStructure id="_qEfB0HhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user_service_RestTemplate Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qEH1dnhLEe-16JSl0_ld0w"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_rlekQY1kEe-suKlVXqBjJQ">
+  <assemblyContexts__ComposedStructure id="_rlZrwI1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_department_service_DepartmentService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlBRQ41kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB0XhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_department_repository_DepartmentRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qEH1eHhLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlZrwY1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_department_controller_DepartmentController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlBRRo1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB0nhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_cloud_gateway_FallBackMethodController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qEH1e3hLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS0I1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user_service_UserService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlH-841kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB03hLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_cloud_gateway_FallBackMethodController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qEH1e3hLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS0Y1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="shabbirdwd53-springboot-microservice.repository#_rlTlIY1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB1HhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user_service_UserService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qEN8E3hLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS0o1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_cloud_gateway_FallBackMethodController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlH-9o1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB1XhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user_repository_UserRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qEN8FXhLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS041kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_cloud_gateway_FallBackMethodController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlH-9o1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB1nhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_department_controller_DepartmentController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qEN8GHhLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS1I1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_department_repository_DepartmentRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlM3e41kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB13hLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_department_service_DepartmentService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qETbpXhLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS1Y1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user_service_RestTemplate Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlM3fY1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB2HhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="shabbirdwd53-springboot-microservice.repository#_qEZiRHhLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS1o1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_department Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="shabbirdwd53-springboot-microservice.repository#_rlUMMY1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB2XhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_department Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="shabbirdwd53-springboot-microservice.repository#_qEZiRnhLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS141kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user_controller_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlM3gI1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_qEfB2nhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user_controller_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_qETbqHhLEe-16JSl0_ld0w"/>
+  <assemblyContexts__ComposedStructure id="_rlaS2I1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user_repository_UserRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="shabbirdwd53-springboot-microservice.repository#_rlRv_Y1kEe-suKlVXqBjJQ"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_qEg3AHhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_department_repository_DepartmentRepository Connector" requiringAssemblyContext_AssemblyConnector="_qEfB13hLEe-16JSl0_ld0w" providingAssemblyContext_AssemblyConnector="_qEfB0XhLEe-16JSl0_ld0w">
-    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qEH1d3hLEe-16JSl0_ld0w"/>
-    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qETbpHhLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rlbg8I1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user_repository_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="_rlaS0I1kEe-suKlVXqBjJQ" providingAssemblyContext_AssemblyConnector="_rlaS2I1kEe-suKlVXqBjJQ">
+    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlRv_I1kEe-suKlVXqBjJQ"/>
+    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlH-8Y1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_qEg3AXhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user_repository_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="_qEfB1HhLEe-16JSl0_ld0w" providingAssemblyContext_AssemblyConnector="_qEfB1XhLEe-16JSl0_ld0w">
-    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qEN8FHhLEe-16JSl0_ld0w"/>
-    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qEN8EnhLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rlcIAI1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_department_service_DepartmentService Connector" requiringAssemblyContext_AssemblyConnector="_rlZrwY1kEe-suKlVXqBjJQ" providingAssemblyContext_AssemblyConnector="_rlZrwI1kEe-suKlVXqBjJQ">
+    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlBRQY1kEe-suKlVXqBjJQ"/>
+    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlBRRY1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_qEg3AnhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user_service_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_qEfB1HhLEe-16JSl0_ld0w" providingAssemblyContext_AssemblyConnector="_qEfB0HhLEe-16JSl0_ld0w">
-    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qEH1dXhLEe-16JSl0_ld0w"/>
-    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qEN8EXhLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rlcIAY1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user_service_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_rlaS0I1kEe-suKlVXqBjJQ" providingAssemblyContext_AssemblyConnector="_rlaS1Y1kEe-suKlVXqBjJQ">
+    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlM3fI1kEe-suKlVXqBjJQ"/>
+    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlH-8o1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_qEg3A3hLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_department_service_DepartmentService Connector" requiringAssemblyContext_AssemblyConnector="_qEfB1nhLEe-16JSl0_ld0w" providingAssemblyContext_AssemblyConnector="_qEfB13hLEe-16JSl0_ld0w">
-    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qETbo3hLEe-16JSl0_ld0w"/>
-    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qEN8F3hLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rlcIAo1kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_department_repository_DepartmentRepository Connector" requiringAssemblyContext_AssemblyConnector="_rlZrwI1kEe-suKlVXqBjJQ" providingAssemblyContext_AssemblyConnector="_rlaS1I1kEe-suKlVXqBjJQ">
+    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlM3eo1kEe-suKlVXqBjJQ"/>
+    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlBRQo1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_qEg3BHhLEe-16JSl0_ld0w" entityName="com_dailycodebuffer_user_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_qEfB2nhLEe-16JSl0_ld0w" providingAssemblyContext_AssemblyConnector="_qEfB1HhLEe-16JSl0_ld0w">
-    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qEN8EHhLEe-16JSl0_ld0w"/>
-    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_qETbp3hLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_rlcIA41kEe-suKlVXqBjJQ" entityName="com_dailycodebuffer_user_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_rlaS141kEe-suKlVXqBjJQ" providingAssemblyContext_AssemblyConnector="_rlaS0I1kEe-suKlVXqBjJQ">
+    <providedRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlH-8I1kEe-suKlVXqBjJQ"/>
+    <requiredRole_AssemblyConnector href="shabbirdwd53-springboot-microservice.repository#_rlM3f41kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_qEisMHhLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/departmentServiceFallBack[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_qEiFIHhLEe-16JSl0_ld0w" assemblyContext_ProvidedDelegationConnector="_qEfB0nhLEe-16JSl0_ld0w">
-    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_qEH1eXhLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_rld9MI1kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/departments[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_rldWII1kEe-suKlVXqBjJQ" assemblyContext_ProvidedDelegationConnector="_rlaS1o1kEe-suKlVXqBjJQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_rlUMMI1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_qEisMnhLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/userServiceFallBack[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_qEisMXhLEe-16JSl0_ld0w" assemblyContext_ProvidedDelegationConnector="_qEfB0nhLEe-16JSl0_ld0w">
-    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_qEH1enhLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_rld9Mo1kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/departmentServiceFallBack[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_rld9MY1kEe-suKlVXqBjJQ" assemblyContext_ProvidedDelegationConnector="_rlaS0o1kEe-suKlVXqBjJQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_rlH-9I1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_qEisNHhLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/departments[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_qEisM3hLEe-16JSl0_ld0w" assemblyContext_ProvidedDelegationConnector="_qEfB2XhLEe-16JSl0_ld0w">
-    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_qEZiRXhLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_rld9NI1kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/users[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_rld9M41kEe-suKlVXqBjJQ" assemblyContext_ProvidedDelegationConnector="_rlaS0Y1kEe-suKlVXqBjJQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_rlTlII1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_qEjTQXhLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/users[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_qEjTQHhLEe-16JSl0_ld0w" assemblyContext_ProvidedDelegationConnector="_qEfB2HhLEe-16JSl0_ld0w">
-    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_qEZiQ3hLEe-16JSl0_ld0w"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_rlekQI1kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/userServiceFallBack[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_rld9NY1kEe-suKlVXqBjJQ" assemblyContext_ProvidedDelegationConnector="_rlaS0o1kEe-suKlVXqBjJQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="shabbirdwd53-springboot-microservice.repository#_rlH-9Y1kEe-suKlVXqBjJQ"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qEiFIHhLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/departmentServiceFallBack[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_qEH1cHhLEe-16JSl0_ld0w"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_rldWII1kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/departments[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_rlAqNI1kEe-suKlVXqBjJQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qEisMXhLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/userServiceFallBack[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_qEHOZ3hLEe-16JSl0_ld0w"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_rld9MY1kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/departmentServiceFallBack[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_rlAqM41kEe-suKlVXqBjJQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qEisM3hLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/departments[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_qEH1c3hLEe-16JSl0_ld0w"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_rld9M41kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/users[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_rlAqNY1kEe-suKlVXqBjJQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qEjTQHhLEe-16JSl0_ld0w" entityName="SPRING-APPLICATION/users[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_qEHOZnhLEe-16JSl0_ld0w"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_rld9NY1kEe-suKlVXqBjJQ" entityName="SPRING-APPLICATION/userServiceFallBack[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="shabbirdwd53-springboot-microservice.repository#_rlAqMo1kEe-suKlVXqBjJQ"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

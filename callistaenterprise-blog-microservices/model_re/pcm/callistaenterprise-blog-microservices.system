@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_UKrc8HhLEe-xyoZuaXv7tg">
-  <assemblyContexts__ComposedStructure id="_UKnLgHhLEe-xyoZuaXv7tg" entityName="se_callista_microservices_core_review_service_ReviewService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKblVnhLEe-xyoZuaXv7tg"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_XgGm4I1jEe-NmPz9hgc19w">
+  <assemblyContexts__ComposedStructure id="_XgC8gI1jEe-NmPz9hgc19w" entityName="se_callista_microservises_support_oauth_AuthserverApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xf5yno1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLgXhLEe-xyoZuaXv7tg" entityName="se_callista_microservices_core_product_service_ProductService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKWs3nhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8gY1jEe-NmPz9hgc19w" entityName="se_callista_microservices_composite_product_service_ProductCompositeService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xfos1o1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLgnhLEe-xyoZuaXv7tg" entityName="se_callista_microservices_composite_product_service_ProductCompositeService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKR0XHhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8go1jEe-NmPz9hgc19w" entityName="se_callista_microservises_support_monitordashboard_HystrixDashboardApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_XfzE6I1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLg3hLEe-xyoZuaXv7tg" entityName="se_callista_microservices_core_product_service_ProductService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKWs3nhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8g41jEe-NmPz9hgc19w" entityName="se_callista_microservises_support_edge_ZuulApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xfh_Jo1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLhHhLEe-xyoZuaXv7tg" entityName="se_callista_microservices_core_recommendation_service_RecommendationService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKM73HhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8hI1jEe-NmPz9hgc19w" entityName="se_callista_microservices_composite_product_service_ProductCompositeService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xfos1o1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLhXhLEe-xyoZuaXv7tg" entityName="se_callista_microservises_support_monitordashboard_HystrixDashboardApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKKfmHhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8hY1jEe-NmPz9hgc19w" entityName="se_callista_microservices_core_review_service_ReviewService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_XfuMaI1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLhnhLEe-xyoZuaXv7tg" entityName="se_callista_microservises_support_oauth_AuthserverApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKHcS3hLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8ho1jEe-NmPz9hgc19w" entityName="se_callista_microservises_support_monitordashboard_HystrixDashboardApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_XfzE6I1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLh3hLEe-xyoZuaXv7tg" entityName="se_callista_microservises_support_monitordashboard_HystrixDashboardApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKKfmHhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8h41jEe-NmPz9hgc19w" entityName="se_callista_microservices_core_product_service_ProductService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xf1hLI1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLiHhLEe-xyoZuaXv7tg" entityName="se_callista_microservices_core_recommendation_service_RecommendationService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKM73HhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8iI1jEe-NmPz9hgc19w" entityName="se_callista_microservices_core_review_service_ReviewService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_XfuMaI1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLiXhLEe-xyoZuaXv7tg" entityName="se_callista_microservises_support_oauth_AuthserverApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKHcS3hLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8iY1jEe-NmPz9hgc19w" entityName="se_callista_microservices_core_recommendation_service_RecommendationService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xfh_KY1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLinhLEe-xyoZuaXv7tg" entityName="se_callista_microservices_composite_product_service_ProductCompositeService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKR0XHhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8io1jEe-NmPz9hgc19w" entityName="se_callista_microservises_support_edge_ZuulApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xfh_Jo1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLi3hLEe-xyoZuaXv7tg" entityName="se_callista_microservises_support_edge_ZuulApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKblU3hLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8i41jEe-NmPz9hgc19w" entityName="se_callista_microservices_core_recommendation_service_RecommendationService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xfh_KY1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLjHhLEe-xyoZuaXv7tg" entityName="se_callista_microservices_core_review_service_ReviewService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKblVnhLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8jI1jEe-NmPz9hgc19w" entityName="se_callista_microservises_support_oauth_AuthserverApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xf5yno1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_UKnLjXhLEe-xyoZuaXv7tg" entityName="se_callista_microservises_support_edge_ZuulApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_UKblU3hLEe-xyoZuaXv7tg"/>
+  <assemblyContexts__ComposedStructure id="_XgC8jY1jEe-NmPz9hgc19w" entityName="se_callista_microservices_core_product_service_ProductService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="callistaenterprise-blog-microservices.repository#_Xf1hLI1jEe-NmPz9hgc19w"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKpnwHhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/review Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKoZoHhLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLgHhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKblVHhLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgExsI1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgEKoI1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8gI1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_Xf5ynY1jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKpnwnhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKpnwXhLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLhnhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKHcSnhLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgExso1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgExsY1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8go1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_XfzE541jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKpnxHhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/set-processing-time$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKpnw3hLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLgXhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKWs3XhLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgExtI1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgExs41jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8gY1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_Xfos1I1jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKqO0HhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/recommendation Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKpnxXhLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLhHhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKM72nhLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgFYwY1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgFYwI1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8gY1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_Xfos1Y1jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKqO0nhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/product Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKqO0XhLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLgXhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKWs3HhLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgFYw41jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/product Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgFYwo1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8h41jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_Xf1hK41jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKqO1HhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKqO03hLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLgnhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKR0WnhLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgFYxY1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/recommendation Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgFYxI1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8iY1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_Xfh_J41jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKqO1nhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/set-processing-time$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKqO1XhLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLhHhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKM723hLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgFYx41jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/review Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgFYxo1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8hY1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_XfuMZ41jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKqO2HhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKqO13hLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLhXhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKKfl3hLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgFYyY1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/set-processing-time Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgFYyI1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8iY1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_Xfh_KI1jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKqO2nhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKqO2XhLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLgnhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKR0W3hLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgF_0I1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/set-processing-time$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgFYyo1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8h41jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_Xf1hKo1jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UKq14HhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/set-processing-time Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UKqO23hLEe-xyoZuaXv7tg" assemblyContext_ProvidedDelegationConnector="_UKnLgHhLEe-xyoZuaXv7tg">
-    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_UKblVXhLEe-xyoZuaXv7tg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_XgF_0o1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/set-processing-time$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_XgF_0Y1jEe-NmPz9hgc19w" assemblyContext_ProvidedDelegationConnector="_XgC8hY1jEe-NmPz9hgc19w">
+    <innerProvidedRole_ProvidedDelegationConnector href="callistaenterprise-blog-microservices.repository#_XfuMZo1jEe-NmPz9hgc19w"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKoZoHhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/review Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcQnhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgEKoI1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/user Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_XfhYFY1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKpnwXhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/user Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcQ3hLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgExsY1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_Xfh_IY1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKpnw3hLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/set-processing-time$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcSXhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgExs41jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_Xfh_I41jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKpnxXhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/recommendation Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcR3hLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgFYwI1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/$3 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_Xfh_Io1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKqO0XhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/product Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcRXhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgFYwo1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/product Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_XfhYFo1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKqO03hLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcQHhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgFYxI1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/recommendation Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_Xfh_II1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKqO1XhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/set-processing-time$3 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcQXhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgFYxo1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/review Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_XfhYF41jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKqO13hLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcSHhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgFYyI1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/set-processing-time Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_Xfh_JY1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKqO2XhLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/$3 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcRHhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgFYyo1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/set-processing-time$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_XfhYGI1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UKqO23hLEe-xyoZuaXv7tg" entityName="SPRING-APPLICATION/set-processing-time Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_UKHcRnhLEe-xyoZuaXv7tg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_XgF_0Y1jEe-NmPz9hgc19w" entityName="SPRING-APPLICATION/set-processing-time$3 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="callistaenterprise-blog-microservices.repository#_Xfh_JI1jEe-NmPz9hgc19w"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

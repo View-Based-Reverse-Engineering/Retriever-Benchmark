@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_UioC4XhLEe-H3MsXetboQQ">
-  <assemblyContexts__ComposedStructure id="_Uik_kHhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_InternalTestStateController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiMlF3hLEe-H3MsXetboQQ"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_i16BiY1jEe-UuuAEjjnLjg">
+  <assemblyContexts__ComposedStructure id="_i12-MI1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_ExternalTanController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1r_Fo1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_kXhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_ExternalTanController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiYyVHhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i12-MY1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_service_FakeRequestService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1g_9o1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_knhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_InternalTestStateController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiMlF3hLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lQI1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_ExternalTestStateController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1pi241jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_k3hLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_service_FakeRequestService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiVvDXhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lQY1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_InternalTestStateController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1g_-I1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_lHhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_ExternalTokenController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiVvD3hLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lQo1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_InternalTanController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1kqVI1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_lXhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_InternalTanController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiQPfXhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lQ41jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_InternalTestStateController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1g_-I1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_lnhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_service_FakeRequestService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiVvDXhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lRI1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_ExternalTestStateController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1pi241jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_l3hLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_ExternalTestStateController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UibOnHhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lRY1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_service_FakeRequestService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1g_9o1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_mHhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_ExternalTokenController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiVvD3hLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lRo1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_InternalTanController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1kqVI1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_mXhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_ExternalTanController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiYyVHhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lR41jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_ExternalTanController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1r_Fo1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_mnhLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_ExternalTestStateController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UibOnHhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lSI1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_ExternalTokenController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1ubVI1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_Uik_m3hLEe-H3MsXetboQQ" entityName="app_coronawarn_verification_controller_InternalTanController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_UiQPfXhLEe-H3MsXetboQQ"/>
+  <assemblyContexts__ComposedStructure id="_i13lSY1jEe-UuuAEjjnLjg" entityName="app_coronawarn_verification_controller_ExternalTokenController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-verification-server.repository#_i1ubVI1jEe-UuuAEjjnLjg"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Uim0wHhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/tan[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_UimNsHhLEe-H3MsXetboQQ" assemblyContext_ProvidedDelegationConnector="_Uik_kXhLEe-H3MsXetboQQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_UiYyU3hLEe-H3MsXetboQQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_i15acI1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/tan[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_i14MUI1jEe-UuuAEjjnLjg" assemblyContext_ProvidedDelegationConnector="_i12-MI1jEe-UuuAEjjnLjg">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_i1r_FY1jEe-UuuAEjjnLjg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Uinb0XhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/registrationToken[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_Uinb0HhLEe-H3MsXetboQQ" assemblyContext_ProvidedDelegationConnector="_Uik_lHhLEe-H3MsXetboQQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_UiVvDnhLEe-H3MsXetboQQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_i16BgI1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/tan/teletan[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_i15acY1jEe-UuuAEjjnLjg" assemblyContext_ProvidedDelegationConnector="_i13lQo1jEe-UuuAEjjnLjg">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_i1kqUo1jEe-UuuAEjjnLjg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Uinb03hLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/tan/verify[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_Uinb0nhLEe-H3MsXetboQQ" assemblyContext_ProvidedDelegationConnector="_Uik_lXhLEe-H3MsXetboQQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_UiQPfHhLEe-H3MsXetboQQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_i16Bgo1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/tan/verify[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_i16BgY1jEe-UuuAEjjnLjg" assemblyContext_ProvidedDelegationConnector="_i13lQo1jEe-UuuAEjjnLjg">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_i1kqU41jEe-UuuAEjjnLjg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Uinb1XhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/tan/teletan[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_Uinb1HhLEe-H3MsXetboQQ" assemblyContext_ProvidedDelegationConnector="_Uik_lXhLEe-H3MsXetboQQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_UiQPe3hLEe-H3MsXetboQQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_i16BhI1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/registrationToken[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_i16Bg41jEe-UuuAEjjnLjg" assemblyContext_ProvidedDelegationConnector="_i13lSI1jEe-UuuAEjjnLjg">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_i1ubU41jEe-UuuAEjjnLjg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_Uinb13hLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/testresult[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_Uinb1nhLEe-H3MsXetboQQ" assemblyContext_ProvidedDelegationConnector="_Uik_l3hLEe-H3MsXetboQQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_UibOm3hLEe-H3MsXetboQQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_i16Bho1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/testresult[POST]$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_i16BhY1jEe-UuuAEjjnLjg" assemblyContext_ProvidedDelegationConnector="_i13lQY1jEe-UuuAEjjnLjg">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_i1g_941jEe-UuuAEjjnLjg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_UioC4HhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/testresult[POST]$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_Uinb2HhLEe-H3MsXetboQQ" assemblyContext_ProvidedDelegationConnector="_Uik_kHhLEe-H3MsXetboQQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_UiMlFnhLEe-H3MsXetboQQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_i16BiI1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/testresult[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_i16Bh41jEe-UuuAEjjnLjg" assemblyContext_ProvidedDelegationConnector="_i13lQI1jEe-UuuAEjjnLjg">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-verification-server.repository#_i1pi2o1jEe-UuuAEjjnLjg"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_UimNsHhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/tan[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_UiMlFXhLEe-H3MsXetboQQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_i14MUI1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/tan[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_i1g_9Y1jEe-UuuAEjjnLjg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Uinb0HhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/registrationToken[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_UiMlFHhLEe-H3MsXetboQQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_i15acY1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/tan/teletan[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_i1g_8Y1jEe-UuuAEjjnLjg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Uinb0nhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/tan/verify[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_UiMlEHhLEe-H3MsXetboQQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_i16BgY1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/tan/verify[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_i1g_8o1jEe-UuuAEjjnLjg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Uinb1HhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/tan/teletan[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_UiMlEXhLEe-H3MsXetboQQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_i16Bg41jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/registrationToken[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_i1g_841jEe-UuuAEjjnLjg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Uinb1nhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/testresult[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_UiMlEnhLEe-H3MsXetboQQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_i16BhY1jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/testresult[POST]$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_i1g_9I1jEe-UuuAEjjnLjg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Uinb2HhLEe-H3MsXetboQQ" entityName="SPRING-APPLICATION/version/v1/testresult[POST]$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_UiMlE3hLEe-H3MsXetboQQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_i16Bh41jEe-UuuAEjjnLjg" entityName="SPRING-APPLICATION/version/v1/testresult[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-verification-server.repository#_i1g_8I1jEe-UuuAEjjnLjg"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

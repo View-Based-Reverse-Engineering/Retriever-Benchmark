@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_TfiOMHhLEe-eO8MkJf08KQ">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_R6KSEI1jEe-eocaBIxhteQ">
   <targetResourceEnvironment_Allocation href="corona-warn-app-cwa-log-upload.resourceenvironment#/"/>
-  <system_Allocation href="corona-warn-app-cwa-log-upload.system#_TfZrW3hLEe-eO8MkJf08KQ"/>
-  <allocationContexts_Allocation id="_TfhAEHhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_Tfcuq3hLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ4HhLEe-eO8MkJf08KQ"/>
+  <system_Allocation href="corona-warn-app-cwa-log-upload.system#_R6DkYI1jEe-eocaBIxhteQ"/>
+  <allocationContexts_Allocation id="_R6JD8I1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZmY1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S-Y1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAEXhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcupHhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfWA8HhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JD8Y1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZkY1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S9o1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAEnhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcHkHhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfWA83hLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JD8o1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZkI1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S841jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAE3hLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_Tfcuo3hLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfWA9HhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrAI1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZl41jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S9Y1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAFHhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_Tfcup3hLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfWA8nhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrAY1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZm41jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S8I1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAFXhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcupXhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ4nhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrAo1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZmo1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S8I1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAFnhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcuqHhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ4XhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrA41jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZko1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S8Y1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAF3hLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcupnhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ5HhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrBI1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZmI1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S8Y1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAGHhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcurHhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ5XhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrBY1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZlI1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S9Y1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAGXhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcuoHhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfWA9HhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrBo1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZlY1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S8o1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAGnhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcuoXhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ4HhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrB41jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZk41jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S9I1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAG3hLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcuqXhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ43hLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrCI1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZlo1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S-I1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAHHhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcurXhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfWA8nhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrCY1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZnI1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S9I1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAHXhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcuqnhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfWA8HhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrCo1jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZno1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S_I1jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TfhAHnhLEe-eO8MkJf08KQ">
-    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_TfcuonhLEe-eO8MkJf08KQ"/>
-    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_TfVZ5XhLEe-eO8MkJf08KQ"/>
+  <allocationContexts_Allocation id="_R6JrC41jEe-eocaBIxhteQ">
+    <resourceContainer_AllocationContext href="corona-warn-app-cwa-log-upload.resourceenvironment#_R6FZnY1jEe-eocaBIxhteQ"/>
+    <assemblyContext_AllocationContext href="corona-warn-app-cwa-log-upload.system#_R5_S841jEe-eocaBIxhteQ"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

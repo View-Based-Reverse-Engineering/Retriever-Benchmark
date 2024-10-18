@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_TDa58HhLEe-J2q0JnEc3mA">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_51I9YI1jEe-TzrWRfSl0Vg">
   <targetResourceEnvironment_Allocation href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#/"/>
-  <system_Allocation href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDS-JHhLEe-J2q0JnEc3mA"/>
-  <allocationContexts_Allocation id="_TDZr0HhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaYXhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTw3hLEe-J2q0JnEc3mA"/>
+  <system_Allocation href="fernandoabcampos-spring-netflix-oss-microservices.system#_51CPsY1jEe-TzrWRfSl0Vg"/>
+  <allocationContexts_Allocation id="_51HvQI1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE4Y1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-RY1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr0XhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaYnhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTxXhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51HvQY1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE4o1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-Ro1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr0nhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaYHhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTwnhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51HvQo1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE5o1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-Q41jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr03hLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaY3hLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTwXhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51HvQ41jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE6I1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-Qo1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr1HhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaZXhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTwXhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51HvRI1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE541jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-RY1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr1XhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaZHhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTwnhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51HvRY1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE5I1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-Q41jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr1nhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaZ3hLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTxHhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51HvRo1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE5Y1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_50-lUI1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr13hLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaZnhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTwHhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51IWUI1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE6Y1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-Qo1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr2HhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaaXhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTw3hLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51IWUY1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE4I1jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-QI1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TDZr2XhLEe-J2q0JnEc3mA">
-    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_TDVaaHhLEe-J2q0JnEc3mA"/>
-    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_TDPTxnhLEe-J2q0JnEc3mA"/>
+  <allocationContexts_Allocation id="_51IWUo1jEe-TzrWRfSl0Vg">
+    <resourceContainer_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.resourceenvironment#_51EE441jEe-TzrWRfSl0Vg"/>
+    <assemblyContext_AllocationContext href="fernandoabcampos-spring-netflix-oss-microservices.system#_509-QY1jEe-TzrWRfSl0Vg"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

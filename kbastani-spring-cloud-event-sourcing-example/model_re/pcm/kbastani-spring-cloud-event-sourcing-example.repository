@@ -1,157 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_ouDacHhLEe-NMuXh_4KaKA">
-  <components__Repository xsi:type="repository:BasicComponent" id="_otYE9XhLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountServiceV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otYE8HhLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountServiceV1 Provider" providedInterface__OperationProvidedRole="_otXd83hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otYE8XhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Consumer" requiredInterface__OperationRequiredRole="_otW24HhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otYE8nhLEe-NMuXh_4KaKA" entityName="demo_account_AccountRepository Consumer" requiredInterface__OperationRequiredRole="_otXd7nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otYE83hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="_otXd5XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otYE9HhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Consumer" requiredInterface__OperationRequiredRole="_otXd4nhLEe-NMuXh_4KaKA"/>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="__5jW741jEe-PjMncXKEsgQ">
+  <components__Repository xsi:type="repository:BasicComponent" id="__44Bg41jEe-PjMncXKEsgQ" entityName="demo_account_AccountRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__44Bgo1jEe-PjMncXKEsgQ" entityName="demo_account_AccountRepository Provider" providedInterface__OperationProvidedRole="__44BfI1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otYE-nhLEe-NMuXh_4KaKA" entityName="demo_login_LoginController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otYE9nhLEe-NMuXh_4KaKA" entityName="user-service/login Provider" providedInterface__OperationProvidedRole="_otW233hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otYE93hLEe-NMuXh_4KaKA" entityName="demo_login_ClientDetailsService Consumer" requiredInterface__OperationRequiredRole="_otW213hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otYE-HhLEe-NMuXh_4KaKA" entityName="demo_login_HttpSessionSecurityContextRepository Consumer" requiredInterface__OperationRequiredRole="_otXd8XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otYE-XhLEe-NMuXh_4KaKA" entityName="demo_login_AuthenticationManager Consumer" requiredInterface__OperationRequiredRole="_otW21HhLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orwUWHhLEe-NMuXh_4KaKA" describedService__SEFF="_oliXkXhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orwUVXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orwUVnhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orwUVnhLEe-NMuXh_4KaKA" entityName="&quot;login&quot;" predecessor_AbstractAction="_orwUVXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orwUV3hLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.STRING"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="STRING"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orwUV3hLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orwUVnhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orwUVHhLEe-NMuXh_4KaKA" describedService__SEFF="_olhwhXhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_omgA4HhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_omh2EHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_omh2EHhLEe-NMuXh_4KaKA" entityName="sessionRepository.loadContext(responseHolder)" predecessor_AbstractAction="_omgA4HhLEe-NMuXh_4KaKA" successor_AbstractAction="_orvtRXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:BranchAction" id="_orvtRXhLEe-NMuXh_4KaKA" entityName="Try Catch Branch" predecessor_AbstractAction="_omh2EHhLEe-NMuXh_4KaKA" successor_AbstractAction="_orvtRnhLEe-NMuXh_4KaKA">
-        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_orsp8nhLEe-NMuXh_4KaKA" entityName="Guarded Branch Transition">
-          <branchBehaviour_BranchTransition id="_orsp9HhLEe-NMuXh_4KaKA">
-            <steps_Behaviour xsi:type="seff:StartAction" id="_omh2EXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_omidIHhLEe-NMuXh_4KaKA"/>
-            <steps_Behaviour xsi:type="seff:InternalAction" id="_omidIHhLEe-NMuXh_4KaKA" entityName="SecurityContextHolder.getContext().setAuthentication(authenticationManager.authenticate(auth))" predecessor_AbstractAction="_omh2EXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orsp8HhLEe-NMuXh_4KaKA"/>
-            <steps_Behaviour xsi:type="seff:BranchAction" id="_orsp8HhLEe-NMuXh_4KaKA" entityName="If Branch" predecessor_AbstractAction="_omidIHhLEe-NMuXh_4KaKA" successor_AbstractAction="_orsp8XhLEe-NMuXh_4KaKA">
-              <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_omjEMHhLEe-NMuXh_4KaKA" entityName="Guarded Branch Transition">
-                <branchBehaviour_BranchTransition id="_omjrQHhLEe-NMuXh_4KaKA">
-                  <steps_Behaviour xsi:type="seff:StartAction" id="_omidIXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_omidInhLEe-NMuXh_4KaKA"/>
-                  <steps_Behaviour xsi:type="seff:StopAction" id="_omidInhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_omidIXhLEe-NMuXh_4KaKA"/>
-                </branchBehaviour_BranchTransition>
-                <branchCondition_GuardedBranchTransition specification="@position: Condition: if(!authenticationManager.authenticate(auth).isAuthenticated())"/>
-              </branches_Branch>
-            </steps_Behaviour>
-            <steps_Behaviour xsi:type="seff:StopAction" id="_orsp8XhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orsp8HhLEe-NMuXh_4KaKA"/>
-          </branchBehaviour_BranchTransition>
-          <branchCondition_GuardedBranchTransition specification="@position: Try Block"/>
-        </branches_Branch>
-        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_orvtQnhLEe-NMuXh_4KaKA" entityName="Try Catch Branch">
-          <branchBehaviour_BranchTransition id="_orvtRHhLEe-NMuXh_4KaKA">
-            <steps_Behaviour xsi:type="seff:StartAction" id="_orsp9XhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_ortRAHhLEe-NMuXh_4KaKA"/>
-            <steps_Behaviour xsi:type="seff:InternalAction" id="_ortRAHhLEe-NMuXh_4KaKA" entityName="ex.printStackTrace()" predecessor_AbstractAction="_orsp9XhLEe-NMuXh_4KaKA" successor_AbstractAction="_orvtQHhLEe-NMuXh_4KaKA"/>
-            <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orvtQHhLEe-NMuXh_4KaKA" entityName="&quot;login&quot;" predecessor_AbstractAction="_ortRAHhLEe-NMuXh_4KaKA" successor_AbstractAction="_orvtQXhLEe-NMuXh_4KaKA">
-              <localVariableUsages_SetVariableAction>
-                <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="PrimitiveType.STRING"/>
-                </variableCharacterisation_VariableUsage>
-                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="STRING"/>
-                </namedReference__VariableUsage>
-              </localVariableUsages_SetVariableAction>
-            </steps_Behaviour>
-            <steps_Behaviour xsi:type="seff:StopAction" id="_orvtQXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orvtQHhLEe-NMuXh_4KaKA"/>
-          </branchBehaviour_BranchTransition>
-          <branchCondition_GuardedBranchTransition specification="@position: Condition: catch Exception"/>
-        </branches_Branch>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_orvtRnhLEe-NMuXh_4KaKA" entityName="authRequest.setAuthorities(AuthorityUtils.createAuthorityList(&quot;ROLE_USER&quot;,&quot;ROLE_ADMIN&quot;))" predecessor_AbstractAction="_orvtRXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orwUUHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_orwUUHhLEe-NMuXh_4KaKA" entityName="sessionRepository.saveContext(SecurityContextHolder.getContext(),responseHolder.getRequest(),responseHolder.getResponse())" predecessor_AbstractAction="_orvtRnhLEe-NMuXh_4KaKA" successor_AbstractAction="_orwUUXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_orwUUXhLEe-NMuXh_4KaKA" entityName="model.addAttribute(&quot;authorizationRequest&quot;,authRequest)" predecessor_AbstractAction="_orwUUHhLEe-NMuXh_4KaKA" successor_AbstractAction="_orwUUnhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orwUUnhLEe-NMuXh_4KaKA" entityName="&quot;authorize&quot;" predecessor_AbstractAction="_orwUUXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orwUU3hLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.STRING"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="STRING"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orwUU3hLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orwUUnhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
+  <components__Repository xsi:type="repository:BasicComponent" id="__44BhI1jEe-PjMncXKEsgQ" entityName="DatabaseInitializer"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__44Bho1jEe-PjMncXKEsgQ" entityName="demo_inventory_InventoryRepository Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__44BhY1jEe-PjMncXKEsgQ" entityName="demo_inventory_InventoryRepository Provider" providedInterface__OperationProvidedRole="__44BeY1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otc9c3hLEe-NMuXh_4KaKA" entityName="demo_inventory_InventoryRepository Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otc9cnhLEe-NMuXh_4KaKA" entityName="demo_inventory_InventoryRepository Provider" providedInterface__OperationProvidedRole="_otW22HhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__44BiI1jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__44Bh41jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository Provider" providedInterface__OperationProvidedRole="__43abI1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otc9dXhLEe-NMuXh_4KaKA" entityName="demo_login_HttpSessionSecurityContextRepository Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otc9dHhLEe-NMuXh_4KaKA" entityName="demo_login_HttpSessionSecurityContextRepository Provider" providedInterface__OperationProvidedRole="_otXd8XhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__44Bio1jEe-PjMncXKEsgQ" entityName="demo_catalog_CatalogInfoRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__44BiY1jEe-PjMncXKEsgQ" entityName="demo_catalog_CatalogInfoRepository Provider" providedInterface__OperationProvidedRole="__44BdY1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otc9eHhLEe-NMuXh_4KaKA" entityName="demo_UserService">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otc9dnhLEe-NMuXh_4KaKA" entityName="demo_UserService Provider" providedInterface__OperationProvidedRole="_otXd4HhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otc9d3hLEe-NMuXh_4KaKA" entityName="demo_UserRepository Consumer" requiredInterface__OperationRequiredRole="_otW223hLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__44BjI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__44Bi41jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate Provider" providedInterface__OperationProvidedRole="__44Bfo1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otc9enhLEe-NMuXh_4KaKA" entityName="demo_catalog_CatalogInfoRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otc9eXhLEe-NMuXh_4KaKA" entityName="demo_catalog_CatalogInfoRepository Provider" providedInterface__OperationProvidedRole="_otW23HhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otc9fHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otc9e3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Provider" providedInterface__OperationProvidedRole="_otXd4nhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otc9fnhLEe-NMuXh_4KaKA" entityName="demo_login_AuthenticationManager Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otc9fXhLEe-NMuXh_4KaKA" entityName="demo_login_AuthenticationManager Provider" providedInterface__OperationProvidedRole="_otW21HhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otc9gXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartControllerV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otc9f3hLEe-NMuXh_4KaKA" entityName="shopping-cart-service/ Provider" providedInterface__OperationProvidedRole="_otXd8HhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otc9gHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartServiceV1 Consumer" requiredInterface__OperationRequiredRole="_otW23XhLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_oryJi3hLEe-NMuXh_4KaKA" describedService__SEFF="_oljlsnhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_oryJiHhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_oryJiXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_oryJiXhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(shoppingCartService.addCartEvent(cartEvent)).map(event -> new ResponseEntity(HttpStatus.NO_CONTENT)).orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))" predecessor_AbstractAction="_oryJiHhLEe-NMuXh_4KaKA" successor_AbstractAction="_oryJinhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(shoppingCartService_addCartEvent(cartEvent))_map(event -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(shoppingCartService_addCartEvent(cartEvent))_map(event -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_oryJinhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_oryJiXhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_oryJj3hLEe-NMuXh_4KaKA" describedService__SEFF="_oli-pHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_oryJjHhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_oryJjXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_oryJjXhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(shoppingCartService.checkout()).map(checkoutResult -> new ResponseEntity&lt;>(checkoutResult,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not checkout&quot;))" predecessor_AbstractAction="_oryJjHhLEe-NMuXh_4KaKA" successor_AbstractAction="_oryJjnhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(shoppingCartService_checkout())_map(checkoutResult -> new ResponseEntity&lt;>(checkoutResult,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not checkout&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(shoppingCartService_checkout())_map(checkoutResult -> new ResponseEntity&lt;>(checkoutResult,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not checkout&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_oryJjnhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_oryJjXhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_oryJh3hLEe-NMuXh_4KaKA" describedService__SEFF="_oli-onhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_oryJhHhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_oryJhXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_oryJhXhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(shoppingCartService.getShoppingCart()).map(cart -> new ResponseEntity&lt;>(cart,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))" predecessor_AbstractAction="_oryJhHhLEe-NMuXh_4KaKA" successor_AbstractAction="_oryJhnhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(shoppingCartService_getShoppingCart())_map(cart -> new ResponseEntity&lt;>(cart,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(shoppingCartService_getShoppingCart())_map(cart -> new ResponseEntity&lt;>(cart,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_oryJhnhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_oryJhXhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otidDnhLEe-NMuXh_4KaKA" entityName="demo_login_UserController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otidDXhLEe-NMuXh_4KaKA" entityName="user-service/user Provider" providedInterface__OperationProvidedRole="_otXd5HhLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orxid3hLEe-NMuXh_4KaKA" describedService__SEFF="_oliXlHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orxidHhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orxidXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orxidXhLEe-NMuXh_4KaKA" entityName="user" predecessor_AbstractAction="_orxidHhLEe-NMuXh_4KaKA" successor_AbstractAction="_orxidnhLEe-NMuXh_4KaKA">
+  <components__Repository xsi:type="repository:BasicComponent" id="__44Bjo1jEe-PjMncXKEsgQ" entityName="demo_login_UserController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__44BjY1jEe-PjMncXKEsgQ" entityName="user-service/user Provider" providedInterface__OperationProvidedRole="__43ac41jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3QQ141jEe-PjMncXKEsgQ" describedService__SEFF="__xiqYI1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3QQ1I1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3QQ1Y1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3QQ1Y1jEe-PjMncXKEsgQ" entityName="user" predecessor_AbstractAction="__3QQ1I1jEe-PjMncXKEsgQ" successor_AbstractAction="__3QQ1o1jEe-PjMncXKEsgQ">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.user"/>
@@ -161,111 +30,24 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orxidnhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orxidXhLEe-NMuXh_4KaKA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3QQ1o1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3QQ1Y1jEe-PjMncXKEsgQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otk5QXhLEe-NMuXh_4KaKA" entityName="demo_order_OrderEventRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otk5QHhLEe-NMuXh_4KaKA" entityName="demo_order_OrderEventRepository Provider" providedInterface__OperationProvidedRole="_otW22XhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otk5Q3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2 Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otk5QnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2 Provider" providedInterface__OperationProvidedRole="_otXd8nhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otk5RXhLEe-NMuXh_4KaKA" entityName="demo_account_AccountRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otk5RHhLEe-NMuXh_4KaKA" entityName="demo_account_AccountRepository Provider" providedInterface__OperationProvidedRole="_otXd7nhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otk5R3hLEe-NMuXh_4KaKA" entityName="demo_product_ProductRepository Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otk5RnhLEe-NMuXh_4KaKA" entityName="demo_product_ProductRepository Provider" providedInterface__OperationProvidedRole="_otXd9HhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otk5SXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otk5SHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Provider" providedInterface__OperationProvidedRole="_otXd5XhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otk5TnhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryServiceV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otk5SnhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryServiceV1 Provider" providedInterface__OperationProvidedRole="_otXd7HhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otk5S3hLEe-NMuXh_4KaKA" entityName="demo_v1_Session Consumer" requiredInterface__OperationRequiredRole="_otXd63hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otk5THhLEe-NMuXh_4KaKA" entityName="demo_inventory_InventoryRepository Consumer" requiredInterface__OperationRequiredRole="_otW22HhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otk5TXhLEe-NMuXh_4KaKA" entityName="demo_product_ProductRepository Consumer" requiredInterface__OperationRequiredRole="_otXd9HhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otk5UXhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryControllerV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otk5T3hLEe-NMuXh_4KaKA" entityName="inventory-service/v1 Provider" providedInterface__OperationProvidedRole="_otXd43hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otk5UHhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryServiceV1 Consumer" requiredInterface__OperationRequiredRole="_otXd7HhLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_oryJgnhLEe-NMuXh_4KaKA" describedService__SEFF="_olfUQHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orxifXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_oryJgHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_oryJgHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(inventoryService.getAvailableInventoryForProductIds(productIds)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="_orxifXhLEe-NMuXh_4KaKA" successor_AbstractAction="_oryJgXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(inventoryService_getAvailableInventoryForProductIds(productIds))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(inventoryService_getAvailableInventoryForProductIds(productIds))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_oryJgXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_oryJgHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orxifHhLEe-NMuXh_4KaKA" describedService__SEFF="_olc4AHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orxieXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orxienhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orxienhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(inventoryService.getProduct(productId)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="_orxieXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orxie3hLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(inventoryService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(inventoryService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orxie3hLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orxienhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otpKsXhLEe-NMuXh_4KaKA" entityName="demo_UserRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otpKsHhLEe-NMuXh_4KaKA" entityName="demo_UserRepository Provider" providedInterface__OperationProvidedRole="_otW223hLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otpKs3hLEe-NMuXh_4KaKA" entityName="demo_v1_Session Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otpKsnhLEe-NMuXh_4KaKA" entityName="demo_v1_Session Provider" providedInterface__OperationProvidedRole="_otXd63hLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otpKtXhLEe-NMuXh_4KaKA" entityName="demo_invoice_InvoiceRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otpKtHhLEe-NMuXh_4KaKA" entityName="demo_invoice_InvoiceRepository Provider" providedInterface__OperationProvidedRole="_otW21nhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otpKt3hLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otpKtnhLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository Provider" providedInterface__OperationProvidedRole="_otW22nhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otpKunhLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountControllerV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otpKuHhLEe-NMuXh_4KaKA" entityName="account-service/ Provider" providedInterface__OperationProvidedRole="_otXd6XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otpKuXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountServiceV1 Consumer" requiredInterface__OperationRequiredRole="_otXd83hLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orywk3hLEe-NMuXh_4KaKA" describedService__SEFF="_olkMxHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orywkHhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orywkXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orywkXhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(accountService.getUserAccounts()).map(a -> new ResponseEntity&lt;List&lt;Account>>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))" predecessor_AbstractAction="_orywkHhLEe-NMuXh_4KaKA" successor_AbstractAction="_orywknhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(accountService_getUserAccounts())_map(a -> new ResponseEntity&lt;List&lt;Account>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(accountService_getUserAccounts())_map(a -> new ResponseEntity&lt;List&lt;Account>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orywknhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orywkXhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otq_6HhLEe-NMuXh_4KaKA" entityName="demo_config_DatabaseInitializer">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otq_5nhLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository Consumer" requiredInterface__OperationRequiredRole="_otW22nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otq_53hLEe-NMuXh_4KaKA" entityName="demo_invoice_InvoiceRepository Consumer" requiredInterface__OperationRequiredRole="_otW21nhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_otq_63hLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserControllerV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_otq_6XhLEe-NMuXh_4KaKA" entityName="user-service/ Provider" providedInterface__OperationProvidedRole="_otXd4XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_otq_6nhLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserServiceV1 Consumer" requiredInterface__OperationRequiredRole="_otXd5nhLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orzXrHhLEe-NMuXh_4KaKA" describedService__SEFF="_olgiZHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orzXo3hLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orzXqXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:BranchAction" id="_orzXqXhLEe-NMuXh_4KaKA" entityName="If Branch" predecessor_AbstractAction="_orzXo3hLEe-NMuXh_4KaKA" successor_AbstractAction="_orzXqnhLEe-NMuXh_4KaKA">
-        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_orzXpnhLEe-NMuXh_4KaKA" entityName="Guarded Branch Transition">
-          <branchBehaviour_BranchTransition id="_orzXqHhLEe-NMuXh_4KaKA">
-            <steps_Behaviour xsi:type="seff:StartAction" id="_orzXpHhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orzXpXhLEe-NMuXh_4KaKA"/>
-            <steps_Behaviour xsi:type="seff:StopAction" id="_orzXpXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orzXpHhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__47Ey41jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserControllerV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__47EyY1jEe-PjMncXKEsgQ" entityName="user-service/ Provider" providedInterface__OperationProvidedRole="__43ad41jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__47Eyo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserServiceV1 Consumer" requiredInterface__OperationRequiredRole="__43abY1jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3N0l41jEe-PjMncXKEsgQ" describedService__SEFF="__xgOIY1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3MmdY1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3N0lI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="__3N0lI1jEe-PjMncXKEsgQ" entityName="If Branch" predecessor_AbstractAction="__3MmdY1jEe-PjMncXKEsgQ" successor_AbstractAction="__3N0lY1jEe-PjMncXKEsgQ">
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="__3N0kY1jEe-PjMncXKEsgQ" entityName="Guarded Branch Transition">
+          <branchBehaviour_BranchTransition id="__3N0k41jEe-PjMncXKEsgQ">
+            <steps_Behaviour xsi:type="seff:StartAction" id="__3NNgI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3N0kI1jEe-PjMncXKEsgQ"/>
+            <steps_Behaviour xsi:type="seff:StopAction" id="__3N0kI1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3NNgI1jEe-PjMncXKEsgQ"/>
           </branchBehaviour_BranchTransition>
           <branchCondition_GuardedBranchTransition specification="@position: Condition: if(principal != null)"/>
         </branches_Branch>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orzXqnhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(user).map(a -> new ResponseEntity&lt;User>(a,HttpStatus.OK)).orElseThrow(() -> new UsernameNotFoundException(&quot;Username not found&quot;))" predecessor_AbstractAction="_orzXqXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orzXq3hLEe-NMuXh_4KaKA">
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3N0lY1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(user).map(a -> new ResponseEntity&lt;User>(a,HttpStatus.OK)).orElseThrow(() -> new UsernameNotFoundException(&quot;Username not found&quot;))" predecessor_AbstractAction="__3N0lI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3N0lo1jEe-PjMncXKEsgQ">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(user)_map(a -> new ResponseEntity&lt;User>(a,HttpStatus_OK))_orElseThrow(() -> new UsernameNotFoundException(&quot;Username not found&quot;))"/>
@@ -275,183 +57,24 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orzXq3hLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orzXqnhLEe-NMuXh_4KaKA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3N0lo1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3N0lY1jEe-PjMncXKEsgQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ottcJXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartServiceV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ots1HXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartServiceV1 Provider" providedInterface__OperationProvidedRole="_otW23XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ots1HnhLEe-NMuXh_4KaKA" entityName="demo_cart_CartEventRepository Consumer" requiredInterface__OperationRequiredRole="_otXd73hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ottcIHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Consumer" requiredInterface__OperationRequiredRole="_otXd4nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ottcIXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Consumer" requiredInterface__OperationRequiredRole="_otW24HhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ottcInhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="_otXd8nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ottcI3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="_otXd5XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ottcJHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate Consumer" requiredInterface__OperationRequiredRole="_otXd6HhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__485-Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__485-I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Provider" providedInterface__OperationProvidedRole="__43aeI1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ottcJ3hLEe-NMuXh_4KaKA" entityName="demo_cart_CartEventRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ottcJnhLEe-NMuXh_4KaKA" entityName="demo_cart_CartEventRepository Provider" providedInterface__OperationProvidedRole="_otXd73hLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__485-41jEe-PjMncXKEsgQ" entityName="demo_UserRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__485-o1jEe-PjMncXKEsgQ" entityName="demo_UserRepository Provider" providedInterface__OperationProvidedRole="__44Bc41jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ottcKnhLEe-NMuXh_4KaKA" entityName="demo_UserController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ottcKHhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_otW23nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ottcKXhLEe-NMuXh_4KaKA" entityName="demo_UserService Consumer" requiredInterface__OperationRequiredRole="_otXd4HhLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orz-snhLEe-NMuXh_4KaKA" describedService__SEFF="_olnQEXhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orzXrnhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orz-sHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orz-sHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(userService.getUser(id)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="_orzXrnhLEe-NMuXh_4KaKA" successor_AbstractAction="_orz-sXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_getUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_getUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orz-sXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orz-sHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_or0lxnhLEe-NMuXh_4KaKA" describedService__SEFF="_oln3InhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_or0lw3hLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_or0lxHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_or0lxHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(userService.deleteUser(id)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.NO_CONTENT)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="_or0lw3hLEe-NMuXh_4KaKA" successor_AbstractAction="_or0lxXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_deleteUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_NO_CONTENT))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_deleteUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_NO_CONTENT))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_or0lxXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_or0lxHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_or0lwnhLEe-NMuXh_4KaKA" describedService__SEFF="_oln3IHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orz-uXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orz-unhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_orz-unhLEe-NMuXh_4KaKA" entityName="Assert.notNull(user)" predecessor_AbstractAction="_orz-uXhLEe-NMuXh_4KaKA" successor_AbstractAction="_or0lwHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_or0lwHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(userService.createUser(user)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.CREATED)).orElse(new ResponseEntity&lt;>(HttpStatus.CONFLICT))" predecessor_AbstractAction="_orz-unhLEe-NMuXh_4KaKA" successor_AbstractAction="_or0lwXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_createUser(user))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_CREATED))_orElse(new ResponseEntity&lt;>(HttpStatus_CONFLICT))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_createUser(user))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_CREATED))_orElse(new ResponseEntity&lt;>(HttpStatus_CONFLICT))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_or0lwXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_or0lwHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orz-uHhLEe-NMuXh_4KaKA" describedService__SEFF="_oloeMXhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orz-s3hLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orz-tHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_orz-tHhLEe-NMuXh_4KaKA" entityName="Assert.notNull(user)" predecessor_AbstractAction="_orz-s3hLEe-NMuXh_4KaKA" successor_AbstractAction="_orz-tXhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_orz-tXhLEe-NMuXh_4KaKA" entityName="user.setId(id)" predecessor_AbstractAction="_orz-tHhLEe-NMuXh_4KaKA" successor_AbstractAction="_orz-tnhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orz-tnhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(userService.updateUser(id,user)).map(result -> new ResponseEntity(HttpStatus.NO_CONTENT)).orElse(new ResponseEntity(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="_orz-tXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orz-t3hLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_updateUser(id,user))_map(result -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElse(new ResponseEntity(HttpStatus_NOT_FOUND))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_updateUser(id,user))_map(result -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElse(new ResponseEntity(HttpStatus_NOT_FOUND))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orz-t3hLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orz-tnhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
+  <components__Repository xsi:type="repository:BasicComponent" id="__485_Y1jEe-PjMncXKEsgQ" entityName="demo_product_ProductRepository Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__485_I1jEe-PjMncXKEsgQ" entityName="demo_product_ProductRepository Provider" providedInterface__OperationProvidedRole="__44BgY1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot0J23hLEe-NMuXh_4KaKA" entityName="demo_user_UserRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot0J2nhLEe-NMuXh_4KaKA" entityName="demo_user_UserRepository Provider" providedInterface__OperationProvidedRole="_otXd7XhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot0J3XhLEe-NMuXh_4KaKA" entityName="demo_user_UserClientV1">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot0J3HhLEe-NMuXh_4KaKA" entityName="user-service/ Consumer" requiredInterface__OperationRequiredRole="_otXd4XhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot0J4HhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderControllerV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot0J3nhLEe-NMuXh_4KaKA" entityName="order-service/ Provider" providedInterface__OperationProvidedRole="_otXd6nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot0J33hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderServiceV1 Consumer" requiredInterface__OperationRequiredRole="_otW203hLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orxicnhLEe-NMuXh_4KaKA" describedService__SEFF="_olmB8XhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orw7a3hLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orxicHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orxicHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(orderService.getOrder(orderId,true)).map(a -> new ResponseEntity&lt;Order>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not retrieve order&quot;))" predecessor_AbstractAction="_orw7a3hLEe-NMuXh_4KaKA" successor_AbstractAction="_orxicXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_getOrder(orderId,true))_map(a -> new ResponseEntity&lt;Order>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not retrieve order&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_getOrder(orderId,true))_map(a -> new ResponseEntity&lt;Order>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not retrieve order&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orxicXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orxicHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orw7anhLEe-NMuXh_4KaKA" describedService__SEFF="_olmpA3hLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orw7Z3hLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orw7aHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orw7aHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(orderService.addOrderEvent(orderEvent,true)).map(a -> new ResponseEntity&lt;>(HttpStatus.NO_CONTENT)).orElseThrow(() -> new Exception(&quot;Order event could not be applied to order&quot;))" predecessor_AbstractAction="_orw7Z3hLEe-NMuXh_4KaKA" successor_AbstractAction="_orw7aXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_addOrderEvent(orderEvent,true))_map(a -> new ResponseEntity&lt;>(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Order event could not be applied to order&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_addOrderEvent(orderEvent,true))_map(a -> new ResponseEntity&lt;>(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Order event could not be applied to order&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orw7aXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orw7aHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orw7ZnhLEe-NMuXh_4KaKA" describedService__SEFF="_olla4XhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orw7Y3hLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orw7ZHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orw7ZHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(orderService.getOrdersForAccount(accountNumber)).map(a -> new ResponseEntity&lt;List&lt;Order>>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))" predecessor_AbstractAction="_orw7Y3hLEe-NMuXh_4KaKA" successor_AbstractAction="_orw7ZXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_getOrdersForAccount(accountNumber))_map(a -> new ResponseEntity&lt;List&lt;Order>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_getOrdersForAccount(accountNumber))_map(a -> new ResponseEntity&lt;List&lt;Order>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orw7ZXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orw7ZHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orw7YnhLEe-NMuXh_4KaKA" describedService__SEFF="_olmpAHhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orwUWnhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orw7YHhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orw7YHhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(orderService.createOrder(lineItems)).map(a -> new ResponseEntity&lt;>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not create the order&quot;))" predecessor_AbstractAction="_orwUWnhLEe-NMuXh_4KaKA" successor_AbstractAction="_orw7YXhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_createOrder(lineItems))_map(a -> new ResponseEntity&lt;>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not create the order&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_createOrder(lineItems))_map(a -> new ResponseEntity&lt;>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not create the order&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orw7YXhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orw7YHhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot63jnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot63jXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Provider" providedInterface__OperationProvidedRole="_otW24HhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot63kXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserServiceV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot63j3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserServiceV1 Provider" providedInterface__OperationProvidedRole="_otXd5nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot63kHhLEe-NMuXh_4KaKA" entityName="demo_user_UserRepository Consumer" requiredInterface__OperationRequiredRole="_otXd7XhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot7elHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogServiceV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot7ekHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogServiceV1 Provider" providedInterface__OperationProvidedRole="_otXd53hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot7ekXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="_otXd8nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot7eknhLEe-NMuXh_4KaKA" entityName="demo_catalog_CatalogInfoRepository Consumer" requiredInterface__OperationRequiredRole="_otW23HhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot7ek3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate Consumer" requiredInterface__OperationRequiredRole="_otXd6HhLEe-NMuXh_4KaKA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot7el3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogControllerV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot7elXhLEe-NMuXh_4KaKA" entityName="catalog-service/v1 Provider" providedInterface__OperationProvidedRole="_otW21XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot7elnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogServiceV1 Consumer" requiredInterface__OperationRequiredRole="_otXd53hLEe-NMuXh_4KaKA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orzXoXhLEe-NMuXh_4KaKA" describedService__SEFF="_olhJcXhLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orywmXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orywmnhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orywmnhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(catalogService.getProduct(productId)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="_orywmXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orzXoHhLEe-NMuXh_4KaKA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(catalogService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(catalogService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orzXoHhLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orywmnhLEe-NMuXh_4KaKA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_orywmHhLEe-NMuXh_4KaKA" describedService__SEFF="_olhJc3hLEe-NMuXh_4KaKA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_orywlXhLEe-NMuXh_4KaKA" entityName="Start Action" successor_AbstractAction="_orywlnhLEe-NMuXh_4KaKA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_orywlnhLEe-NMuXh_4KaKA" entityName="Optional.ofNullable(catalogService.getCatalog()).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="_orywlXhLEe-NMuXh_4KaKA" successor_AbstractAction="_orywl3hLEe-NMuXh_4KaKA">
+  <components__Repository xsi:type="repository:BasicComponent" id="__486AI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogControllerV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__485_o1jEe-PjMncXKEsgQ" entityName="catalog-service/v1 Provider" providedInterface__OperationProvidedRole="__44BcY1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__485_41jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogServiceV1 Consumer" requiredInterface__OperationRequiredRole="__44Be41jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__2_LEo1jEe-PjMncXKEsgQ" describedService__SEFF="__xaulo1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__2-kA41jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__2_LEI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__2_LEI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(catalogService.getCatalog()).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="__2-kA41jEe-PjMncXKEsgQ" successor_AbstractAction="__2_LEY1jEe-PjMncXKEsgQ">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(catalogService_getCatalog())_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
@@ -461,228 +84,605 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_orywl3hLEe-NMuXh_4KaKA" entityName="Stop Action" predecessor_AbstractAction="_orywlnhLEe-NMuXh_4KaKA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__2_LEY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__2_LEI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__2-kAo1jEe-PjMncXKEsgQ" describedService__SEFF="__xbVoY1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__yUGcY1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__2-kAI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__2-kAI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(catalogService.getProduct(productId)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="__yUGcY1jEe-PjMncXKEsgQ" successor_AbstractAction="__2-kAY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(catalogService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(catalogService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__2-kAY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__2-kAI1jEe-PjMncXKEsgQ"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot_I8XhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot_I8HhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate Provider" providedInterface__OperationProvidedRole="_otXd6HhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__4_9To1jEe-PjMncXKEsgQ" entityName="demo_login_AuthenticationManager Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__4_9TY1jEe-PjMncXKEsgQ" entityName="demo_login_AuthenticationManager Provider" providedInterface__OperationProvidedRole="__43aao1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot_I83hLEe-NMuXh_4KaKA" entityName="demo_login_ClientDetailsService Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot_I8nhLEe-NMuXh_4KaKA" entityName="demo_login_ClientDetailsService Provider" providedInterface__OperationProvidedRole="_otW213hLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__4_9UI1jEe-PjMncXKEsgQ" entityName="demo_cart_CartEventRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__4_9T41jEe-PjMncXKEsgQ" entityName="demo_cart_CartEventRepository Provider" providedInterface__OperationProvidedRole="__43aaY1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot_I9HhLEe-NMuXh_4KaKA" entityName="DatabaseInitializer"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_ot_I-3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderServiceV1">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ot_I9XhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderServiceV1 Provider" providedInterface__OperationProvidedRole="_otW203hLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot_I9nhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Consumer" requiredInterface__OperationRequiredRole="_otXd4nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot_I93hLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository Consumer" requiredInterface__OperationRequiredRole="_otW22nhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot_I-HhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="_otXd5XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot_I-XhLEe-NMuXh_4KaKA" entityName="demo_order_OrderEventRepository Consumer" requiredInterface__OperationRequiredRole="_otW22XhLEe-NMuXh_4KaKA"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_ot_I-nhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Consumer" requiredInterface__OperationRequiredRole="_otW24HhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5AkUo1jEe-PjMncXKEsgQ" entityName="demo_config_DatabaseInitializer">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5AkUI1jEe-PjMncXKEsgQ" entityName="demo_invoice_InvoiceRepository Consumer" requiredInterface__OperationRequiredRole="__43aco1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5AkUY1jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository Consumer" requiredInterface__OperationRequiredRole="__43abI1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlMXhLEe-NMuXh_4KaKA" entityName="demo 6">
-    <assemblyContexts__ComposedStructure id="_ouCMRHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ottcJ3hLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCzUHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otc9gXhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDaZnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ottcJXhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2o3hLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouDaZnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCMRHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_ottcJnhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ots1HnhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2pXhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCzUHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouDaZnhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_ots1HXhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otc9gHhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHEx3hLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_otc9f3hLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlMHhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouCzUHhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlMHhLEe-NMuXh_4KaKA" entityName="shopping-cart-service/ Provider" providedInterface__OperationProvidedRole="_otXd8HhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5AkV41jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryServiceV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5AkU41jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryServiceV1 Provider" providedInterface__OperationProvidedRole="__43aa41jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5AkVI1jEe-PjMncXKEsgQ" entityName="demo_v1_Session Consumer" requiredInterface__OperationRequiredRole="__44Bd41jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5AkVY1jEe-PjMncXKEsgQ" entityName="demo_inventory_InventoryRepository Consumer" requiredInterface__OperationRequiredRole="__44BeY1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5AkVo1jEe-PjMncXKEsgQ" entityName="demo_product_ProductRepository Consumer" requiredInterface__OperationRequiredRole="__44BgY1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlM3hLEe-NMuXh_4KaKA" entityName="demo_v1">
-    <assemblyContexts__ComposedStructure id="_ouCzVHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otk5TnhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCzVnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otk5UXhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPlXhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCzVnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzVHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otk5SnhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otk5UHhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHEwHhLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_otk5T3hLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlMnhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouCzVnhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlMnhLEe-NMuXh_4KaKA" entityName="inventory-service/v1 Provider" providedInterface__OperationProvidedRole="_otXd43hLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5AkWo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartControllerV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5AkWI1jEe-PjMncXKEsgQ" entityName="shopping-cart-service/ Provider" providedInterface__OperationProvidedRole="__44Bf41jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5AkWY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartServiceV1 Consumer" requiredInterface__OperationRequiredRole="__44Beo1jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3Dcgo1jEe-PjMncXKEsgQ" describedService__SEFF="__xcjxI1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3C1c41jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3DcgI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3DcgI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(shoppingCartService.getShoppingCart()).map(cart -> new ResponseEntity&lt;>(cart,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))" predecessor_AbstractAction="__3C1c41jEe-PjMncXKEsgQ" successor_AbstractAction="__3DcgY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(shoppingCartService_getShoppingCart())_map(cart -> new ResponseEntity&lt;>(cart,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(shoppingCartService_getShoppingCart())_map(cart -> new ResponseEntity&lt;>(cart,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3DcgY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3DcgI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3COZ41jEe-PjMncXKEsgQ" describedService__SEFF="__xdK0o1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3COZI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3COZY1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3COZY1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(shoppingCartService.addCartEvent(cartEvent)).map(event -> new ResponseEntity(HttpStatus.NO_CONTENT)).orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))" predecessor_AbstractAction="__3COZI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3COZo1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(shoppingCartService_addCartEvent(cartEvent))_map(event -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(shoppingCartService_addCartEvent(cartEvent))_map(event -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Could not find shopping cart&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3COZo1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3COZY1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3C1co1jEe-PjMncXKEsgQ" describedService__SEFF="__xdK1I1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3COaI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3C1cI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3C1cI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(shoppingCartService.checkout()).map(checkoutResult -> new ResponseEntity&lt;>(checkoutResult,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not checkout&quot;))" predecessor_AbstractAction="__3COaI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3C1cY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(shoppingCartService_checkout())_map(checkoutResult -> new ResponseEntity&lt;>(checkoutResult,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not checkout&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(shoppingCartService_checkout())_map(checkoutResult -> new ResponseEntity&lt;>(checkoutResult,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not checkout&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3C1cY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3C1cI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlNnhLEe-NMuXh_4KaKA" entityName="demo 2">
-    <assemblyContexts__ComposedStructure id="_ouCzXHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ottcKnhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCzXnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otc9eHhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCzZHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otpKsXhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDabnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otidDnhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPlnhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCzXHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzXnhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otc9dnhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ottcKXhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPl3hLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCzXnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzZHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otpKsHhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otc9d3hLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHEwnhLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_otidDXhLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlNXhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouDabnhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHExnhLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_ottcKHhLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlNHhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouCzXHhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlNHhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_otW23nhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlNXhLEe-NMuXh_4KaKA" entityName="user-service/user Provider" providedInterface__OperationProvidedRole="_otXd5HhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Gq8I1jEe-PjMncXKEsgQ" entityName="demo_login_HttpSessionSecurityContextRepository Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5GD7Y1jEe-PjMncXKEsgQ" entityName="demo_login_HttpSessionSecurityContextRepository Provider" providedInterface__OperationProvidedRole="__43ado1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlOHhLEe-NMuXh_4KaKA" entityName="demo_login_LoginController">
-    <assemblyContexts__ComposedStructure id="_ouCzUnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otYE-nhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHEwXhLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_otYE9nhLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlN3hLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouCzUnhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlN3hLEe-NMuXh_4KaKA" entityName="user-service/login Provider" providedInterface__OperationProvidedRole="_otW233hLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Gq8o1jEe-PjMncXKEsgQ" entityName="demo_login_ClientDetailsService Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5Gq8Y1jEe-PjMncXKEsgQ" entityName="demo_login_ClientDetailsService Provider" providedInterface__OperationProvidedRole="__44BeI1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlOnhLEe-NMuXh_4KaKA" entityName="demo">
-    <assemblyContexts__ComposedStructure id="_ouCMQHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ot_I9HhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCMSHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otpKt3hLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCMSnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otq_6HhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCzWHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otpKtXhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDaYnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ot_I-3hLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDaZHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otk5QXhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDaaHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ot0J4HhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPkXhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCMSnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzWHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otpKtHhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otq_53hLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPknhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCMSnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCMSHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otpKtnhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otq_5nhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPlHhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouDaYnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouDaZHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otk5QHhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ot_I-XhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2oXhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouDaaHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouDaYnhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_ot_I9XhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ot0J33hLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2pHhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouDaYnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCMSHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otpKtnhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ot_I93hLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHExXhLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_ot0J3nhLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlOXhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouDaaHhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlOXhLEe-NMuXh_4KaKA" entityName="order-service/ Provider" providedInterface__OperationProvidedRole="_otXd6nhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Gq9I1jEe-PjMncXKEsgQ" entityName="demo_user_UserClientV1">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Gq841jEe-PjMncXKEsgQ" entityName="user-service/ Consumer" requiredInterface__OperationRequiredRole="__43ad41jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlPHhLEe-NMuXh_4KaKA" entityName="demo 3">
-    <assemblyContexts__ComposedStructure id="_ouCMQnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otpKunhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCMRnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otYE9XhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCzYHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otk5RXhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2oHhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCMQnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCMRnhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otYE8HhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otpKuXhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2p3hLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCMRnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzYHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otk5RHhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otYE8nhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHEw3hLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_otpKuHhLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlO3hLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouCMQnhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlO3hLEe-NMuXh_4KaKA" entityName="account-service/ Provider" providedInterface__OperationProvidedRole="_otXd6XhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Gq_I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartServiceV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5Gq9Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartServiceV1 Provider" providedInterface__OperationProvidedRole="__44Beo1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Gq9o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Consumer" requiredInterface__OperationRequiredRole="__43abo1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Gq941jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="__43acI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Gq-I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate Consumer" requiredInterface__OperationRequiredRole="__44Bfo1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Gq-Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="__44BgI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Gq-o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Consumer" requiredInterface__OperationRequiredRole="__43aeI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Gq-41jEe-PjMncXKEsgQ" entityName="demo_cart_CartEventRepository Consumer" requiredInterface__OperationRequiredRole="__43aaY1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlPnhLEe-NMuXh_4KaKA" entityName="demo 5">
-    <assemblyContexts__ComposedStructure id="_ouCzYnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ot7elHhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDaYHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otc9enhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDaanhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ot7el3hLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPkHhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouDaanhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzYnhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_ot7ekHhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ot7elnhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2onhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCzYnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouDaYHhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_otc9eXhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ot7eknhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHEyHhLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_ot7elXhLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlPXhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouDaanhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlPXhLEe-NMuXh_4KaKA" entityName="catalog-service/v1 Provider" providedInterface__OperationProvidedRole="_otW21XhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Gq_o1jEe-PjMncXKEsgQ" entityName="demo_invoice_InvoiceRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5Gq_Y1jEe-PjMncXKEsgQ" entityName="demo_invoice_InvoiceRepository Provider" providedInterface__OperationProvidedRole="__43aco1jEe-PjMncXKEsgQ"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_ouBlQHhLEe-NMuXh_4KaKA" entityName="demo 4">
-    <assemblyContexts__ComposedStructure id="_ouCzWnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ot0J23hLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouCzZnhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_ot63kXhLEe-NMuXh_4KaKA"/>
-    <assemblyContexts__ComposedStructure id="_ouDabHhLEe-NMuXh_4KaKA" encapsulatedComponent__AssemblyContext="_otq_63hLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouFPk3hLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouCzZnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzWnhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_ot0J2nhLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_ot63kHhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouF2pnhLEe-NMuXh_4KaKA" requiringAssemblyContext_AssemblyConnector="_ouDabHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouCzZnhLEe-NMuXh_4KaKA" providedRole_AssemblyConnector="_ot63j3hLEe-NMuXh_4KaKA" requiredRole_AssemblyConnector="_otq_6nhLEe-NMuXh_4KaKA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouHExHhLEe-NMuXh_4KaKA" innerProvidedRole_ProvidedDelegationConnector="_otq_6XhLEe-NMuXh_4KaKA" outerProvidedRole_ProvidedDelegationConnector="_ouBlP3hLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouDabHhLEe-NMuXh_4KaKA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouBlP3hLEe-NMuXh_4KaKA" entityName="user-service/ Provider" providedInterface__OperationProvidedRole="_otXd4XhLEe-NMuXh_4KaKA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5GrAY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderControllerV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5Gq_41jEe-PjMncXKEsgQ" entityName="order-service/ Provider" providedInterface__OperationProvidedRole="__43adI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5GrAI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderServiceV1 Consumer" requiredInterface__OperationRequiredRole="__44Bco1jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3PCto1jEe-PjMncXKEsgQ" describedService__SEFF="__xhcQ41jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3PCs41jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3PCtI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3PCtI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(orderService.getOrder(orderId,true)).map(a -> new ResponseEntity&lt;Order>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not retrieve order&quot;))" predecessor_AbstractAction="__3PCs41jEe-PjMncXKEsgQ" successor_AbstractAction="__3PCtY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_getOrder(orderId,true))_map(a -> new ResponseEntity&lt;Order>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not retrieve order&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_getOrder(orderId,true))_map(a -> new ResponseEntity&lt;Order>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not retrieve order&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3PCtY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3PCtI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3Obpo1jEe-PjMncXKEsgQ" describedService__SEFF="__xhcRY1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3Obo41jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3ObpI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3ObpI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(orderService.getOrdersForAccount(accountNumber)).map(a -> new ResponseEntity&lt;List&lt;Order>>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))" predecessor_AbstractAction="__3Obo41jEe-PjMncXKEsgQ" successor_AbstractAction="__3ObpY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_getOrdersForAccount(accountNumber))_map(a -> new ResponseEntity&lt;List&lt;Order>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_getOrdersForAccount(accountNumber))_map(a -> new ResponseEntity&lt;List&lt;Order>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3ObpY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3ObpI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3PCso1jEe-PjMncXKEsgQ" describedService__SEFF="__xg1MY1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3Obp41jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3PCsI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3PCsI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(orderService.createOrder(lineItems)).map(a -> new ResponseEntity&lt;>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Could not create the order&quot;))" predecessor_AbstractAction="__3Obp41jEe-PjMncXKEsgQ" successor_AbstractAction="__3PCsY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_createOrder(lineItems))_map(a -> new ResponseEntity&lt;>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not create the order&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_createOrder(lineItems))_map(a -> new ResponseEntity&lt;>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Could not create the order&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3PCsY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3PCsI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3Oboo1jEe-PjMncXKEsgQ" describedService__SEFF="__xhcQY1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3N0mY1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3OboI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3OboI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(orderService.addOrderEvent(orderEvent,true)).map(a -> new ResponseEntity&lt;>(HttpStatus.NO_CONTENT)).orElseThrow(() -> new Exception(&quot;Order event could not be applied to order&quot;))" predecessor_AbstractAction="__3N0mY1jEe-PjMncXKEsgQ" successor_AbstractAction="__3OboY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(orderService_addOrderEvent(orderEvent,true))_map(a -> new ResponseEntity&lt;>(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Order event could not be applied to order&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(orderService_addOrderEvent(orderEvent,true))_map(a -> new ResponseEntity&lt;>(HttpStatus_NO_CONTENT))_orElseThrow(() -> new Exception(&quot;Order event could not be applied to order&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3OboY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3OboI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW203hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderServiceV1"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW21HhLEe-NMuXh_4KaKA" entityName="demo_login_AuthenticationManager"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW21XhLEe-NMuXh_4KaKA" entityName="catalog-service/v1">
-    <signatures__OperationInterface id="_olhJcXhLEe-NMuXh_4KaKA" entityName="catalog-service/v1" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature parameterName="productId" modifier__Parameter="in">
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Mxno1jEe-PjMncXKEsgQ" entityName="demo_v1_Session Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5MxnY1jEe-PjMncXKEsgQ" entityName="demo_v1_Session Provider" providedInterface__OperationProvidedRole="__44Bd41jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5MxoI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2 Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5Mxn41jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2 Provider" providedInterface__OperationProvidedRole="__44BgI1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5NYoI1jEe-PjMncXKEsgQ" entityName="demo_order_OrderEventRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5MxoY1jEe-PjMncXKEsgQ" entityName="demo_order_OrderEventRepository Provider" providedInterface__OperationProvidedRole="__43ab41jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5NYpY1jEe-PjMncXKEsgQ" entityName="demo_login_LoginController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5NYoY1jEe-PjMncXKEsgQ" entityName="user-service/login Provider" providedInterface__OperationProvidedRole="__44BdI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5NYoo1jEe-PjMncXKEsgQ" entityName="demo_login_HttpSessionSecurityContextRepository Consumer" requiredInterface__OperationRequiredRole="__43ado1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5NYo41jEe-PjMncXKEsgQ" entityName="demo_login_AuthenticationManager Consumer" requiredInterface__OperationRequiredRole="__43aao1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5NYpI1jEe-PjMncXKEsgQ" entityName="demo_login_ClientDetailsService Consumer" requiredInterface__OperationRequiredRole="__44BeI1jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3Mmc41jEe-PjMncXKEsgQ" describedService__SEFF="__xb8tY1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3MmcI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3MmcY1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3MmcY1jEe-PjMncXKEsgQ" entityName="&quot;login&quot;" predecessor_AbstractAction="__3MmcI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3Mmco1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.STRING"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="STRING"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3Mmco1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3MmcY1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3L_Y41jEe-PjMncXKEsgQ" describedService__SEFF="__xb8s41jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3EDlI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3FRsI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__3FRsI1jEe-PjMncXKEsgQ" entityName="sessionRepository.loadContext(responseHolder)" predecessor_AbstractAction="__3EDlI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3KKNY1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="__3KKNY1jEe-PjMncXKEsgQ" entityName="Try Catch Branch" predecessor_AbstractAction="__3FRsI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3LYUI1jEe-PjMncXKEsgQ">
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="__3I8Eo1jEe-PjMncXKEsgQ" entityName="Guarded Branch Transition">
+          <branchBehaviour_BranchTransition id="__3I8FI1jEe-PjMncXKEsgQ">
+            <steps_Behaviour xsi:type="seff:StartAction" id="__3F4wI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3HG4I1jEe-PjMncXKEsgQ"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="__3HG4I1jEe-PjMncXKEsgQ" entityName="SecurityContextHolder.getContext().setAuthentication(authenticationManager.authenticate(auth))" predecessor_AbstractAction="__3F4wI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3I8EI1jEe-PjMncXKEsgQ"/>
+            <steps_Behaviour xsi:type="seff:BranchAction" id="__3I8EI1jEe-PjMncXKEsgQ" entityName="If Branch" predecessor_AbstractAction="__3HG4I1jEe-PjMncXKEsgQ" successor_AbstractAction="__3I8EY1jEe-PjMncXKEsgQ">
+              <branches_Branch xsi:type="seff:GuardedBranchTransition" id="__3IVAI1jEe-PjMncXKEsgQ" entityName="Guarded Branch Transition">
+                <branchBehaviour_BranchTransition id="__3IVAo1jEe-PjMncXKEsgQ">
+                  <steps_Behaviour xsi:type="seff:StartAction" id="__3Ht8I1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3Ht8Y1jEe-PjMncXKEsgQ"/>
+                  <steps_Behaviour xsi:type="seff:StopAction" id="__3Ht8Y1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3Ht8I1jEe-PjMncXKEsgQ"/>
+                </branchBehaviour_BranchTransition>
+                <branchCondition_GuardedBranchTransition specification="@position: Condition: if(!authenticationManager.authenticate(auth).isAuthenticated())"/>
+              </branches_Branch>
+            </steps_Behaviour>
+            <steps_Behaviour xsi:type="seff:StopAction" id="__3I8EY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3I8EI1jEe-PjMncXKEsgQ"/>
+          </branchBehaviour_BranchTransition>
+          <branchCondition_GuardedBranchTransition specification="@position: Try Block"/>
+        </branches_Branch>
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="__3KKMo1jEe-PjMncXKEsgQ" entityName="Try Catch Branch">
+          <branchBehaviour_BranchTransition id="__3KKNI1jEe-PjMncXKEsgQ">
+            <steps_Behaviour xsi:type="seff:StartAction" id="__3I8FY1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3JjII1jEe-PjMncXKEsgQ"/>
+            <steps_Behaviour xsi:type="seff:InternalAction" id="__3JjII1jEe-PjMncXKEsgQ" entityName="ex.printStackTrace()" predecessor_AbstractAction="__3I8FY1jEe-PjMncXKEsgQ" successor_AbstractAction="__3KKMI1jEe-PjMncXKEsgQ"/>
+            <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3KKMI1jEe-PjMncXKEsgQ" entityName="&quot;login&quot;" predecessor_AbstractAction="__3JjII1jEe-PjMncXKEsgQ" successor_AbstractAction="__3KKMY1jEe-PjMncXKEsgQ">
+              <localVariableUsages_SetVariableAction>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="PrimitiveType.STRING"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="STRING"/>
+                </namedReference__VariableUsage>
+              </localVariableUsages_SetVariableAction>
+            </steps_Behaviour>
+            <steps_Behaviour xsi:type="seff:StopAction" id="__3KKMY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3KKMI1jEe-PjMncXKEsgQ"/>
+          </branchBehaviour_BranchTransition>
+          <branchCondition_GuardedBranchTransition specification="@position: Condition: catch Exception"/>
+        </branches_Branch>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__3LYUI1jEe-PjMncXKEsgQ" entityName="authRequest.setAuthorities(AuthorityUtils.createAuthorityList(&quot;ROLE_USER&quot;,&quot;ROLE_ADMIN&quot;))" predecessor_AbstractAction="__3KKNY1jEe-PjMncXKEsgQ" successor_AbstractAction="__3LYUY1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__3LYUY1jEe-PjMncXKEsgQ" entityName="sessionRepository.saveContext(SecurityContextHolder.getContext(),responseHolder.getRequest(),responseHolder.getResponse())" predecessor_AbstractAction="__3LYUI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3L_YI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__3L_YI1jEe-PjMncXKEsgQ" entityName="model.addAttribute(&quot;authorizationRequest&quot;,authRequest)" predecessor_AbstractAction="__3LYUY1jEe-PjMncXKEsgQ" successor_AbstractAction="__3L_YY1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3L_YY1jEe-PjMncXKEsgQ" entityName="&quot;authorize&quot;" predecessor_AbstractAction="__3L_YI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3L_Yo1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.STRING"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="STRING"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3L_Yo1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3L_YY1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5RDBo1jEe-PjMncXKEsgQ" entityName="demo_UserService">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5RDBI1jEe-PjMncXKEsgQ" entityName="demo_UserService Provider" providedInterface__OperationProvidedRole="__44Bdo1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5RDBY1jEe-PjMncXKEsgQ" entityName="demo_UserRepository Consumer" requiredInterface__OperationRequiredRole="__44Bc41jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5RDCY1jEe-PjMncXKEsgQ" entityName="demo_UserController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5RDB41jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="__43acY1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5RDCI1jEe-PjMncXKEsgQ" entityName="demo_UserService Consumer" requiredInterface__OperationRequiredRole="__44Bdo1jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3COYo1jEe-PjMncXKEsgQ" describedService__SEFF="__xjRcI1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3AZNI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3BAQI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__3BAQI1jEe-PjMncXKEsgQ" entityName="Assert.notNull(user)" predecessor_AbstractAction="__3AZNI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3BnUI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__3BnUI1jEe-PjMncXKEsgQ" entityName="user.setId(id)" predecessor_AbstractAction="__3BAQI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3COYI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3COYI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(userService.updateUser(id,user)).map(result -> new ResponseEntity(HttpStatus.NO_CONTENT)).orElse(new ResponseEntity(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="__3BnUI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3COYY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_updateUser(id,user))_map(result -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElse(new ResponseEntity(HttpStatus_NOT_FOUND))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_updateUser(id,user))_map(result -> new ResponseEntity(HttpStatus_NO_CONTENT))_orElse(new ResponseEntity(HttpStatus_NOT_FOUND))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3COYY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3COYI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__2_LF41jEe-PjMncXKEsgQ" describedService__SEFF="__xjRdI1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__2_LFI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__2_LFY1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__2_LFY1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(userService.getUser(id)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="__2_LFI1jEe-PjMncXKEsgQ" successor_AbstractAction="__2_LFo1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_getUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_getUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__2_LFo1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__2_LFY1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__2_yIo1jEe-PjMncXKEsgQ" describedService__SEFF="__xjRco1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__2_LGI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__2_yII1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__2_yII1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(userService.deleteUser(id)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.NO_CONTENT)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="__2_LGI1jEe-PjMncXKEsgQ" successor_AbstractAction="__2_yIY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_deleteUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_NO_CONTENT))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_deleteUser(id))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_NO_CONTENT))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__2_yIY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__2_yII1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3AZM41jEe-PjMncXKEsgQ" describedService__SEFF="__xiqZo1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__2_yI41jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3AZMI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="__3AZMI1jEe-PjMncXKEsgQ" entityName="Assert.notNull(user)" predecessor_AbstractAction="__2_yI41jEe-PjMncXKEsgQ" successor_AbstractAction="__3AZMY1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3AZMY1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(userService.createUser(user)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.CREATED)).orElse(new ResponseEntity&lt;>(HttpStatus.CONFLICT))" predecessor_AbstractAction="__3AZMI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3AZMo1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(userService_createUser(user))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_CREATED))_orElse(new ResponseEntity&lt;>(HttpStatus_CONFLICT))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(userService_createUser(user))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_CREATED))_orElse(new ResponseEntity&lt;>(HttpStatus_CONFLICT))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3AZMo1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3AZMY1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5YX0I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountServiceV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5YXy41jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountServiceV1 Provider" providedInterface__OperationProvidedRole="__44BcI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YXzI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Consumer" requiredInterface__OperationRequiredRole="__43abo1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YXzY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Consumer" requiredInterface__OperationRequiredRole="__43aeI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YXzo1jEe-PjMncXKEsgQ" entityName="demo_account_AccountRepository Consumer" requiredInterface__OperationRequiredRole="__44BfI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YXz41jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="__43acI1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5YX041jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserServiceV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5YX0Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserServiceV1 Provider" providedInterface__OperationProvidedRole="__43abY1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YX0o1jEe-PjMncXKEsgQ" entityName="demo_user_UserRepository Consumer" requiredInterface__OperationRequiredRole="__43adY1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5YX1Y1jEe-PjMncXKEsgQ" entityName="demo_user_UserRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5YX1I1jEe-PjMncXKEsgQ" entityName="demo_user_UserRepository Provider" providedInterface__OperationProvidedRole="__43adY1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Y-0I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogServiceV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5YX1o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogServiceV1 Provider" providedInterface__OperationProvidedRole="__44Be41jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YX141jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate Consumer" requiredInterface__OperationRequiredRole="__44Bfo1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YX2I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="__44BgI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5YX2Y1jEe-PjMncXKEsgQ" entityName="demo_catalog_CatalogInfoRepository Consumer" requiredInterface__OperationRequiredRole="__44BdY1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Y-0o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5Y-0Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Provider" providedInterface__OperationProvidedRole="__43acI1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5Y-1Y1jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryControllerV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5Y-041jEe-PjMncXKEsgQ" entityName="inventory-service/v1 Provider" providedInterface__OperationProvidedRole="__43aeY1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5Y-1I1jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryServiceV1 Consumer" requiredInterface__OperationRequiredRole="__43aa41jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3QQ0o1jEe-PjMncXKEsgQ" describedService__SEFF="__xaHgI1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3Ppw41jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3QQ0I1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3QQ0I1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(inventoryService.getProduct(productId)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="__3Ppw41jEe-PjMncXKEsgQ" successor_AbstractAction="__3QQ0Y1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(inventoryService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(inventoryService_getProduct(productId))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3QQ0Y1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3QQ0I1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3Ppwo1jEe-PjMncXKEsgQ" describedService__SEFF="__xXrQI1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3PCuI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3PpwI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3PpwI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(inventoryService.getAvailableInventoryForProductIds(productIds)).map(result -> new ResponseEntity&lt;>(result,HttpStatus.OK)).orElse(new ResponseEntity&lt;>(HttpStatus.NOT_FOUND))" predecessor_AbstractAction="__3PCuI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3PpwY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(inventoryService_getAvailableInventoryForProductIds(productIds))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(inventoryService_getAvailableInventoryForProductIds(productIds))_map(result -> new ResponseEntity&lt;>(result,HttpStatus_OK))_orElse(new ResponseEntity&lt;>(HttpStatus_NOT_FOUND))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3PpwY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3PpwI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5cpPI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderServiceV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5cpNo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderServiceV1 Provider" providedInterface__OperationProvidedRole="__44Bco1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5cpN41jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Consumer" requiredInterface__OperationRequiredRole="__43aeI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5cpOI1jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository Consumer" requiredInterface__OperationRequiredRole="__43abI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5cpOY1jEe-PjMncXKEsgQ" entityName="demo_order_OrderEventRepository Consumer" requiredInterface__OperationRequiredRole="__43ab41jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5cpOo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Consumer" requiredInterface__OperationRequiredRole="__43acI1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5cpO41jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Consumer" requiredInterface__OperationRequiredRole="__43abo1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5cpPo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5cpPY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Provider" providedInterface__OperationProvidedRole="__43abo1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="__5dQQY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountControllerV1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5cpP41jEe-PjMncXKEsgQ" entityName="account-service/ Provider" providedInterface__OperationProvidedRole="__44BfY1jEe-PjMncXKEsgQ"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="__5dQQI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountServiceV1 Consumer" requiredInterface__OperationRequiredRole="__44BcI1jEe-PjMncXKEsgQ"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="__3EDko1jEe-PjMncXKEsgQ" describedService__SEFF="__xauko1jEe-PjMncXKEsgQ">
+      <steps_Behaviour xsi:type="seff:StartAction" id="__3DchI1jEe-PjMncXKEsgQ" entityName="Start Action" successor_AbstractAction="__3EDkI1jEe-PjMncXKEsgQ"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="__3EDkI1jEe-PjMncXKEsgQ" entityName="Optional.ofNullable(accountService.getUserAccounts()).map(a -> new ResponseEntity&lt;List&lt;Account>>(a,HttpStatus.OK)).orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))" predecessor_AbstractAction="__3DchI1jEe-PjMncXKEsgQ" successor_AbstractAction="__3EDkY1jEe-PjMncXKEsgQ">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.Optional_ofNullable(accountService_getUserAccounts())_map(a -> new ResponseEntity&lt;List&lt;Account>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="Optional_ofNullable(accountService_getUserAccounts())_map(a -> new ResponseEntity&lt;List&lt;Account>>(a,HttpStatus_OK))_orElseThrow(() -> new Exception(&quot;Accounts for user do not exist&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="__3EDkY1jEe-PjMncXKEsgQ" entityName="Stop Action" predecessor_AbstractAction="__3EDkI1jEe-PjMncXKEsgQ"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5g6oY1jEe-PjMncXKEsgQ" entityName="demo 2">
+    <assemblyContexts__ComposedStructure id="__5iIxo1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__44Bio1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv0I1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5Y-0I1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5jW7Y1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__486AI1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lzJo1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iv0I1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iIxo1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__44BiY1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5YX2Y1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5maMI1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5jW7Y1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iv0I1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5YX1o1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__485_41jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5noUI1jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__485_o1jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6oI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5jW7Y1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6oI1jEe-PjMncXKEsgQ" entityName="catalog-service/v1 Provider" providedInterface__OperationProvidedRole="__44BcY1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5g6o41jEe-PjMncXKEsgQ" entityName="demo 3">
+    <assemblyContexts__ComposedStructure id="__5iIzI1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5Gq_I1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv1I1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__4_9UI1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv3o1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5AkWo1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lzIY1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iv3o1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iIzI1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5Gq9Y1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5AkWY1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5maMY1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iIzI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iv1I1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__4_9T41jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5Gq-41jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5nBRI1jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__5AkWI1jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6oo1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5iv3o1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6oo1jEe-PjMncXKEsgQ" entityName="shopping-cart-service/ Provider" providedInterface__OperationProvidedRole="__44Bf41jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5g6pY1jEe-PjMncXKEsgQ" entityName="demo 4">
+    <assemblyContexts__ComposedStructure id="__5iIwI1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5NYoI1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iIxI1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__44BhI1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iI0I1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__44BiI1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv0o1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5cpPI1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5jW4Y1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5Gq_o1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5jW441jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5AkUo1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5jW5Y1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5GrAY1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lMEY1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5jW441jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iI0I1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__44Bh41jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5AkUY1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lME41jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iv0o1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iI0I1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__44Bh41jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5cpOI1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lMFI1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5jW5Y1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iv0o1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5cpNo1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5GrAI1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lzI41jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iv0o1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iIwI1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5MxoY1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5cpOY1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lzJI1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5jW441jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5jW4Y1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5Gq_Y1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5AkUI1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5nBQY1jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__5Gq_41jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6pI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5jW5Y1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6pI1jEe-PjMncXKEsgQ" entityName="order-service/ Provider" providedInterface__OperationProvidedRole="__43adI1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5g6p41jEe-PjMncXKEsgQ" entityName="demo_v1">
+    <assemblyContexts__ComposedStructure id="__5iIyI1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5AkV41jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5jW6Y1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5Y-1Y1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lMEI1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5jW6Y1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iIyI1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5AkU41jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5Y-1I1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5nBQI1jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__5Y-041jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6po1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5jW6Y1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6po1jEe-PjMncXKEsgQ" entityName="inventory-service/v1 Provider" providedInterface__OperationProvidedRole="__43aeY1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5g6qY1jEe-PjMncXKEsgQ" entityName="demo 6">
+    <assemblyContexts__ComposedStructure id="__5iIzo1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5YX041jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5jW541jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5YX1Y1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5jW641jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__47Ey41jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lMEo1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iIzo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5jW541jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5YX1I1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5YX0o1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lzIo1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5jW641jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iIzo1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5YX0Y1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__47Eyo1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5nBQ41jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__47EyY1jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6qI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5jW641jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6qI1jEe-PjMncXKEsgQ" entityName="user-service/ Provider" providedInterface__OperationProvidedRole="__43ad41jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5g6q41jEe-PjMncXKEsgQ" entityName="demo 5">
+    <assemblyContexts__ComposedStructure id="__5iIwo1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5YX0I1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iI0o1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__44Bg41jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv3I1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5dQQY1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lMFY1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iIwo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iI0o1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__44Bgo1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5YXzo1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lzJY1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iv3I1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iIwo1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5YXy41jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5dQQI1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5noU41jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__5cpP41jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6qo1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5iv3I1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6qo1jEe-PjMncXKEsgQ" entityName="account-service/ Provider" providedInterface__OperationProvidedRole="__44BfY1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5g6ro1jEe-PjMncXKEsgQ" entityName="demo">
+    <assemblyContexts__ComposedStructure id="__5iIyo1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__44Bjo1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv1o1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5RDCY1jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv2I1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__485-41jEe-PjMncXKEsgQ"/>
+    <assemblyContexts__ComposedStructure id="__5iv2o1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5RDBo1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5lzII1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iv2o1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iv2I1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__485-o1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5RDBY1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5maMo1jEe-PjMncXKEsgQ" requiringAssemblyContext_AssemblyConnector="__5iv1o1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5iv2o1jEe-PjMncXKEsgQ" providedRole_AssemblyConnector="__5RDBI1jEe-PjMncXKEsgQ" requiredRole_AssemblyConnector="__5RDCI1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5nBQo1jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__5RDB41jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6rI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5iv1o1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5noUo1jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__44BjY1jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5g6rY1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5iIyo1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6rI1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="__43acY1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5g6rY1jEe-PjMncXKEsgQ" entityName="user-service/user Provider" providedInterface__OperationProvidedRole="__43ac41jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="__5hhsY1jEe-PjMncXKEsgQ" entityName="demo_login_LoginController">
+    <assemblyContexts__ComposedStructure id="__5hhso1jEe-PjMncXKEsgQ" encapsulatedComponent__AssemblyContext="__5NYpY1jEe-PjMncXKEsgQ"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5noUY1jEe-PjMncXKEsgQ" innerProvidedRole_ProvidedDelegationConnector="__5NYoY1jEe-PjMncXKEsgQ" outerProvidedRole_ProvidedDelegationConnector="__5hhsI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5hhso1jEe-PjMncXKEsgQ"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5hhsI1jEe-PjMncXKEsgQ" entityName="user-service/login Provider" providedInterface__OperationProvidedRole="__44BdI1jEe-PjMncXKEsgQ"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43aaY1jEe-PjMncXKEsgQ" entityName="demo_cart_CartEventRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43aao1jEe-PjMncXKEsgQ" entityName="demo_login_AuthenticationManager"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43aa41jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryServiceV1"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43abI1jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43abY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserServiceV1"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43abo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43ab41jEe-PjMncXKEsgQ" entityName="demo_order_OrderEventRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43acI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43acY1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/">
+    <signatures__OperationInterface id="__xjRcI1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/$2" returnType__OperationSignature="__xiqZY1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="__xiqZI1jEe-PjMncXKEsgQ" parameterName="user" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_olhJc3hLEe-NMuXh_4KaKA" entityName="catalog-service/v1$2" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW21nhLEe-NMuXh_4KaKA" entityName="demo_invoice_InvoiceRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW213hLEe-NMuXh_4KaKA" entityName="demo_login_ClientDetailsService"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW22HhLEe-NMuXh_4KaKA" entityName="demo_inventory_InventoryRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW22XhLEe-NMuXh_4KaKA" entityName="demo_order_OrderEventRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW22nhLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW223hLEe-NMuXh_4KaKA" entityName="demo_UserRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW23HhLEe-NMuXh_4KaKA" entityName="demo_catalog_CatalogInfoRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW23XhLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartServiceV1"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW23nhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/">
-    <signatures__OperationInterface id="_olnQEXhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/" returnType__OperationSignature="_olnQEHhLEe-NMuXh_4KaKA">
+    <signatures__OperationInterface id="__xjRdI1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/$4" returnType__OperationSignature="__xiqZY1jEe-PjMncXKEsgQ">
       <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_oln3InhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/$3" returnType__OperationSignature="_olnQEHhLEe-NMuXh_4KaKA">
+    <signatures__OperationInterface id="__xjRco1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/$3" returnType__OperationSignature="__xiqZY1jEe-PjMncXKEsgQ">
       <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_oln3IHhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/$2" returnType__OperationSignature="_olnQEHhLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature dataType__Parameter="_olnQE3hLEe-NMuXh_4KaKA" parameterName="user" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_oloeMXhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/$4" returnType__OperationSignature="_olnQEHhLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-      <parameters__OperationSignature dataType__Parameter="_olnQE3hLEe-NMuXh_4KaKA" parameterName="user" modifier__Parameter="in"/>
+    <signatures__OperationInterface id="__xiqZo1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/" returnType__OperationSignature="__xiqZY1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature dataType__Parameter="__xiqZI1jEe-PjMncXKEsgQ" parameterName="user" modifier__Parameter="in"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW233hLEe-NMuXh_4KaKA" entityName="user-service/login">
-    <signatures__OperationInterface id="_oliXkXhLEe-NMuXh_4KaKA" entityName="user-service/login$2">
-      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_olhwhXhLEe-NMuXh_4KaKA" entityName="user-service/login">
-      <parameters__OperationSignature dataType__Parameter="_olhwgnhLEe-NMuXh_4KaKA" parameterName="request" modifier__Parameter="in"/>
-      <parameters__OperationSignature dataType__Parameter="_olhwg3hLEe-NMuXh_4KaKA" parameterName="response" modifier__Parameter="in"/>
-      <parameters__OperationSignature dataType__Parameter="_olhwhHhLEe-NMuXh_4KaKA" parameterName="model" modifier__Parameter="in"/>
-      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43aco1jEe-PjMncXKEsgQ" entityName="demo_invoice_InvoiceRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43ac41jEe-PjMncXKEsgQ" entityName="user-service/user">
+    <signatures__OperationInterface id="__xiqYI1jEe-PjMncXKEsgQ" entityName="user-service/user" returnType__OperationSignature="__xgOII1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature dataType__Parameter="__xgOII1jEe-PjMncXKEsgQ" parameterName="user" modifier__Parameter="in"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otW24HhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd4HhLEe-NMuXh_4KaKA" entityName="demo_UserService"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd4XhLEe-NMuXh_4KaKA" entityName="user-service/">
-    <signatures__OperationInterface id="_olgiZHhLEe-NMuXh_4KaKA" entityName="user-service/" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature dataType__Parameter="_olgiYnhLEe-NMuXh_4KaKA" parameterName="principal" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd4nhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd43hLEe-NMuXh_4KaKA" entityName="inventory-service/v1">
-    <signatures__OperationInterface id="_olfUQHhLEe-NMuXh_4KaKA" entityName="inventory-service/v1$2" returnType__OperationSignature="_olbp4HhLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature parameterName="productIds" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_olc4AHhLEe-NMuXh_4KaKA" entityName="inventory-service/v1" returnType__OperationSignature="_olbp4HhLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature parameterName="productId" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd5HhLEe-NMuXh_4KaKA" entityName="user-service/user">
-    <signatures__OperationInterface id="_oliXlHhLEe-NMuXh_4KaKA" entityName="user-service/user" returnType__OperationSignature="_olgiYnhLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature dataType__Parameter="_olgiYnhLEe-NMuXh_4KaKA" parameterName="user" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd5XhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd5nhLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserServiceV1"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd53hLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogServiceV1"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd6HhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd6XhLEe-NMuXh_4KaKA" entityName="account-service/">
-    <signatures__OperationInterface id="_olkMxHhLEe-NMuXh_4KaKA" entityName="account-service/" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd6nhLEe-NMuXh_4KaKA" entityName="order-service/">
-    <signatures__OperationInterface id="_olmB8XhLEe-NMuXh_4KaKA" entityName="order-service/$2" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43adI1jEe-PjMncXKEsgQ" entityName="order-service/">
+    <signatures__OperationInterface id="__xhcQ41jEe-PjMncXKEsgQ" entityName="order-service/$3" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ">
       <parameters__OperationSignature parameterName="orderId" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_olmpA3hLEe-NMuXh_4KaKA" entityName="order-service/$4" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature dataType__Parameter="_olmpAnhLEe-NMuXh_4KaKA" parameterName="orderEvent" modifier__Parameter="in"/>
-      <parameters__OperationSignature parameterName="orderId" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_olla4XhLEe-NMuXh_4KaKA" entityName="order-service/" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA">
+    <signatures__OperationInterface id="__xhcRY1jEe-PjMncXKEsgQ" entityName="order-service/$4" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ">
       <parameters__OperationSignature parameterName="accountNumber" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_olmpAHhLEe-NMuXh_4KaKA" entityName="order-service/$3" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature dataType__Parameter="_olmB83hLEe-NMuXh_4KaKA" parameterName="lineItems" modifier__Parameter="in"/>
+    <signatures__OperationInterface id="__xg1MY1jEe-PjMncXKEsgQ" entityName="order-service/" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature dataType__Parameter="__xg1MI1jEe-PjMncXKEsgQ" parameterName="lineItems" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="__xhcQY1jEe-PjMncXKEsgQ" entityName="order-service/$2" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature dataType__Parameter="__xhcQI1jEe-PjMncXKEsgQ" parameterName="orderEvent" modifier__Parameter="in"/>
+      <parameters__OperationSignature parameterName="orderId" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd63hLEe-NMuXh_4KaKA" entityName="demo_v1_Session"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd7HhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryServiceV1"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd7XhLEe-NMuXh_4KaKA" entityName="demo_user_UserRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd7nhLEe-NMuXh_4KaKA" entityName="demo_account_AccountRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd73hLEe-NMuXh_4KaKA" entityName="demo_cart_CartEventRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd8HhLEe-NMuXh_4KaKA" entityName="shopping-cart-service/">
-    <signatures__OperationInterface id="_oljlsnhLEe-NMuXh_4KaKA" entityName="shopping-cart-service/$3" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA">
-      <parameters__OperationSignature dataType__Parameter="_oljlsXhLEe-NMuXh_4KaKA" parameterName="cartEvent" modifier__Parameter="in"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43adY1jEe-PjMncXKEsgQ" entityName="demo_user_UserRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43ado1jEe-PjMncXKEsgQ" entityName="demo_login_HttpSessionSecurityContextRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43ad41jEe-PjMncXKEsgQ" entityName="user-service/">
+    <signatures__OperationInterface id="__xgOIY1jEe-PjMncXKEsgQ" entityName="user-service/" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature dataType__Parameter="__xgOII1jEe-PjMncXKEsgQ" parameterName="principal" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_oli-pHhLEe-NMuXh_4KaKA" entityName="shopping-cart-service/$2" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA"/>
-    <signatures__OperationInterface id="_oli-onhLEe-NMuXh_4KaKA" entityName="shopping-cart-service/" returnType__OperationSignature="_olgiY3hLEe-NMuXh_4KaKA"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd8XhLEe-NMuXh_4KaKA" entityName="demo_login_HttpSessionSecurityContextRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd8nhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd83hLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountServiceV1"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_otXd9HhLEe-NMuXh_4KaKA" entityName="demo_product_ProductRepository"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olbp4HhLEe-NMuXh_4KaKA" entityName="demo_v1_ResponseEntity"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olgiYnhLEe-NMuXh_4KaKA" entityName="java_security_Principal"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olgiY3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_ResponseEntity"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olhwgnhLEe-NMuXh_4KaKA" entityName="demo_login_HttpServletRequest"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olhwg3hLEe-NMuXh_4KaKA" entityName="demo_login_HttpServletResponse"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olhwhHhLEe-NMuXh_4KaKA" entityName="demo_login_Model"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_oljlsXhLEe-NMuXh_4KaKA" entityName="demo_cart_CartEvent"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olmB83hLEe-NMuXh_4KaKA" entityName="java_util_List"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olmpAnhLEe-NMuXh_4KaKA" entityName="demo_order_OrderEvent"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olnQEHhLEe-NMuXh_4KaKA" entityName="demo_ResponseEntity"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_olnQE3hLEe-NMuXh_4KaKA" entityName="demo_User"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43aeI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__43aeY1jEe-PjMncXKEsgQ" entityName="inventory-service/v1">
+    <signatures__OperationInterface id="__xaHgI1jEe-PjMncXKEsgQ" entityName="inventory-service/v1$2" returnType__OperationSignature="__xVPAI1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature parameterName="productId" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="__xXrQI1jEe-PjMncXKEsgQ" entityName="inventory-service/v1" returnType__OperationSignature="__xVPAI1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature parameterName="productIds" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BcI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountServiceV1"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BcY1jEe-PjMncXKEsgQ" entityName="catalog-service/v1">
+    <signatures__OperationInterface id="__xaulo1jEe-PjMncXKEsgQ" entityName="catalog-service/v1" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ"/>
+    <signatures__OperationInterface id="__xbVoY1jEe-PjMncXKEsgQ" entityName="catalog-service/v1$2" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature parameterName="productId" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Bco1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderServiceV1"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Bc41jEe-PjMncXKEsgQ" entityName="demo_UserRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BdI1jEe-PjMncXKEsgQ" entityName="user-service/login">
+    <signatures__OperationInterface id="__xb8tY1jEe-PjMncXKEsgQ" entityName="user-service/login$2">
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="__xb8s41jEe-PjMncXKEsgQ" entityName="user-service/login">
+      <parameters__OperationSignature dataType__Parameter="__xb8sI1jEe-PjMncXKEsgQ" parameterName="request" modifier__Parameter="in"/>
+      <parameters__OperationSignature dataType__Parameter="__xb8sY1jEe-PjMncXKEsgQ" parameterName="response" modifier__Parameter="in"/>
+      <parameters__OperationSignature dataType__Parameter="__xb8so1jEe-PjMncXKEsgQ" parameterName="model" modifier__Parameter="in"/>
+      <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BdY1jEe-PjMncXKEsgQ" entityName="demo_catalog_CatalogInfoRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Bdo1jEe-PjMncXKEsgQ" entityName="demo_UserService"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Bd41jEe-PjMncXKEsgQ" entityName="demo_v1_Session"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BeI1jEe-PjMncXKEsgQ" entityName="demo_login_ClientDetailsService"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BeY1jEe-PjMncXKEsgQ" entityName="demo_inventory_InventoryRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Beo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartServiceV1"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Be41jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogServiceV1"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BfI1jEe-PjMncXKEsgQ" entityName="demo_account_AccountRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BfY1jEe-PjMncXKEsgQ" entityName="account-service/">
+    <signatures__OperationInterface id="__xauko1jEe-PjMncXKEsgQ" entityName="account-service/" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Bfo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44Bf41jEe-PjMncXKEsgQ" entityName="shopping-cart-service/">
+    <signatures__OperationInterface id="__xcjxI1jEe-PjMncXKEsgQ" entityName="shopping-cart-service/" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ"/>
+    <signatures__OperationInterface id="__xdK0o1jEe-PjMncXKEsgQ" entityName="shopping-cart-service/$2" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ">
+      <parameters__OperationSignature dataType__Parameter="__xdK0Y1jEe-PjMncXKEsgQ" parameterName="cartEvent" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="__xdK1I1jEe-PjMncXKEsgQ" entityName="shopping-cart-service/$3" returnType__OperationSignature="__xaukY1jEe-PjMncXKEsgQ"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BgI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="__44BgY1jEe-PjMncXKEsgQ" entityName="demo_product_ProductRepository"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xVPAI1jEe-PjMncXKEsgQ" entityName="demo_v1_ResponseEntity"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xaukY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ResponseEntity"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xb8sI1jEe-PjMncXKEsgQ" entityName="demo_login_HttpServletRequest"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xb8sY1jEe-PjMncXKEsgQ" entityName="demo_login_HttpServletResponse"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xb8so1jEe-PjMncXKEsgQ" entityName="demo_login_Model"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xdK0Y1jEe-PjMncXKEsgQ" entityName="demo_cart_CartEvent"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xgOII1jEe-PjMncXKEsgQ" entityName="java_security_Principal"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xg1MI1jEe-PjMncXKEsgQ" entityName="java_util_List"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xhcQI1jEe-PjMncXKEsgQ" entityName="demo_order_OrderEvent"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xiqZI1jEe-PjMncXKEsgQ" entityName="demo_User"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="__xiqZY1jEe-PjMncXKEsgQ" entityName="demo_ResponseEntity"/>
 </repository:Repository>

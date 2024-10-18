@@ -1,275 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_YM4uJHhLEe-BmNowyoTfeg">
-  <assemblyContexts__ComposedStructure id="_YMyngHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLr0SHhLEe-BmNowyoTfeg"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_IRhj4o1jEe-fcLVwmwfQXw">
+  <assemblyContexts__ComposedStructure id="_IRa2MI1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoStoreEventChanges Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQaJmo1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMyngXhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLr0SnhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRa2MY1jEe-fcLVwmwfQXw" entityName="user/users Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQaJnI1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMyngnhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoStoreEventChanges Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLr0THhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRa2Mo1jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_controllers_NotifyController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQaJn41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMyng3hLEe-BmNowyoTfeg" entityName="com_apssouza_clients_UserClient Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLr0T3hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRa2M41jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQdM5o1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynhHhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLsbUXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRa2NI1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_AccountServiceImpl Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQlIso1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynhXhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLsbU3hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRa2NY1jEe-fcLVwmwfQXw" entityName="com_apssouza_integrations_socket_TodoSocketController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f4o1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynhnhLEe-BmNowyoTfeg" entityName="com_apssouza 2 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_YMqrtXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRa2No1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_AccountController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQvgyY1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynh3hLEe-BmNowyoTfeg" entityName="com_apssouza_bootstrap_UserLoader Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLsbVXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdQI1jEe-fcLVwmwfQXw" entityName="com_apssouza 2 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_IRS6co1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMyniHhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_TodoChangesController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLsbWHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdQY1jEe-fcLVwmwfQXw" entityName="com_apssouza Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_IRS6ZY1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMyniXhLEe-BmNowyoTfeg" entityName="com_apssouza_integrations_socket_TodoSocketController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLu3m3hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdQo1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ4Dro1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMyninhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLu3nXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdQ41jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_repository_EmailRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ4DsI1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMyni3hLEe-BmNowyoTfeg" entityName="com_apssouza_services_UserServiceImpl Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLu3n3hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdRI1jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_controllers_EmailController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ4qso1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynjHhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YL0-QHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdRY1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_ApplicationEventPublisher Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f4Y1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynjXhLEe-BmNowyoTfeg" entityName="com_apssouza_services_AccountServiceImpl Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YL86CHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdRo1jEe-fcLVwmwfQXw" entityName="com_apssouza 3 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_IRS6aY1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynjnhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_TodoController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMHSFnhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdR41jEe-fcLVwmwfQXw" entityName="com_apssouza_integrations_socket_TodoSocketController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f4o1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynj3hLEe-BmNowyoTfeg" entityName="TodoController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMJHRXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdSI1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_EventSourcingServiceImpl Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f5o1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynkHhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_EventPublisher Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMUGcHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdSY1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f6I1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMynkXhLEe-BmNowyoTfeg" entityName="com_apssouza_integrations_socket_TodoSocketController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YLu3m3hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdSo1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f6o1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOkHhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_AccountController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMUtcXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdS41jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_EventPublisher Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f7o1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOkXhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_Source Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMdQUXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdTI1jEe-fcLVwmwfQXw" entityName="com_apssouza 4 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_IRS6bo1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOknhLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoServiceImpl Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMdQVXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdTY1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f8I1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOk3hLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_YMqrt3hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdTo1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f8o1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOlHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_YMqrunhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdT41jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_IRS6c41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOlXhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMiI3nhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdUI1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_TodoChangesController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ6f9Y1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOlnhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMiI4HhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdUY1jEe-fcLVwmwfQXw" entityName="com_apssouza 5 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_IRS6Z41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOl3hLEe-BmNowyoTfeg" entityName="com_apssouza_bootstrap_TodoLoader Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMiI4nhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdUo1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ8VHo1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOmHhLEe-BmNowyoTfeg" entityName="com_apssouza Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_YMqrvHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdU41jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ8VII1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOmXhLEe-BmNowyoTfeg" entityName="UserClient Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMiv43hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdVI1jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_IRS6a41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOmnhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_controllers_NotifyController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMiv5nhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdVY1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_UserServiceImpl Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ88II1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOm3hLEe-BmNowyoTfeg" entityName="com_apssouza 3 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_YMqEpHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdVo1jEe-fcLVwmwfQXw" entityName="TodoController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IQ-KTo1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOnHhLEe-BmNowyoTfeg" entityName="com_apssouza 5 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_YMqEpnhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdV41jEe-fcLVwmwfQXw" entityName="UserClient Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRH7R41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOnXhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_EventSourcingServiceImpl Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMklFnhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdWI1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_TodoServiceStatisticsController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRH7So1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOnnhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_repository_EmailRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMklGHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRbdWY1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_TodoController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRJwcI1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOn3hLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_TodoServiceStatisticsController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMklG3hLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRcEUI1jEe-fcLVwmwfQXw" entityName="com_apssouza_clients_UserClient Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRK-n41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOoHhLEe-BmNowyoTfeg" entityName="user/users Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMmaTnhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRcEUY1jEe-fcLVwmwfQXw" entityName="com_apssouza_bootstrap_UserLoader Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRK-oY1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOoXhLEe-BmNowyoTfeg" entityName="com_apssouza 4 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="apssouza22-java-microservice.repository#_YMqruXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRcEUo1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_Source Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRK-o41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOonhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_controllers_EmailController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMmaUXhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRcEU41jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoServiceImpl Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRK-p41jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_YMzOo3hLEe-BmNowyoTfeg" entityName="com_apssouza_infra_ApplicationEventPublisher Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_YMoPdHhLEe-BmNowyoTfeg"/>
+  <assemblyContexts__ComposedStructure id="_IRcEVI1jEe-fcLVwmwfQXw" entityName="com_apssouza_bootstrap_TodoLoader Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="apssouza22-java-microservice.repository#_IRQeIY1jEe-fcLVwmwfQXw"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1DwHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Connector" requiringAssemblyContext_AssemblyConnector="_YMzOnXhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMynhXhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLsbUnhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMklFXhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRdScI1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository Connector" requiringAssemblyContext_AssemblyConnector="_IRa2NI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdSo1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f6Y1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQlIsY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1DwXhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Connector" requiringAssemblyContext_AssemblyConnector="_YMzOnXhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMyninhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLu3nHhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMklFHhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRdScY1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_AccountService Connector" requiringAssemblyContext_AssemblyConnector="_IRa2No1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRa2NI1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQlIsI1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQvgyI1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1DwnhLEe-BmNowyoTfeg" entityName="user/accounts Connector" requiringAssemblyContext_AssemblyConnector="_YMzOmXhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMynhnhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMqrtHhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiv4nhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRdSco1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoService Connector" requiringAssemblyContext_AssemblyConnector="_IRa2M41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRcEU41jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-pI1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQdM5Y1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1Dw3hLEe-BmNowyoTfeg" entityName="user/accounts[PUT] Connector" requiringAssemblyContext_AssemblyConnector="_YMyng3hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOkHhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMUGcXhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLr0TXhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRdSc41jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository Connector" requiringAssemblyContext_AssemblyConnector="_IRcEUY1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdSo1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f6Y1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-oI1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1DxHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Connector" requiringAssemblyContext_AssemblyConnector="_YMzOmnhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOlnhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiI33hLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiv5XhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRdSdI1jEe-fcLVwmwfQXw" entityName="user/accounts Connector" requiringAssemblyContext_AssemblyConnector="_IRcEUI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdQY1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRS6YY1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-no1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1DxXhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository Connector" requiringAssemblyContext_AssemblyConnector="_YMynjXhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMynhHhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLsbUHhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YL86B3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5gI1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_Source Connector" requiringAssemblyContext_AssemblyConnector="_IRbdS41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRcEUo1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-oo1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f7Y1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1DxnhLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoService Connector" requiringAssemblyContext_AssemblyConnector="_YMynjnhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOknhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMdQUnhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMHSFXhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5gY1jEe-fcLVwmwfQXw" entityName="user/accounts Connector" requiringAssemblyContext_AssemblyConnector="_IRbdV41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdQY1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRS6YY1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRH7RI1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q0HhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_Source Connector" requiringAssemblyContext_AssemblyConnector="_YMynkHhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOkXhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMdQUHhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMUGb3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5go1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Connector" requiringAssemblyContext_AssemblyConnector="_IRa2Mo1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdQo1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ4DrY1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQaJno1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q0XhLEe-BmNowyoTfeg" entityName="user/accounts Connector" requiringAssemblyContext_AssemblyConnector="_YMyng3hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMynhnhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMqrtHhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLr0TnhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5g41jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository Connector" requiringAssemblyContext_AssemblyConnector="_IRcEU41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdTo1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f8Y1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-po1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q0nhLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoService Connector" requiringAssemblyContext_AssemblyConnector="_YMynjHhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOknhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMdQUnhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YL0-P3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5hI1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoService Connector" requiringAssemblyContext_AssemblyConnector="_IRbdWY1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRcEU41jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-pI1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRJJbo1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q03hLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_repository_EmailRepository Connector" requiringAssemblyContext_AssemblyConnector="_YMzOonhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOnnhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMklF3hLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMmaUHhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5hY1jEe-fcLVwmwfQXw" entityName="user/users Connector" requiringAssemblyContext_AssemblyConnector="_IRbdV41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRa2MY1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQaJm41jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRH7Ro1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q1HhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository Connector" requiringAssemblyContext_AssemblyConnector="_YMzOl3hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOlXhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiI3XhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiI4XhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5ho1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Connector" requiringAssemblyContext_AssemblyConnector="_IRbdSI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdUo1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ8VHY1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f441jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q1XhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoStoreEventChanges Connector" requiringAssemblyContext_AssemblyConnector="_YMyniHhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMyngnhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLr0S3hLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLsbV3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5h41jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_ApplicationEventPublisher Connector" requiringAssemblyContext_AssemblyConnector="_IRbdS41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdRY1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f4I1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f7I1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q1nhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository Connector" requiringAssemblyContext_AssemblyConnector="_YMynh3hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMynhHhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLsbUHhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLsbVHhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5iI1jEe-fcLVwmwfQXw" entityName="user/accounts[PUT] Connector" requiringAssemblyContext_AssemblyConnector="_IRbdV41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRa2No1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQvgxo1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRH7RY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q13hLEe-BmNowyoTfeg" entityName="com_apssouza_services_UserService Connector" requiringAssemblyContext_AssemblyConnector="_YMynjHhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMyni3hLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLu3nnhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YL0-PnhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5iY1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_UserService Connector" requiringAssemblyContext_AssemblyConnector="_IRa2M41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdVY1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ8VIY1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQdM5I1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q2HhLEe-BmNowyoTfeg" entityName="com_apssouza_services_AccountService Connector" requiringAssemblyContext_AssemblyConnector="_YMzOkHhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMynjXhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YL86BnhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMUtcHhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRd5io1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository Connector" requiringAssemblyContext_AssemblyConnector="_IRcEVI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdTo1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f8Y1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRQeII1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q2XhLEe-BmNowyoTfeg" entityName="user/accounts[PUT] Connector" requiringAssemblyContext_AssemblyConnector="_YMzOmXhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOkHhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMUGcXhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiv4XhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRegkI1jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_repository_EmailRepository Connector" requiringAssemblyContext_AssemblyConnector="_IRbdRI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdQ41jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ4Dr41jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ4qsY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q2nhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Connector" requiringAssemblyContext_AssemblyConnector="_YMzOnXhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMyngHhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLr0R3hLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMklE3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRegkY1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_EventPublisher Connector" requiringAssemblyContext_AssemblyConnector="_IRcEU41jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdS41jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f641jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-pY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM1q23hLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Connector" requiringAssemblyContext_AssemblyConnector="_YMzOn3hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMyngXhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YLr0SXhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMklGnhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRegko1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Connector" requiringAssemblyContext_AssemblyConnector="_IRbdSI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdU41jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ8VH41jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f5Y1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM2R4HhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_EventPublisher Connector" requiringAssemblyContext_AssemblyConnector="_YMzOknhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMynkHhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMUGbXhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMdQU3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRegk41jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoStoreEventChanges Connector" requiringAssemblyContext_AssemblyConnector="_IRbdUI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRa2MI1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQaJmY1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f9I1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM2R4XhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_ApplicationEventPublisher Connector" requiringAssemblyContext_AssemblyConnector="_YMynkHhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOo3hLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMoPc3hLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMUGbnhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IReglI1jEe-fcLVwmwfQXw" entityName="user/accounts[PUT] Connector" requiringAssemblyContext_AssemblyConnector="_IRcEUI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRa2No1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQvgxo1jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRK-nY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM2R4nhLEe-BmNowyoTfeg" entityName="user/users Connector" requiringAssemblyContext_AssemblyConnector="_YMzOmXhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOoHhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMmaTXhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiv4HhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IReglY1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Connector" requiringAssemblyContext_AssemblyConnector="_IRbdWI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdSY1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f541jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IRH7SY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YM2R43hLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository Connector" requiringAssemblyContext_AssemblyConnector="_YMzOknhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMzOlXhLEe-BmNowyoTfeg">
-    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMiI3XhLEe-BmNowyoTfeg"/>
-    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_YMdQVHhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IReglo1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Connector" requiringAssemblyContext_AssemblyConnector="_IRbdSI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRbdTY1jEe-fcLVwmwfQXw">
+    <providedRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f741jEe-fcLVwmwfQXw"/>
+    <requiredRole_AssemblyConnector href="apssouza22-java-microservice.repository#_IQ6f5I1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM3gAHhLEe-BmNowyoTfeg" entityName="user/accounts[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM248HhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMynhnhLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqrsHhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRfusY1jEe-fcLVwmwfQXw" entityName="mailer/send/email[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRfusI1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdRo1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6aI1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM3gAnhLEe-BmNowyoTfeg" entityName="mailer/emails[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM3gAXhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMzOk3hLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqrtnhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRgVwI1jEe-fcLVwmwfQXw" entityName="user/accounts[GET]$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRfuso1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdQY1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6YI1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM3gBHhLEe-BmNowyoTfeg" entityName="user/accounts[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM3gA3hLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMynhnhLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqrsXhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRgVwo1jEe-fcLVwmwfQXw" entityName="api-gateway/todos[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRgVwY1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdQI1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6b41jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM3gBnhLEe-BmNowyoTfeg" entityName="reminder/todo-changes[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM3gBXhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMzOoXhLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqruHhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRgVxI1jEe-fcLVwmwfQXw" entityName="reminder/todo-changes[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRgVw41jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdUY1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6Zo1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM4HEXhLEe-BmNowyoTfeg" entityName="api-gateway/todos[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM4HEHhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMzOm3hLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqEoXhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRgVxo1jEe-fcLVwmwfQXw" entityName="reminder/todo-statistics[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRgVxY1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdTI1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6bY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM4HE3hLEe-BmNowyoTfeg" entityName="user/accounts[GET]$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM4HEnhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMynhnhLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqrsnhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRg80Y1jEe-fcLVwmwfQXw" entityName="reminder/todos Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRg80I1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdQI1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6cI1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM4HFXhLEe-BmNowyoTfeg" entityName="user/accounts/search[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM4HFHhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMynhnhLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqrs3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRg8041jEe-fcLVwmwfQXw" entityName="api-gateway/accounts Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRg80o1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdQI1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6cY1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM4HF3hLEe-BmNowyoTfeg" entityName="api-gateway/accounts Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM4HFnhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMzOm3hLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqEonhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRg81Y1jEe-fcLVwmwfQXw" entityName="user/accounts[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRg81I1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdQY1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6Yo1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM4HGXhLEe-BmNowyoTfeg" entityName="reminder/todos Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM4HGHhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMzOm3hLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqEo3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRg8141jEe-fcLVwmwfQXw" entityName="user/accounts[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRg81o1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdQY1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6Y41jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM4uIXhLEe-BmNowyoTfeg" entityName="reminder/todo-statistics[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM4uIHhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMzOmHhLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqru3hLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRg82Y1jEe-fcLVwmwfQXw" entityName="mailer/emails[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRg82I1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdVI1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6ao1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YM4uI3hLEe-BmNowyoTfeg" entityName="mailer/send/email[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_YM4uInhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMzOnHhLEe-BmNowyoTfeg">
-    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_YMqEpXhLEe-BmNowyoTfeg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRhj4Y1jEe-fcLVwmwfQXw" entityName="user/accounts/search[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_IRhj4I1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRbdQY1jEe-fcLVwmwfQXw">
+    <innerProvidedRole_ProvidedDelegationConnector href="apssouza22-java-microservice.repository#_IRS6ZI1jEe-fcLVwmwfQXw"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM248HhLEe-BmNowyoTfeg" entityName="user/accounts[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNP3hLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRfusI1jEe-fcLVwmwfQXw" entityName="mailer/send/email[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZigI1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM3gAXhLEe-BmNowyoTfeg" entityName="mailer/emails[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLr0RXhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRfuso1jEe-fcLVwmwfQXw" entityName="user/accounts[GET]$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZiio1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM3gA3hLEe-BmNowyoTfeg" entityName="user/accounts[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNPnhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRgVwY1jEe-fcLVwmwfQXw" entityName="api-gateway/todos[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZiiI1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM3gBXhLEe-BmNowyoTfeg" entityName="reminder/todo-changes[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNQHhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRgVw41jEe-fcLVwmwfQXw" entityName="reminder/todo-changes[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZihY1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM4HEHhLEe-BmNowyoTfeg" entityName="api-gateway/todos[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNQnhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRgVxY1jEe-fcLVwmwfQXw" entityName="reminder/todo-statistics[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZiko1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM4HEnhLEe-BmNowyoTfeg" entityName="user/accounts[GET]$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNPHhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRg80I1jEe-fcLVwmwfQXw" entityName="reminder/todos Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZigY1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM4HFHhLEe-BmNowyoTfeg" entityName="user/accounts/search[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNMXhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRg80o1jEe-fcLVwmwfQXw" entityName="api-gateway/accounts Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQaJlo1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM4HFnhLEe-BmNowyoTfeg" entityName="api-gateway/accounts Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLqmJXhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRg81I1jEe-fcLVwmwfQXw" entityName="user/accounts[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQaJlI1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM4HGHhLEe-BmNowyoTfeg" entityName="reminder/todos Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNN3hLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRg81o1jEe-fcLVwmwfQXw" entityName="user/accounts[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZijY1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM4uIHhLEe-BmNowyoTfeg" entityName="reminder/todo-statistics[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNO3hLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRg82I1jEe-fcLVwmwfQXw" entityName="mailer/emails[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZiho1jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YM4uInhLEe-BmNowyoTfeg" entityName="mailer/send/email[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_YLrNNnhLEe-BmNowyoTfeg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRhj4I1jEe-fcLVwmwfQXw" entityName="user/accounts/search[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="apssouza22-java-microservice.repository#_IQZii41jEe-fcLVwmwfQXw"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

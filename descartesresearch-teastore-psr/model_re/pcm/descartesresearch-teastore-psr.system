@@ -1,482 +1,482 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_ikvS1nhLEe-C8f4lzjXjvw">
-  <assemblyContexts__ComposedStructure id="_ikpzPHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_CategoryServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_iipBC3hLEe-C8f4lzjXjvw"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_LwK_mI1kEe-pe6qYXDKBZw">
+  <assemblyContexts__ComposedStructure id="_LwDDwI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_DataBaseServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuAcb41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikpzPXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_rest_OrderItemEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ii0nNXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDDwY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_ProductServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuDfuI1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikpzPnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_StatusServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ii3qjnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDDwo1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_Lv6g5Y1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikpzP3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_ErrorServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ii5fvnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDDw41kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_rest_ReadyRest Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuI_To1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikpzQHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_rest_CategoryEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ii7U43hLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDDxI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_rest_TrainEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuK0fo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikpzQXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_ikjFhHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq0I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_rest_CategoryEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuPs_Y1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikpzQnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_ikjFmHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq0Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_ErrorServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LudIXo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikpzQ3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_rest_RecommendEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ii7U5XhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq0o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_auth_rest_ReadyRest Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lue9jo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaQHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_OrderServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ii8jDnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq041kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_image_rest_ImageProviderEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LugyvY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaQXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_rest_ReadyRest Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijIJPnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq1I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry_rest_Registry Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Luqjv41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaQnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_image_rest_ImageProviderEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijJ-YHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq1Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_CartActionServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuqjwY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaQ3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_servlet_RecommenderStartup Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijUWdHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq1o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_servlet_IndexServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LusY7o1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaRHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_rest_CacheManagerEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijUWdnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq141kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_OrderServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lu1i3o1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaRXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_rest_TrainEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijcSUnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq2I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_auth_rest_AuthUserActionsRest Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lu4mLo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaRnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijiY7nhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq2Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry_servlet_IndexServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lu_T2Y1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaR3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_rest_OrderEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijiY8HhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq2o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_rest_CacheManagerEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvH2vo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaSHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_image_setup_ImageProviderStartup Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijumMHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq241kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_LoginActionServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvUD-41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaSXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_AboutUsServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ij-dznhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq3I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_image Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_Lv6g6Y1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaSnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry_rest_Registry Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikA6DXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq3Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_auth_rest_AuthCartRest Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvZjjo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaS3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_servlet_IndexServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikA6D3hLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq3o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_CartServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvhfXY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaTHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_auth_rest_ReadyRest Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikHnvnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq341kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_servlet_RecommenderStartup Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvkio41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaTXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_rest_ProductEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikKrDnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq4I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_Lv6hAY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaTnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_auth_startup_AuthStartup Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikNHUHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq4Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_AboutUsServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvkipY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaT3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_kieker_rabbitmq Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_ikiec3hLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq4o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_Lv7H9o1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaUHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_LoginServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikNHUnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq441kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_image_setup_ImageProviderStartup Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvnl9Y1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaUXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry_rest_RegistryREST Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikOVc3hLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq5I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_rest_OrderItemEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvu6sY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaUnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_ProductServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikUcDXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq5Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_DataBaseActionServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvxW_o1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaU3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_rest_UserEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikVqLnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq5o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_rest_RecommendSingleEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvylIo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaVHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry_rest_RegistryStartup Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikZ7nnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq541kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_StatusServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lv0aR41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaVXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_kieker_rabbitmq_IndexServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikZ7oHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq6I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_auth_startup_AuthStartup Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuF78Y1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaVnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_auth_rest_AuthCartRest Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikbJvnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq6Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_rest_ProductEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuF7841kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaV3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_iitSf3hLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq6o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_kieker_rabbitmq Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_Lv6g9o1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaWHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_auth_rest_AuthUserActionsRest Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_iit5gHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq641kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_servlet_IndexServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuPs_41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaWXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_CartServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijANbnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq7I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_CategoryServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LuaFAY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaWnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_DataBaseServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijCCmXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq7Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry_rest_RegistryStartup Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lugyu41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaW3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_CartActionServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijDQvnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq7o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_Lv6g8o1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaXHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_LoginActionServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijFF7nhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq741kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_LoginServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvMILo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaXXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_DataBaseActionServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijadHnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq8I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_rest_DatabaseGenerationEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvN9WI1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaXnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijcSUHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq8Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvXHQ41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaX3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry_servlet_IndexServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijk1KXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq8o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_rest_UserEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvXHRY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaYHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_rest_RecommendSingleEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijvNMXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq841kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_kieker_rabbitmq_IndexServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvYVbo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaYXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_rest_DatabaseGenerationEndpoint Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ijwbXnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq9I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_IndexServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvecDo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaYnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_persistence_servlet_IndexServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ij2h_nhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq9Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_kieker_rabbitmq_Reset Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvgRMY1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaY3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ij_r7nhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwDq9o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvitfo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaZHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_IndexServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikJc4XhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER4I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_auth Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_Lv6g_Y1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaZXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_ikiehXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER4Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvlwz41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaZnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_servlet_ProfileServlet Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikSm3nhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER4o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_startup_WebuiStartup Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvlw0o1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaZ3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_image Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_ikieiXhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER441kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_persistence_rest_OrderEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvlw1I1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaaHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_auth Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_ikjFi3hLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER5I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_webui_servlet_ProfileServlet Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvnl941kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaaXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="descartesresearch-teastore-psr.repository#_ikjFlHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER5Y1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry_rest_RegistryREST Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lvo0Ho1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaanhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_kieker_rabbitmq_Reset Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikW4TnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER5o1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_kieker_rabbitmq_DisplayLogs Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_LvtFj41kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqaa3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_webui_startup_WebuiStartup Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikYtdHhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER541kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_rest_RecommendEndpoint Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lv1obo1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ikqabHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_kieker_rabbitmq_DisplayLogs Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_ikYtdnhLEe-C8f4lzjXjvw"/>
+  <assemblyContexts__ComposedStructure id="_LwER6I1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="descartesresearch-teastore-psr.repository#_Lv3dlI1kEe-pe6qYXDKBZw"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPcHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaSHhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijumL3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGHEI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwDq441kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvnl841kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPcXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaTnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaY3hLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ij_r7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikNHTnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGHEY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq6I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LuF78I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPcnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/services Connector" requiringAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikpzQnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFlnhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGHEo1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_LwER4I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq9o1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvitfY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g-41kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPc3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaaXhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFk3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuII1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq7o1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq9o1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvitfY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g7o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPdHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry_rest_Registry Connector" requiringAssemblyContext_AssemblyConnector="_ikqaSnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaSnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikA6C3hLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikA6DHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuIY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Connector" requiringAssemblyContext_AssemblyConnector="_LwDq7o1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER4Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvlwzY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g8I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPdXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaaHhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaY3hLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ij_r7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFiXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuIo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/services Connector" requiringAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq4I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g_41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQY1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPdnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaTnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikNHT3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuI41kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwDq6I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LuFU7Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPd3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaaXhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaV3hLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_iitSfXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFkHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuJI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwER4I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g-o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPeHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcST3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuJY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq441kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvnl9I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPeXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/services Connector" requiringAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaUXhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikOVcnhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuJo1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq3I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g6I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPenhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaQ3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaY3hLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ij_r7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijUWcXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuJ41kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq341kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvkioo1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPe3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaaHhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFinhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuKI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwDq7o1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g741kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPfHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaaXhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaY3hLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ij_r7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFkXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuKY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Connector" requiringAssemblyContext_AssemblyConnector="_LwDq341kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER4Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvlwzY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvkioI1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPfXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaV3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaV3hLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_iitSfXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_iitSfnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuKo1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwDq3I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g541kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPfnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaSHhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijumLnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuK41kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwDDwo1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g5I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPf3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaTnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikNHTXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuLI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwER4I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g_I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPgHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaaHhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFiHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuLY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry_rest_Registry Connector" requiringAssemblyContext_AssemblyConnector="_LwDq7Y1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq1I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LuqjvY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lugyuo1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iksPgXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaaXhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFknhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuLo1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwER4o1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvlw0I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2gHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry_rest_Registry Connector" requiringAssemblyContext_AssemblyConnector="_ikqaVHhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaSnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikA6C3hLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikZ7nXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuL41kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_LwDq341kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER6I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv3dk41kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvj7no1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2gXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaZ3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikieiHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuMI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDDwo1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g441kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2gnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registry_rest_Registry Connector" requiringAssemblyContext_AssemblyConnector="_ikpzQnhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaSnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikA6C3hLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikjFl3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuMY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq7o1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6g8Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2g3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaQ3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaV3hLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_iitSfXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijUWc3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuMo1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwER4o1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvlw0Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2hHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaQ3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijUWcnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwGuM41kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq6I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq9o1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvitfY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LuFU7o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2hXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaQ3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijUWcHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwHVMI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQI1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQo1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2hnhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaZXhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikieg3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwHVMY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registryclient_util_RESTClient Connector" requiringAssemblyContext_AssemblyConnector="_LwDq341kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq9o1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvitfY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvkioY1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2h3hLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaZ3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikieh3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwHVMo1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry_rest_Registry Connector" requiringAssemblyContext_AssemblyConnector="_LwDq4I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq1I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LuqjvY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lv6hAI1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2iHhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_loadbalancers_ServiceLoadBalancer Connector" requiringAssemblyContext_AssemblyConnector="_ikqaa3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaRnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijiY7XhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikYtc3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwHVM41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/services Connector" requiringAssemblyContext_AssemblyConnector="_LwDq8Y1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER5Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvo0HY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvXHQY1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2iXhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaa3hLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikYtcnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwHVNI1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_recommender_servlet_TrainingSynchronizer Connector" requiringAssemblyContext_AssemblyConnector="_LwER4Y1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwER4Y1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LvlwzY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Lvlwzo1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_iks2inhLEe-C8f4lzjXjvw" entityName="tools_descartes_teastore_registryclient_RegistryClient Connector" requiringAssemblyContext_AssemblyConnector="_ikqaZXhLEe-C8f4lzjXjvw" providingAssemblyContext_AssemblyConnector="_ikqaXnhLEe-C8f4lzjXjvw">
-    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ijcSTXhLEe-C8f4lzjXjvw"/>
-    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_ikiehHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LwHVNY1kEe-pe6qYXDKBZw" entityName="tools_descartes_teastore_registry_rest_Registry Connector" requiringAssemblyContext_AssemblyConnector="_LwDq1I1kEe-pe6qYXDKBZw" providingAssemblyContext_AssemblyConnector="_LwDq1I1kEe-pe6qYXDKBZw">
+    <providedRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_LuqjvY1kEe-pe6qYXDKBZw"/>
+    <requiredRole_AssemblyConnector href="descartesresearch-teastore-psr.repository#_Luqjvo1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_iktdkXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/orders/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_iktdkHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikieinhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwIjUI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/generatedb Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwH8QI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6hAo1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_iktdk3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/ready/isready$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_iktdknhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiedHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwIjUo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cartAction[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwIjUY1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv550I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_iktdlXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_iktdlHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQnhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFlXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwIjVI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/ready/isready Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwIjU41kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwER4I1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g941kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_iktdl3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cart[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_iktdlnhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiedXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwIjVo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/dataBaseAction[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwIjVY1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv550Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuEoHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/ready/isready Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_iktdmHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaaHhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFhXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwIjWI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/orders/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwIjV41kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv7H8I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuEonhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/product[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuEoXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiednhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKYY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/error[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKYI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv550o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuEpHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_iktdlHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaaXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFjHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKY41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/login[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKYo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv55041kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuEpnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/status[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuEpXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikied3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKZY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/order[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKZI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv551I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuEqHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/products Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuEp3hLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiei3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKZ41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/image Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKZo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq3I1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g5o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuEqnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/useractions Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuEqXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaaHhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFhnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKaY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/database[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKaI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv551Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuErHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cartAction[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuEq3hLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikieeHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKa41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKao1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq6o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g841kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikursHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/recommendsingle Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuErXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaaXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFjXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKbY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/useractions Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKbI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwER4I1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g-I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikursnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/database[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikursXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikieeXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKb41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/recommendsingle Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKbo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq7o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g6o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurtHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/category[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurs3hLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikieenhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJKcY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/displaylogs[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJKcI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq6o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g9I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurtnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/displaylogs[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurtXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaT3hLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiecHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxcY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxcI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4I1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g_o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikuruHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurt3hLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaT3hLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiecXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxc41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxcI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq7o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g641kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurunhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/users/name Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuruXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiejHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxdY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/profile[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxdI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv551o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurvHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/train Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikuru3hLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaaXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFjnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxd41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/loginAction[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxdo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv55141kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurvnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cache Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurvXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFgHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxeY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/product[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxeI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv552I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurwHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cart Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurv3hLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaaHhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFh3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxe41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/about[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxeo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv552Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurwnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/orderitems Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurwXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFgXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxfY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/reset[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxfI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq6o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g9Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurxHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/order[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurw3hLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiee3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwJxf41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwJxcI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv7H8Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikurxnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/generatedb Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikurxXhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFgnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYgY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/status[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYgI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv552o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSwXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/recommend Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvSwHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaaXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFj3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYg41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cache Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYgo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv7H8o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSw3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/profile[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvSwnhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiefHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYhY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/train Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYhI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq7o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g7I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSxXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_iktdlHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikpzQXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikjFg3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYh41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cart[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYho1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv55241kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSx3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/loginAction[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvSxnhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiefXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYiY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/ready/isready$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYiI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g4I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSyXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/reset[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvSyHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaT3hLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiecnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYi41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/orderitems Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYio1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv7H841kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSy3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/login[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvSynhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiefnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYjY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/recommend Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYjI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq7o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g7Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSzXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/error[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvSzHhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikief3hLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwKYj41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/products Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwKYjo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv7H9I1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvSz3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/dataBaseAction[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvSznhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiegHhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwK_kY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/category[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwK_kI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g4Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvS0XhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/image Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvS0HhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZ3hLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiehnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwK_k41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cart Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwK_ko1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwER4I1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g-Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvS03hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET]$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvS0nhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiegXhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwK_lY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/users/name Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwK_lI1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDq4o1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv7H9Y1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ikvS1XhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/about[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ikvS1HhLEe-C8f4lzjXjvw" assemblyContext_ProvidedDelegationConnector="_ikqaZXhLEe-C8f4lzjXjvw">
-    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_ikiegnhLEe-C8f4lzjXjvw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LwK_l41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET]$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_LwK_lo1kEe-pe6qYXDKBZw" assemblyContext_ProvidedDelegationConnector="_LwDDwo1kEe-pe6qYXDKBZw">
+    <innerProvidedRole_ProvidedDelegationConnector href="descartesresearch-teastore-psr.repository#_Lv6g4o1kEe-pe6qYXDKBZw"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_iktdkHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/orders/user Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ93hLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwH8QI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/generatedb Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1XI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_iktdknhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/ready/isready$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ-nhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwIjUY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cartAction[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1V41kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_iktdlHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ-XhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwIjU41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/ready/isready Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Uo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_iktdlnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cart[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iiny53hLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwIjVY1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/dataBaseAction[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1WY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_iktdmHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/ready/isready Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBAXhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwIjV41kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/orders/user Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1UI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuEoXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/product[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBCHhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKYI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/error[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1XY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuEo3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ-XhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKYo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/login[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_OSY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuEpXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/status[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ83hLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKZI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/order[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1ZY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuEp3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/products Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ_XhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKZo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/image Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcbI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuEqXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/useractions Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBB3hLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKaI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/database[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcaY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuEq3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cartAction[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBBnhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKao1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1WI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuErXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/recommendsingle Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBCXhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKbI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/useractions Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcao1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikursXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/database[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioaAHhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKbo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/recommendsingle Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Vo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurs3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/category[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iiny5XhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJKcI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/displaylogs[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcbY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurtXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/displaylogs[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ_HhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxcI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Zo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurt3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iiny6XhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxco1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Zo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuruXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/users/name Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ9nhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxdI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/profile[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcZ41kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikuru3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/train Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ_nhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxdo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/loginAction[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1VY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurvXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cache Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBAHhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxeI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/product[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAca41kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurv3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/cart Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iiny5nhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxeo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/about[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcYo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurwXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/orderitems Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ-3hLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxfI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/reset[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1YI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurw3hLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/order[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBAnhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwJxfo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Zo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikurxXhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/generatedb Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ9XhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYgI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/status[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1ZI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSwHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/recommend Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioaAXhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYgo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cache Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1W41kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSwnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/profile[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ-HhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYhI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/train Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Y41kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSxHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ-XhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYho1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cart[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcZY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSxnhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/loginAction[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iiny6HhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYiI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/ready/isready$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Xo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSyHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/reset[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioaBHhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYio1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/orderitems Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1YY1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSynhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/login[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iiny6nhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYjI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/recommend Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1U41kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSzHhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/error[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ_3hLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwKYjo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/products Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcYI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvSznhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/dataBaseAction[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBBHhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwK_kI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/category[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcZI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvS0HhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/image Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iioZ8nhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwK_ko1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/cart Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcY41kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvS0nhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/index[GET]$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iipBBXhLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwK_lI1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/users/name Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_LuAcaI1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ikvS1HhLEe-C8f4lzjXjvw" entityName="SERVICE-HOST/about[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_iiny63hLEe-C8f4lzjXjvw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LwK_lo1kEe-pe6qYXDKBZw" entityName="SERVICE-HOST/index[GET]$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="descartesresearch-teastore-psr.repository#_Lt_1Wo1kEe-pe6qYXDKBZw"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_oEp4EHhLEe-0u4oC48VXJQ">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_Jn2BII1kEe-a-OVTuGcE6g">
   <targetResourceEnvironment_Allocation href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#/"/>
-  <system_Allocation href="mdeket-spring-cloud-movie-recommendation.system#_oEijV3hLEe-0u4oC48VXJQ"/>
-  <allocationContexts_Allocation id="_oEop8HhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYhXhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe4-HhLEe-0u4oC48VXJQ"/>
+  <system_Allocation href="mdeket-spring-cloud-movie-recommendation.system#_JnteR41kEe-a-OVTuGcE6g"/>
+  <allocationContexts_Allocation id="_Jn0zAI1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnv6gI1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz441kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop8XhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYg3hLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe48nhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zAY1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnwhm41kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz4o1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop8nhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYh3hLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe483hLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zAo1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_JnwhmI1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz4Y1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop83hLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYhnhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe48XhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zA41kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnwhmo1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz5I1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop9HhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYgHhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe4-3hLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zBI1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_JnwhmY1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz7Y1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop9XhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYjHhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe49HhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zBY1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnwhl41kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz6Y1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop9nhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYgnhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe4_HhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zBo1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_JnwhkY1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz641kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop93hLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYhHhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe49XhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zB41kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnwhk41kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz5Y1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop-HhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYjXhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe49nhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zCI1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnv6gY1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz6I1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop-XhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYiXhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe48HhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zCY1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnwhko1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz4I1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop-nhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYinhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe4-nhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn0zCo1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_JnwhlY1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz7I1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop-3hLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYi3hLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe493hLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn1aEI1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_JnwhlI1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz5o1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop_HhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYgXhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe4_XhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn1aEY1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_Jnwhlo1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz6o1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_oEop_XhLEe-0u4oC48VXJQ">
-    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_oEkYiHhLEe-0u4oC48VXJQ"/>
-    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_oEe4-HhLEe-0u4oC48VXJQ"/>
+  <allocationContexts_Allocation id="_Jn1aEo1kEe-a-OVTuGcE6g">
+    <resourceContainer_AllocationContext href="mdeket-spring-cloud-movie-recommendation.resourceenvironment#_JnwhkI1kEe-a-OVTuGcE6g"/>
+    <assemblyContext_AllocationContext href="mdeket-spring-cloud-movie-recommendation.system#_Jnpz4Y1kEe-a-OVTuGcE6g"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

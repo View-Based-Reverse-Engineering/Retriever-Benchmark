@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_m5WilHhLEe-oP8x_1-YzIQ">
-  <components__Repository xsi:type="repository:BasicComponent" id="_m5Qb8XhLEe-oP8x_1-YzIQ" entityName="edu_kit_ipd_are_esda_importer_EsdaController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_m5Qb8HhLEe-oP8x_1-YzIQ" entityName="SPRING-APPLICATION/add Provider" providedInterface__OperationProvidedRole="_m5P053hLEe-oP8x_1-YzIQ"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_m44ogXhLEe-oP8x_1-YzIQ" describedService__SEFF="_myRDIHhLEe-oP8x_1-YzIQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_mzYdcHhLEe-oP8x_1-YzIQ" entityName="Start Action" successor_AbstractAction="_mzaSoHhLEe-oP8x_1-YzIQ"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_mzaSoHhLEe-oP8x_1-YzIQ" entityName="template.send(topicName,data)" predecessor_AbstractAction="_mzYdcHhLEe-oP8x_1-YzIQ" successor_AbstractAction="_mzaSoXhLEe-oP8x_1-YzIQ"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_mzaSoXhLEe-oP8x_1-YzIQ" entityName="LOGGER.info(&quot;[Transmitted] &quot; + data)" predecessor_AbstractAction="_mzaSoHhLEe-oP8x_1-YzIQ" successor_AbstractAction="_m44BcHhLEe-oP8x_1-YzIQ"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_m44BcHhLEe-oP8x_1-YzIQ" entityName="data.toString()" predecessor_AbstractAction="_mzaSoXhLEe-oP8x_1-YzIQ" successor_AbstractAction="_m44ogHhLEe-oP8x_1-YzIQ">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_V-SZYo1kEe-oRtVhvtgBiw">
+  <components__Repository xsi:type="repository:BasicComponent" id="_V-LEo41kEe-oRtVhvtgBiw" entityName="edu_kit_ipd_are_esda_importer_EsdaController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_V-LEoo1kEe-oRtVhvtgBiw" entityName="SPRING-APPLICATION/add Provider" providedInterface__OperationProvidedRole="_V-LEoY1kEe-oRtVhvtgBiw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_V9z4QY1kEe-oRtVhvtgBiw" describedService__SEFF="_V2-QcI1kEe-oRtVhvtgBiw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_V4R4AY1kEe-oRtVhvtgBiw" entityName="Start Action" successor_AbstractAction="_V4UUQI1kEe-oRtVhvtgBiw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_V4UUQI1kEe-oRtVhvtgBiw" entityName="template.send(topicName,data)" predecessor_AbstractAction="_V4R4AY1kEe-oRtVhvtgBiw" successor_AbstractAction="_V4UUQY1kEe-oRtVhvtgBiw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_V4UUQY1kEe-oRtVhvtgBiw" entityName="LOGGER.info(&quot;[Transmitted] &quot; + data)" predecessor_AbstractAction="_V4UUQI1kEe-oRtVhvtgBiw" successor_AbstractAction="_V9zRMI1kEe-oRtVhvtgBiw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_V9zRMI1kEe-oRtVhvtgBiw" entityName="data.toString()" predecessor_AbstractAction="_V4UUQY1kEe-oRtVhvtgBiw" successor_AbstractAction="_V9z4QI1kEe-oRtVhvtgBiw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.data_toString()"/>
@@ -16,16 +16,16 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_m44ogHhLEe-oP8x_1-YzIQ" entityName="Stop Action" predecessor_AbstractAction="_m44BcHhLEe-oP8x_1-YzIQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_V9z4QI1kEe-oRtVhvtgBiw" entityName="Stop Action" predecessor_AbstractAction="_V9zRMI1kEe-oRtVhvtgBiw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_m5WikXhLEe-oP8x_1-YzIQ" entityName="edu_kit_ipd_are_esda_importer_EsdaController">
-    <assemblyContexts__ComposedStructure id="_m5WiknhLEe-oP8x_1-YzIQ" encapsulatedComponent__AssemblyContext="_m5Qb8XhLEe-oP8x_1-YzIQ"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_m5XwsHhLEe-oP8x_1-YzIQ" innerProvidedRole_ProvidedDelegationConnector="_m5Qb8HhLEe-oP8x_1-YzIQ" outerProvidedRole_ProvidedDelegationConnector="_m5WikHhLEe-oP8x_1-YzIQ" assemblyContext_ProvidedDelegationConnector="_m5WiknhLEe-oP8x_1-YzIQ"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_m5WikHhLEe-oP8x_1-YzIQ" entityName="SPRING-APPLICATION/add Provider" providedInterface__OperationProvidedRole="_m5P053hLEe-oP8x_1-YzIQ"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_V-RyUY1kEe-oRtVhvtgBiw" entityName="edu_kit_ipd_are_esda_importer_EsdaController">
+    <assemblyContexts__ComposedStructure id="_V-SZYI1kEe-oRtVhvtgBiw" encapsulatedComponent__AssemblyContext="_V-LEo41kEe-oRtVhvtgBiw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_V-TAcI1kEe-oRtVhvtgBiw" innerProvidedRole_ProvidedDelegationConnector="_V-LEoo1kEe-oRtVhvtgBiw" outerProvidedRole_ProvidedDelegationConnector="_V-RyUI1kEe-oRtVhvtgBiw" assemblyContext_ProvidedDelegationConnector="_V-SZYI1kEe-oRtVhvtgBiw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_V-RyUI1kEe-oRtVhvtgBiw" entityName="SPRING-APPLICATION/add Provider" providedInterface__OperationProvidedRole="_V-LEoY1kEe-oRtVhvtgBiw"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_m5P053hLEe-oP8x_1-YzIQ" entityName="SPRING-APPLICATION/add">
-    <signatures__OperationInterface id="_myRDIHhLEe-oP8x_1-YzIQ" entityName="SPRING-APPLICATION/add">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_V-LEoY1kEe-oRtVhvtgBiw" entityName="SPRING-APPLICATION/add">
+    <signatures__OperationInterface id="_V2-QcI1kEe-oRtVhvtgBiw" entityName="SPRING-APPLICATION/add">
       <parameters__OperationSignature parameterName="point" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>

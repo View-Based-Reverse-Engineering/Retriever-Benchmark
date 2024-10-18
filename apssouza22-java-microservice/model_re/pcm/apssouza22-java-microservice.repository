@@ -1,340 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_YMsg8XhLEe-BmNowyoTfeg">
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLr0SHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLr0R3hLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Provider" providedInterface__OperationProvidedRole="_YLrNMnhLEe-BmNowyoTfeg"/>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_IRVWpI1jEe-fcLVwmwfQXw">
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQaJmo1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoStoreEventChanges">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQaJmY1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoStoreEventChanges Provider" providedInterface__OperationProvidedRole="_IQaJkI1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLr0SnhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLr0SXhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Provider" providedInterface__OperationProvidedRole="_YLrNMHhLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQaJnI1jEe-fcLVwmwfQXw" entityName="user/users Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQaJm41jEe-fcLVwmwfQXw" entityName="user/users Provider" providedInterface__OperationProvidedRole="_IQaJk41jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLr0THhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoStoreEventChanges">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLr0S3hLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoStoreEventChanges Provider" providedInterface__OperationProvidedRole="_YLrNPXhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLr0T3hLEe-BmNowyoTfeg" entityName="com_apssouza_clients_UserClient">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YLr0TXhLEe-BmNowyoTfeg" entityName="user/accounts[PUT] Consumer" requiredInterface__OperationRequiredRole="_YLrNQ3hLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YLr0TnhLEe-BmNowyoTfeg" entityName="user/accounts Consumer" requiredInterface__OperationRequiredRole="_YLrNM3hLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLsbUXhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLsbUHhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository Provider" providedInterface__OperationProvidedRole="_YLr0QXhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLsbU3hLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLsbUnhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Provider" providedInterface__OperationProvidedRole="_YLrNQXhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLsbVXhLEe-BmNowyoTfeg" entityName="com_apssouza_bootstrap_UserLoader">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YLsbVHhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository Consumer" requiredInterface__OperationRequiredRole="_YLr0QXhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLsbWHhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_TodoChangesController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLsbVnhLEe-BmNowyoTfeg" entityName="reminder/todo-changes[GET] Provider" providedInterface__OperationProvidedRole="_YLrNQHhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YLsbV3hLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoStoreEventChanges Consumer" requiredInterface__OperationRequiredRole="_YLrNPXhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKN0r3hLEe-BmNowyoTfeg" describedService__SEFF="_YETZ4XhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKN0rHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKN0rXhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKN0rXhLEe-BmNowyoTfeg" entityName="this.monitor.getRecentEvents()" predecessor_AbstractAction="_YKN0rHhLEe-BmNowyoTfeg" successor_AbstractAction="_YKN0rnhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.this_monitor_getRecentEvents()"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_monitor_getRecentEvents()"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKN0rnhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKN0rXhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLu3m3hLEe-BmNowyoTfeg" entityName="com_apssouza_integrations_socket_TodoSocketController"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLu3nXhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLu3nHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Provider" providedInterface__OperationProvidedRole="_YLqmJHhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YLu3n3hLEe-BmNowyoTfeg" entityName="com_apssouza_services_UserServiceImpl">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YLu3nnhLEe-BmNowyoTfeg" entityName="com_apssouza_services_UserService Provider" providedInterface__OperationProvidedRole="_YLrNOnhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKNNnXhLEe-BmNowyoTfeg" describedService__SEFF="_YEWdMnhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKNNm3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKNNnHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKNNnHhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKNNm3hLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKNNl3hLEe-BmNowyoTfeg" describedService__SEFF="_YEWdNHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKNNlXhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKNNlnhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKNNlnhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKNNlXhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKNNmnhLEe-BmNowyoTfeg" describedService__SEFF="_YEWdMHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKNNmHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKNNmXhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKNNmXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKNNmHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YL0-QHhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_UserController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YL0-PXhLEe-BmNowyoTfeg" entityName="api-gateway/accounts Provider" providedInterface__OperationProvidedRole="_YLqmJXhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YL0-PnhLEe-BmNowyoTfeg" entityName="com_apssouza_services_UserService Consumer" requiredInterface__OperationRequiredRole="_YLrNOnhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YL0-P3hLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoService Consumer" requiredInterface__OperationRequiredRole="_YLrNNHhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKPCynhLEe-BmNowyoTfeg" describedService__SEFF="_YEVPEXhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKPCx3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKPCyHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKPCyHhLEe-BmNowyoTfeg" entityName="this.todoService.getTodoByUserEmaill(auth.getName())" predecessor_AbstractAction="_YKPCx3hLEe-BmNowyoTfeg" successor_AbstractAction="_YKPCyXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.this_todoService_getTodoByUserEmaill(auth_getName())"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_todoService_getTodoByUserEmaill(auth_getName())"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKPCyXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKPCyHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKPCznhLEe-BmNowyoTfeg" describedService__SEFF="_YEV2JHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKPCy3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKPCzHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKPCzHhLEe-BmNowyoTfeg" entityName="this.userService.getUserByEmail(auth.getName())" predecessor_AbstractAction="_YKPCy3hLEe-BmNowyoTfeg" successor_AbstractAction="_YKPCzXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.this_userService_getUserByEmail(auth_getName())"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_userService_getUserByEmail(auth_getName())"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKPCzXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKPCzHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKPCxnhLEe-BmNowyoTfeg" describedService__SEFF="_YEV2IXhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKPCw3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKPCxHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKPCxHhLEe-BmNowyoTfeg" entityName="this.todoService.createTodo(todo)" predecessor_AbstractAction="_YKPCw3hLEe-BmNowyoTfeg" successor_AbstractAction="_YKPCxXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.this_todoService_createTodo(todo)"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_todoService_createTodo(todo)"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKPCxXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKPCxHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKPCwnhLEe-BmNowyoTfeg" describedService__SEFF="_YEVPE3hLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKObx3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKPCwHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKPCwHhLEe-BmNowyoTfeg" entityName="this.userService.getAll()" predecessor_AbstractAction="_YKObx3hLEe-BmNowyoTfeg" successor_AbstractAction="_YKPCwXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.this_userService_getAll()"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_userService_getAll()"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKPCwXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKPCwHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YL86CHhLEe-BmNowyoTfeg" entityName="com_apssouza_services_AccountServiceImpl">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YL86BnhLEe-BmNowyoTfeg" entityName="com_apssouza_services_AccountService Provider" providedInterface__OperationProvidedRole="_YLrNNXhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YL86B3hLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository Consumer" requiredInterface__OperationRequiredRole="_YLr0QXhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKObvHhLEe-BmNowyoTfeg" describedService__SEFF="_YEXrUHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKObunhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKObu3hLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKObu3hLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKObunhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKObv3hLEe-BmNowyoTfeg" describedService__SEFF="_YEY5cXhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKObvXhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKObvnhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKObvnhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKObvXhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKObxXhLEe-BmNowyoTfeg" describedService__SEFF="_YEY5c3hLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKObw3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKObxHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKObxHhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKObw3hLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKObuXhLEe-BmNowyoTfeg" describedService__SEFF="_YEXEQ3hLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKObt3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKObuHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKObuHhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKObt3hLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKObtnhLEe-BmNowyoTfeg" describedService__SEFF="_YEXrUnhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKObtHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKObtXhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKObtXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKObtHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKObwnhLEe-BmNowyoTfeg" describedService__SEFF="_YEZggXhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKObwHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKObwXhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKObwXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKObwHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMHSFnhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_TodoController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMHSFHhLEe-BmNowyoTfeg" entityName="api-gateway/todos[GET] Provider" providedInterface__OperationProvidedRole="_YLrNQnhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMHSFXhLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoService Consumer" requiredInterface__OperationRequiredRole="_YLrNNHhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKN0qnhLEe-BmNowyoTfeg" describedService__SEFF="_YESy0nhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKN0p3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKN0qHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKN0qHhLEe-BmNowyoTfeg" entityName="this.todoService.getAll()" predecessor_AbstractAction="_YKN0p3hLEe-BmNowyoTfeg" successor_AbstractAction="_YKN0qXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.this_todoService_getAll()"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_todoService_getAll()"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKN0qXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKN0qHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMJHRXhLEe-BmNowyoTfeg" entityName="TodoController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMJHRHhLEe-BmNowyoTfeg" entityName="reminder/todos Provider" providedInterface__OperationProvidedRole="_YLrNN3hLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YMK8dXhLEe-BmNowyoTfeg" describedService__SEFF="_YEUoAHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YMK8c3hLEe-BmNowyoTfeg" successor_AbstractAction="_YMK8dHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YMK8dHhLEe-BmNowyoTfeg" predecessor_AbstractAction="_YMK8c3hLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YMMxrHhLEe-BmNowyoTfeg" describedService__SEFF="_YEUA8HhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YMMxqnhLEe-BmNowyoTfeg" successor_AbstractAction="_YMMxq3hLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YMMxq3hLEe-BmNowyoTfeg" predecessor_AbstractAction="_YMMxqnhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YMOm3HhLEe-BmNowyoTfeg" describedService__SEFF="_YEUA8nhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YMOm2nhLEe-BmNowyoTfeg" successor_AbstractAction="_YMOm23hLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YMOm23hLEe-BmNowyoTfeg" predecessor_AbstractAction="_YMOm2nhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YMQcDHhLEe-BmNowyoTfeg" describedService__SEFF="_YEUoAXhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YMQcCnhLEe-BmNowyoTfeg" successor_AbstractAction="_YMQcC3hLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YMQcC3hLEe-BmNowyoTfeg" predecessor_AbstractAction="_YMQcCnhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YMSRPHhLEe-BmNowyoTfeg" describedService__SEFF="_YEUA8XhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YMSROnhLEe-BmNowyoTfeg" successor_AbstractAction="_YMSRO3hLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YMSRO3hLEe-BmNowyoTfeg" predecessor_AbstractAction="_YMSROnhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YMUGbHhLEe-BmNowyoTfeg" describedService__SEFF="_YEUA83hLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YMUGanhLEe-BmNowyoTfeg" successor_AbstractAction="_YMUGa3hLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YMUGa3hLEe-BmNowyoTfeg" predecessor_AbstractAction="_YMUGanhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMUGcHhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_EventPublisher">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMUGbXhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_EventPublisher Provider" providedInterface__OperationProvidedRole="_YLr0QnhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMUGbnhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_ApplicationEventPublisher Consumer" requiredInterface__OperationRequiredRole="_YLr0RnhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMUGb3hLEe-BmNowyoTfeg" entityName="com_apssouza_infra_Source Consumer" requiredInterface__OperationRequiredRole="_YLr0QHhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMUtcXhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_AccountController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMUGcXhLEe-BmNowyoTfeg" entityName="user/accounts[PUT] Provider" providedInterface__OperationProvidedRole="_YLrNQ3hLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMUGcnhLEe-BmNowyoTfeg" entityName="user/accounts[GET]$2 Provider" providedInterface__OperationProvidedRole="_YLrNPHhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMUGc3hLEe-BmNowyoTfeg" entityName="user/accounts[GET] Provider" providedInterface__OperationProvidedRole="_YLrNPnhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMUGdHhLEe-BmNowyoTfeg" entityName="user/accounts/search[GET] Provider" providedInterface__OperationProvidedRole="_YLrNMXhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMUGdXhLEe-BmNowyoTfeg" entityName="user/accounts[POST] Provider" providedInterface__OperationProvidedRole="_YLrNP3hLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMUtcHhLEe-BmNowyoTfeg" entityName="com_apssouza_services_AccountService Consumer" requiredInterface__OperationRequiredRole="_YLrNNXhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKKxUnhLEe-BmNowyoTfeg" describedService__SEFF="_YEfnIHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKKKRHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKKxUHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKKxUHhLEe-BmNowyoTfeg" entityName="ResponseEntity.ok(userService.update(id,user))" predecessor_AbstractAction="_YKKKRHhLEe-BmNowyoTfeg" successor_AbstractAction="_YKKxUXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_ok(userService_update(id,user))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_ok(userService_update(id,user))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKKxUXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKKxUHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKJjMnhLEe-BmNowyoTfeg" describedService__SEFF="_YEeZA3hLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YFTfcXhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKJjMHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKJjMHhLEe-BmNowyoTfeg" entityName="findById.map(todo -> {&#xA;  return ResponseEntity.ok(todo);&#xA;}&#xA;).orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))" predecessor_AbstractAction="_YFTfcXhLEe-BmNowyoTfeg" successor_AbstractAction="_YKJjMXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.findById_map(todo -> {&#xA;  return ResponseEntity_ok(todo);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="findById_map(todo -> {&#xA;  return ResponseEntity_ok(todo);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKJjMXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKJjMHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKKKQnhLEe-BmNowyoTfeg" describedService__SEFF="_YEOhYHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKJjNHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKKKQHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKKKQHhLEe-BmNowyoTfeg" entityName="userService.all()" predecessor_AbstractAction="_YKJjNHhLEe-BmNowyoTfeg" successor_AbstractAction="_YKKKQXhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.userService_all()"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="userService_all()"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKKKQXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKKKQHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKKxV3hLEe-BmNowyoTfeg" describedService__SEFF="_YESLwXhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKKxVHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKKxVXhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKKxVXhLEe-BmNowyoTfeg" entityName="account.map(a -> {&#xA;  return ResponseEntity.ok(a);&#xA;}&#xA;).orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))" predecessor_AbstractAction="_YKKxVHhLEe-BmNowyoTfeg" successor_AbstractAction="_YKKxVnhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.account_map(a -> {&#xA;  return ResponseEntity_ok(a);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="account_map(a -> {&#xA;  return ResponseEntity_ok(a);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKKxVnhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKKxVXhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKNNk3hLEe-BmNowyoTfeg" describedService__SEFF="_YEfAEHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKKxWXhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKNNkHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:BranchAction" id="_YKNNkHhLEe-BmNowyoTfeg" entityName="If Branch" predecessor_AbstractAction="_YKKxWXhLEe-BmNowyoTfeg" successor_AbstractAction="_YKNNkXhLEe-BmNowyoTfeg">
-        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_YKMmgHhLEe-BmNowyoTfeg" entityName="Guarded Branch Transition">
-          <branchBehaviour_BranchTransition id="_YKMmgnhLEe-BmNowyoTfeg">
-            <steps_Behaviour xsi:type="seff:StartAction" id="_YKLYYHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKLYYXhLEe-BmNowyoTfeg"/>
-            <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKLYYXhLEe-BmNowyoTfeg" entityName="ResponseEntity.created(location).build()" predecessor_AbstractAction="_YKLYYHhLEe-BmNowyoTfeg" successor_AbstractAction="_YKL_cHhLEe-BmNowyoTfeg">
-              <localVariableUsages_SetVariableAction>
-                <variableCharacterisation_VariableUsage type="VALUE">
-                  <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_created(location)_build()"/>
-                </variableCharacterisation_VariableUsage>
-                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_created(location)_build()"/>
-                </namedReference__VariableUsage>
-              </localVariableUsages_SetVariableAction>
-            </steps_Behaviour>
-            <steps_Behaviour xsi:type="seff:StopAction" id="_YKL_cHhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKLYYXhLEe-BmNowyoTfeg"/>
-          </branchBehaviour_BranchTransition>
-          <branchCondition_GuardedBranchTransition specification="@position: Condition: if(id != null)"/>
-        </branches_Branch>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKNNkXhLEe-BmNowyoTfeg" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_YKNNkHhLEe-BmNowyoTfeg" successor_AbstractAction="_YKNNknhLEe-BmNowyoTfeg">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_noContent()_build()"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_noContent()_build()"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKNNknhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKNNkXhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMdQUXhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_Source Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMdQUHhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_Source Provider" providedInterface__OperationProvidedRole="_YLr0QHhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMdQVXhLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoServiceImpl">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMdQUnhLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoService Provider" providedInterface__OperationProvidedRole="_YLrNNHhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMdQU3hLEe-BmNowyoTfeg" entityName="com_apssouza_infra_EventPublisher Consumer" requiredInterface__OperationRequiredRole="_YLr0QnhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMdQVHhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository Consumer" requiredInterface__OperationRequiredRole="_YLr0Q3hLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKNNoXhLEe-BmNowyoTfeg" describedService__SEFF="_YEaHknhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKNNn3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKNNoHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKNNoHhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKNNn3hLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKN0onhLEe-BmNowyoTfeg" describedService__SEFF="_YEaHkHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKN0oHhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKN0oXhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKN0oXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKN0oHhLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKN0pXhLEe-BmNowyoTfeg" describedService__SEFF="_YEaHlHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKN0o3hLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKN0pHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKN0pHhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKN0o3hLEe-BmNowyoTfeg"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMiI3nhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMiI3XhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository Provider" providedInterface__OperationProvidedRole="_YLr0Q3hLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMiI4HhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMiI33hLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Provider" providedInterface__OperationProvidedRole="_YLr0RHhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMiI4nhLEe-BmNowyoTfeg" entityName="com_apssouza_bootstrap_TodoLoader">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMiI4XhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository Consumer" requiredInterface__OperationRequiredRole="_YLr0Q3hLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMiv43hLEe-BmNowyoTfeg" entityName="UserClient">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMiv4HhLEe-BmNowyoTfeg" entityName="user/users Consumer" requiredInterface__OperationRequiredRole="_YLrNOHhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMiv4XhLEe-BmNowyoTfeg" entityName="user/accounts[PUT] Consumer" requiredInterface__OperationRequiredRole="_YLrNQ3hLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMiv4nhLEe-BmNowyoTfeg" entityName="user/accounts Consumer" requiredInterface__OperationRequiredRole="_YLrNM3hLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMiv5nhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_controllers_NotifyController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMiv5HhLEe-BmNowyoTfeg" entityName="mailer/send/email[GET] Provider" providedInterface__OperationProvidedRole="_YLrNNnhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMiv5XhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Consumer" requiredInterface__OperationRequiredRole="_YLr0RHhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKPp03hLEe-BmNowyoTfeg" describedService__SEFF="_YEQ9onhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKPp0HhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKPp0XhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKPp0XhLEe-BmNowyoTfeg" entityName="CompletableFuture.supplyAsync(supplier,Executors.newCachedThreadPool())" predecessor_AbstractAction="_YKPp0HhLEe-BmNowyoTfeg" successor_AbstractAction="_YKPp0nhLEe-BmNowyoTfeg">
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQaJn41jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_controllers_NotifyController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQaJnY1jEe-fcLVwmwfQXw" entityName="mailer/send/email[GET] Provider" providedInterface__OperationProvidedRole="_IQZigI1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQaJno1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Consumer" requiredInterface__OperationRequiredRole="_IQZijo1jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOwjwo1jEe-fcLVwmwfQXw" describedService__SEFF="_IImRYY1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IJd0EY1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOwjwI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOwjwI1jEe-fcLVwmwfQXw" entityName="CompletableFuture.supplyAsync(supplier,Executors.newCachedThreadPool())" predecessor_AbstractAction="_IJd0EY1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOwjwY1jEe-fcLVwmwfQXw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.CompletableFuture_supplyAsync(supplier,Executors_newCachedThreadPool())"/>
@@ -344,44 +21,207 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKPp0nhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKPp0XhLEe-BmNowyoTfeg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOwjwY1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOwjwI1jEe-fcLVwmwfQXw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMklFnhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_EventSourcingServiceImpl">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMklE3hLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Consumer" requiredInterface__OperationRequiredRole="_YLrNMnhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMklFHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Consumer" requiredInterface__OperationRequiredRole="_YLqmJHhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMklFXhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Consumer" requiredInterface__OperationRequiredRole="_YLrNQXhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMklGHhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_repository_EmailRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMklF3hLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_repository_EmailRepository Provider" providedInterface__OperationProvidedRole="_YLrNOXhLEe-BmNowyoTfeg"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMklG3hLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_TodoServiceStatisticsController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMklGXhLEe-BmNowyoTfeg" entityName="reminder/todo-statistics[GET] Provider" providedInterface__OperationProvidedRole="_YLrNO3hLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMklGnhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Consumer" requiredInterface__OperationRequiredRole="_YLrNMHhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKObsnhLEe-BmNowyoTfeg" describedService__SEFF="_YEeZAHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKN0sXhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKObsHhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKObsHhLEe-BmNowyoTfeg" entityName="JsonNodeFactory.instance.objectNode().put(&quot;average-duration&quot;,statistics.getAverage()).put(&quot;invocation-count&quot;,statistics.getCount()).put(&quot;min-duration&quot;,statistics.getMin()).put(&quot;max-duration&quot;,statistics.getMax())" predecessor_AbstractAction="_YKN0sXhLEe-BmNowyoTfeg" successor_AbstractAction="_YKObsXhLEe-BmNowyoTfeg">
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQdM5o1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_UserController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQdM441jEe-fcLVwmwfQXw" entityName="api-gateway/accounts Provider" providedInterface__OperationProvidedRole="_IQaJlo1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQdM5I1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_UserService Consumer" requiredInterface__OperationRequiredRole="_IQZihI1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQdM5Y1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoService Consumer" requiredInterface__OperationRequiredRole="_IQZih41jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOxK141jEe-fcLVwmwfQXw" describedService__SEFF="_IIpUs41jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOxK1I1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOxK1Y1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOxK1Y1jEe-fcLVwmwfQXw" entityName="this.todoService.createTodo(todo)" predecessor_AbstractAction="_IOxK1I1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOxK1o1jEe-fcLVwmwfQXw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.JsonNodeFactory_instance_objectNode()_put(&quot;average-duration&quot;,statistics_getAverage())_put(&quot;invocation-count&quot;,statistics_getCount())_put(&quot;min-duration&quot;,statistics_getMin())_put(&quot;max-duration&quot;,statistics_getMax())"/>
+            <specification_VariableCharacterisation specification="PrimitiveType.this_todoService_createTodo(todo)"/>
           </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="JsonNodeFactory_instance_objectNode()_put(&quot;average-duration&quot;,statistics_getAverage())_put(&quot;invocation-count&quot;,statistics_getCount())_put(&quot;min-duration&quot;,statistics_getMin())_put(&quot;max-duration&quot;,statistics_getMax())"/>
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_todoService_createTodo(todo)"/>
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKObsXhLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKObsHhLEe-BmNowyoTfeg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOxK1o1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOxK1Y1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOxK041jEe-fcLVwmwfQXw" describedService__SEFF="_IIp7xI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOxK0I1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOxK0Y1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOxK0Y1jEe-fcLVwmwfQXw" entityName="this.userService.getUserByEmail(auth.getName())" predecessor_AbstractAction="_IOxK0I1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOxK0o1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.this_userService_getUserByEmail(auth_getName())"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_userService_getUserByEmail(auth_getName())"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOxK0o1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOxK0Y1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOwjx41jEe-fcLVwmwfQXw" describedService__SEFF="_IIqi0Y1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOwjxI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOwjxY1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOwjxY1jEe-fcLVwmwfQXw" entityName="this.userService.getAll()" predecessor_AbstractAction="_IOwjxI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOwjxo1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.this_userService_getAll()"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_userService_getAll()"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOwjxo1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOwjxY1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOxx4o1jEe-fcLVwmwfQXw" describedService__SEFF="_IIp7wo1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOxK2I1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOxx4I1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOxx4I1jEe-fcLVwmwfQXw" entityName="this.todoService.getTodoByUserEmaill(auth.getName())" predecessor_AbstractAction="_IOxK2I1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOxx4Y1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.this_todoService_getTodoByUserEmaill(auth_getName())"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_todoService_getTodoByUserEmaill(auth_getName())"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOxx4Y1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOxx4I1jEe-fcLVwmwfQXw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMmaTnhLEe-BmNowyoTfeg" entityName="user/users Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMmaTXhLEe-BmNowyoTfeg" entityName="user/users Provider" providedInterface__OperationProvidedRole="_YLrNOHhLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQlIso1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_AccountServiceImpl">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQlIsI1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_AccountService Provider" providedInterface__OperationProvidedRole="_IQY7eo1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQlIsY1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository Consumer" requiredInterface__OperationRequiredRole="_IQZig41jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyZBY1jEe-fcLVwmwfQXw" describedService__SEFF="_IIjOEY1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyZA41jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyZBI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyZBI1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyZA41jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyZAo1jEe-fcLVwmwfQXw" describedService__SEFF="_IIkcMI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyZAI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyZAY1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyZAY1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyZAI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyZCI1jEe-fcLVwmwfQXw" describedService__SEFF="_IIinAY1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyZBo1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyZB41jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyZB41jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyZBo1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyY_41jEe-fcLVwmwfQXw" describedService__SEFF="_IIjOE41jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyY_Y1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyY_o1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyY_o1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyY_Y1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyZC41jEe-fcLVwmwfQXw" describedService__SEFF="_IIinBI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyZCY1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyZCo1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyZCo1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyZCY1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOzAAY1jEe-fcLVwmwfQXw" describedService__SEFF="_IIj1Io1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyZDI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOzAAI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOzAAI1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyZDI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMmaUXhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_controllers_EmailController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMmaT3hLEe-BmNowyoTfeg" entityName="mailer/emails[GET] Provider" providedInterface__OperationProvidedRole="_YLr0RXhLEe-BmNowyoTfeg"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_YMmaUHhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_repository_EmailRepository Consumer" requiredInterface__OperationRequiredRole="_YLrNOXhLEe-BmNowyoTfeg"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_YKPp2HhLEe-BmNowyoTfeg" describedService__SEFF="_YEbVsHhLEe-BmNowyoTfeg">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_YKPp1XhLEe-BmNowyoTfeg" entityName="Start Action" successor_AbstractAction="_YKPp1nhLEe-BmNowyoTfeg"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_YKPp1nhLEe-BmNowyoTfeg" entityName="repository.findAll()" predecessor_AbstractAction="_YKPp1XhLEe-BmNowyoTfeg" successor_AbstractAction="_YKPp13hLEe-BmNowyoTfeg">
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQvgyY1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_AccountController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQvgw41jEe-fcLVwmwfQXw" entityName="user/accounts[POST] Provider" providedInterface__OperationProvidedRole="_IQaJlI1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQvgxI1jEe-fcLVwmwfQXw" entityName="user/accounts[GET] Provider" providedInterface__OperationProvidedRole="_IQZijY1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQvgxY1jEe-fcLVwmwfQXw" entityName="user/accounts/search[GET] Provider" providedInterface__OperationProvidedRole="_IQZii41jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQvgxo1jEe-fcLVwmwfQXw" entityName="user/accounts[PUT] Provider" providedInterface__OperationProvidedRole="_IQaJkY1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQvgx41jEe-fcLVwmwfQXw" entityName="user/accounts[GET]$2 Provider" providedInterface__OperationProvidedRole="_IQZiio1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQvgyI1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_AccountService Consumer" requiredInterface__OperationRequiredRole="_IQY7eo1jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IO2DUo1jEe-fcLVwmwfQXw" describedService__SEFF="_IIdHcI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOzAA41jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IO1cQI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:BranchAction" id="_IO1cQI1jEe-fcLVwmwfQXw" entityName="If Branch" predecessor_AbstractAction="_IOzAA41jEe-fcLVwmwfQXw" successor_AbstractAction="_IO2DUI1jEe-fcLVwmwfQXw">
+        <branches_Branch xsi:type="seff:GuardedBranchTransition" id="_IO0OII1jEe-fcLVwmwfQXw" entityName="Guarded Branch Transition">
+          <branchBehaviour_BranchTransition id="_IO01MY1jEe-fcLVwmwfQXw">
+            <steps_Behaviour xsi:type="seff:StartAction" id="_IOznEI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOznEY1jEe-fcLVwmwfQXw"/>
+            <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOznEY1jEe-fcLVwmwfQXw" entityName="ResponseEntity.created(location).build()" predecessor_AbstractAction="_IOznEI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOznEo1jEe-fcLVwmwfQXw">
+              <localVariableUsages_SetVariableAction>
+                <variableCharacterisation_VariableUsage type="VALUE">
+                  <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_created(location)_build()"/>
+                </variableCharacterisation_VariableUsage>
+                <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+                  <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_created(location)_build()"/>
+                </namedReference__VariableUsage>
+              </localVariableUsages_SetVariableAction>
+            </steps_Behaviour>
+            <steps_Behaviour xsi:type="seff:StopAction" id="_IOznEo1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOznEY1jEe-fcLVwmwfQXw"/>
+          </branchBehaviour_BranchTransition>
+          <branchCondition_GuardedBranchTransition specification="@position: Condition: if(id != null)"/>
+        </branches_Branch>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IO2DUI1jEe-fcLVwmwfQXw" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_IO1cQI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IO2DUY1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_noContent()_build()"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_noContent()_build()"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IO2DUY1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IO2DUI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IO3Rco1jEe-fcLVwmwfQXw" describedService__SEFF="_IInfgI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IO2qZI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IO3RcI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IO3RcI1jEe-fcLVwmwfQXw" entityName="findById.map(todo -> {&#xA;  return ResponseEntity.ok(todo);&#xA;}&#xA;).orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))" predecessor_AbstractAction="_IO2qZI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IO3RcY1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.findById_map(todo -> {&#xA;  return ResponseEntity_ok(todo);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="findById_map(todo -> {&#xA;  return ResponseEntity_ok(todo);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IO3RcY1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IO3RcI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IO2qYo1jEe-fcLVwmwfQXw" describedService__SEFF="_IIm4cI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IO2DWY1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IO2qYI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IO2qYI1jEe-fcLVwmwfQXw" entityName="account.map(a -> {&#xA;  return ResponseEntity.ok(a);&#xA;}&#xA;).orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))" predecessor_AbstractAction="_IO2DWY1jEe-fcLVwmwfQXw" successor_AbstractAction="_IO2qYY1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.account_map(a -> {&#xA;  return ResponseEntity_ok(a);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="account_map(a -> {&#xA;  return ResponseEntity_ok(a);&#xA;}&#xA;)_orElseThrow(() -> new DataNotFoundException(&quot;user not found&quot;))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IO2qYY1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IO2qYI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IO2DV41jEe-fcLVwmwfQXw" describedService__SEFF="_IIsYAI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IO2DVI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IO2DVY1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IO2DVY1jEe-fcLVwmwfQXw" entityName="ResponseEntity.ok(userService.update(id,user))" predecessor_AbstractAction="_IO2DVI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IO2DVo1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_ok(userService_update(id,user))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_ok(userService_update(id,user))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IO2DVo1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IO2DVY1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IO3Rd41jEe-fcLVwmwfQXw" describedService__SEFF="_IIrJ441jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IO3RdI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IO3RdY1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IO3RdY1jEe-fcLVwmwfQXw" entityName="userService.all()" predecessor_AbstractAction="_IO3RdI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IO3Rdo1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.userService_all()"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="userService_all()"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IO3Rdo1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IO3RdY1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ4Dro1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ4DrY1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler Provider" providedInterface__OperationProvidedRole="_IQZijo1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ4DsI1jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_repository_EmailRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ4Dr41jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_repository_EmailRepository Provider" providedInterface__OperationProvidedRole="_IQaJl41jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ4qso1jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_controllers_EmailController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ4qsI1jEe-fcLVwmwfQXw" entityName="mailer/emails[GET] Provider" providedInterface__OperationProvidedRole="_IQZiho1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQ4qsY1jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_repository_EmailRepository Consumer" requiredInterface__OperationRequiredRole="_IQaJl41jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyY941jEe-fcLVwmwfQXw" describedService__SEFF="_IIrJ4I1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyY9I1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyY9Y1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOyY9Y1jEe-fcLVwmwfQXw" entityName="repository.findAll()" predecessor_AbstractAction="_IOyY9I1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOyY9o1jEe-fcLVwmwfQXw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.repository_findAll()"/>
@@ -391,223 +231,371 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_YKPp13hLEe-BmNowyoTfeg" entityName="Stop Action" predecessor_AbstractAction="_YKPp1nhLEe-BmNowyoTfeg"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyY9o1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyY9Y1jEe-fcLVwmwfQXw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_YMoPdHhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_ApplicationEventPublisher Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMoPc3hLEe-BmNowyoTfeg" entityName="com_apssouza_infra_ApplicationEventPublisher Provider" providedInterface__OperationProvidedRole="_YLr0RnhLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f4Y1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_ApplicationEventPublisher Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ6f4I1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_ApplicationEventPublisher Provider" providedInterface__OperationProvidedRole="_IQZikY1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqEoHhLEe-BmNowyoTfeg" entityName="com_apssouza_integrations_socket_TodoSocketController">
-    <assemblyContexts__ComposedStructure id="_YMsg7XhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLu3m3hLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f4o1jEe-fcLVwmwfQXw" entityName="com_apssouza_integrations_socket_TodoSocketController"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f5o1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_EventSourcingServiceImpl">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQ6f441jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Consumer" requiredInterface__OperationRequiredRole="_IQZikI1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQ6f5I1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Consumer" requiredInterface__OperationRequiredRole="_IQaJko1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQ6f5Y1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Consumer" requiredInterface__OperationRequiredRole="_IQZijI1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqEpHhLEe-BmNowyoTfeg" entityName="com_apssouza 3">
-    <assemblyContexts__ComposedStructure id="_YMrSwHhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLu3n3hLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMrSxnhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMiI3nhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMrSyHhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMJHRXhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMr53HhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMUGcHhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMsg43hLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMHSFnhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMsg53hLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMdQVXhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMsg63hLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YL0-QHhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMsg73hLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMiI4nhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMuWE3hLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg43hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMsg53hLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YMdQUnhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMHSFXhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9IHhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg63hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMsg53hLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YMdQUnhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YL0-P3hLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9InhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg73hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMrSxnhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YMiI3XhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMiI4XhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9JXhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg63hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMrSwHhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YLu3nnhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YL0-PnhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9KXhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg53hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMr53HhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YMUGbXhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMdQU3hLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMvkMHhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg53hLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMrSxnhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YMiI3XhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMdQVHhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLQnhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YL0-PXhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqEonhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMsg63hLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLRnhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMHSFHhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqEoXhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMsg43hLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLSnhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMJHRHhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqEo3hLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMrSyHhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqEoXhLEe-BmNowyoTfeg" entityName="api-gateway/todos[GET] Provider" providedInterface__OperationProvidedRole="_YLrNQnhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqEonhLEe-BmNowyoTfeg" entityName="api-gateway/accounts Provider" providedInterface__OperationProvidedRole="_YLqmJXhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqEo3hLEe-BmNowyoTfeg" entityName="reminder/todos Provider" providedInterface__OperationProvidedRole="_YLrNN3hLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f6I1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ6f541jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Provider" providedInterface__OperationProvidedRole="_IQaJlY1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqEpnhLEe-BmNowyoTfeg" entityName="com_apssouza 5">
-    <assemblyContexts__ComposedStructure id="_YMr50HhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMiv5nhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMr54HhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMiI4HhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMuWEXhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMr50HhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMr54HhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YMiI33hLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMiv5XhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLQHhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMiv5HhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqEpXhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMr50HhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqEpXhLEe-BmNowyoTfeg" entityName="mailer/send/email[GET] Provider" providedInterface__OperationProvidedRole="_YLrNNnhLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f6o1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ6f6Y1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository Provider" providedInterface__OperationProvidedRole="_IQZig41jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqrtXhLEe-BmNowyoTfeg" entityName="com_apssouza 2">
-    <assemblyContexts__ComposedStructure id="_YMrSynhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YL86CHhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMr54nhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMUtcXhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMsg5XhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLsbUXhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMsg6XhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLsbVXhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMuWEnhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMrSynhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMsg5XhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YLsbUHhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YL86B3hLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9JHhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg6XhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMsg5XhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YLsbUHhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YLsbVHhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9JnhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMr54nhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMrSynhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YL86BnhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMUtcHhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLQXhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMUGdXhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqrsHhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMr54nhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLRXhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMUGcnhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqrsnhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMr54nhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLR3hLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMUGdHhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqrs3hLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMr54nhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLSHhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMUGc3hLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqrsXhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMr54nhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqrsHhLEe-BmNowyoTfeg" entityName="user/accounts[POST] Provider" providedInterface__OperationProvidedRole="_YLrNP3hLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqrsXhLEe-BmNowyoTfeg" entityName="user/accounts[GET] Provider" providedInterface__OperationProvidedRole="_YLrNPnhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqrsnhLEe-BmNowyoTfeg" entityName="user/accounts[GET]$2 Provider" providedInterface__OperationProvidedRole="_YLrNPHhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqrs3hLEe-BmNowyoTfeg" entityName="user/accounts/search[GET] Provider" providedInterface__OperationProvidedRole="_YLrNMXhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqrtHhLEe-BmNowyoTfeg" entityName="user/accounts Provider" providedInterface__OperationProvidedRole="_YLrNM3hLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f7o1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_EventPublisher">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ6f641jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_EventPublisher Provider" providedInterface__OperationProvidedRole="_IQZij41jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQ6f7I1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_ApplicationEventPublisher Consumer" requiredInterface__OperationRequiredRole="_IQZikY1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQ6f7Y1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_Source Consumer" requiredInterface__OperationRequiredRole="_IQZiiY1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqrt3hLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice">
-    <assemblyContexts__ComposedStructure id="_YMr50nhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMklGHhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMr53nhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMmaUXhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9IXhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMr53nhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMr50nhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YMklF3hLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMmaUHhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLRHhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMmaT3hLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqrtnhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMr53nhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqrtnhLEe-BmNowyoTfeg" entityName="mailer/emails[GET] Provider" providedInterface__OperationProvidedRole="_YLr0RXhLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f8I1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ6f741jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer Provider" providedInterface__OperationProvidedRole="_IQaJko1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqruXhLEe-BmNowyoTfeg" entityName="com_apssouza 4">
-    <assemblyContexts__ComposedStructure id="_YMr51HhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLr0THhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMsg4XhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLsbWHhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9I3hLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMsg4XhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMr51HhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YLr0S3hLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YLsbV3hLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLQ3hLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YLsbVnhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqruHhLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMsg4XhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqruHhLEe-BmNowyoTfeg" entityName="reminder/todo-changes[GET] Provider" providedInterface__OperationProvidedRole="_YLrNQHhLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f8o1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ6f8Y1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository Provider" providedInterface__OperationProvidedRole="_IQaJmI1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqrunhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing">
-    <assemblyContexts__ComposedStructure id="_YMrSwnhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLu3nXhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMr51nhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMklFnhLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMr52nhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLr0SHhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMuWEHhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMr51nhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMrSwnhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YLu3nHhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMklFHhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9J3hLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMr51nhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMr52nhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YLr0R3hLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMklE3hLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ6f9Y1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_TodoChangesController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ6f841jEe-fcLVwmwfQXw" entityName="reminder/todo-changes[GET] Provider" providedInterface__OperationProvidedRole="_IQZihY1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IQ6f9I1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoStoreEventChanges Consumer" requiredInterface__OperationRequiredRole="_IQaJkI1jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IO34go1jEe-fcLVwmwfQXw" describedService__SEFF="_IIlqUY1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IO3ReY1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IO34gI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IO34gI1jEe-fcLVwmwfQXw" entityName="this.monitor.getRecentEvents()" predecessor_AbstractAction="_IO3ReY1jEe-fcLVwmwfQXw" successor_AbstractAction="_IO34gY1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.this_monitor_getRecentEvents()"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_monitor_getRecentEvents()"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IO34gY1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IO34gI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_YMqrvHhLEe-BmNowyoTfeg" entityName="com_apssouza">
-    <assemblyContexts__ComposedStructure id="_YMrSxHhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YMklG3hLEe-BmNowyoTfeg"/>
-    <assemblyContexts__ComposedStructure id="_YMr52HhLEe-BmNowyoTfeg" encapsulatedComponent__AssemblyContext="_YLr0SnhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YMu9KHhLEe-BmNowyoTfeg" requiringAssemblyContext_AssemblyConnector="_YMrSxHhLEe-BmNowyoTfeg" providingAssemblyContext_AssemblyConnector="_YMr52HhLEe-BmNowyoTfeg" providedRole_AssemblyConnector="_YLr0SXhLEe-BmNowyoTfeg" requiredRole_AssemblyConnector="_YMklGnhLEe-BmNowyoTfeg"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_YMwLSXhLEe-BmNowyoTfeg" innerProvidedRole_ProvidedDelegationConnector="_YMklGXhLEe-BmNowyoTfeg" outerProvidedRole_ProvidedDelegationConnector="_YMqru3hLEe-BmNowyoTfeg" assemblyContext_ProvidedDelegationConnector="_YMrSxHhLEe-BmNowyoTfeg"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_YMqru3hLEe-BmNowyoTfeg" entityName="reminder/todo-statistics[GET] Provider" providedInterface__OperationProvidedRole="_YLrNO3hLEe-BmNowyoTfeg"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ8VHo1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ8VHY1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository Provider" providedInterface__OperationProvidedRole="_IQZikI1jEe-fcLVwmwfQXw"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLqmJHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLqmJXhLEe-BmNowyoTfeg" entityName="api-gateway/accounts">
-    <signatures__OperationInterface id="_YEVPEXhLEe-BmNowyoTfeg" entityName="api-gateway/accounts/me/todos[GET]" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEVPEHhLEe-BmNowyoTfeg" parameterName="auth" modifier__Parameter="in"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ8VII1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ8VH41jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher Provider" providedInterface__OperationProvidedRole="_IQZijI1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ88II1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_UserServiceImpl">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ8VIY1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_UserService Provider" providedInterface__OperationProvidedRole="_IQZihI1jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyY-41jEe-fcLVwmwfQXw" describedService__SEFF="_IIotoo1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOyY-Y1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyY-o1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyY-o1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyY-Y1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IQ-KTo1jEe-fcLVwmwfQXw" entityName="TodoController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IQ-KTY1jEe-fcLVwmwfQXw" entityName="reminder/todos Provider" providedInterface__OperationProvidedRole="_IQZigY1jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IQ__fI1jEe-fcLVwmwfQXw" describedService__SEFF="_IIoGkI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IQ__eo1jEe-fcLVwmwfQXw" successor_AbstractAction="_IQ__e41jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IQ__e41jEe-fcLVwmwfQXw" predecessor_AbstractAction="_IQ__eo1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IRB0oo1jEe-fcLVwmwfQXw" describedService__SEFF="_IIoGko1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IRB0oI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IRB0oY1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IRB0oY1jEe-fcLVwmwfQXw" predecessor_AbstractAction="_IRB0oI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IRDCzI1jEe-fcLVwmwfQXw" describedService__SEFF="_IIoGkY1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IRDCyo1jEe-fcLVwmwfQXw" successor_AbstractAction="_IRDCy41jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IRDCy41jEe-fcLVwmwfQXw" predecessor_AbstractAction="_IRDCyo1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IRE38o1jEe-fcLVwmwfQXw" describedService__SEFF="_IInfhI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IRE38I1jEe-fcLVwmwfQXw" successor_AbstractAction="_IRE38Y1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IRE38Y1jEe-fcLVwmwfQXw" predecessor_AbstractAction="_IRE38I1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IRGGHI1jEe-fcLVwmwfQXw" describedService__SEFF="_IIoGk41jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IRGGGo1jEe-fcLVwmwfQXw" successor_AbstractAction="_IRGGG41jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IRGGG41jEe-fcLVwmwfQXw" predecessor_AbstractAction="_IRGGGo1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IRH7Q41jEe-fcLVwmwfQXw" describedService__SEFF="_IIoGlI1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IRH7QY1jEe-fcLVwmwfQXw" successor_AbstractAction="_IRH7Qo1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IRH7Qo1jEe-fcLVwmwfQXw" predecessor_AbstractAction="_IRH7QY1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRH7R41jEe-fcLVwmwfQXw" entityName="UserClient">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRH7RI1jEe-fcLVwmwfQXw" entityName="user/accounts Consumer" requiredInterface__OperationRequiredRole="_IQZigo1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRH7RY1jEe-fcLVwmwfQXw" entityName="user/accounts[PUT] Consumer" requiredInterface__OperationRequiredRole="_IQaJkY1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRH7Ro1jEe-fcLVwmwfQXw" entityName="user/users Consumer" requiredInterface__OperationRequiredRole="_IQaJk41jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRH7So1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_TodoServiceStatisticsController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRH7SI1jEe-fcLVwmwfQXw" entityName="reminder/todo-statistics[GET] Provider" providedInterface__OperationProvidedRole="_IQZiko1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRH7SY1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore Consumer" requiredInterface__OperationRequiredRole="_IQaJlY1jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOyY8o1jEe-fcLVwmwfQXw" describedService__SEFF="_IIlDQY1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOxx7o1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOyY8I1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IOyY8I1jEe-fcLVwmwfQXw" entityName="JsonNodeFactory.instance.objectNode().put(&quot;average-duration&quot;,statistics.getAverage()).put(&quot;invocation-count&quot;,statistics.getCount()).put(&quot;min-duration&quot;,statistics.getMin()).put(&quot;max-duration&quot;,statistics.getMax())" predecessor_AbstractAction="_IOxx7o1jEe-fcLVwmwfQXw" successor_AbstractAction="_IOyY8Y1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.JsonNodeFactory_instance_objectNode()_put(&quot;average-duration&quot;,statistics_getAverage())_put(&quot;invocation-count&quot;,statistics_getCount())_put(&quot;min-duration&quot;,statistics_getMin())_put(&quot;max-duration&quot;,statistics_getMax())"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="JsonNodeFactory_instance_objectNode()_put(&quot;average-duration&quot;,statistics_getAverage())_put(&quot;invocation-count&quot;,statistics_getCount())_put(&quot;min-duration&quot;,statistics_getMin())_put(&quot;max-duration&quot;,statistics_getMax())"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOyY8Y1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOyY8I1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRJwcI1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_TodoController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRJJbY1jEe-fcLVwmwfQXw" entityName="api-gateway/todos[GET] Provider" providedInterface__OperationProvidedRole="_IQZiiI1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRJJbo1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoService Consumer" requiredInterface__OperationRequiredRole="_IQZih41jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IO4fko1jEe-fcLVwmwfQXw" describedService__SEFF="_IIgx0I1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IO34hI1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IO4fkI1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_IO4fkI1jEe-fcLVwmwfQXw" entityName="this.todoService.getAll()" predecessor_AbstractAction="_IO34hI1jEe-fcLVwmwfQXw" successor_AbstractAction="_IO4fkY1jEe-fcLVwmwfQXw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.this_todoService_getAll()"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="this_todoService_getAll()"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IO4fkY1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IO4fkI1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRK-n41jEe-fcLVwmwfQXw" entityName="com_apssouza_clients_UserClient">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRK-nY1jEe-fcLVwmwfQXw" entityName="user/accounts[PUT] Consumer" requiredInterface__OperationRequiredRole="_IQaJkY1jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRK-no1jEe-fcLVwmwfQXw" entityName="user/accounts Consumer" requiredInterface__OperationRequiredRole="_IQZigo1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRK-oY1jEe-fcLVwmwfQXw" entityName="com_apssouza_bootstrap_UserLoader">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRK-oI1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository Consumer" requiredInterface__OperationRequiredRole="_IQZig41jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRK-o41jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_Source Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRK-oo1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_Source Provider" providedInterface__OperationProvidedRole="_IQZiiY1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRK-p41jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoServiceImpl">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRK-pI1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoService Provider" providedInterface__OperationProvidedRole="_IQZih41jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRK-pY1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_EventPublisher Consumer" requiredInterface__OperationRequiredRole="_IQZij41jEe-fcLVwmwfQXw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRK-po1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository Consumer" requiredInterface__OperationRequiredRole="_IQaJmI1jEe-fcLVwmwfQXw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOxx5o1jEe-fcLVwmwfQXw" describedService__SEFF="_IIfjs41jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOxx5I1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOxx5Y1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOxx5Y1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOxx5I1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOxx7I1jEe-fcLVwmwfQXw" describedService__SEFF="_IIgKw41jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOxx6o1jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOxx641jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOxx641jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOxx6o1jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_IOxx6Y1jEe-fcLVwmwfQXw" describedService__SEFF="_IIgKwY1jEe-fcLVwmwfQXw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_IOxx541jEe-fcLVwmwfQXw" entityName="Start Action" successor_AbstractAction="_IOxx6I1jEe-fcLVwmwfQXw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_IOxx6I1jEe-fcLVwmwfQXw" entityName="Stop Action" predecessor_AbstractAction="_IOxx541jEe-fcLVwmwfQXw"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_IRQeIY1jEe-fcLVwmwfQXw" entityName="com_apssouza_bootstrap_TodoLoader">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_IRQeII1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository Consumer" requiredInterface__OperationRequiredRole="_IQaJmI1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6ZY1jEe-fcLVwmwfQXw" entityName="com_apssouza">
+    <assemblyContexts__ComposedStructure id="_IRUIgI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IRK-oY1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvlI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQvgyY1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvlo1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQlIso1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvmo1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f6o1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRWkwI1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUvlo1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvmo1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ6f6Y1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQlIsY1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRWkwY1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUvlI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvlo1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQlIsI1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQvgyI1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRWkw41jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUIgI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvmo1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ6f6Y1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IRK-oI1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ8Y1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQvgxY1jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6ZI1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUvlI1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ841jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQvgw41jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6Yo1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUvlI1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ9I1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQvgx41jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6YI1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUvlI1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRZBAI1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQvgxI1jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6Y41jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUvlI1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6YI1jEe-fcLVwmwfQXw" entityName="user/accounts[GET]$2 Provider" providedInterface__OperationProvidedRole="_IQZiio1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6YY1jEe-fcLVwmwfQXw" entityName="user/accounts Provider" providedInterface__OperationProvidedRole="_IQZigo1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6Yo1jEe-fcLVwmwfQXw" entityName="user/accounts[POST] Provider" providedInterface__OperationProvidedRole="_IQaJlI1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6Y41jEe-fcLVwmwfQXw" entityName="user/accounts[GET] Provider" providedInterface__OperationProvidedRole="_IQZijY1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6ZI1jEe-fcLVwmwfQXw" entityName="user/accounts/search[GET] Provider" providedInterface__OperationProvidedRole="_IQZii41jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6Z41jEe-fcLVwmwfQXw" entityName="com_apssouza 5">
+    <assemblyContexts__ComposedStructure id="_IRUIho1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f9Y1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUIjo1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQaJmo1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXy4I1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUIho1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUIjo1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQaJmY1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQ6f9I1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ941jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQ6f841jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6Zo1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUIho1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6Zo1jEe-fcLVwmwfQXw" entityName="reminder/todo-changes[GET] Provider" providedInterface__OperationProvidedRole="_IQZihY1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6aY1jEe-fcLVwmwfQXw" entityName="com_apssouza 3">
+    <assemblyContexts__ComposedStructure id="_IRUvko1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQaJn41jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvno1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ4Dro1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL0I1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUvko1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvno1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ4DrY1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQaJno1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ9Y1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQaJnY1jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6aI1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUvko1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6aI1jEe-fcLVwmwfQXw" entityName="mailer/send/email[GET] Provider" providedInterface__OperationProvidedRole="_IQZigI1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6a41jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice">
+    <assemblyContexts__ComposedStructure id="_IRUvoo1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ4DsI1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRVWoI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ4qso1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL1o1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRVWoI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvoo1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ4Dr41jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQ4qsY1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ8o1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQ4qsI1jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6ao1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRVWoI1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6ao1jEe-fcLVwmwfQXw" entityName="mailer/emails[GET] Provider" providedInterface__OperationProvidedRole="_IQZiho1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6bI1jEe-fcLVwmwfQXw" entityName="com_apssouza_integrations_socket_TodoSocketController">
+    <assemblyContexts__ComposedStructure id="_IRUIkI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f4o1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6bo1jEe-fcLVwmwfQXw" entityName="com_apssouza 4">
+    <assemblyContexts__ComposedStructure id="_IRUIhI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f6I1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUIio1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IRH7So1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXy4Y1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUIio1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUIhI1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ6f541jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IRH7SY1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRZBAo1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IRH7SI1jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6bY1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUIio1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6bY1jEe-fcLVwmwfQXw" entityName="reminder/todo-statistics[GET] Provider" providedInterface__OperationProvidedRole="_IQZiko1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6co1jEe-fcLVwmwfQXw" entityName="com_apssouza 2">
+    <assemblyContexts__ComposedStructure id="_IRThcI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IRJwcI1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRThco1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f8o1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRThdI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IRQeIY1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUIgo1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQdM5o1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUIiI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ-KTo1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvkI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ88II1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvnI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f7o1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRVWoo1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IRK-p41jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRWkwo1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUIgo1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRVWoo1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IRK-pI1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQdM5Y1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL0Y1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRVWoo1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRThco1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ6f8Y1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IRK-po1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL0o1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRThcI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRVWoo1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IRK-pI1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IRJJbo1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL1I1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUIgo1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvkI1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ8VIY1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQdM5I1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL1Y1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRThdI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRThco1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ6f8Y1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IRQeII1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL141jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRVWoo1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvnI1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ6f641jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IRK-pY1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ8I1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQdM441jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6cY1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUIgo1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRYZ9o1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IQ-KTY1jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6cI1jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRUIiI1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_IRZBAY1jEe-fcLVwmwfQXw" innerProvidedRole_ProvidedDelegationConnector="_IRJJbY1jEe-fcLVwmwfQXw" outerProvidedRole_ProvidedDelegationConnector="_IRS6b41jEe-fcLVwmwfQXw" assemblyContext_ProvidedDelegationConnector="_IRThcI1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6b41jEe-fcLVwmwfQXw" entityName="api-gateway/todos[GET] Provider" providedInterface__OperationProvidedRole="_IQZiiI1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6cI1jEe-fcLVwmwfQXw" entityName="reminder/todos Provider" providedInterface__OperationProvidedRole="_IQZigY1jEe-fcLVwmwfQXw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_IRS6cY1jEe-fcLVwmwfQXw" entityName="api-gateway/accounts Provider" providedInterface__OperationProvidedRole="_IQaJlo1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_IRS6c41jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing">
+    <assemblyContexts__ComposedStructure id="_IRUIjI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f8I1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvmI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ8VHo1jEe-fcLVwmwfQXw"/>
+    <assemblyContexts__ComposedStructure id="_IRUvoI1jEe-fcLVwmwfQXw" encapsulatedComponent__AssemblyContext="_IQ6f5o1jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXL041jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUvoI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUvmI1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ8VHY1jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQ6f441jEe-fcLVwmwfQXw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_IRXy4o1jEe-fcLVwmwfQXw" requiringAssemblyContext_AssemblyConnector="_IRUvoI1jEe-fcLVwmwfQXw" providingAssemblyContext_AssemblyConnector="_IRUIjI1jEe-fcLVwmwfQXw" providedRole_AssemblyConnector="_IQ6f741jEe-fcLVwmwfQXw" requiredRole_AssemblyConnector="_IQ6f5I1jEe-fcLVwmwfQXw"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQY7eo1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_AccountService">
+    <signatures__OperationInterface id="_IIjOEY1jEe-fcLVwmwfQXw" entityName="save" returnType__OperationSignature="_IIbSQI1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIbSQI1jEe-fcLVwmwfQXw" parameterName="user" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEV2JHhLEe-BmNowyoTfeg" entityName="api-gateway/accounts/me[GET]" returnType__OperationSignature="_YEV2I3hLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEVPEHhLEe-BmNowyoTfeg" parameterName="auth" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEV2IXhLEe-BmNowyoTfeg" entityName="api-gateway/accounts/me/todos[POST]" returnType__OperationSignature="_YEV2IHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEV2IHhLEe-BmNowyoTfeg" parameterName="todo" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEVPE3hLEe-BmNowyoTfeg" entityName="api-gateway/accounts[GET]" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNMHhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNMXhLEe-BmNowyoTfeg" entityName="user/accounts/search[GET]">
-    <signatures__OperationInterface id="_YESLwXhLEe-BmNowyoTfeg" entityName="user/accounts/search[GET]" returnType__OperationSignature="_YESLwHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature parameterName="email" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNMnhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNM3hLEe-BmNowyoTfeg" entityName="user/accounts"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNNHhLEe-BmNowyoTfeg" entityName="com_apssouza_services_TodoService">
-    <signatures__OperationInterface id="_YEaHknhLEe-BmNowyoTfeg" entityName="getAll$2" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
-    <signatures__OperationInterface id="_YEaHkHhLEe-BmNowyoTfeg" entityName="createTodo" returnType__OperationSignature="_YEV2IHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEV2IHhLEe-BmNowyoTfeg" parameterName="todo" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEaHlHhLEe-BmNowyoTfeg" entityName="getTodoByUserEmaill" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature parameterName="email" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNNXhLEe-BmNowyoTfeg" entityName="com_apssouza_services_AccountService">
-    <signatures__OperationInterface id="_YEXrUHhLEe-BmNowyoTfeg" entityName="update" returnType__OperationSignature="_YEXERnhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEXERXhLEe-BmNowyoTfeg" parameterName="id" modifier__Parameter="in"/>
-      <parameters__OperationSignature dataType__Parameter="_YEXERnhLEe-BmNowyoTfeg" parameterName="user" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEY5cXhLEe-BmNowyoTfeg" entityName="delete" returnType__OperationSignature="_YEY5cHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEXERnhLEe-BmNowyoTfeg" parameterName="a" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEY5c3hLEe-BmNowyoTfeg" entityName="all" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
-    <signatures__OperationInterface id="_YEXEQ3hLEe-BmNowyoTfeg" entityName="findById" returnType__OperationSignature="_YEXEQnhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.6"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEXrUnhLEe-BmNowyoTfeg" entityName="save" returnType__OperationSignature="_YEXERnhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEXERnhLEe-BmNowyoTfeg" parameterName="user" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEZggXhLEe-BmNowyoTfeg" entityName="findByEmail" returnType__OperationSignature="_YEXEQnhLEe-BmNowyoTfeg">
+    <signatures__OperationInterface id="_IIkcMI1jEe-fcLVwmwfQXw" entityName="findByEmail" returnType__OperationSignature="_IIinA41jEe-fcLVwmwfQXw">
       <parameters__OperationSignature parameterName="name" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IIinAY1jEe-fcLVwmwfQXw" entityName="delete" returnType__OperationSignature="_IIinAI1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIbSQI1jEe-fcLVwmwfQXw" parameterName="a" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IIjOE41jEe-fcLVwmwfQXw" entityName="all" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw"/>
+    <signatures__OperationInterface id="_IIinBI1jEe-fcLVwmwfQXw" entityName="findById" returnType__OperationSignature="_IIinA41jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.6"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IIj1Io1jEe-fcLVwmwfQXw" entityName="update" returnType__OperationSignature="_IIbSQI1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIj1IY1jEe-fcLVwmwfQXw" parameterName="id" modifier__Parameter="in"/>
+      <parameters__OperationSignature dataType__Parameter="_IIbSQI1jEe-fcLVwmwfQXw" parameterName="user" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNNnhLEe-BmNowyoTfeg" entityName="mailer/send/email[GET]">
-    <signatures__OperationInterface id="_YEQ9onhLEe-BmNowyoTfeg" entityName="mailer/send/email[GET]" returnType__OperationSignature="_YEQ9oXhLEe-BmNowyoTfeg"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZigI1jEe-fcLVwmwfQXw" entityName="mailer/send/email[GET]">
+    <signatures__OperationInterface id="_IImRYY1jEe-fcLVwmwfQXw" entityName="mailer/send/email[GET]" returnType__OperationSignature="_IImRYI1jEe-fcLVwmwfQXw"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNN3hLEe-BmNowyoTfeg" entityName="reminder/todos">
-    <signatures__OperationInterface id="_YEUoAHhLEe-BmNowyoTfeg" entityName="reminder/todos[POST]"/>
-    <signatures__OperationInterface id="_YEUA8HhLEe-BmNowyoTfeg" entityName="reminder/todos[DELETE]"/>
-    <signatures__OperationInterface id="_YEUA8nhLEe-BmNowyoTfeg" entityName="reminder/todos/search[GET]"/>
-    <signatures__OperationInterface id="_YEUoAXhLEe-BmNowyoTfeg" entityName="reminder/todos[GET]"/>
-    <signatures__OperationInterface id="_YEUA8XhLEe-BmNowyoTfeg" entityName="reminder/todos/*/status[PUT]"/>
-    <signatures__OperationInterface id="_YEUA83hLEe-BmNowyoTfeg" entityName="reminder/todos[PUT]"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZigY1jEe-fcLVwmwfQXw" entityName="reminder/todos">
+    <signatures__OperationInterface id="_IIoGkI1jEe-fcLVwmwfQXw" entityName="reminder/todos/*/status[PUT]"/>
+    <signatures__OperationInterface id="_IIoGko1jEe-fcLVwmwfQXw" entityName="reminder/todos[GET]"/>
+    <signatures__OperationInterface id="_IIoGkY1jEe-fcLVwmwfQXw" entityName="reminder/todos[PUT]"/>
+    <signatures__OperationInterface id="_IInfhI1jEe-fcLVwmwfQXw" entityName="reminder/todos/search[GET]"/>
+    <signatures__OperationInterface id="_IIoGk41jEe-fcLVwmwfQXw" entityName="reminder/todos[POST]"/>
+    <signatures__OperationInterface id="_IIoGlI1jEe-fcLVwmwfQXw" entityName="reminder/todos[DELETE]"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNOHhLEe-BmNowyoTfeg" entityName="user/users"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNOXhLEe-BmNowyoTfeg" entityName="com_apssouza_mailservice_repository_EmailRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNOnhLEe-BmNowyoTfeg" entityName="com_apssouza_services_UserService">
-    <signatures__OperationInterface id="_YEWdMnhLEe-BmNowyoTfeg" entityName="getUserByEmail" returnType__OperationSignature="_YEV2I3hLEe-BmNowyoTfeg">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZigo1jEe-fcLVwmwfQXw" entityName="user/accounts"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZig41jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_AccountRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZihI1jEe-fcLVwmwfQXw" entityName="com_apssouza_services_UserService">
+    <signatures__OperationInterface id="_IIotoo1jEe-fcLVwmwfQXw" entityName="getUserByEmail" returnType__OperationSignature="_IIotoY1jEe-fcLVwmwfQXw">
       <parameters__OperationSignature parameterName="email" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEWdNHhLEe-BmNowyoTfeg" entityName="createUser" returnType__OperationSignature="_YEV2IHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEV2I3hLEe-BmNowyoTfeg" parameterName="user" modifier__Parameter="in"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZihY1jEe-fcLVwmwfQXw" entityName="reminder/todo-changes[GET]">
+    <signatures__OperationInterface id="_IIlqUY1jEe-fcLVwmwfQXw" entityName="reminder/todo-changes[GET]" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZiho1jEe-fcLVwmwfQXw" entityName="mailer/emails[GET]">
+    <signatures__OperationInterface id="_IIrJ4I1jEe-fcLVwmwfQXw" entityName="mailer/emails[GET]" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZih41jEe-fcLVwmwfQXw" entityName="com_apssouza_services_TodoService">
+    <signatures__OperationInterface id="_IIfjs41jEe-fcLVwmwfQXw" entityName="getAll" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw"/>
+    <signatures__OperationInterface id="_IIgKw41jEe-fcLVwmwfQXw" entityName="getTodoByUserEmaill" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature parameterName="email" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_YEWdMHhLEe-BmNowyoTfeg" entityName="getAll" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
+    <signatures__OperationInterface id="_IIgKwY1jEe-fcLVwmwfQXw" entityName="createTodo" returnType__OperationSignature="_IIgKwI1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIgKwI1jEe-fcLVwmwfQXw" parameterName="todo" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNO3hLEe-BmNowyoTfeg" entityName="reminder/todo-statistics[GET]">
-    <signatures__OperationInterface id="_YEeZAHhLEe-BmNowyoTfeg" entityName="reminder/todo-statistics[GET]" returnType__OperationSignature="_YEdx8HhLEe-BmNowyoTfeg"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZiiI1jEe-fcLVwmwfQXw" entityName="api-gateway/todos[GET]">
+    <signatures__OperationInterface id="_IIgx0I1jEe-fcLVwmwfQXw" entityName="api-gateway/todos[GET]" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNPHhLEe-BmNowyoTfeg" entityName="user/accounts[GET]$2">
-    <signatures__OperationInterface id="_YEeZA3hLEe-BmNowyoTfeg" entityName="user/accounts[GET]$2" returnType__OperationSignature="_YESLwHhLEe-BmNowyoTfeg">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZiiY1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_Source"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZiio1jEe-fcLVwmwfQXw" entityName="user/accounts[GET]$2">
+    <signatures__OperationInterface id="_IIrJ441jEe-fcLVwmwfQXw" entityName="user/accounts[GET]$2" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw"/>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZii41jEe-fcLVwmwfQXw" entityName="user/accounts/search[GET]">
+    <signatures__OperationInterface id="_IIm4cI1jEe-fcLVwmwfQXw" entityName="user/accounts/search[GET]" returnType__OperationSignature="_IIcgYI1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature parameterName="email" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZijI1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZijY1jEe-fcLVwmwfQXw" entityName="user/accounts[GET]">
+    <signatures__OperationInterface id="_IInfgI1jEe-fcLVwmwfQXw" entityName="user/accounts[GET]" returnType__OperationSignature="_IIcgYI1jEe-fcLVwmwfQXw">
       <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.6"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNPXhLEe-BmNowyoTfeg" entityName="com_apssouza_monitors_TodoStoreEventChanges"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNPnhLEe-BmNowyoTfeg" entityName="user/accounts[GET]">
-    <signatures__OperationInterface id="_YEOhYHhLEe-BmNowyoTfeg" entityName="user/accounts[GET]" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZijo1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZij41jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_EventPublisher"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZikI1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventStoreRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZikY1jEe-fcLVwmwfQXw" entityName="com_apssouza_infra_ApplicationEventPublisher"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQZiko1jEe-fcLVwmwfQXw" entityName="reminder/todo-statistics[GET]">
+    <signatures__OperationInterface id="_IIlDQY1jEe-fcLVwmwfQXw" entityName="reminder/todo-statistics[GET]" returnType__OperationSignature="_IIlDQI1jEe-fcLVwmwfQXw"/>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNP3hLEe-BmNowyoTfeg" entityName="user/accounts[POST]">
-    <signatures__OperationInterface id="_YEfAEHhLEe-BmNowyoTfeg" entityName="user/accounts[POST]" returnType__OperationSignature="_YESLwHhLEe-BmNowyoTfeg">
-      <parameters__OperationSignature dataType__Parameter="_YEXERnhLEe-BmNowyoTfeg" parameterName="account" modifier__Parameter="in"/>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNQHhLEe-BmNowyoTfeg" entityName="reminder/todo-changes[GET]">
-    <signatures__OperationInterface id="_YETZ4XhLEe-BmNowyoTfeg" entityName="reminder/todo-changes[GET]" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNQXhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_services_ApplicationEventPublisher"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNQnhLEe-BmNowyoTfeg" entityName="api-gateway/todos[GET]">
-    <signatures__OperationInterface id="_YESy0nhLEe-BmNowyoTfeg" entityName="api-gateway/todos[GET]" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLrNQ3hLEe-BmNowyoTfeg" entityName="user/accounts[PUT]">
-    <signatures__OperationInterface id="_YEfnIHhLEe-BmNowyoTfeg" entityName="user/accounts[PUT]" returnType__OperationSignature="_YESLwHhLEe-BmNowyoTfeg">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJkI1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoStoreEventChanges"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJkY1jEe-fcLVwmwfQXw" entityName="user/accounts[PUT]">
+    <signatures__OperationInterface id="_IIsYAI1jEe-fcLVwmwfQXw" entityName="user/accounts[PUT]" returnType__OperationSignature="_IIcgYI1jEe-fcLVwmwfQXw">
       <parameters__OperationSignature parameterName="id" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.6"/>
       </parameters__OperationSignature>
-      <parameters__OperationSignature dataType__Parameter="_YEXERnhLEe-BmNowyoTfeg" parameterName="user" modifier__Parameter="in"/>
+      <parameters__OperationSignature dataType__Parameter="_IIbSQI1jEe-fcLVwmwfQXw" parameterName="user" modifier__Parameter="in"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLr0QHhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_Source"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLr0QXhLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_AccountRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLr0QnhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_EventPublisher"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLr0Q3hLEe-BmNowyoTfeg" entityName="com_apssouza_repositories_TodoRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLr0RHhLEe-BmNowyoTfeg" entityName="com_apssouza_eventsourcing_commands_EmailCommandHandler"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLr0RXhLEe-BmNowyoTfeg" entityName="mailer/emails[GET]">
-    <signatures__OperationInterface id="_YEbVsHhLEe-BmNowyoTfeg" entityName="mailer/emails[GET]" returnType__OperationSignature="_YENTQHhLEe-BmNowyoTfeg"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJko1jEe-fcLVwmwfQXw" entityName="com_apssouza_eventsourcing_eventstore_EventSerializer"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJk41jEe-fcLVwmwfQXw" entityName="user/users"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJlI1jEe-fcLVwmwfQXw" entityName="user/accounts[POST]">
+    <signatures__OperationInterface id="_IIdHcI1jEe-fcLVwmwfQXw" entityName="user/accounts[POST]" returnType__OperationSignature="_IIcgYI1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIbSQI1jEe-fcLVwmwfQXw" parameterName="account" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_YLr0RnhLEe-BmNowyoTfeg" entityName="com_apssouza_infra_ApplicationEventPublisher"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YENTQHhLEe-BmNowyoTfeg" entityName="java_util_List"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEQ9oXhLEe-BmNowyoTfeg" entityName="java_util_concurrent_Future"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YESLwHhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_ResponseEntity"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEVPEHhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_OAuth2Authentication"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEV2IHhLEe-BmNowyoTfeg" entityName="com_apssouza_pojos_Todo"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEV2I3hLEe-BmNowyoTfeg" entityName="com_apssouza_pojos_User"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEXEQnhLEe-BmNowyoTfeg" entityName="java_util_Optional"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEXERXhLEe-BmNowyoTfeg" entityName="java_lang_Long"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEXERnhLEe-BmNowyoTfeg" entityName="com_apssouza_entities_Account"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEY5cHhLEe-BmNowyoTfeg" entityName="Void"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_YEdx8HhLEe-BmNowyoTfeg" entityName="com_apssouza_controllers_ObjectNode"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJlY1jEe-fcLVwmwfQXw" entityName="com_apssouza_monitors_TodoServiceMethodInvokedStore"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJlo1jEe-fcLVwmwfQXw" entityName="api-gateway/accounts">
+    <signatures__OperationInterface id="_IIpUs41jEe-fcLVwmwfQXw" entityName="api-gateway/accounts/me/todos[POST]" returnType__OperationSignature="_IIgKwI1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIgKwI1jEe-fcLVwmwfQXw" parameterName="todo" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IIp7xI1jEe-fcLVwmwfQXw" entityName="api-gateway/accounts/me[GET]" returnType__OperationSignature="_IIotoY1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIp7wY1jEe-fcLVwmwfQXw" parameterName="auth" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_IIqi0Y1jEe-fcLVwmwfQXw" entityName="api-gateway/accounts[GET]" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw"/>
+    <signatures__OperationInterface id="_IIp7wo1jEe-fcLVwmwfQXw" entityName="api-gateway/accounts/me/todos[GET]" returnType__OperationSignature="_IIfjso1jEe-fcLVwmwfQXw">
+      <parameters__OperationSignature dataType__Parameter="_IIp7wY1jEe-fcLVwmwfQXw" parameterName="auth" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJl41jEe-fcLVwmwfQXw" entityName="com_apssouza_mailservice_repository_EmailRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_IQaJmI1jEe-fcLVwmwfQXw" entityName="com_apssouza_repositories_TodoRepository"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIbSQI1jEe-fcLVwmwfQXw" entityName="com_apssouza_entities_Account"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIcgYI1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_ResponseEntity"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIfjso1jEe-fcLVwmwfQXw" entityName="java_util_List"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIgKwI1jEe-fcLVwmwfQXw" entityName="com_apssouza_pojos_Todo"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIinAI1jEe-fcLVwmwfQXw" entityName="Void"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIinA41jEe-fcLVwmwfQXw" entityName="java_util_Optional"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIj1IY1jEe-fcLVwmwfQXw" entityName="java_lang_Long"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIlDQI1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_ObjectNode"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IImRYI1jEe-fcLVwmwfQXw" entityName="java_util_concurrent_Future"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIotoY1jEe-fcLVwmwfQXw" entityName="com_apssouza_pojos_User"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_IIp7wY1jEe-fcLVwmwfQXw" entityName="com_apssouza_controllers_OAuth2Authentication"/>
 </repository:Repository>

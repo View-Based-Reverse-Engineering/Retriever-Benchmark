@@ -1,41 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_lWgPyHhLEe-DjskUoktOzQ">
-  <components__Repository xsi:type="repository:BasicComponent" id="_lWRmSHhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lWRmRnhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository Provider" providedInterface__OperationProvidedRole="_lWRmQ3hLEe-DjskUoktOzQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lWRmR3hLEe-DjskUoktOzQ" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_lWRmQnhLEe-DjskUoktOzQ"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_lWRmSXhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_service_TrayItemService"/>
-  <components__Repository xsi:type="repository:BasicComponent" id="_lWSNUXhLEe-DjskUoktOzQ" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lWSNUHhLEe-DjskUoktOzQ" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Provider" providedInterface__OperationProvidedRole="_lWRmQnhLEe-DjskUoktOzQ"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_lWSNVHhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lWSNUnhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository Provider" providedInterface__OperationProvidedRole="_lWRmQXhLEe-DjskUoktOzQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lWSNU3hLEe-DjskUoktOzQ" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_lWRmRXhLEe-DjskUoktOzQ"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_lWSNVnhLEe-DjskUoktOzQ" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lWSNVXhLEe-DjskUoktOzQ" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Provider" providedInterface__OperationProvidedRole="_lWRmRXhLEe-DjskUoktOzQ"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_lWSNWnhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_FoodTrayController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lWSNV3hLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays Provider" providedInterface__OperationProvidedRole="_lWRmRHhLEe-DjskUoktOzQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lWSNWHhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository Consumer" requiredInterface__OperationRequiredRole="_lWRmQXhLEe-DjskUoktOzQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lWSNWXhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository Consumer" requiredInterface__OperationRequiredRole="_lWRmQ3hLEe-DjskUoktOzQ"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lVxP9nhLEe-DjskUoktOzQ" describedService__SEFF="_lPMG0HhLEe-DjskUoktOzQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lVxP83hLEe-DjskUoktOzQ" entityName="Start Action" successor_AbstractAction="_lVxP9HhLEe-DjskUoktOzQ"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lVxP9HhLEe-DjskUoktOzQ" entityName="trayItem" predecessor_AbstractAction="_lVxP83hLEe-DjskUoktOzQ" successor_AbstractAction="_lVxP9XhLEe-DjskUoktOzQ">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_vfXcYo1jEe-KytPUVF_PVw">
+  <components__Repository xsi:type="repository:BasicComponent" id="_vfIy5I1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_service_TrayItemService"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_vfIy6I1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_FoodTrayController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vfIy5Y1jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays Provider" providedInterface__OperationProvidedRole="_vfIL2o1jEe-KytPUVF_PVw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vfIy5o1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository Consumer" requiredInterface__OperationRequiredRole="_vfIy4Y1jEe-KytPUVF_PVw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vfIy541jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository Consumer" requiredInterface__OperationRequiredRole="_vfIy4o1jEe-KytPUVF_PVw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vemnZo1jEe-KytPUVF_PVw" describedService__SEFF="_vYdjJY1jEe-KytPUVF_PVw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_vemnY41jEe-KytPUVF_PVw" entityName="Start Action" successor_AbstractAction="_vemnZI1jEe-KytPUVF_PVw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_vemnZI1jEe-KytPUVF_PVw" entityName="trayItems" predecessor_AbstractAction="_vemnY41jEe-KytPUVF_PVw" successor_AbstractAction="_vemnZY1jEe-KytPUVF_PVw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.trayItem"/>
+            <specification_VariableCharacterisation specification="PrimitiveType.trayItems"/>
           </variableCharacterisation_VariableUsage>
           <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="trayItem"/>
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="trayItems"/>
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lVxP9XhLEe-DjskUoktOzQ" entityName="Stop Action" predecessor_AbstractAction="_lVxP9HhLEe-DjskUoktOzQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_vemnZY1jEe-KytPUVF_PVw" entityName="Stop Action" predecessor_AbstractAction="_vemnZI1jEe-KytPUVF_PVw"/>
     </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lVxP8nhLEe-DjskUoktOzQ" describedService__SEFF="_lPLfwHhLEe-DjskUoktOzQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lVwo53hLEe-DjskUoktOzQ" entityName="Start Action" successor_AbstractAction="_lVxP8HhLEe-DjskUoktOzQ"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lVxP8HhLEe-DjskUoktOzQ" entityName="priceServiceRepo.findByItemCode(itemCode)" predecessor_AbstractAction="_lVwo53hLEe-DjskUoktOzQ" successor_AbstractAction="_lVxP8XhLEe-DjskUoktOzQ">
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_venOco1jEe-KytPUVF_PVw" describedService__SEFF="_vYdjII1jEe-KytPUVF_PVw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_vemnZ41jEe-KytPUVF_PVw" entityName="Start Action" successor_AbstractAction="_venOcI1jEe-KytPUVF_PVw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_venOcI1jEe-KytPUVF_PVw" entityName="priceServiceRepo.findByItemCode(itemCode)" predecessor_AbstractAction="_vemnZ41jEe-KytPUVF_PVw" successor_AbstractAction="_venOcY1jEe-KytPUVF_PVw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.priceServiceRepo_findByItemCode(itemCode)"/>
@@ -45,11 +31,12 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lVxP8XhLEe-DjskUoktOzQ" entityName="Stop Action" predecessor_AbstractAction="_lVxP8HhLEe-DjskUoktOzQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_venOcY1jEe-KytPUVF_PVw" entityName="Stop Action" predecessor_AbstractAction="_venOcI1jEe-KytPUVF_PVw"/>
     </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lVwo4nhLEe-DjskUoktOzQ" describedService__SEFF="_lPLfxXhLEe-DjskUoktOzQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lVwB03hLEe-DjskUoktOzQ" entityName="Start Action" successor_AbstractAction="_lVwo4HhLEe-DjskUoktOzQ"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lVwo4HhLEe-DjskUoktOzQ" entityName="trayItems" predecessor_AbstractAction="_lVwB03hLEe-DjskUoktOzQ" successor_AbstractAction="_lVwo4XhLEe-DjskUoktOzQ">
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vemAUo1jEe-KytPUVF_PVw" describedService__SEFF="_vYYDkI1jEe-KytPUVF_PVw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_vZJfoY1jEe-KytPUVF_PVw" entityName="Start Action" successor_AbstractAction="_vZL74I1jEe-KytPUVF_PVw"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_vZL74I1jEe-KytPUVF_PVw" entityName="trayItems.add(trayItem)" predecessor_AbstractAction="_vZJfoY1jEe-KytPUVF_PVw" successor_AbstractAction="_vemAUI1jEe-KytPUVF_PVw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_vemAUI1jEe-KytPUVF_PVw" entityName="trayItems" predecessor_AbstractAction="_vZL74I1jEe-KytPUVF_PVw" successor_AbstractAction="_vemAUY1jEe-KytPUVF_PVw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.trayItems"/>
@@ -59,11 +46,25 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lVwo4XhLEe-DjskUoktOzQ" entityName="Stop Action" predecessor_AbstractAction="_lVwo4HhLEe-DjskUoktOzQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_vemAUY1jEe-KytPUVF_PVw" entityName="Stop Action" predecessor_AbstractAction="_vemAUI1jEe-KytPUVF_PVw"/>
     </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lVwo5nhLEe-DjskUoktOzQ" describedService__SEFF="_lPLfw3hLEe-DjskUoktOzQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lVwo43hLEe-DjskUoktOzQ" entityName="Start Action" successor_AbstractAction="_lVwo5HhLEe-DjskUoktOzQ"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lVwo5HhLEe-DjskUoktOzQ" entityName="itemServiceRepository.findByItemCode(itemCode)" predecessor_AbstractAction="_lVwo43hLEe-DjskUoktOzQ" successor_AbstractAction="_lVwo5XhLEe-DjskUoktOzQ">
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_venOdo1jEe-KytPUVF_PVw" describedService__SEFF="_vYeKMI1jEe-KytPUVF_PVw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_venOc41jEe-KytPUVF_PVw" entityName="Start Action" successor_AbstractAction="_venOdI1jEe-KytPUVF_PVw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_venOdI1jEe-KytPUVF_PVw" entityName="trayItem" predecessor_AbstractAction="_venOc41jEe-KytPUVF_PVw" successor_AbstractAction="_venOdY1jEe-KytPUVF_PVw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.trayItem"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="trayItem"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_venOdY1jEe-KytPUVF_PVw" entityName="Stop Action" predecessor_AbstractAction="_venOdI1jEe-KytPUVF_PVw"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_vemnYo1jEe-KytPUVF_PVw" describedService__SEFF="_vYdjI41jEe-KytPUVF_PVw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_vemAU41jEe-KytPUVF_PVw" entityName="Start Action" successor_AbstractAction="_vemnYI1jEe-KytPUVF_PVw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_vemnYI1jEe-KytPUVF_PVw" entityName="itemServiceRepository.findByItemCode(itemCode)" predecessor_AbstractAction="_vemAU41jEe-KytPUVF_PVw" successor_AbstractAction="_vemnYY1jEe-KytPUVF_PVw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.itemServiceRepository_findByItemCode(itemCode)"/>
@@ -73,67 +74,66 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lVwo5XhLEe-DjskUoktOzQ" entityName="Stop Action" predecessor_AbstractAction="_lVwo5HhLEe-DjskUoktOzQ"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lVwB0nhLEe-DjskUoktOzQ" describedService__SEFF="_lPIccHhLEe-DjskUoktOzQ">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lQiKp3hLEe-DjskUoktOzQ" entityName="Start Action" successor_AbstractAction="_lQkm4HhLEe-DjskUoktOzQ"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_lQkm4HhLEe-DjskUoktOzQ" entityName="trayItems.add(trayItem)" predecessor_AbstractAction="_lQiKp3hLEe-DjskUoktOzQ" successor_AbstractAction="_lVwB0HhLEe-DjskUoktOzQ"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lVwB0HhLEe-DjskUoktOzQ" entityName="trayItems" predecessor_AbstractAction="_lQkm4HhLEe-DjskUoktOzQ" successor_AbstractAction="_lVwB0XhLEe-DjskUoktOzQ">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.trayItems"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="trayItems"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lVwB0XhLEe-DjskUoktOzQ" entityName="Stop Action" predecessor_AbstractAction="_lVwB0HhLEe-DjskUoktOzQ"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_vemnYY1jEe-KytPUVF_PVw" entityName="Stop Action" predecessor_AbstractAction="_vemnYI1jEe-KytPUVF_PVw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_lWfosHhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_service_TrayItemService">
-    <assemblyContexts__ComposedStructure id="_lWgPxHhLEe-DjskUoktOzQ" encapsulatedComponent__AssemblyContext="_lWRmSXhLEe-DjskUoktOzQ"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_vfUZHo1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vfUZHI1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository Provider" providedInterface__OperationProvidedRole="_vfIy4Y1jEe-KytPUVF_PVw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vfUZHY1jEe-KytPUVF_PVw" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_vfIy4I1jEe-KytPUVF_PVw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_lWfotHhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice">
-    <assemblyContexts__ComposedStructure id="_lWgPwHhLEe-DjskUoktOzQ" encapsulatedComponent__AssemblyContext="_lWSNVHhLEe-DjskUoktOzQ"/>
-    <assemblyContexts__ComposedStructure id="_lWgPwnhLEe-DjskUoktOzQ" encapsulatedComponent__AssemblyContext="_lWRmSHhLEe-DjskUoktOzQ"/>
-    <assemblyContexts__ComposedStructure id="_lWgPxnhLEe-DjskUoktOzQ" encapsulatedComponent__AssemblyContext="_lWSNWnhLEe-DjskUoktOzQ"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lWhd4HhLEe-DjskUoktOzQ" requiringAssemblyContext_AssemblyConnector="_lWgPxnhLEe-DjskUoktOzQ" providingAssemblyContext_AssemblyConnector="_lWgPwnhLEe-DjskUoktOzQ" providedRole_AssemblyConnector="_lWRmRnhLEe-DjskUoktOzQ" requiredRole_AssemblyConnector="_lWSNWXhLEe-DjskUoktOzQ"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_lWhd4XhLEe-DjskUoktOzQ" requiringAssemblyContext_AssemblyConnector="_lWgPxnhLEe-DjskUoktOzQ" providingAssemblyContext_AssemblyConnector="_lWgPwHhLEe-DjskUoktOzQ" providedRole_AssemblyConnector="_lWSNUnhLEe-DjskUoktOzQ" requiredRole_AssemblyConnector="_lWSNWHhLEe-DjskUoktOzQ"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_lWiE8HhLEe-DjskUoktOzQ" innerProvidedRole_ProvidedDelegationConnector="_lWSNV3hLEe-DjskUoktOzQ" outerProvidedRole_ProvidedDelegationConnector="_lWfosXhLEe-DjskUoktOzQ" assemblyContext_ProvidedDelegationConnector="_lWgPxnhLEe-DjskUoktOzQ"/>
-    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_lWisAHhLEe-DjskUoktOzQ" innerRequiredRole_RequiredDelegationConnector="_lWRmR3hLEe-DjskUoktOzQ" outerRequiredRole_RequiredDelegationConnector="_lWfos3hLEe-DjskUoktOzQ" assemblyContext_RequiredDelegationConnector="_lWgPwnhLEe-DjskUoktOzQ"/>
-    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_lWisAXhLEe-DjskUoktOzQ" innerRequiredRole_RequiredDelegationConnector="_lWSNU3hLEe-DjskUoktOzQ" outerRequiredRole_RequiredDelegationConnector="_lWfosnhLEe-DjskUoktOzQ" assemblyContext_RequiredDelegationConnector="_lWgPwHhLEe-DjskUoktOzQ"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_lWfosXhLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays Provider" providedInterface__OperationProvidedRole="_lWRmRHhLEe-DjskUoktOzQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lWfosnhLEe-DjskUoktOzQ" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_lWRmRXhLEe-DjskUoktOzQ"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_lWfos3hLEe-DjskUoktOzQ" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_lWRmQnhLEe-DjskUoktOzQ"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_vfUZII1jEe-KytPUVF_PVw" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vfUZH41jEe-KytPUVF_PVw" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Provider" providedInterface__OperationProvidedRole="_vfIy4I1jEe-KytPUVF_PVw"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lWRmQXhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lWRmQnhLEe-DjskUoktOzQ" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode="/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lWRmQ3hLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lWRmRHhLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays">
-    <signatures__OperationInterface id="_lPMG0HhLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays$3" returnType__OperationSignature="_lPGnQHhLEe-DjskUoktOzQ">
+  <components__Repository xsi:type="repository:BasicComponent" id="_vfUZIo1jEe-KytPUVF_PVw" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vfUZIY1jEe-KytPUVF_PVw" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Provider" providedInterface__OperationProvidedRole="_vfIy441jEe-KytPUVF_PVw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_vfUZJY1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vfUZI41jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository Provider" providedInterface__OperationProvidedRole="_vfIy4o1jEe-KytPUVF_PVw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vfUZJI1jEe-KytPUVF_PVw" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_vfIy441jEe-KytPUVF_PVw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_vfWOQ41jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice">
+    <assemblyContexts__ComposedStructure id="_vfW1Uo1jEe-KytPUVF_PVw" encapsulatedComponent__AssemblyContext="_vfIy6I1jEe-KytPUVF_PVw"/>
+    <assemblyContexts__ComposedStructure id="_vfW1VI1jEe-KytPUVF_PVw" encapsulatedComponent__AssemblyContext="_vfUZHo1jEe-KytPUVF_PVw"/>
+    <assemblyContexts__ComposedStructure id="_vfXcYI1jEe-KytPUVF_PVw" encapsulatedComponent__AssemblyContext="_vfUZJY1jEe-KytPUVF_PVw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_vfYqgI1jEe-KytPUVF_PVw" requiringAssemblyContext_AssemblyConnector="_vfW1Uo1jEe-KytPUVF_PVw" providingAssemblyContext_AssemblyConnector="_vfW1VI1jEe-KytPUVF_PVw" providedRole_AssemblyConnector="_vfUZHI1jEe-KytPUVF_PVw" requiredRole_AssemblyConnector="_vfIy5o1jEe-KytPUVF_PVw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_vfYqgY1jEe-KytPUVF_PVw" requiringAssemblyContext_AssemblyConnector="_vfW1Uo1jEe-KytPUVF_PVw" providingAssemblyContext_AssemblyConnector="_vfXcYI1jEe-KytPUVF_PVw" providedRole_AssemblyConnector="_vfUZI41jEe-KytPUVF_PVw" requiredRole_AssemblyConnector="_vfIy541jEe-KytPUVF_PVw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_vfZRkI1jEe-KytPUVF_PVw" innerProvidedRole_ProvidedDelegationConnector="_vfIy5Y1jEe-KytPUVF_PVw" outerProvidedRole_ProvidedDelegationConnector="_vfWOQI1jEe-KytPUVF_PVw" assemblyContext_ProvidedDelegationConnector="_vfW1Uo1jEe-KytPUVF_PVw"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_vfZ4oI1jEe-KytPUVF_PVw" innerRequiredRole_RequiredDelegationConnector="_vfUZJI1jEe-KytPUVF_PVw" outerRequiredRole_RequiredDelegationConnector="_vfWOQo1jEe-KytPUVF_PVw" assemblyContext_RequiredDelegationConnector="_vfXcYI1jEe-KytPUVF_PVw"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_vfZ4oY1jEe-KytPUVF_PVw" innerRequiredRole_RequiredDelegationConnector="_vfUZHY1jEe-KytPUVF_PVw" outerRequiredRole_RequiredDelegationConnector="_vfWOQY1jEe-KytPUVF_PVw" assemblyContext_RequiredDelegationConnector="_vfW1VI1jEe-KytPUVF_PVw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_vfWOQI1jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays Provider" providedInterface__OperationProvidedRole="_vfIL2o1jEe-KytPUVF_PVw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vfWOQY1jEe-KytPUVF_PVw" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_vfIy4I1jEe-KytPUVF_PVw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_vfWOQo1jEe-KytPUVF_PVw" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode= Consumer" requiredInterface__OperationRequiredRole="_vfIy441jEe-KytPUVF_PVw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_vfWORI1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_service_TrayItemService">
+    <assemblyContexts__ComposedStructure id="_vfW1UI1jEe-KytPUVF_PVw" encapsulatedComponent__AssemblyContext="_vfIy5I1jEe-KytPUVF_PVw"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vfIL2o1jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays">
+    <signatures__OperationInterface id="_vYdjJY1jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays$2" returnType__OperationSignature="_vYXcgI1jEe-KytPUVF_PVw"/>
+    <signatures__OperationInterface id="_vYdjII1jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays/price" returnType__OperationSignature="_vYc8EI1jEe-KytPUVF_PVw">
       <parameters__OperationSignature parameterName="itemCode" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_lPLfwHhLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays/price" returnType__OperationSignature="_lPK4sHhLEe-DjskUoktOzQ">
+    <signatures__OperationInterface id="_vYYDkI1jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays" returnType__OperationSignature="_vYXcgI1jEe-KytPUVF_PVw">
+      <parameters__OperationSignature dataType__Parameter="_vYW1cI1jEe-KytPUVF_PVw" parameterName="trayItem" modifier__Parameter="in"/>
+    </signatures__OperationInterface>
+    <signatures__OperationInterface id="_vYeKMI1jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays$3" returnType__OperationSignature="_vYW1cI1jEe-KytPUVF_PVw">
       <parameters__OperationSignature parameterName="itemCode" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_lPLfxXhLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays$2" returnType__OperationSignature="_lPH1YHhLEe-DjskUoktOzQ"/>
-    <signatures__OperationInterface id="_lPLfw3hLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays/item" returnType__OperationSignature="_lPLfwnhLEe-DjskUoktOzQ">
+    <signatures__OperationInterface id="_vYdjI41jEe-KytPUVF_PVw" entityName="foodtray-service/foodtrays/item" returnType__OperationSignature="_vYdjIo1jEe-KytPUVF_PVw">
       <parameters__OperationSignature parameterName="itemCode" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_lPIccHhLEe-DjskUoktOzQ" entityName="foodtray-service/foodtrays" returnType__OperationSignature="_lPH1YHhLEe-DjskUoktOzQ">
-      <parameters__OperationSignature dataType__Parameter="_lPGnQHhLEe-DjskUoktOzQ" parameterName="trayItem" modifier__Parameter="in"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_lWRmRXhLEe-DjskUoktOzQ" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode="/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lPGnQHhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_domain_TrayItem"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lPH1YHhLEe-DjskUoktOzQ" entityName="java_util_List"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lPK4sHhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_domain_Price"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lPLfwnhLEe-DjskUoktOzQ" entityName="com_github_joffryferrater_foodtrayservice_domain_Item"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vfIy4I1jEe-KytPUVF_PVw" entityName="PRICE-SERVICE/prices/search/findByItemCode?itemCode="/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vfIy4Y1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_PriceServiceRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vfIy4o1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_repository_ItemServiceRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_vfIy441jEe-KytPUVF_PVw" entityName="ITEM-SERVICE/items/search/findByItemCode?itemCode="/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_vYW1cI1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_domain_TrayItem"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_vYXcgI1jEe-KytPUVF_PVw" entityName="java_util_List"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_vYc8EI1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_domain_Price"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_vYdjIo1jEe-KytPUVF_PVw" entityName="com_github_joffryferrater_foodtrayservice_domain_Item"/>
 </repository:Repository>

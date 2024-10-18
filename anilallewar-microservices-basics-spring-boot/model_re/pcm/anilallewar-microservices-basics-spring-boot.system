@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_0YMbMHgoEe--QtVPGIcODg">
-  <assemblyContexts__ComposedStructure id="_0YIJwHgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_task_apis_CommentsService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0XvIMngoEe--QtVPGIcODg"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_I2DNQI1jEe-tAYnCIl5VFA">
+  <assemblyContexts__ComposedStructure id="_I1-70I1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_task_apis_OAuth2RestTemplate Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I1ksLY1jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIJwXgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_task_apis_OAuth2RestTemplate Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0XvINHgoEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-70Y1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_task_apis_TaskController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I1lTNI1jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw0HgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_task_apis Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0YCDI3goEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-70o1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_user_api_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I1tPC41jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw0XgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_comments_apis_CommentsController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0X5gR3goEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-7041jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_task_apis_CommentsService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I1yHj41jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw0ngoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_task_apis_TaskController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0XvIOXgoEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-71I1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_auth_api_AuthUserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I1yukY1jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw03goEe--QtVPGIcODg" entityName="com_anilallewar_microservices_auth_api_AuthUserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0X3EC3goEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-71Y1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_user_api_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I1tPC41jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw1HgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_auth_api_AuthUserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0X3EC3goEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-71o1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_auth_api_AuthUserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I1yukY1jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw1XgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_user_api_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0X78j3goEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-7141jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_task_apis Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I15cSI1jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw1ngoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_comments_apis_CommentsController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0X5gR3goEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-72I1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_comments_apis_CommentsController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I11K2I1jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0YIw13goEe--QtVPGIcODg" entityName="com_anilallewar_microservices_user_api_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_0X78j3goEe--QtVPGIcODg"/>
+  <assemblyContexts__ComposedStructure id="_I1-72Y1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_comments_apis_CommentsController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="anilallewar-microservices-basics-spring-boot.repository#_I11K2I1jEe-tAYnCIl5VFA"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0YJ-8HgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_task_apis_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_0YIJwHgoEe--QtVPGIcODg" providingAssemblyContext_AssemblyConnector="_0YIJwXgoEe--QtVPGIcODg">
-    <providedRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_0XvIM3goEe--QtVPGIcODg"/>
-    <requiredRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_0XvIMXgoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_I2AJ8I1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_task_apis_CommentsService Connector" requiringAssemblyContext_AssemblyConnector="_I1-70Y1jEe-tAYnCIl5VFA" providingAssemblyContext_AssemblyConnector="_I1-7041jEe-tAYnCIl5VFA">
+    <providedRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_I1yHjY1jEe-tAYnCIl5VFA"/>
+    <requiredRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_I1lTM41jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0YJ-8XgoEe--QtVPGIcODg" entityName="com_anilallewar_microservices_task_apis_CommentsService Connector" requiringAssemblyContext_AssemblyConnector="_0YIw0ngoEe--QtVPGIcODg" providingAssemblyContext_AssemblyConnector="_0YIJwHgoEe--QtVPGIcODg">
-    <providedRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_0XvIMHgoEe--QtVPGIcODg"/>
-    <requiredRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_0XvIOHgoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_I2AJ8Y1jEe-tAYnCIl5VFA" entityName="com_anilallewar_microservices_task_apis_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_I1-7041jEe-tAYnCIl5VFA" providingAssemblyContext_AssemblyConnector="_I1-70I1jEe-tAYnCIl5VFA">
+    <providedRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_I1ksLI1jEe-tAYnCIl5VFA"/>
+    <requiredRole_AssemblyConnector href="anilallewar-microservices-basics-spring-boot.repository#_I1yHjo1jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0YLNEXgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$4 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0YLNEHgoEe--QtVPGIcODg" assemblyContext_ProvidedDelegationConnector="_0YIw1XgoEe--QtVPGIcODg">
-    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_0X78jngoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I2B_II1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$5 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_I2BYEI1jEe-tAYnCIl5VFA" assemblyContext_ProvidedDelegationConnector="_I1-7141jEe-tAYnCIl5VFA">
+    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_I15cRY1jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0YL0IXgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/comments Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0YL0IHgoEe--QtVPGIcODg" assemblyContext_ProvidedDelegationConnector="_0YIw0XgoEe--QtVPGIcODg">
-    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_0X5gRngoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I2B_Io1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$4 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_I2B_IY1jEe-tAYnCIl5VFA" assemblyContext_ProvidedDelegationConnector="_I1-70o1jEe-tAYnCIl5VFA">
+    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_I1tPCY1jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0YL0I3goEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0YL0IngoEe--QtVPGIcODg" assemblyContext_ProvidedDelegationConnector="_0YIw03goEe--QtVPGIcODg">
-    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_0X3ECngoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I2B_JI1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_I2B_I41jEe-tAYnCIl5VFA" assemblyContext_ProvidedDelegationConnector="_I1-7141jEe-tAYnCIl5VFA">
+    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_I15cRo1jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0YL0JXgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0YL0JHgoEe--QtVPGIcODg" assemblyContext_ProvidedDelegationConnector="_0YIw1XgoEe--QtVPGIcODg">
-    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_0X78jXgoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I2B_Jo1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/usertask Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_I2B_JY1jEe-tAYnCIl5VFA" assemblyContext_ProvidedDelegationConnector="_I1-7141jEe-tAYnCIl5VFA">
+    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_I15cR41jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0YL0J3goEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0YL0JngoEe--QtVPGIcODg" assemblyContext_ProvidedDelegationConnector="_0YIw0HgoEe--QtVPGIcODg">
-    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_0YCDIHgoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I2B_KI1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_I2B_J41jEe-tAYnCIl5VFA" assemblyContext_ProvidedDelegationConnector="_I1-70o1jEe-tAYnCIl5VFA">
+    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_I1tPCo1jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0YL0KXgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/usertask Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0YL0KHgoEe--QtVPGIcODg" assemblyContext_ProvidedDelegationConnector="_0YIw0HgoEe--QtVPGIcODg">
-    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_0YCDIXgoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I2CmMI1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/comments Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_I2B_KY1jEe-tAYnCIl5VFA" assemblyContext_ProvidedDelegationConnector="_I1-72I1jEe-tAYnCIl5VFA">
+    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_I11K141jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0YL0K3goEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$5 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0YL0KngoEe--QtVPGIcODg" assemblyContext_ProvidedDelegationConnector="_0YIw0HgoEe--QtVPGIcODg">
-    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_0YCDIngoEe--QtVPGIcODg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I2CmMo1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_I2CmMY1jEe-tAYnCIl5VFA" assemblyContext_ProvidedDelegationConnector="_I1-71I1jEe-tAYnCIl5VFA">
+    <innerProvidedRole_ProvidedDelegationConnector href="anilallewar-microservices-basics-spring-boot.repository#_I1yukI1jEe-tAYnCIl5VFA"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0YLNEHgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$4 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_0XuhIHgoEe--QtVPGIcODg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_I2BYEI1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$5 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_I1ksJ41jEe-tAYnCIl5VFA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0YL0IHgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/comments Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_0XuhI3goEe--QtVPGIcODg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_I2B_IY1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$4 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_I1ksI41jEe-tAYnCIl5VFA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0YL0IngoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$3 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_0XuhIngoEe--QtVPGIcODg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_I2B_I41jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_I1ksKY1jEe-tAYnCIl5VFA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0YL0JHgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_0XuhJHgoEe--QtVPGIcODg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_I2B_JY1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/usertask Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_I1ksK41jEe-tAYnCIl5VFA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0YL0JngoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_0XuhKHgoEe--QtVPGIcODg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_I2B_J41jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_I1ksJo1jEe-tAYnCIl5VFA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0YL0KHgoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/usertask Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_0XuhIXgoEe--QtVPGIcODg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_I2B_KY1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/comments Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_I1ksJY1jEe-tAYnCIl5VFA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0YL0KngoEe--QtVPGIcODg" entityName="SPRING-APPLICATION/$5 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_0XuhJngoEe--QtVPGIcODg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_I2CmMY1jEe-tAYnCIl5VFA" entityName="SPRING-APPLICATION/$3 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="anilallewar-microservices-basics-spring-boot.repository#_I1ksKI1jEe-tAYnCIl5VFA"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

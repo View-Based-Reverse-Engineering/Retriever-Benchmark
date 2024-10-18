@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_loVmoXhLEe-Ci-BWFZP5ig">
-  <assemblyContexts__ComposedStructure id="_loO48HhLEe-Ci-BWFZP5ig" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_ln9MJ3hLEe-Ci-BWFZP5ig"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_-qqh5I1jEe-uT9HSBJfKaA">
+  <assemblyContexts__ComposedStructure id="_-qm3gI1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_MovieResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qUjqI1jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO48XhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_loD51HhLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3gY1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qYOC41jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO48nhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_MovieResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_loG9JHhLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3go1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qYOC41jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO483hLEe-Ci-BWFZP5ig" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_ln9MJ3hLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3g41jEe-uT9HSBJfKaA" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qb4ZY1jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO49HhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_loD52HhLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3hI1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qbRXY1jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO49XhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_loD52HhLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3hY1jEe-uT9HSBJfKaA" entityName="WebClient_Builder Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qb4YY1jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO49nhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_loG9IXhLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3ho1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qb4Y41jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO493hLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_MovieResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_loG9JHhLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3h41jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_MovieResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qUjqI1jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_loO4-HhLEe-Ci-BWFZP5ig" entityName="WebClient_Builder Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_loJZanhLEe-Ci-BWFZP5ig"/>
+  <assemblyContexts__ComposedStructure id="_-qm3iI1jEe-uT9HSBJfKaA" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qb4ZY1jEe-uT9HSBJfKaA"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_loQuIHhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_loO48nhLEe-Ci-BWFZP5ig" providingAssemblyContext_AssemblyConnector="_loO48XhLEe-Ci-BWFZP5ig">
-    <providedRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loD503hLEe-Ci-BWFZP5ig"/>
-    <requiredRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loG9I3hLEe-Ci-BWFZP5ig"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_-qossI1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_-qm3gY1jEe-uT9HSBJfKaA" providingAssemblyContext_AssemblyConnector="_-qm3ho1jEe-uT9HSBJfKaA">
+    <providedRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qb4Yo1jEe-uT9HSBJfKaA"/>
+    <requiredRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qYOCo1jEe-uT9HSBJfKaA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_loQuIXhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_loO49HhLEe-Ci-BWFZP5ig" providingAssemblyContext_AssemblyConnector="_loO49nhLEe-Ci-BWFZP5ig">
-    <providedRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loG9IHhLEe-Ci-BWFZP5ig"/>
-    <requiredRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loD513hLEe-Ci-BWFZP5ig"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_-qossY1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_-qm3gI1jEe-uT9HSBJfKaA" providingAssemblyContext_AssemblyConnector="_-qm3hI1jEe-uT9HSBJfKaA">
+    <providedRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qbRXI1jEe-uT9HSBJfKaA"/>
+    <requiredRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qUjp41jEe-uT9HSBJfKaA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_loQuInhLEe-Ci-BWFZP5ig" entityName="WebClient_Builder Connector" requiringAssemblyContext_AssemblyConnector="_loO49HhLEe-Ci-BWFZP5ig" providingAssemblyContext_AssemblyConnector="_loO4-HhLEe-Ci-BWFZP5ig">
-    <providedRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loJZaXhLEe-Ci-BWFZP5ig"/>
-    <requiredRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loD51nhLEe-Ci-BWFZP5ig"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_-qosso1jEe-uT9HSBJfKaA" entityName="WebClient_Builder Connector" requiringAssemblyContext_AssemblyConnector="_-qm3gY1jEe-uT9HSBJfKaA" providingAssemblyContext_AssemblyConnector="_-qm3hY1jEe-uT9HSBJfKaA">
+    <providedRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qb4YI1jEe-uT9HSBJfKaA"/>
+    <requiredRole_AssemblyConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qYOCY1jEe-uT9HSBJfKaA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_loSjUHhLEe-Ci-BWFZP5ig" entityName="movie-info-service/movies Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_loR8QHhLEe-Ci-BWFZP5ig" assemblyContext_ProvidedDelegationConnector="_loO48nhLEe-Ci-BWFZP5ig">
-    <innerProvidedRole_ProvidedDelegationConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loG9InhLEe-Ci-BWFZP5ig"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-qp60Y1jEe-uT9HSBJfKaA" entityName="movie-catalog-service/catalog Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_-qp60I1jEe-uT9HSBJfKaA" assemblyContext_ProvidedDelegationConnector="_-qm3gY1jEe-uT9HSBJfKaA">
+    <innerProvidedRole_ProvidedDelegationConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qYOCI1jEe-uT9HSBJfKaA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_loSjUnhLEe-Ci-BWFZP5ig" entityName="ratings-data-service/ratingsdata Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_loSjUXhLEe-Ci-BWFZP5ig" assemblyContext_ProvidedDelegationConnector="_loO48HhLEe-Ci-BWFZP5ig">
-    <innerProvidedRole_ProvidedDelegationConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_ln9MJnhLEe-Ci-BWFZP5ig"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-qqh4Y1jEe-uT9HSBJfKaA" entityName="movie-info-service/movies Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_-qqh4I1jEe-uT9HSBJfKaA" assemblyContext_ProvidedDelegationConnector="_-qm3gI1jEe-uT9HSBJfKaA">
+    <innerProvidedRole_ProvidedDelegationConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qUjpo1jEe-uT9HSBJfKaA"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_loVmoHhLEe-Ci-BWFZP5ig" entityName="movie-catalog-service/catalog Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_loSjU3hLEe-Ci-BWFZP5ig" assemblyContext_ProvidedDelegationConnector="_loO49HhLEe-Ci-BWFZP5ig">
-    <innerProvidedRole_ProvidedDelegationConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_loD51XhLEe-Ci-BWFZP5ig"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-qqh441jEe-uT9HSBJfKaA" entityName="ratings-data-service/ratingsdata Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_-qqh4o1jEe-uT9HSBJfKaA" assemblyContext_ProvidedDelegationConnector="_-qm3g41jEe-uT9HSBJfKaA">
+    <innerProvidedRole_ProvidedDelegationConnector href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qb4ZI1jEe-uT9HSBJfKaA"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loR8QHhLEe-Ci-BWFZP5ig" entityName="movie-info-service/movies Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="koushikkothagal-spring-boot-microservices-workshop.repository#_ln9MIHhLEe-Ci-BWFZP5ig"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qp60I1jEe-uT9HSBJfKaA" entityName="movie-catalog-service/catalog Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qUjoY1jEe-uT9HSBJfKaA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loSjUXhLEe-Ci-BWFZP5ig" entityName="ratings-data-service/ratingsdata Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="koushikkothagal-spring-boot-microservices-workshop.repository#_ln9MIXhLEe-Ci-BWFZP5ig"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qqh4I1jEe-uT9HSBJfKaA" entityName="movie-info-service/movies Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qUjpY1jEe-uT9HSBJfKaA"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loSjU3hLEe-Ci-BWFZP5ig" entityName="movie-catalog-service/catalog Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="koushikkothagal-spring-boot-microservices-workshop.repository#_ln9MJXhLEe-Ci-BWFZP5ig"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qqh4o1jEe-uT9HSBJfKaA" entityName="ratings-data-service/ratingsdata Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="koushikkothagal-spring-boot-microservices-workshop.repository#_-qUjo41jEe-uT9HSBJfKaA"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

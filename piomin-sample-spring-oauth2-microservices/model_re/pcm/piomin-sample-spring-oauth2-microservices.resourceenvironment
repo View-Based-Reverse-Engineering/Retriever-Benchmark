@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2">
-  <resourceContainer_ResourceEnvironment id="_r4gkMHhLEe-CL-FJF3Z66g" entityName="Placeholder_4"/>
-  <resourceContainer_ResourceEnvironment id="_r4gkMXhLEe-CL-FJF3Z66g" entityName="Placeholder_1"/>
-  <resourceContainer_ResourceEnvironment id="_r4gkMnhLEe-CL-FJF3Z66g" entityName="Placeholder_5"/>
-  <resourceContainer_ResourceEnvironment id="_r4gkM3hLEe-CL-FJF3Z66g" entityName="Placeholder_3"/>
+  <resourceContainer_ResourceEnvironment id="_VJF2wI1kEe-IboKl8OriNw" entityName="Placeholder_5"/>
+  <resourceContainer_ResourceEnvironment id="_VJF2wY1kEe-IboKl8OriNw" entityName="Placeholder_2"/>
+  <resourceContainer_ResourceEnvironment id="_VJF2wo1kEe-IboKl8OriNw" entityName="Placeholder_1"/>
+  <resourceContainer_ResourceEnvironment id="_VJF2w41kEe-IboKl8OriNw" entityName="Placeholder_4"/>
 </resourceenvironment:ResourceEnvironment>

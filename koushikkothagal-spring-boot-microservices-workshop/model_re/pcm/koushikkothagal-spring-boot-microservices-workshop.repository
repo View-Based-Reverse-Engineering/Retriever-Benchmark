@@ -1,68 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_loL1pnhLEe-Ci-BWFZP5ig">
-  <components__Repository xsi:type="repository:BasicComponent" id="_ln9MJ3hLEe-Ci-BWFZP5ig" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ln9MJnhLEe-Ci-BWFZP5ig" entityName="ratings-data-service/ratingsdata Provider" providedInterface__OperationProvidedRole="_ln9MIXhLEe-Ci-BWFZP5ig"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lnUS8nhLEe-Ci-BWFZP5ig" describedService__SEFF="_lh8qwXhLEe-Ci-BWFZP5ig">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_liak0XhLEe-Ci-BWFZP5ig" entityName="Start Action" successor_AbstractAction="_lnUS8HhLEe-Ci-BWFZP5ig"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lnUS8HhLEe-Ci-BWFZP5ig" entityName="new Rating(movieId,4)" predecessor_AbstractAction="_liak0XhLEe-Ci-BWFZP5ig" successor_AbstractAction="_lnUS8XhLEe-Ci-BWFZP5ig">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.new Rating(movieId,4)"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="new Rating(movieId,4)"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lnUS8XhLEe-Ci-BWFZP5ig" entityName="Stop Action" predecessor_AbstractAction="_lnUS8HhLEe-Ci-BWFZP5ig"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lnVhE3hLEe-Ci-BWFZP5ig" describedService__SEFF="_lh9R0HhLEe-Ci-BWFZP5ig">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lnUS83hLEe-Ci-BWFZP5ig" entityName="Start Action" successor_AbstractAction="_lnVhEHhLEe-Ci-BWFZP5ig"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_lnVhEHhLEe-Ci-BWFZP5ig" entityName="userRating.initData(userId)" predecessor_AbstractAction="_lnUS83hLEe-Ci-BWFZP5ig" successor_AbstractAction="_lnVhEXhLEe-Ci-BWFZP5ig"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lnVhEXhLEe-Ci-BWFZP5ig" entityName="userRating" predecessor_AbstractAction="_lnVhEHhLEe-Ci-BWFZP5ig" successor_AbstractAction="_lnVhEnhLEe-Ci-BWFZP5ig">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.userRating"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="userRating"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lnVhEnhLEe-Ci-BWFZP5ig" entityName="Stop Action" predecessor_AbstractAction="_lnVhEXhLEe-Ci-BWFZP5ig"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_loD51HhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loD503hLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Provider" providedInterface__OperationProvidedRole="_ln9MInhLEe-Ci-BWFZP5ig"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_loD52HhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loD51XhLEe-Ci-BWFZP5ig" entityName="movie-catalog-service/catalog Provider" providedInterface__OperationProvidedRole="_ln9MJXhLEe-Ci-BWFZP5ig"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_loD51nhLEe-Ci-BWFZP5ig" entityName="WebClient_Builder Consumer" requiredInterface__OperationRequiredRole="_ln9MI3hLEe-Ci-BWFZP5ig"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_loD513hLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Consumer" requiredInterface__OperationRequiredRole="_ln9MJHhLEe-Ci-BWFZP5ig"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lnWIInhLEe-Ci-BWFZP5ig" describedService__SEFF="_lh6OgHhLEe-Ci-BWFZP5ig">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lnVhFXhLEe-Ci-BWFZP5ig" entityName="Start Action" successor_AbstractAction="_lnWIIHhLEe-Ci-BWFZP5ig"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lnWIIHhLEe-Ci-BWFZP5ig" entityName="userRating.getRatings().stream().map(rating -> {&#xA;  Movie movie=restTemplate.getForObject(&quot;http://movie-info-service/movies/&quot; + rating.getMovieId(),Movie.class);&#xA;  return new CatalogItem(movie.getName(),movie.getDescription(),rating.getRating());&#xA;}&#xA;).collect(Collectors.toList())" predecessor_AbstractAction="_lnVhFXhLEe-Ci-BWFZP5ig" successor_AbstractAction="_lnWIIXhLEe-Ci-BWFZP5ig">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.userRating_getRatings()_stream()_map(rating -> {&#xA;  Movie movie=restTemplate_getForObject(&quot;http://movie-info-service/movies/&quot; + rating_getMovieId(),Movie_class);&#xA;  return new CatalogItem(movie_getName(),movie_getDescription(),rating_getRating());&#xA;}&#xA;)_collect(Collectors_toList())"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="userRating_getRatings()_stream()_map(rating -> {&#xA;  Movie movie=restTemplate_getForObject(&quot;http://movie-info-service/movies/&quot; + rating_getMovieId(),Movie_class);&#xA;  return new CatalogItem(movie_getName(),movie_getDescription(),rating_getRating());&#xA;}&#xA;)_collect(Collectors_toList())"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lnWIIXhLEe-Ci-BWFZP5ig" entityName="Stop Action" predecessor_AbstractAction="_lnWIIHhLEe-Ci-BWFZP5ig"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_loG9IXhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loG9IHhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Provider" providedInterface__OperationProvidedRole="_ln9MJHhLEe-Ci-BWFZP5ig"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_loG9JHhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_MovieResource">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loG9InhLEe-Ci-BWFZP5ig" entityName="movie-info-service/movies Provider" providedInterface__OperationProvidedRole="_ln9MIHhLEe-Ci-BWFZP5ig"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_loG9I3hLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Consumer" requiredInterface__OperationRequiredRole="_ln9MInhLEe-Ci-BWFZP5ig"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_lnWIJ3hLEe-Ci-BWFZP5ig" describedService__SEFF="_lh9R1XhLEe-Ci-BWFZP5ig">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_lnWIJHhLEe-Ci-BWFZP5ig" entityName="Start Action" successor_AbstractAction="_lnWIJXhLEe-Ci-BWFZP5ig"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_lnWIJXhLEe-Ci-BWFZP5ig" entityName="new Movie(movieId,movieSummary.getTitle(),movieSummary.getOverview())" predecessor_AbstractAction="_lnWIJHhLEe-Ci-BWFZP5ig" successor_AbstractAction="_lnWIJnhLEe-Ci-BWFZP5ig">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_-qj0MI1jEe-uT9HSBJfKaA">
+  <components__Repository xsi:type="repository:BasicComponent" id="_-qUjqI1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_MovieResource">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qUjpo1jEe-uT9HSBJfKaA" entityName="movie-info-service/movies Provider" providedInterface__OperationProvidedRole="_-qUjpY1jEe-uT9HSBJfKaA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-qUjp41jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Consumer" requiredInterface__OperationRequiredRole="_-qUjoI1jEe-uT9HSBJfKaA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-prDZ41jEe-uT9HSBJfKaA" describedService__SEFF="_-kNUk41jEe-uT9HSBJfKaA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-prDZI1jEe-uT9HSBJfKaA" entityName="Start Action" successor_AbstractAction="_-prDZY1jEe-uT9HSBJfKaA"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_-prDZY1jEe-uT9HSBJfKaA" entityName="new Movie(movieId,movieSummary.getTitle(),movieSummary.getOverview())" predecessor_AbstractAction="_-prDZI1jEe-uT9HSBJfKaA" successor_AbstractAction="_-prDZo1jEe-uT9HSBJfKaA">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.new Movie(movieId,movieSummary_getTitle(),movieSummary_getOverview())"/>
@@ -72,58 +15,115 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_lnWIJnhLEe-Ci-BWFZP5ig" entityName="Stop Action" predecessor_AbstractAction="_lnWIJXhLEe-Ci-BWFZP5ig"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-prDZo1jEe-uT9HSBJfKaA" entityName="Stop Action" predecessor_AbstractAction="_-prDZY1jEe-uT9HSBJfKaA"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_loJZanhLEe-Ci-BWFZP5ig" entityName="WebClient_Builder Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loJZaXhLEe-Ci-BWFZP5ig" entityName="WebClient_Builder Provider" providedInterface__OperationProvidedRole="_ln9MI3hLEe-Ci-BWFZP5ig"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_-qYOC41jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qYOCI1jEe-uT9HSBJfKaA" entityName="movie-catalog-service/catalog Provider" providedInterface__OperationProvidedRole="_-qUjoY1jEe-uT9HSBJfKaA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-qYOCY1jEe-uT9HSBJfKaA" entityName="WebClient_Builder Consumer" requiredInterface__OperationRequiredRole="_-qUjpI1jEe-uT9HSBJfKaA"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_-qYOCo1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Consumer" requiredInterface__OperationRequiredRole="_-qUjoo1jEe-uT9HSBJfKaA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-prDYo1jEe-uT9HSBJfKaA" describedService__SEFF="_-kMtgY1jEe-uT9HSBJfKaA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-pqcVI1jEe-uT9HSBJfKaA" entityName="Start Action" successor_AbstractAction="_-prDYI1jEe-uT9HSBJfKaA"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_-prDYI1jEe-uT9HSBJfKaA" entityName="userRating.getRatings().stream().map(rating -> {&#xA;  Movie movie=restTemplate.getForObject(&quot;http://movie-info-service/movies/&quot; + rating.getMovieId(),Movie.class);&#xA;  return new CatalogItem(movie.getName(),movie.getDescription(),rating.getRating());&#xA;}&#xA;).collect(Collectors.toList())" predecessor_AbstractAction="_-pqcVI1jEe-uT9HSBJfKaA" successor_AbstractAction="_-prDYY1jEe-uT9HSBJfKaA">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.userRating_getRatings()_stream()_map(rating -> {&#xA;  Movie movie=restTemplate_getForObject(&quot;http://movie-info-service/movies/&quot; + rating_getMovieId(),Movie_class);&#xA;  return new CatalogItem(movie_getName(),movie_getDescription(),rating_getRating());&#xA;}&#xA;)_collect(Collectors_toList())"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="userRating_getRatings()_stream()_map(rating -> {&#xA;  Movie movie=restTemplate_getForObject(&quot;http://movie-info-service/movies/&quot; + rating_getMovieId(),Movie_class);&#xA;  return new CatalogItem(movie_getName(),movie_getDescription(),rating_getRating());&#xA;}&#xA;)_collect(Collectors_toList())"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-prDYY1jEe-uT9HSBJfKaA" entityName="Stop Action" predecessor_AbstractAction="_-prDYI1jEe-uT9HSBJfKaA"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_loLOkXhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_MovieResource">
-    <assemblyContexts__ComposedStructure id="_loL1pHhLEe-Ci-BWFZP5ig" encapsulatedComponent__AssemblyContext="_loG9JHhLEe-Ci-BWFZP5ig"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_loNDwHhLEe-Ci-BWFZP5ig" innerProvidedRole_ProvidedDelegationConnector="_loG9InhLEe-Ci-BWFZP5ig" outerProvidedRole_ProvidedDelegationConnector="_loLOkHhLEe-Ci-BWFZP5ig" assemblyContext_ProvidedDelegationConnector="_loL1pHhLEe-Ci-BWFZP5ig"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loLOkHhLEe-Ci-BWFZP5ig" entityName="movie-info-service/movies Provider" providedInterface__OperationProvidedRole="_ln9MIHhLEe-Ci-BWFZP5ig"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_-qbRXY1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qbRXI1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_RestTemplate Provider" providedInterface__OperationProvidedRole="_-qUjoI1jEe-uT9HSBJfKaA"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_loLOk3hLEe-Ci-BWFZP5ig" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource">
-    <assemblyContexts__ComposedStructure id="_loL1onhLEe-Ci-BWFZP5ig" encapsulatedComponent__AssemblyContext="_ln9MJ3hLEe-Ci-BWFZP5ig"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_loNDwXhLEe-Ci-BWFZP5ig" innerProvidedRole_ProvidedDelegationConnector="_ln9MJnhLEe-Ci-BWFZP5ig" outerProvidedRole_ProvidedDelegationConnector="_loLOknhLEe-Ci-BWFZP5ig" assemblyContext_ProvidedDelegationConnector="_loL1onhLEe-Ci-BWFZP5ig"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loLOknhLEe-Ci-BWFZP5ig" entityName="ratings-data-service/ratingsdata Provider" providedInterface__OperationProvidedRole="_ln9MIXhLEe-Ci-BWFZP5ig"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_-qb4YY1jEe-uT9HSBJfKaA" entityName="WebClient_Builder Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qb4YI1jEe-uT9HSBJfKaA" entityName="WebClient_Builder Provider" providedInterface__OperationProvidedRole="_-qUjpI1jEe-uT9HSBJfKaA"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_loLOlXhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource">
-    <assemblyContexts__ComposedStructure id="_loL1oHhLEe-Ci-BWFZP5ig" encapsulatedComponent__AssemblyContext="_loD52HhLEe-Ci-BWFZP5ig"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_loNDwnhLEe-Ci-BWFZP5ig" innerProvidedRole_ProvidedDelegationConnector="_loD51XhLEe-Ci-BWFZP5ig" outerProvidedRole_ProvidedDelegationConnector="_loLOlHhLEe-Ci-BWFZP5ig" assemblyContext_ProvidedDelegationConnector="_loL1oHhLEe-Ci-BWFZP5ig"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_loLOlHhLEe-Ci-BWFZP5ig" entityName="movie-catalog-service/catalog Provider" providedInterface__OperationProvidedRole="_ln9MJXhLEe-Ci-BWFZP5ig"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_-qb4Y41jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qb4Yo1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate Provider" providedInterface__OperationProvidedRole="_-qUjoo1jEe-uT9HSBJfKaA"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ln9MIHhLEe-Ci-BWFZP5ig" entityName="movie-info-service/movies">
-    <signatures__OperationInterface id="_lh9R1XhLEe-Ci-BWFZP5ig" entityName="movie-info-service/movies" returnType__OperationSignature="_lh9R1HhLEe-Ci-BWFZP5ig">
-      <parameters__OperationSignature parameterName="movieId" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-  </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ln9MIXhLEe-Ci-BWFZP5ig" entityName="ratings-data-service/ratingsdata">
-    <signatures__OperationInterface id="_lh8qwXhLEe-Ci-BWFZP5ig" entityName="ratings-data-service/ratingsdata/movies" returnType__OperationSignature="_lh8qwHhLEe-Ci-BWFZP5ig">
-      <parameters__OperationSignature parameterName="movieId" modifier__Parameter="in">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-      </parameters__OperationSignature>
-    </signatures__OperationInterface>
-    <signatures__OperationInterface id="_lh9R0HhLEe-Ci-BWFZP5ig" entityName="ratings-data-service/ratingsdata/user" returnType__OperationSignature="_lh8qw3hLEe-Ci-BWFZP5ig">
+  <components__Repository xsi:type="repository:BasicComponent" id="_-qb4ZY1jEe-uT9HSBJfKaA" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qb4ZI1jEe-uT9HSBJfKaA" entityName="ratings-data-service/ratingsdata Provider" providedInterface__OperationProvidedRole="_-qUjo41jEe-uT9HSBJfKaA"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-pp1Qo1jEe-uT9HSBJfKaA" describedService__SEFF="_-jdtso1jEe-uT9HSBJfKaA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-kscwY1jEe-uT9HSBJfKaA" entityName="Start Action" successor_AbstractAction="_-ku5AI1jEe-uT9HSBJfKaA"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_-ku5AI1jEe-uT9HSBJfKaA" entityName="userRating.initData(userId)" predecessor_AbstractAction="_-kscwY1jEe-uT9HSBJfKaA" successor_AbstractAction="_-pp1QI1jEe-uT9HSBJfKaA"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_-pp1QI1jEe-uT9HSBJfKaA" entityName="userRating" predecessor_AbstractAction="_-ku5AI1jEe-uT9HSBJfKaA" successor_AbstractAction="_-pp1QY1jEe-uT9HSBJfKaA">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.userRating"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="userRating"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-pp1QY1jEe-uT9HSBJfKaA" entityName="Stop Action" predecessor_AbstractAction="_-pp1QI1jEe-uT9HSBJfKaA"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_-pqcUo1jEe-uT9HSBJfKaA" describedService__SEFF="_-jb4gI1jEe-uT9HSBJfKaA">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_-pp1Q41jEe-uT9HSBJfKaA" entityName="Start Action" successor_AbstractAction="_-pqcUI1jEe-uT9HSBJfKaA"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_-pqcUI1jEe-uT9HSBJfKaA" entityName="new Rating(movieId,4)" predecessor_AbstractAction="_-pp1Q41jEe-uT9HSBJfKaA" successor_AbstractAction="_-pqcUY1jEe-uT9HSBJfKaA">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.new Rating(movieId,4)"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="new Rating(movieId,4)"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_-pqcUY1jEe-uT9HSBJfKaA" entityName="Stop Action" predecessor_AbstractAction="_-pqcUI1jEe-uT9HSBJfKaA"/>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_-qimEY1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_CatalogResource">
+    <assemblyContexts__ComposedStructure id="_-qjNII1jEe-uT9HSBJfKaA" encapsulatedComponent__AssemblyContext="_-qYOC41jEe-uT9HSBJfKaA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-qkbQI1jEe-uT9HSBJfKaA" innerProvidedRole_ProvidedDelegationConnector="_-qYOCI1jEe-uT9HSBJfKaA" outerProvidedRole_ProvidedDelegationConnector="_-qimEI1jEe-uT9HSBJfKaA" assemblyContext_ProvidedDelegationConnector="_-qjNII1jEe-uT9HSBJfKaA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qimEI1jEe-uT9HSBJfKaA" entityName="movie-catalog-service/catalog Provider" providedInterface__OperationProvidedRole="_-qUjoY1jEe-uT9HSBJfKaA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_-qimE41jEe-uT9HSBJfKaA" entityName="io_javabrains_ratingsdataservice_resources_RatingsResource">
+    <assemblyContexts__ComposedStructure id="_-qjNIo1jEe-uT9HSBJfKaA" encapsulatedComponent__AssemblyContext="_-qb4ZY1jEe-uT9HSBJfKaA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-qkbQY1jEe-uT9HSBJfKaA" innerProvidedRole_ProvidedDelegationConnector="_-qb4ZI1jEe-uT9HSBJfKaA" outerProvidedRole_ProvidedDelegationConnector="_-qimEo1jEe-uT9HSBJfKaA" assemblyContext_ProvidedDelegationConnector="_-qjNIo1jEe-uT9HSBJfKaA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qimEo1jEe-uT9HSBJfKaA" entityName="ratings-data-service/ratingsdata Provider" providedInterface__OperationProvidedRole="_-qUjo41jEe-uT9HSBJfKaA"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_-qimFY1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_MovieResource">
+    <assemblyContexts__ComposedStructure id="_-qjNJI1jEe-uT9HSBJfKaA" encapsulatedComponent__AssemblyContext="_-qUjqI1jEe-uT9HSBJfKaA"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_-qlCUI1jEe-uT9HSBJfKaA" innerProvidedRole_ProvidedDelegationConnector="_-qUjpo1jEe-uT9HSBJfKaA" outerProvidedRole_ProvidedDelegationConnector="_-qimFI1jEe-uT9HSBJfKaA" assemblyContext_ProvidedDelegationConnector="_-qjNJI1jEe-uT9HSBJfKaA"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-qimFI1jEe-uT9HSBJfKaA" entityName="movie-info-service/movies Provider" providedInterface__OperationProvidedRole="_-qUjpY1jEe-uT9HSBJfKaA"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_-qUjoI1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_resources_RestTemplate"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_-qUjoY1jEe-uT9HSBJfKaA" entityName="movie-catalog-service/catalog">
+    <signatures__OperationInterface id="_-kMtgY1jEe-uT9HSBJfKaA" entityName="movie-catalog-service/catalog" returnType__OperationSignature="_-kMtgI1jEe-uT9HSBJfKaA">
       <parameters__OperationSignature parameterName="userId" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ln9MInhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_resources_RestTemplate"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ln9MI3hLEe-Ci-BWFZP5ig" entityName="WebClient_Builder"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ln9MJHhLEe-Ci-BWFZP5ig" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_ln9MJXhLEe-Ci-BWFZP5ig" entityName="movie-catalog-service/catalog">
-    <signatures__OperationInterface id="_lh6OgHhLEe-Ci-BWFZP5ig" entityName="movie-catalog-service/catalog" returnType__OperationSignature="_lh5AYHhLEe-Ci-BWFZP5ig">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_-qUjoo1jEe-uT9HSBJfKaA" entityName="io_javabrains_moviecatalogservice_resources_RestTemplate"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_-qUjo41jEe-uT9HSBJfKaA" entityName="ratings-data-service/ratingsdata">
+    <signatures__OperationInterface id="_-jdtso1jEe-uT9HSBJfKaA" entityName="ratings-data-service/ratingsdata/user" returnType__OperationSignature="_-jdtsY1jEe-uT9HSBJfKaA">
       <parameters__OperationSignature parameterName="userId" modifier__Parameter="in">
         <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
       </parameters__OperationSignature>
     </signatures__OperationInterface>
+    <signatures__OperationInterface id="_-jb4gI1jEe-uT9HSBJfKaA" entityName="ratings-data-service/ratingsdata/movies" returnType__OperationSignature="_-jbRcI1jEe-uT9HSBJfKaA">
+      <parameters__OperationSignature parameterName="movieId" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
   </interfaces__Repository>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lh5AYHhLEe-Ci-BWFZP5ig" entityName="java_util_List"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lh8qwHhLEe-Ci-BWFZP5ig" entityName="io_javabrains_ratingsdataservice_model_Rating"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lh8qw3hLEe-Ci-BWFZP5ig" entityName="io_javabrains_ratingsdataservice_model_UserRating"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_lh9R1HhLEe-Ci-BWFZP5ig" entityName="io_javabrains_movieinfoservice_models_Movie"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_-qUjpI1jEe-uT9HSBJfKaA" entityName="WebClient_Builder"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_-qUjpY1jEe-uT9HSBJfKaA" entityName="movie-info-service/movies">
+    <signatures__OperationInterface id="_-kNUk41jEe-uT9HSBJfKaA" entityName="movie-info-service/movies" returnType__OperationSignature="_-kNUko1jEe-uT9HSBJfKaA">
+      <parameters__OperationSignature parameterName="movieId" modifier__Parameter="in">
+        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+      </parameters__OperationSignature>
+    </signatures__OperationInterface>
+  </interfaces__Repository>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_-jbRcI1jEe-uT9HSBJfKaA" entityName="io_javabrains_ratingsdataservice_model_Rating"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_-jdtsY1jEe-uT9HSBJfKaA" entityName="io_javabrains_ratingsdataservice_model_UserRating"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_-kMtgI1jEe-uT9HSBJfKaA" entityName="java_util_List"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_-kNUko1jEe-uT9HSBJfKaA" entityName="io_javabrains_movieinfoservice_models_Movie"/>
 </repository:Repository>

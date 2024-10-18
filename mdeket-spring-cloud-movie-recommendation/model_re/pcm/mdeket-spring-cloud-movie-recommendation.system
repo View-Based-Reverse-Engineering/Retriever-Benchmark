@@ -1,113 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_oEijV3hLEe-0u4oC48VXJQ">
-  <assemblyContexts__ComposedStructure id="_oEe48HhLEe-0u4oC48VXJQ" entityName="com_example_service_UserService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oD97knhLEe-0u4oC48VXJQ"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_JnteR41kEe-a-OVTuGcE6g">
+  <assemblyContexts__ComposedStructure id="_Jnpz4I1kEe-a-OVTuGcE6g" entityName="com_example_service_UserService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv6I1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe48XhLEe-0u4oC48VXJQ" entityName="com_example_service_RestTemplate Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oD97lnhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz4Y1kEe-a-OVTuGcE6g" entityName="com_example_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JneNso1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe48nhLEe-0u4oC48VXJQ" entityName="com_example_RecommendationController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oD97mnhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz4o1kEe-a-OVTuGcE6g" entityName="com_example_MainController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnRZYY1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe483hLEe-0u4oC48VXJQ" entityName="com_example_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oEPBWHhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz441kEe-a-OVTuGcE6g" entityName="com_example_UserRepo Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq0Y1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe49HhLEe-0u4oC48VXJQ" entityName="com_example Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oEZZaHhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz5I1kEe-a-OVTuGcE6g" entityName="user-service/newuser Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq041kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe49XhLEe-0u4oC48VXJQ" entityName="com_example_MainController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oETSyHhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz5Y1kEe-a-OVTuGcE6g" entityName="com_example Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnjtSI1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe49nhLEe-0u4oC48VXJQ" entityName="com_example_MovieRepo Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oEXkOXhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz5o1kEe-a-OVTuGcE6g" entityName="com_example_MovieController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq1o1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe493hLEe-0u4oC48VXJQ" entityName="user-service/newuser Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oEXkO3hLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz541kEe-a-OVTuGcE6g" entityName="com_example_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JneNso1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe4-HhLEe-0u4oC48VXJQ" entityName="com_example_MovieController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oDyVanhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz6I1kEe-a-OVTuGcE6g" entityName="user-service/user Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv6o1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe4-XhLEe-0u4oC48VXJQ" entityName="com_example_MovieController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oDyVanhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz6Y1kEe-a-OVTuGcE6g" entityName="com_example_RecommendationController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv7o1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe4-nhLEe-0u4oC48VXJQ" entityName="user-service/user Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oD97lHhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz6o1kEe-a-OVTuGcE6g" entityName="com_example_MovieRepo Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnQyXo1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe4-3hLEe-0u4oC48VXJQ" entityName="com_example 2 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oEZZZXhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz641kEe-a-OVTuGcE6g" entityName="com_example 2 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JnjtRY1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe4_HhLEe-0u4oC48VXJQ" entityName="com_example_UserRepo Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oETSwXhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz7I1kEe-a-OVTuGcE6g" entityName="com_example_service_RestTemplate Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_Jndmro1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_oEe4_XhLEe-0u4oC48VXJQ" entityName="com_example_service_RecommendationClientService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_oETSxHhLEe-0u4oC48VXJQ"/>
+  <assemblyContexts__ComposedStructure id="_Jnpz7Y1kEe-a-OVTuGcE6g" entityName="com_example_service_RecommendationClientService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mdeket-spring-cloud-movie-recommendation.repository#_JndmsY1kEe-a-OVTuGcE6g"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguIHhLEe-0u4oC48VXJQ" entityName="user-service/newuser Connector" requiringAssemblyContext_AssemblyConnector="_oEe48HhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe493hLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEXkOnhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD97kXhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrCAI1kEe-a-OVTuGcE6g" entityName="com_example_UserRepo Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz6Y1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz441kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq0I1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv7I1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguIXhLEe-0u4oC48VXJQ" entityName="com_example_MovieRepo Connector" requiringAssemblyContext_AssemblyConnector="_oEe4-HhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe49nhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEXkOHhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oDyVaXhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrCAY1kEe-a-OVTuGcE6g" entityName="com_example_UserRepo Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz4Y1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz441kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq0I1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JneNsY1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguInhLEe-0u4oC48VXJQ" entityName="user-service/user Connector" requiringAssemblyContext_AssemblyConnector="_oEe4-3hLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe4-nhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD97k3hLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEZZY3hLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpEI1kEe-a-OVTuGcE6g" entityName="com_example_service_RecommendationClientService Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz4o1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz7Y1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_Jndmr41kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnRZYI1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguI3hLEe-0u4oC48VXJQ" entityName="com_example_UserRepo Connector" requiringAssemblyContext_AssemblyConnector="_oEe483hLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe4_HhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oETSwHhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEPBV3hLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpEY1kEe-a-OVTuGcE6g" entityName="user-service/newuser Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz4I1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz5I1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq0o1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv541kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguJHhLEe-0u4oC48VXJQ" entityName="com_example_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_oEe49XhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe48HhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD9UjXhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oETSx3hLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpEo1kEe-a-OVTuGcE6g" entityName="com_example_service_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz7Y1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz7I1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JndmrY1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JndmsI1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguJXhLEe-0u4oC48VXJQ" entityName="com_example_UserRepo Connector" requiringAssemblyContext_AssemblyConnector="_oEe48nhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe4_HhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oETSwHhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD97mHhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpE41kEe-a-OVTuGcE6g" entityName="com_example_MovieRepo Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz5o1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz6o1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnQyXY1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq1Y1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguJnhLEe-0u4oC48VXJQ" entityName="com_example_service_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_oEe4_XhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe48XhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD97lXhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oETSw3hLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpFI1kEe-a-OVTuGcE6g" entityName="com_example_MovieRepo Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz6Y1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz6o1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnQyXY1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv7Y1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguJ3hLEe-0u4oC48VXJQ" entityName="com_example_service_RecommendationClientService Connector" requiringAssemblyContext_AssemblyConnector="_oEe49XhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe4_XhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oETSwnhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oETSxnhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpFY1kEe-a-OVTuGcE6g" entityName="user-service/user Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz641kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz6I1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv6Y1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnjtQ41kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguKHhLEe-0u4oC48VXJQ" entityName="user-service/user Connector" requiringAssemblyContext_AssemblyConnector="_oEe48HhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe4-nhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD97k3hLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD97kHhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpFo1kEe-a-OVTuGcE6g" entityName="user-service/user Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz4I1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz6I1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv6Y1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv5o1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguKXhLEe-0u4oC48VXJQ" entityName="com_example_MovieRepo Connector" requiringAssemblyContext_AssemblyConnector="_oEe48nhLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe49nhLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEXkOHhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oD97mXhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpF41kEe-a-OVTuGcE6g" entityName="user-service/newuser Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz641kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz5I1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnVq0o1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnjtRI1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_oEguKnhLEe-0u4oC48VXJQ" entityName="user-service/newuser Connector" requiringAssemblyContext_AssemblyConnector="_oEe4-3hLEe-0u4oC48VXJQ" providingAssemblyContext_AssemblyConnector="_oEe493hLEe-0u4oC48VXJQ">
-    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEXkOnhLEe-0u4oC48VXJQ"/>
-    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEZZZHhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_JnrpGI1kEe-a-OVTuGcE6g" entityName="com_example_service_UserService Connector" requiringAssemblyContext_AssemblyConnector="_Jnpz4o1kEe-a-OVTuGcE6g" providingAssemblyContext_AssemblyConnector="_Jnpz4I1kEe-a-OVTuGcE6g">
+    <providedRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv5Y1kEe-a-OVTuGcE6g"/>
+    <requiredRole_AssemblyConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnQyYI1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_oEijUHhLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/movie Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_oEh8QHhLEe-0u4oC48VXJQ" assemblyContext_ProvidedDelegationConnector="_oEe4-HhLEe-0u4oC48VXJQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oDyVaHhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_JnteQI1kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/api Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_Jns3MI1kEe-a-OVTuGcE6g" assemblyContext_ProvidedDelegationConnector="_Jnpz641kEe-a-OVTuGcE6g">
+    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnjtQo1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_oEijUnhLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/api Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_oEijUXhLEe-0u4oC48VXJQ" assemblyContext_ProvidedDelegationConnector="_oEe4-3hLEe-0u4oC48VXJQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEZZYnhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_JnteQo1kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/movie Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_JnteQY1kEe-a-OVTuGcE6g" assemblyContext_ProvidedDelegationConnector="_Jnpz5Y1kEe-a-OVTuGcE6g">
+    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnjtRo1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_oEijVHhLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_oEijU3hLEe-0u4oC48VXJQ" assemblyContext_ProvidedDelegationConnector="_oEe49HhLEe-0u4oC48VXJQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEZZZnhLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_JnteRI1kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/recommendation Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_JnteQ41kEe-a-OVTuGcE6g" assemblyContext_ProvidedDelegationConnector="_Jnpz5Y1kEe-a-OVTuGcE6g">
+    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JnjtR41kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_oEijVnhLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/recommendation Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_oEijVXhLEe-0u4oC48VXJQ" assemblyContext_ProvidedDelegationConnector="_oEe49HhLEe-0u4oC48VXJQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_oEZZZ3hLEe-0u4oC48VXJQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_JnteRo1kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_JnteRY1kEe-a-OVTuGcE6g" assemblyContext_ProvidedDelegationConnector="_Jnpz4Y1kEe-a-OVTuGcE6g">
+    <innerProvidedRole_ProvidedDelegationConnector href="mdeket-spring-cloud-movie-recommendation.repository#_JneNsI1kEe-a-OVTuGcE6g"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_oEh8QHhLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/movie Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_oDyVZnhLEe-0u4oC48VXJQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Jns3MI1kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/api Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv4o1kEe-a-OVTuGcE6g"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_oEijUXhLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/api Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_oDxuWnhLEe-0u4oC48VXJQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_JnteQY1kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/movie Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_JnCI2I1kEe-a-OVTuGcE6g"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_oEijU3hLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/user Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_oDyVZ3hLEe-0u4oC48VXJQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_JnteQ41kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/recommendation Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_JnCv5I1kEe-a-OVTuGcE6g"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_oEijVXhLEe-0u4oC48VXJQ" entityName="SPRING-APPLICATION/recommendation Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_oDyVYnhLEe-0u4oC48VXJQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_JnteRY1kEe-a-OVTuGcE6g" entityName="SPRING-APPLICATION/user Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="mdeket-spring-cloud-movie-recommendation.repository#_JnCI1Y1kEe-a-OVTuGcE6g"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

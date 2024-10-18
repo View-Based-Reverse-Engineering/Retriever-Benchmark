@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_TfZrW3hLEe-eO8MkJf08KQ">
-  <assemblyContexts__ComposedStructure id="_TfVZ4HhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_service_OtpService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_Te24wHhLEe-eO8MkJf08KQ"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_R6DkYI1jEe-eocaBIxhteQ">
+  <assemblyContexts__ComposedStructure id="_R5_S8I1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogUploadApiController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5xQkY1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfVZ4XhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_repository_LogRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_Te-0mXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S8Y1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_service_OtpService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5j1Io1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfVZ4nhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="corona-warn-app-cwa-log-upload.repository#_TfOsNXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S8o1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_service_FileStorageService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5j1JI1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfVZ43hLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_service_FileStorageService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_TfJzu3hLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S841jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogUploadPortalController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5j1KY1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfVZ5HhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_service_LogService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_TfJzvXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S9I1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogUploadErrorController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5u0RI1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfVZ5XhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogUploadApiController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_TfJzwXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S9Y1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogDownloadApiController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R50T0Y1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA8HhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogUploadErrorController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_Te24wnhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S9o1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_service_LogService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5xQi41jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA8XhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_service_OtpService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_Te24wHhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S941jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogUploadErrorController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5u0RI1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA8nhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogDownloadApiController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_TewyIXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S-I1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_service_LogCleanupService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5xQjY1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA83hLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_service_LogCleanupService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_TfJzv3hLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S-Y1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_repository_LogRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5xQj41jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA9HhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogUploadPortalController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_Te_boXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S-o1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogUploadApiController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5xQkY1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA9XhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogDownloadApiController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_TewyIXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S-41jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogUploadPortalController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5j1KY1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA9nhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogUploadErrorController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_Te24wnhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S_I1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="corona-warn-app-cwa-log-upload.repository#_R55zZo1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA93hLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogUploadPortalController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_Te_boXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S_Y1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_controller_LogDownloadApiController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R50T0Y1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TfWA-HhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_controller_LogUploadApiController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_TfJzwXhLEe-eO8MkJf08KQ"/>
+  <assemblyContexts__ComposedStructure id="_R5_S_o1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_service_OtpService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="corona-warn-app-cwa-log-upload.repository#_R5j1Io1jEe-eocaBIxhteQ"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_TfXPEHhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_repository_LogRepository Connector" requiringAssemblyContext_AssemblyConnector="_TfVZ43hLEe-eO8MkJf08KQ" providingAssemblyContext_AssemblyConnector="_TfVZ4XhLEe-eO8MkJf08KQ">
-    <providedRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_Te-0mHhLEe-eO8MkJf08KQ"/>
-    <requiredRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_TfJzunhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_R6BIII1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_repository_LogRepository Connector" requiringAssemblyContext_AssemblyConnector="_R5_S-I1jEe-eocaBIxhteQ" providingAssemblyContext_AssemblyConnector="_R5_S-Y1jEe-eocaBIxhteQ">
+    <providedRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_R5xQjo1jEe-eocaBIxhteQ"/>
+    <requiredRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_R5xQjI1jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_TfXPEXhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_repository_LogRepository Connector" requiringAssemblyContext_AssemblyConnector="_TfVZ5HhLEe-eO8MkJf08KQ" providingAssemblyContext_AssemblyConnector="_TfVZ4XhLEe-eO8MkJf08KQ">
-    <providedRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_Te-0mHhLEe-eO8MkJf08KQ"/>
-    <requiredRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_TfJzvHhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_R6BIIY1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_repository_LogRepository Connector" requiringAssemblyContext_AssemblyConnector="_R5_S8o1jEe-eocaBIxhteQ" providingAssemblyContext_AssemblyConnector="_R5_S-Y1jEe-eocaBIxhteQ">
+    <providedRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_R5xQjo1jEe-eocaBIxhteQ"/>
+    <requiredRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_R5j1I41jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_TfXPEnhLEe-eO8MkJf08KQ" entityName="app_coronawarn_logupload_repository_LogRepository Connector" requiringAssemblyContext_AssemblyConnector="_TfWA83hLEe-eO8MkJf08KQ" providingAssemblyContext_AssemblyConnector="_TfVZ4XhLEe-eO8MkJf08KQ">
-    <providedRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_Te-0mHhLEe-eO8MkJf08KQ"/>
-    <requiredRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_TfJzvnhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_R6BIIo1jEe-eocaBIxhteQ" entityName="app_coronawarn_logupload_repository_LogRepository Connector" requiringAssemblyContext_AssemblyConnector="_R5_S9o1jEe-eocaBIxhteQ" providingAssemblyContext_AssemblyConnector="_R5_S-Y1jEe-eocaBIxhteQ">
+    <providedRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_R5xQjo1jEe-eocaBIxhteQ"/>
+    <requiredRole_AssemblyConnector href="corona-warn-app-cwa-log-upload.repository#_R5xQio1jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TfZEQHhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/logout[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TfYdMHhLEe-eO8MkJf08KQ" assemblyContext_ProvidedDelegationConnector="_TfWA9HhLEe-eO8MkJf08KQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_Te_boHhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_R6CWQY1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/logout[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_R6CWQI1jEe-eocaBIxhteQ" assemblyContext_ProvidedDelegationConnector="_R5_S841jEe-eocaBIxhteQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_R5j1Jo1jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TfZrUHhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/error Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TfZEQXhLEe-eO8MkJf08KQ" assemblyContext_ProvidedDelegationConnector="_TfWA8HhLEe-eO8MkJf08KQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_Te24wXhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_R6C9UY1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/start[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_R6C9UI1jEe-eocaBIxhteQ" assemblyContext_ProvidedDelegationConnector="_R5_S841jEe-eocaBIxhteQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_R5j1J41jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TfZrUnhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/start[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TfZrUXhLEe-eO8MkJf08KQ" assemblyContext_ProvidedDelegationConnector="_TfWA9HhLEe-eO8MkJf08KQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_Te-0mnhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_R6C9U41jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/api/logs[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_R6C9Uo1jEe-eocaBIxhteQ" assemblyContext_ProvidedDelegationConnector="_R5_S8I1jEe-eocaBIxhteQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_R5xQkI1jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TfZrVHhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/search[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TfZrU3hLEe-eO8MkJf08KQ" assemblyContext_ProvidedDelegationConnector="_TfWA9HhLEe-eO8MkJf08KQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_Te-0nHhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_R6C9VY1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/search[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_R6C9VI1jEe-eocaBIxhteQ" assemblyContext_ProvidedDelegationConnector="_R5_S841jEe-eocaBIxhteQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_R5j1JY1jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TfZrVnhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/api/logs[POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TfZrVXhLEe-eO8MkJf08KQ" assemblyContext_ProvidedDelegationConnector="_TfVZ5XhLEe-eO8MkJf08KQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_TfJzwHhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_R6C9V41jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_R6C9Vo1jEe-eocaBIxhteQ" assemblyContext_ProvidedDelegationConnector="_R5_S841jEe-eocaBIxhteQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_R5j1KI1jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TfZrWHhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TfZrV3hLEe-eO8MkJf08KQ" assemblyContext_ProvidedDelegationConnector="_TfWA9HhLEe-eO8MkJf08KQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_Te-0m3hLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_R6C9WY1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/error Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_R6C9WI1jEe-eocaBIxhteQ" assemblyContext_ProvidedDelegationConnector="_R5_S9I1jEe-eocaBIxhteQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_R5u0Q41jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TfZrWnhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/api/logs[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TfZrWXhLEe-eO8MkJf08KQ" assemblyContext_ProvidedDelegationConnector="_TfWA8nhLEe-eO8MkJf08KQ">
-    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_TewyIHhLEe-eO8MkJf08KQ"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_R6C9W41jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/api/logs[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_R6C9Wo1jEe-eocaBIxhteQ" assemblyContext_ProvidedDelegationConnector="_R5_S9Y1jEe-eocaBIxhteQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="corona-warn-app-cwa-log-upload.repository#_R50T0I1jEe-eocaBIxhteQ"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TfYdMHhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/logout[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_TewLEXhLEe-eO8MkJf08KQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R6CWQI1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/logout[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_R5j1II1jEe-eocaBIxhteQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TfZEQXhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/error Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_TewLGHhLEe-eO8MkJf08KQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R6C9UI1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/start[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_R5jOF41jEe-eocaBIxhteQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TfZrUXhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/start[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_TewLFXhLEe-eO8MkJf08KQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R6C9Uo1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/api/logs[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_R5jOGY1jEe-eocaBIxhteQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TfZrU3hLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/search[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_TewLF3hLEe-eO8MkJf08KQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R6C9VI1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/search[POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_R5j1IY1jEe-eocaBIxhteQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TfZrVXhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/api/logs[POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_TewLE3hLEe-eO8MkJf08KQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R6C9Vo1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_R5jOGo1jEe-eocaBIxhteQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TfZrV3hLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_TewLFHhLEe-eO8MkJf08KQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R6C9WI1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/error Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_R5jOGI1jEe-eocaBIxhteQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TfZrWXhLEe-eO8MkJf08KQ" entityName="SPRING-APPLICATION/portal/api/logs[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_TewLEnhLEe-eO8MkJf08KQ"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_R6C9Wo1jEe-eocaBIxhteQ" entityName="SPRING-APPLICATION/portal/api/logs[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="corona-warn-app-cwa-log-upload.repository#_R5jOG41jEe-eocaBIxhteQ"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

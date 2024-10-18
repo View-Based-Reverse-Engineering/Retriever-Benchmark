@@ -2,13 +2,13 @@
 | Attribute          | Value |
 | ------------------ | ----- |
 | Retriever Version  | v5.2.0.202408280745 |
-| Date               | Sat Sep 21 19:00:26 UTC 2024 |
+| Date               | Fri Oct 18 15:14:08 UTC 2024 |
 | #Components        | 117 |
 | #Source Files      | 1516 |
 | Lines of Code      | 380470 |
 | #Technologies      | 8 |
 | Abstraction        | 12.95 |
-| Execution Time [s] | 16.801 ± 0.216  |
+| Execution Time [s] | 16.783 ± 0.254  |
 
 ## Git repository information
 |      Attribute    | Value |
@@ -44,7 +44,7 @@
 | Branch            | main |
 | Commit            | c61d55f6f83b6d005cb6aca9e9b455afac572d72 |
 | Number of Commits | 1406 |
-| Stars             | 1919 |
+| Stars             | 1923 |
 | Contributors      | 79 |
 
 |      Attribute    | Value |
@@ -54,7 +54,7 @@
 | Commit            | d2068cc7427d05683b0b38b7852343ce8bc79cd2 |
 | Number of Commits | 110 |
 | Stars             | 91 |
-| Contributors      | 17 |
+| Contributors      | 16 |
 
 |      Attribute    | Value |
 | ----------------- | ----- |
@@ -80,19 +80,19 @@
 | --------- | ----- |
 | OS | Linux  |
 | Distro | Ubuntu 22.04.5 LTS x86_64  |
-| Kernel | 6.8.0-1014-azure  |
-| CPU | AMD EPYC 7763 (4) @ 3.274GHz  |
+| Kernel | 6.5.0-1025-azure  |
+| CPU | AMD EPYC 7763 (4) @ 3.244GHz  |
 | GPU | 00:08.0 Microsoft Corporation Hyper-V virtual VGA  |
-| Memory | 896MiB / 15990MiB  |
+| Memory | 754MiB / 15981MiB  |
 
 ## Retriever execution time
 | Mean [s] | Min [s] | Max [s] | Relative |
 |---:|---:|---:|---:|
-| 16.801 ± 0.216 | 16.486 | 17.157 | 1.00 |
+| 16.783 ± 0.254 | 16.323 | 17.068 | 1.00 |
 
 ## Cloc analysis
 
-<!-- github.com/AlDanial/cloc v 1.90  T=4.41 s (377.9 files/s, 94782.8 lines/s) -->
+<!-- github.com/AlDanial/cloc v 1.90  T=4.60 s (362.4 files/s, 90889.9 lines/s) -->
 
 |Technology|files|blank|comment|code|
 |:-------|-------:|-------:|-------:|-------:|

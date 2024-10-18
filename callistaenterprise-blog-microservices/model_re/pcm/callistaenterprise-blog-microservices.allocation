@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_UKw8gHhLEe-xyoZuaXv7tg">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_XgMGcI1jEe-NmPz9hgc19w">
   <targetResourceEnvironment_Allocation href="callistaenterprise-blog-microservices.resourceenvironment#/"/>
-  <system_Allocation href="callistaenterprise-blog-microservices.system#_UKrc8HhLEe-xyoZuaXv7tg"/>
-  <allocationContexts_Allocation id="_UKwVcHhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSJnhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLhnhLEe-xyoZuaXv7tg"/>
+  <system_Allocation href="callistaenterprise-blog-microservices.system#_XgGm4I1jEe-NmPz9hgc19w"/>
+  <allocationContexts_Allocation id="_XgK4UI1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcGY1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8g41jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVcXhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSKXhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLhnhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgK4UY1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcG41jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8hY1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVcnhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSIHhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLhHhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgK4Uo1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcEY1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8iY1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVc3hLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSIXhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLgnhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgK4U41jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcHY1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8iY1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVdHhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSKHhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLhHhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgK4VI1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcFo1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8gI1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVdXhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSLXhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLhXhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgK4VY1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcGI1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8h41jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVdnhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSK3hLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLi3hLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfYI1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcFI1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8h41jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVd3hLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSJHhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLgXhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfYY1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcF41jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8go1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVeHhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSJ3hLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLgHhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfYo1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcEI1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8gY1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVeXhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSI3hLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLgXhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfY41jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcE41jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8gY1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVenhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSKnhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLhXhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfZI1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcHI1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8hY1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVe3hLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSLHhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLgnhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfZY1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcGo1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8gI1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVfHhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSJXhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLi3hLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfZo1jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcFY1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8go1jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_UKwVfXhLEe-xyoZuaXv7tg">
-    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_UKtSInhLEe-xyoZuaXv7tg"/>
-    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_UKnLgHhLEe-xyoZuaXv7tg"/>
+  <allocationContexts_Allocation id="_XgLfZ41jEe-NmPz9hgc19w">
+    <resourceContainer_AllocationContext href="callistaenterprise-blog-microservices.resourceenvironment#_XgIcEo1jEe-NmPz9hgc19w"/>
+    <assemblyContext_AllocationContext href="callistaenterprise-blog-microservices.system#_XgC8g41jEe-NmPz9hgc19w"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

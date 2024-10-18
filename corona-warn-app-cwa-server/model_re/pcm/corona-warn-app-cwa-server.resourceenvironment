@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2">
-  <resourceContainer_ResourceEnvironment id="_eY2hIHhLEe-a7JG-de0pVQ" entityName="Placeholder_0"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hIXhLEe-a7JG-de0pVQ" entityName="Placeholder_12"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hInhLEe-a7JG-de0pVQ" entityName="Placeholder_7"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hI3hLEe-a7JG-de0pVQ" entityName="Placeholder_1"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hJHhLEe-a7JG-de0pVQ" entityName="Placeholder_6"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hJXhLEe-a7JG-de0pVQ" entityName="Placeholder_8"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hJnhLEe-a7JG-de0pVQ" entityName="Placeholder_9"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hJ3hLEe-a7JG-de0pVQ" entityName="Placeholder_4"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hKHhLEe-a7JG-de0pVQ" entityName="Placeholder_13"/>
-  <resourceContainer_ResourceEnvironment id="_eY2hKXhLEe-a7JG-de0pVQ" entityName="Placeholder_10"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaUI1jEe-k-PFJoQpHCg" entityName="Placeholder_6"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaUY1jEe-k-PFJoQpHCg" entityName="Placeholder_3"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaUo1jEe-k-PFJoQpHCg" entityName="Placeholder_7"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaU41jEe-k-PFJoQpHCg" entityName="Placeholder_12"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaVI1jEe-k-PFJoQpHCg" entityName="Placeholder_0"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaVY1jEe-k-PFJoQpHCg" entityName="Placeholder_4"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaVo1jEe-k-PFJoQpHCg" entityName="Placeholder_10"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaV41jEe-k-PFJoQpHCg" entityName="Placeholder_13"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaWI1jEe-k-PFJoQpHCg" entityName="Placeholder_5"/>
+  <resourceContainer_ResourceEnvironment id="_Z8uaWY1jEe-k-PFJoQpHCg" entityName="Placeholder_9"/>
 </resourceenvironment:ResourceEnvironment>

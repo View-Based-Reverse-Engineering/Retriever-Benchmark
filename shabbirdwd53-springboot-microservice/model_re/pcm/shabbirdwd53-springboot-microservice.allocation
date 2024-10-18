@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_qErPEHhLEe-16JSl0_ld0w">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_rll5AI1kEe-suKlVXqBjJQ">
   <targetResourceEnvironment_Allocation href="shabbirdwd53-springboot-microservice.resourceenvironment#/"/>
-  <system_Allocation href="shabbirdwd53-springboot-microservice.system#_qEjTQnhLEe-16JSl0_ld0w"/>
-  <allocationContexts_Allocation id="_qEqA8HhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvg3hLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB1HhLEe-16JSl0_ld0w"/>
+  <system_Allocation href="shabbirdwd53-springboot-microservice.system#_rlekQY1kEe-suKlVXqBjJQ"/>
+  <allocationContexts_Allocation id="_rllR8I1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAio1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS1o1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqA8XhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvgnhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB0HhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR8Y1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAhY1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS1I1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqA8nhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElviXhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB1XhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR8o1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAiI1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS0o1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqA83hLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvhnhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB2HhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR841kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAgo1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlZrwI1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqA9HhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvhXhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB2nhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR9I1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAhI1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlZrwY1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqA9XhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvgHhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB1nhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR9Y1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAgY1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS141kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqA9nhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvhHhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB2XhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR9o1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAgI1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS2I1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqoAHhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvinhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB0nhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR941kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAiY1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS0Y1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqoAXhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElviHhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB0XhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR-I1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAho1kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS1Y1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqoAnhLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvgXhLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB0nhLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR-Y1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAh41kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS0o1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_qEqoA3hLEe-16JSl0_ld0w">
-    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_qElvh3hLEe-16JSl0_ld0w"/>
-    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_qEfB13hLEe-16JSl0_ld0w"/>
+  <allocationContexts_Allocation id="_rllR-o1kEe-suKlVXqBjJQ">
+    <resourceContainer_AllocationContext href="shabbirdwd53-springboot-microservice.resourceenvironment#_rlhAg41kEe-suKlVXqBjJQ"/>
+    <assemblyContext_AllocationContext href="shabbirdwd53-springboot-microservice.system#_rlaS0I1kEe-suKlVXqBjJQ"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_loeJgHhLEe-Ci-BWFZP5ig">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_-qydsI1jEe-uT9HSBJfKaA">
   <targetResourceEnvironment_Allocation href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#/"/>
-  <system_Allocation href="koushikkothagal-spring-boot-microservices-workshop.system#_loVmoXhLEe-Ci-BWFZP5ig"/>
-  <allocationContexts_Allocation id="_loc7YHhLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp93hLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO49HhLEe-Ci-BWFZP5ig"/>
+  <system_Allocation href="koushikkothagal-spring-boot-microservices-workshop.system#_-qqh5I1jEe-uT9HSBJfKaA"/>
+  <allocationContexts_Allocation id="_-qxPkI1jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-J41jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3g41jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7YXhLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp-HhLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO49nhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPkY1jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-Io1jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3hY1jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7YnhLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp9HhLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO48nhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPko1jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-KI1jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3gY1jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7Y3hLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp8XhLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO49HhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPk41jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-JY1jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3gI1jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7ZHhLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp83hLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO48nhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPlI1jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-Jo1jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3ho1jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7ZXhLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp9XhLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO4-HhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPlY1jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-JI1jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3hI1jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7ZnhLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp8nhLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO48HhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPlo1jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-IY1jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3gI1jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7Z3hLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp8HhLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO48HhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPl41jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-II1jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3gY1jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_loc7aHhLEe-Ci-BWFZP5ig">
-    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_loYp9nhLEe-Ci-BWFZP5ig"/>
-    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_loO48XhLEe-Ci-BWFZP5ig"/>
+  <allocationContexts_Allocation id="_-qxPmI1jEe-uT9HSBJfKaA">
+    <resourceContainer_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.resourceenvironment#_-qs-I41jEe-uT9HSBJfKaA"/>
+    <assemblyContext_AllocationContext href="koushikkothagal-spring-boot-microservices-workshop.system#_-qm3g41jEe-uT9HSBJfKaA"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

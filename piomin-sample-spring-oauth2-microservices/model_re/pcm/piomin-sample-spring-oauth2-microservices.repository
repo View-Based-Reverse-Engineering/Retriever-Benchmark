@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_r4VlFHhLEe-CL-FJF3Z66g">
-  <components__Repository xsi:type="repository:BasicComponent" id="_r4J-43hLEe-CL-FJF3Z66g" entityName="pl_piomin_services_account_api_AccountController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_r4J-4nhLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_r4J-4XhLEe-CL-FJF3Z66g"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_r3vIInhLEe-CL-FJF3Z66g" describedService__SEFF="_ryDW4XhLEe-CL-FJF3Z66g">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_r3uhFHhLEe-CL-FJF3Z66g" entityName="Start Action" successor_AbstractAction="_r3vIIHhLEe-CL-FJF3Z66g"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_r3vIIHhLEe-CL-FJF3Z66g" entityName="new Account(1,1,&quot;123456789&quot;,1234)" predecessor_AbstractAction="_r3uhFHhLEe-CL-FJF3Z66g" successor_AbstractAction="_r3vIIXhLEe-CL-FJF3Z66g">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.new Account(1,1,&quot;123456789&quot;,1234)"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="new Account(1,1,&quot;123456789&quot;,1234)"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_r3vIIXhLEe-CL-FJF3Z66g" entityName="Stop Action" predecessor_AbstractAction="_r3vIIHhLEe-CL-FJF3Z66g"/>
-    </serviceEffectSpecifications__BasicComponent>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_r4PedHhLEe-CL-FJF3Z66g" entityName="pl_piomin_services_auth_AuthServer">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_r4Pec3hLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/user Provider" providedInterface__OperationProvidedRole="_r4J-4HhLEe-CL-FJF3Z66g"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_r3uhEnhLEe-CL-FJF3Z66g" describedService__SEFF="_rxQFoHhLEe-CL-FJF3Z66g">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_ryYHAXhLEe-CL-FJF3Z66g" entityName="Start Action" successor_AbstractAction="_r3uhEHhLEe-CL-FJF3Z66g"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_r3uhEHhLEe-CL-FJF3Z66g" entityName="user" predecessor_AbstractAction="_ryYHAXhLEe-CL-FJF3Z66g" successor_AbstractAction="_r3uhEXhLEe-CL-FJF3Z66g">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_VI8FxI1kEe-IboKl8OriNw">
+  <components__Repository xsi:type="repository:BasicComponent" id="_VIy7041kEe-IboKl8OriNw" entityName="pl_piomin_services_auth_AuthServer">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_VIy70o1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/user Provider" providedInterface__OperationProvidedRole="_VIy70I1kEe-IboKl8OriNw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_VIXeAo1kEe-IboKl8OriNw" describedService__SEFF="_VCCzkI1kEe-IboKl8OriNw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_VDQUgY1kEe-IboKl8OriNw" entityName="Start Action" successor_AbstractAction="_VIXeAI1kEe-IboKl8OriNw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_VIXeAI1kEe-IboKl8OriNw" entityName="user" predecessor_AbstractAction="_VDQUgY1kEe-IboKl8OriNw" successor_AbstractAction="_VIXeAY1kEe-IboKl8OriNw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.user"/>
@@ -31,27 +14,44 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_r3uhEXhLEe-CL-FJF3Z66g" entityName="Stop Action" predecessor_AbstractAction="_r3uhEHhLEe-CL-FJF3Z66g"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_VIXeAY1kEe-IboKl8OriNw" entityName="Stop Action" predecessor_AbstractAction="_VIXeAI1kEe-IboKl8OriNw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_r4U-AXhLEe-CL-FJF3Z66g" entityName="pl_piomin_services_auth_AuthServer">
-    <assemblyContexts__ComposedStructure id="_r4VlEHhLEe-CL-FJF3Z66g" encapsulatedComponent__AssemblyContext="_r4PedHhLEe-CL-FJF3Z66g"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_r4WzMXhLEe-CL-FJF3Z66g" innerProvidedRole_ProvidedDelegationConnector="_r4Pec3hLEe-CL-FJF3Z66g" outerProvidedRole_ProvidedDelegationConnector="_r4U-AHhLEe-CL-FJF3Z66g" assemblyContext_ProvidedDelegationConnector="_r4VlEHhLEe-CL-FJF3Z66g"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_r4U-AHhLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/user Provider" providedInterface__OperationProvidedRole="_r4J-4HhLEe-CL-FJF3Z66g"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_VI3NQY1kEe-IboKl8OriNw" entityName="pl_piomin_services_account_api_AccountController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_VI3NQI1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_VIy70Y1kEe-IboKl8OriNw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_VIYFFI1kEe-IboKl8OriNw" describedService__SEFF="_VC69UY1kEe-IboKl8OriNw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_VIYFEY1kEe-IboKl8OriNw" entityName="Start Action" successor_AbstractAction="_VIYFEo1kEe-IboKl8OriNw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_VIYFEo1kEe-IboKl8OriNw" entityName="new Account(1,1,&quot;123456789&quot;,1234)" predecessor_AbstractAction="_VIYFEY1kEe-IboKl8OriNw" successor_AbstractAction="_VIYFE41kEe-IboKl8OriNw">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.new Account(1,1,&quot;123456789&quot;,1234)"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="new Account(1,1,&quot;123456789&quot;,1234)"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_VIYFE41kEe-IboKl8OriNw" entityName="Stop Action" predecessor_AbstractAction="_VIYFEo1kEe-IboKl8OriNw"/>
+    </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_r4U-A3hLEe-CL-FJF3Z66g" entityName="pl_piomin_services_account_api_AccountController">
-    <assemblyContexts__ComposedStructure id="_r4VlEnhLEe-CL-FJF3Z66g" encapsulatedComponent__AssemblyContext="_r4J-43hLEe-CL-FJF3Z66g"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_r4WzMHhLEe-CL-FJF3Z66g" innerProvidedRole_ProvidedDelegationConnector="_r4J-4nhLEe-CL-FJF3Z66g" outerProvidedRole_ProvidedDelegationConnector="_r4U-AnhLEe-CL-FJF3Z66g" assemblyContext_ProvidedDelegationConnector="_r4VlEnhLEe-CL-FJF3Z66g"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_r4U-AnhLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_r4J-4XhLEe-CL-FJF3Z66g"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_VI7esY1kEe-IboKl8OriNw" entityName="pl_piomin_services_auth_AuthServer">
+    <assemblyContexts__ComposedStructure id="_VI8FwI1kEe-IboKl8OriNw" encapsulatedComponent__AssemblyContext="_VIy7041kEe-IboKl8OriNw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_VI8s0Y1kEe-IboKl8OriNw" innerProvidedRole_ProvidedDelegationConnector="_VIy70o1kEe-IboKl8OriNw" outerProvidedRole_ProvidedDelegationConnector="_VI7esI1kEe-IboKl8OriNw" assemblyContext_ProvidedDelegationConnector="_VI8FwI1kEe-IboKl8OriNw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_VI7esI1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/user Provider" providedInterface__OperationProvidedRole="_VIy70I1kEe-IboKl8OriNw"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_r4J-4HhLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/user">
-    <signatures__OperationInterface id="_rxQFoHhLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/user" returnType__OperationSignature="_rxOQcHhLEe-CL-FJF3Z66g">
-      <parameters__OperationSignature dataType__Parameter="_rxOQcHhLEe-CL-FJF3Z66g" parameterName="user" modifier__Parameter="in"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_VI7es41kEe-IboKl8OriNw" entityName="pl_piomin_services_account_api_AccountController">
+    <assemblyContexts__ComposedStructure id="_VI8Fwo1kEe-IboKl8OriNw" encapsulatedComponent__AssemblyContext="_VI3NQY1kEe-IboKl8OriNw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_VI8s0I1kEe-IboKl8OriNw" innerProvidedRole_ProvidedDelegationConnector="_VI3NQI1kEe-IboKl8OriNw" outerProvidedRole_ProvidedDelegationConnector="_VI7eso1kEe-IboKl8OriNw" assemblyContext_ProvidedDelegationConnector="_VI8Fwo1kEe-IboKl8OriNw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_VI7eso1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_VIy70Y1kEe-IboKl8OriNw"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_VIy70I1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/user">
+    <signatures__OperationInterface id="_VCCzkI1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/user" returnType__OperationSignature="_VCA-YI1kEe-IboKl8OriNw">
+      <parameters__OperationSignature dataType__Parameter="_VCA-YI1kEe-IboKl8OriNw" parameterName="user" modifier__Parameter="in"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_r4J-4XhLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/">
-    <signatures__OperationInterface id="_ryDW4XhLEe-CL-FJF3Z66g" entityName="SPRING-APPLICATION/" returnType__OperationSignature="_ryDW4HhLEe-CL-FJF3Z66g"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_VIy70Y1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/">
+    <signatures__OperationInterface id="_VC69UY1kEe-IboKl8OriNw" entityName="SPRING-APPLICATION/" returnType__OperationSignature="_VC69UI1kEe-IboKl8OriNw"/>
   </interfaces__Repository>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_rxOQcHhLEe-CL-FJF3Z66g" entityName="java_security_Principal"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_ryDW4HhLEe-CL-FJF3Z66g" entityName="pl_piomin_services_account_model_Account"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_VCA-YI1kEe-IboKl8OriNw" entityName="java_security_Principal"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_VC69UI1kEe-IboKl8OriNw" entityName="pl_piomin_services_account_model_Account"/>
 </repository:Repository>

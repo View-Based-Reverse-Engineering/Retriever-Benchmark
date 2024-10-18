@@ -1,217 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_ik3OkHhLEe-C8f4lzjXjvw">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_LwWlwI1kEe-pe6qYXDKBZw">
   <targetResourceEnvironment_Allocation href="descartesresearch-teastore-psr.resourceenvironment#/"/>
-  <system_Allocation href="descartesresearch-teastore-psr.system#_ikvS1nhLEe-C8f4lzjXjvw"/>
-  <allocationContexts_Allocation id="_ik2AcHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvGnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaaXhLEe-C8f4lzjXjvw"/>
+  <system_Allocation href="descartesresearch-teastore-psr.system#_LwK_mI1kEe-pe6qYXDKBZw"/>
+  <allocationContexts_Allocation id="_LwUJgI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNcAI1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq3Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AcXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvHXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaU3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUJgY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb341kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDDwo1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AcnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvBXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaSXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwkI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb_41kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER5I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2Ac3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH-XhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaYHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwkY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb441kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDDwY1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AdHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvFHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaT3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwko1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb-Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq3I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AdXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvDHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqabHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwk41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb7I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq9o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AdnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvH3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaZnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwlI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb8Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq841kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2Ad3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvFnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzQHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwlY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb6o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq741kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AeHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH_nhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaRnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwlo1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb2I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq541kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AeXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH8XhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaWHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwl41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNcA41kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER6I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AenhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH9HhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzPnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwmI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNcAo1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq3o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2Ae3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvEHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaZ3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwmY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb1Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq5Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AfHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvF3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaSnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwmo1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb-41kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq641kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AfXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvG3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzP3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwm41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb9o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq4I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AfnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH9nhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaQnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwnI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb941kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq0I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2Af3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvCHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaVHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwnY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb1o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq1I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AgHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxIA3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaXHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwno1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb241kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq2o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AgXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvD3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaUnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwn41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb5I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq5I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2AgnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH_HhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaaHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwoI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb141kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq341kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2ngHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvEXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaYnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwoY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb1I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq6I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2ngXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH9XhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaVnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwoo1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb3Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq2Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2ngnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvC3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaRHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwo41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb841kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDDxI1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2ng3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH_XhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzPHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwpI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb8o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER4I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nhHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH93hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaa3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwpY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb2o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq8Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nhXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH-HhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaTnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwpo1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb5o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq441kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nhnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvGHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzQXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwp41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb9I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq6Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nh3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH8HhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaSHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwqI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb0Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq4Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2niHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvEnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaS3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwUwqY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb_o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq8I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2niXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH-nhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaXXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXoI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNcAY1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq6o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2ninhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvE3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzQ3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXoY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb741kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq5o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2ni3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvBnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaanhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXoo1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb9Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER441kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2njHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxIBHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaYXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXo41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb4Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER5Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2njXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH_3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaQHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXpI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb-o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER5o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2njnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvFXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaQXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXpY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb6I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER4Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nj3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvHHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaWXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXpo1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb641kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq141kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nkHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvAnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaWnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXp41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb6Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq2I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nkXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvGXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaY3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXqI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb_I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDDwI1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nknhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxIAnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaUXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXqY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb7o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq7I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nk3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH83hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaW3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXqo1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb4o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER4o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nlHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH-3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzPXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXq41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb541kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq1Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nlXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvB3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaV3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXrI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb-I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq4o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nlnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxIAXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaVXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXrY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb5Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq8o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nl3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvDXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaRXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXro1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb0o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq041kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nmHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvHnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaUHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXr41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb041kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq241kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nmXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvA3hLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikpzQnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXsI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb_Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq7Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nmnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvBHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaX3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXsY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb3I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq1o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nm3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxIAHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaTXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXso1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb8I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq9Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nnHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvAXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaQ3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXs41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNcBI1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq0Y1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nnXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvCnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaZXhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXtI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb3o1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq7o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nnnhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvAHhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaXnhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXtY1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb4I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq0o1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2nn3hLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvDnhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaZHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXto1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb2Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwER541kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2noHhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxH8nhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaTHhLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXt41kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb7Y1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDDw41kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ik2noXhLEe-C8f4lzjXjvw">
-    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_ikxvCXhLEe-C8f4lzjXjvw"/>
-    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_ikqaR3hLEe-C8f4lzjXjvw"/>
+  <allocationContexts_Allocation id="_LwVXuI1kEe-pe6qYXDKBZw">
+    <resourceContainer_AllocationContext href="descartesresearch-teastore-psr.resourceenvironment#_LwNb0I1kEe-pe6qYXDKBZw"/>
+    <assemblyContext_AllocationContext href="descartesresearch-teastore-psr.system#_LwDq9I1kEe-pe6qYXDKBZw"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

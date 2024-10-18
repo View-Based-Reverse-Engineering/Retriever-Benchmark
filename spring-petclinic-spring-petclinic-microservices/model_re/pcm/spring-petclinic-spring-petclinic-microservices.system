@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_sx97x3hLEe-JkYSvqFeUsw">
-  <assemblyContexts__ComposedStructure id="_sx5qUHhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_visits_web_VisitResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxT0dXhLEe-JkYSvqFeUsw"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_hAdGUY1kEe-YkbzzcQdB_w">
+  <assemblyContexts__ComposedStructure id="_hAY04I1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_visits_model_VisitRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_g_8wB41kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qUXhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_visits Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sx0KxHhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAY04Y1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_visits Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hASHMY1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qUnhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers_model_PetRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxbwRHhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAY04o1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_visits_web_VisitResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_g__MT41kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qU3hLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers_web_OwnerResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxbwR3hLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb8I1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers_model_PetRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hAIWNI1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qVHhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_api_boundary_web_ApiGatewayController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxlhSXhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb8Y1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers_model_OwnerRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hAPq_o1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qVXhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_vets Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sx0KxnhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb8o1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_vets_model_VetRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hAPrAI1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qVnhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_vets_model_VetRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxyVm3hLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb841kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hARgI41kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qV3hLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_api_boundary_web_ApiGatewayController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxlhSXhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb9I1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers_web_PetResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcLI1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qWHhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers_model_OwnerRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxT0cXhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb9Y1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_vets Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hARgJY1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qWXhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers_web_PetResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxn9h3hLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb9o1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_api_boundary_web_ApiGatewayController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_g_8wCY1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qWnhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_vets_web_VetResource Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxv5X3hLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb941kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_vets_web_VetResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hAF5_41kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qW3hLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_visits_model_VisitRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sxyVmXhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb-I1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_api_boundary_web_ApiGatewayController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_g_8wCY1kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_sx5qXHhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_sx0KynhLEe-JkYSvqFeUsw"/>
+  <assemblyContexts__ComposedStructure id="_hAZb-Y1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers_web_OwnerResource Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="spring-petclinic-spring-petclinic-microservices.repository#_hAIWN41kEe-YkbzzcQdB_w"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sx7fgHhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_vets_model_VetRepository Connector" requiringAssemblyContext_AssemblyConnector="_sx5qWnhLEe-JkYSvqFeUsw" providingAssemblyContext_AssemblyConnector="_sx5qVnhLEe-JkYSvqFeUsw">
-    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxyVmnhLEe-JkYSvqFeUsw"/>
-    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxv5XnhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hAaqEI1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers_model_OwnerRepository Connector" requiringAssemblyContext_AssemblyConnector="_hAZb9I1kEe-YkbzzcQdB_w" providingAssemblyContext_AssemblyConnector="_hAZb8Y1kEe-YkbzzcQdB_w">
+    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hAPq_Y1kEe-YkbzzcQdB_w"/>
+    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcKo1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sx7fgXhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers_model_PetRepository Connector" requiringAssemblyContext_AssemblyConnector="_sx5qWXhLEe-JkYSvqFeUsw" providingAssemblyContext_AssemblyConnector="_sx5qUnhLEe-JkYSvqFeUsw">
-    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxbwQ3hLEe-JkYSvqFeUsw"/>
-    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxn9hnhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hAaqEY1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers_model_OwnerRepository Connector" requiringAssemblyContext_AssemblyConnector="_hAZb-Y1kEe-YkbzzcQdB_w" providingAssemblyContext_AssemblyConnector="_hAZb8Y1kEe-YkbzzcQdB_w">
+    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hAPq_Y1kEe-YkbzzcQdB_w"/>
+    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hAIWNo1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sx7fgnhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_visits_model_VisitRepository Connector" requiringAssemblyContext_AssemblyConnector="_sx5qUHhLEe-JkYSvqFeUsw" providingAssemblyContext_AssemblyConnector="_sx5qW3hLEe-JkYSvqFeUsw">
-    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxyVmHhLEe-JkYSvqFeUsw"/>
-    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxT0dHhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hAaqEo1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_vets_model_VetRepository Connector" requiringAssemblyContext_AssemblyConnector="_hAZb941kEe-YkbzzcQdB_w" providingAssemblyContext_AssemblyConnector="_hAZb8o1kEe-YkbzzcQdB_w">
+    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hAPq_41kEe-YkbzzcQdB_w"/>
+    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hAF5_o1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sx7fg3hLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers_model_OwnerRepository Connector" requiringAssemblyContext_AssemblyConnector="_sx5qWXhLEe-JkYSvqFeUsw" providingAssemblyContext_AssemblyConnector="_sx5qWHhLEe-JkYSvqFeUsw">
-    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxT0cHhLEe-JkYSvqFeUsw"/>
-    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxn9hXhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hAaqE41kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_customers_model_PetRepository Connector" requiringAssemblyContext_AssemblyConnector="_hAZb9I1kEe-YkbzzcQdB_w" providingAssemblyContext_AssemblyConnector="_hAZb8I1kEe-YkbzzcQdB_w">
+    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hAIWM41kEe-YkbzzcQdB_w"/>
+    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcK41kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_sx7fhHhLEe-JkYSvqFeUsw" entityName="org_springframework_samples_petclinic_customers_model_OwnerRepository Connector" requiringAssemblyContext_AssemblyConnector="_sx5qU3hLEe-JkYSvqFeUsw" providingAssemblyContext_AssemblyConnector="_sx5qWHhLEe-JkYSvqFeUsw">
-    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxT0cHhLEe-JkYSvqFeUsw"/>
-    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxbwRnhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_hAaqFI1kEe-YkbzzcQdB_w" entityName="org_springframework_samples_petclinic_visits_model_VisitRepository Connector" requiringAssemblyContext_AssemblyConnector="_hAY04o1kEe-YkbzzcQdB_w" providingAssemblyContext_AssemblyConnector="_hAY04I1kEe-YkbzzcQdB_w">
+    <providedRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_g_8wBo1kEe-YkbzzcQdB_w"/>
+    <requiredRole_AssemblyConnector href="spring-petclinic-spring-petclinic-microservices.repository#_g__MTo1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sx9UsHhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/owners[GET,POST,PUT] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_sx8toHhLEe-JkYSvqFeUsw" assemblyContext_ProvidedDelegationConnector="_sx5qXHhLEe-JkYSvqFeUsw">
-    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sx0Kx3hLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hAcfQI1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/petTypes[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_hAb4MI1kEe-YkbzzcQdB_w" assemblyContext_ProvidedDelegationConnector="_hAZb841kEe-YkbzzcQdB_w">
+    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hARgII1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sx9UsnhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/petTypes[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_sx9UsXhLEe-JkYSvqFeUsw" assemblyContext_ProvidedDelegationConnector="_sx5qXHhLEe-JkYSvqFeUsw">
-    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sx0KyHhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hAcfQo1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/owners/*/pets[GET,POST,PUT] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_hAcfQY1kEe-YkbzzcQdB_w" assemblyContext_ProvidedDelegationConnector="_hAZb841kEe-YkbzzcQdB_w">
+    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hARgIY1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sx9UtHhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/vets[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_sx9Us3hLEe-JkYSvqFeUsw" assemblyContext_ProvidedDelegationConnector="_sx5qVXhLEe-JkYSvqFeUsw">
-    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sx0KxXhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hAcfRI1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/pets/visits[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_hAcfQ41kEe-YkbzzcQdB_w" assemblyContext_ProvidedDelegationConnector="_hAY04Y1kEe-YkbzzcQdB_w">
+    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hARgJo1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sx97wHhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/api/gateway/owners[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_sx9UtXhLEe-JkYSvqFeUsw" assemblyContext_ProvidedDelegationConnector="_sx5qVHhLEe-JkYSvqFeUsw">
-    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sxlhSHhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hAcfRo1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/owners[GET,POST,PUT] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_hAcfRY1kEe-YkbzzcQdB_w" assemblyContext_ProvidedDelegationConnector="_hAZb841kEe-YkbzzcQdB_w">
+    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hARgIo1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sx97wnhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/owners/*/pets/*/visits[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_sx97wXhLEe-JkYSvqFeUsw" assemblyContext_ProvidedDelegationConnector="_sx5qUXhLEe-JkYSvqFeUsw">
-    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sx0KwnhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hAcfSI1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/api/gateway/owners[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_hAcfR41kEe-YkbzzcQdB_w" assemblyContext_ProvidedDelegationConnector="_hAZb9o1kEe-YkbzzcQdB_w">
+    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_g_8wCI1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sx97xHhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/pets/visits[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_sx97w3hLEe-JkYSvqFeUsw" assemblyContext_ProvidedDelegationConnector="_sx5qUXhLEe-JkYSvqFeUsw">
-    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sx0Kw3hLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hAcfSo1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/vets[GET] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_hAcfSY1kEe-YkbzzcQdB_w" assemblyContext_ProvidedDelegationConnector="_hAZb9Y1kEe-YkbzzcQdB_w">
+    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hARgJI1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_sx97xnhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/owners/*/pets[GET,POST,PUT] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_sx97xXhLEe-JkYSvqFeUsw" assemblyContext_ProvidedDelegationConnector="_sx5qXHhLEe-JkYSvqFeUsw">
-    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_sx0KyXhLEe-JkYSvqFeUsw"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_hAdGUI1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/owners/*/pets/*/visits[GET,POST] Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_hAcfS41kEe-YkbzzcQdB_w" assemblyContext_ProvidedDelegationConnector="_hAY04Y1kEe-YkbzzcQdB_w">
+    <innerProvidedRole_ProvidedDelegationConnector href="spring-petclinic-spring-petclinic-microservices.repository#_hASHMI1kEe-YkbzzcQdB_w"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sx8toHhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/owners[GET,POST,PUT] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_sxTNaXhLEe-JkYSvqFeUsw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hAb4MI1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/petTypes[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcI41kEe-YkbzzcQdB_w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sx9UsXhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/petTypes[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_sxTNZHhLEe-JkYSvqFeUsw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hAcfQY1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/owners/*/pets[GET,POST,PUT] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcIo1kEe-YkbzzcQdB_w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sx9Us3hLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/vets[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_sxTNY3hLEe-JkYSvqFeUsw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hAcfQ41kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/pets/visits[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcII1kEe-YkbzzcQdB_w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sx9UtXhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/api/gateway/owners[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_sxTNYXhLEe-JkYSvqFeUsw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hAcfRY1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/owners[GET,POST,PUT] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_g_p1G41kEe-YkbzzcQdB_w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sx97wXhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/owners/*/pets/*/visits[GET,POST] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_sxTNZ3hLEe-JkYSvqFeUsw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hAcfR41kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/api/gateway/owners[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcIY1kEe-YkbzzcQdB_w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sx97w3hLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/pets/visits[GET] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_sxTNYnhLEe-JkYSvqFeUsw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hAcfSY1kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/vets[GET] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcJI1kEe-YkbzzcQdB_w"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_sx97xXhLEe-JkYSvqFeUsw" entityName="SPRING-APPLICATION/owners/*/pets[GET,POST,PUT] Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_sxTNanhLEe-JkYSvqFeUsw"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_hAcfS41kEe-YkbzzcQdB_w" entityName="SPRING-APPLICATION/owners/*/pets/*/visits[GET,POST] Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="spring-petclinic-spring-petclinic-microservices.repository#_g_qcJ41kEe-YkbzzcQdB_w"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

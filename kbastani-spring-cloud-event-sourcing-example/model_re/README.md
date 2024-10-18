@@ -2,13 +2,13 @@
 | Attribute          | Value |
 | ------------------ | ----- |
 | Retriever Version  | v5.2.0.202408280745 |
-| Date               | Sat Sep 21 18:59:33 UTC 2024 |
+| Date               | Fri Oct 18 15:16:54 UTC 2024 |
 | #Components        | 46 |
 | #Source Files      | 476 |
 | Lines of Code      | 82201 |
 | #Technologies      | 7 |
 | Abstraction        | 10.34 |
-| Execution Time [s] | 4.504 ± 0.074  |
+| Execution Time [s] | 4.386 ± 0.050  |
 
 ## Git repository information
 |      Attribute    | Value |
@@ -26,19 +26,19 @@
 | --------- | ----- |
 | OS | Linux  |
 | Distro | Ubuntu 22.04.5 LTS x86_64  |
-| Kernel | 6.8.0-1014-azure  |
-| CPU | AMD EPYC 7763 (4) @ 2.445GHz  |
+| Kernel | 6.5.0-1025-azure  |
+| CPU | AMD EPYC 7763 (4) @ 3.242GHz  |
 | GPU | 00:08.0 Microsoft Corporation Hyper-V virtual VGA  |
-| Memory | 910MiB / 15990MiB  |
+| Memory | 778MiB / 15981MiB  |
 
 ## Retriever execution time
 | Mean [s] | Min [s] | Max [s] | Relative |
 |---:|---:|---:|---:|
-| 4.504 ± 0.074 | 4.337 | 4.616 | 1.00 |
+| 4.386 ± 0.050 | 4.312 | 4.501 | 1.00 |
 
 ## Cloc analysis
 
-<!-- github.com/AlDanial/cloc v 1.90  T=3.11 s (169.0 files/s, 49040.9 lines/s) -->
+<!-- github.com/AlDanial/cloc v 1.90  T=3.06 s (171.9 files/s, 49864.4 lines/s) -->
 
 |Technology|files|blank|comment|code|
 |:-------|-------:|-------:|-------:|-------:|

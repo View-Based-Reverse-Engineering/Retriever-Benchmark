@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_r4kOkHhLEe-CL-FJF3Z66g">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_VJI6EI1kEe-IboKl8OriNw">
   <targetResourceEnvironment_Allocation href="piomin-sample-spring-oauth2-microservices.resourceenvironment#/"/>
-  <system_Allocation href="piomin-sample-spring-oauth2-microservices.system#_r4dg4HhLEe-CL-FJF3Z66g"/>
-  <allocationContexts_Allocation id="_r4jngHhLEe-CL-FJF3Z66g">
-    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_r4gkMHhLEe-CL-FJF3Z66g"/>
-    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_r4adkXhLEe-CL-FJF3Z66g"/>
+  <system_Allocation href="piomin-sample-spring-oauth2-microservices.system#_VJCzcI1kEe-IboKl8OriNw"/>
+  <allocationContexts_Allocation id="_VJITAI1kEe-IboKl8OriNw">
+    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_VJF2w41kEe-IboKl8OriNw"/>
+    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_VI_wIo1kEe-IboKl8OriNw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_r4jngXhLEe-CL-FJF3Z66g">
-    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_r4gkMXhLEe-CL-FJF3Z66g"/>
-    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_r4adkXhLEe-CL-FJF3Z66g"/>
+  <allocationContexts_Allocation id="_VJITAY1kEe-IboKl8OriNw">
+    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_VJF2wo1kEe-IboKl8OriNw"/>
+    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_VI_wIo1kEe-IboKl8OriNw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_r4jngnhLEe-CL-FJF3Z66g">
-    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_r4gkMnhLEe-CL-FJF3Z66g"/>
-    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_r4adkHhLEe-CL-FJF3Z66g"/>
+  <allocationContexts_Allocation id="_VJITAo1kEe-IboKl8OriNw">
+    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_VJF2wY1kEe-IboKl8OriNw"/>
+    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_VI_wII1kEe-IboKl8OriNw"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_r4jng3hLEe-CL-FJF3Z66g">
-    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_r4gkM3hLEe-CL-FJF3Z66g"/>
-    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_r4adkHhLEe-CL-FJF3Z66g"/>
+  <allocationContexts_Allocation id="_VJITA41kEe-IboKl8OriNw">
+    <resourceContainer_AllocationContext href="piomin-sample-spring-oauth2-microservices.resourceenvironment#_VJF2wI1kEe-IboKl8OriNw"/>
+    <assemblyContext_AllocationContext href="piomin-sample-spring-oauth2-microservices.system#_VI_wII1kEe-IboKl8OriNw"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

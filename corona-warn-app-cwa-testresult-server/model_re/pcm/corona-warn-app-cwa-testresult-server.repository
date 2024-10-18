@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_T_uxNnhLEe--C7cOyQG2EA">
-  <components__Repository xsi:type="repository:BasicComponent" id="_T_aBE3hLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_service_TestResultService">
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_T_aBEnhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_TestResultRepository Consumer" requiredInterface__OperationRequiredRole="_T_aBEXhLEe--C7cOyQG2EA"/>
-  </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_T_aBFXhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_TestResultController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_T_aBFHhLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1 Provider" providedInterface__OperationProvidedRole="_T_aBEHhLEe--C7cOyQG2EA"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_T-9VIXhLEe--C7cOyQG2EA" describedService__SEFF="_T4KJkHhLEe--C7cOyQG2EA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_T-8uEnhLEe--C7cOyQG2EA" entityName="Start Action" successor_AbstractAction="_T-8uE3hLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T-8uE3hLEe--C7cOyQG2EA" entityName="log.info(&quot;Received test result request from app.&quot;)" predecessor_AbstractAction="_T-8uEnhLEe--C7cOyQG2EA" successor_AbstractAction="_T-8uFHhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_T-8uFHhLEe--C7cOyQG2EA" entityName="ResponseEntity.ok(new TestResultResponse().setLabId(result.getLabId()).setTestResult(testResultService.conversionCheck(result.getResult()),result.getSc()))" predecessor_AbstractAction="_T-8uE3hLEe--C7cOyQG2EA" successor_AbstractAction="_T-9VIHhLEe--C7cOyQG2EA">
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_LeTo9I1jEe-qz5r0XYzzyg">
+  <components__Repository xsi:type="repository:BasicComponent" id="_LeAG8Y1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_TestResultController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LeAG8I1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1 Provider" providedInterface__OperationProvidedRole="_Ld_f6I1jEe-qz5r0XYzzyg"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_Ldnsco1jEe-qz5r0XYzzyg" describedService__SEFF="_LXq1cI1jEe-qz5r0XYzzyg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_LdnFZI1jEe-qz5r0XYzzyg" entityName="Start Action" successor_AbstractAction="_LdnFZY1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_LdnFZY1jEe-qz5r0XYzzyg" entityName="log.info(&quot;Received test result request from Quicktest.&quot;)" predecessor_AbstractAction="_LdnFZI1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdnscI1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_LdnscI1jEe-qz5r0XYzzyg" entityName="ResponseEntity.ok(new TestResultResponse().setLabId(result.getLabId()).setTestResult(result.getResult()))" predecessor_AbstractAction="_LdnFZY1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdnscY1jEe-qz5r0XYzzyg">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_ok(new TestResultResponse()_setLabId(result_getLabId())_setTestResult(result_getResult()))"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_ok(new TestResultResponse()_setLabId(result_getLabId())_setTestResult(result_getResult()))"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_LdnscY1jEe-qz5r0XYzzyg" entityName="Stop Action" predecessor_AbstractAction="_LdnscI1jEe-qz5r0XYzzyg"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_LdmeUo1jEe-qz5r0XYzzyg" describedService__SEFF="_LXsDkI1jEe-qz5r0XYzzyg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Ldl3RY1jEe-qz5r0XYzzyg" entityName="Start Action" successor_AbstractAction="_Ldl3Ro1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_Ldl3Ro1jEe-qz5r0XYzzyg" entityName="log.info(&quot;Received test result request from app.&quot;)" predecessor_AbstractAction="_Ldl3RY1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdmeUI1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_LdmeUI1jEe-qz5r0XYzzyg" entityName="ResponseEntity.ok(new TestResultResponse().setLabId(result.getLabId()).setTestResult(testResultService.conversionCheck(result.getResult()),result.getSc()))" predecessor_AbstractAction="_Ldl3Ro1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdmeUY1jEe-qz5r0XYzzyg">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_ok(new TestResultResponse()_setLabId(result_getLabId())_setTestResult(testResultService_conversionCheck(result_getResult()),result_getSc()))"/>
@@ -18,28 +30,12 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_T-9VIHhLEe--C7cOyQG2EA" entityName="Stop Action" predecessor_AbstractAction="_T-8uFHhLEe--C7cOyQG2EA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_LdmeUY1jEe-qz5r0XYzzyg" entityName="Stop Action" predecessor_AbstractAction="_LdmeUI1jEe-qz5r0XYzzyg"/>
     </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_T-8uEXhLEe--C7cOyQG2EA" describedService__SEFF="_T4HGQHhLEe--C7cOyQG2EA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_T-7f83hLEe--C7cOyQG2EA" entityName="Start Action" successor_AbstractAction="_T-8HAHhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T-8HAHhLEe--C7cOyQG2EA" entityName="log.info(&quot;Received {} test result to insert or update from PoC-NATs. &quot;,list.getTestResults().size())" predecessor_AbstractAction="_T-7f83hLEe--C7cOyQG2EA" successor_AbstractAction="_T-8HAXhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T-8HAXhLEe--C7cOyQG2EA" entityName="list.getTestResults().stream().map(tr -> testResultService.convertPocNat(tr,list.getLabId())).forEach(testResultService::createOrUpdate)" predecessor_AbstractAction="_T-8HAHhLEe--C7cOyQG2EA" successor_AbstractAction="_T-8HAnhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_T-8HAnhLEe--C7cOyQG2EA" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_T-8HAXhLEe--C7cOyQG2EA" successor_AbstractAction="_T-8uEHhLEe--C7cOyQG2EA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_noContent()_build()"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_noContent()_build()"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_T-8uEHhLEe--C7cOyQG2EA" entityName="Stop Action" predecessor_AbstractAction="_T-8HAnhLEe--C7cOyQG2EA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_T-9VJnhLEe--C7cOyQG2EA" describedService__SEFF="_T4KwoHhLEe--C7cOyQG2EA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_T-9VInhLEe--C7cOyQG2EA" entityName="Start Action" successor_AbstractAction="_T-9VI3hLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T-9VI3hLEe--C7cOyQG2EA" entityName="log.info(&quot;Received test result request from PoC-NAT.&quot;)" predecessor_AbstractAction="_T-9VInhLEe--C7cOyQG2EA" successor_AbstractAction="_T-9VJHhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_T-9VJHhLEe--C7cOyQG2EA" entityName="ResponseEntity.ok(new TestResultResponse().setLabId(result.getLabId()).setTestResult(result.getResult()))" predecessor_AbstractAction="_T-9VI3hLEe--C7cOyQG2EA" successor_AbstractAction="_T-9VJXhLEe--C7cOyQG2EA">
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_Ldnsd41jEe-qz5r0XYzzyg" describedService__SEFF="_LXoZMI1jEe-qz5r0XYzzyg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_Ldnsc41jEe-qz5r0XYzzyg" entityName="Start Action" successor_AbstractAction="_LdnsdI1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_LdnsdI1jEe-qz5r0XYzzyg" entityName="log.info(&quot;Received test result request from PoC-NAT.&quot;)" predecessor_AbstractAction="_Ldnsc41jEe-qz5r0XYzzyg" successor_AbstractAction="_LdnsdY1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_LdnsdY1jEe-qz5r0XYzzyg" entityName="ResponseEntity.ok(new TestResultResponse().setLabId(result.getLabId()).setTestResult(result.getResult()))" predecessor_AbstractAction="_LdnsdI1jEe-qz5r0XYzzyg" successor_AbstractAction="_Ldnsdo1jEe-qz5r0XYzzyg">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_ok(new TestResultResponse()_setLabId(result_getLabId())_setTestResult(result_getResult()))"/>
@@ -49,28 +45,13 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_T-9VJXhLEe--C7cOyQG2EA" entityName="Stop Action" predecessor_AbstractAction="_T-9VJHhLEe--C7cOyQG2EA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Ldnsdo1jEe-qz5r0XYzzyg" entityName="Stop Action" predecessor_AbstractAction="_LdnsdY1jEe-qz5r0XYzzyg"/>
     </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_T-7f8nhLEe--C7cOyQG2EA" describedService__SEFF="_T4JigXhLEe--C7cOyQG2EA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_T5at0XhLEe--C7cOyQG2EA" entityName="Start Action" successor_AbstractAction="_T5dKEHhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T5dKEHhLEe--C7cOyQG2EA" entityName="log.info(&quot;Received test result request from Quicktest.&quot;)" predecessor_AbstractAction="_T5at0XhLEe--C7cOyQG2EA" successor_AbstractAction="_T-7f8HhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_T-7f8HhLEe--C7cOyQG2EA" entityName="ResponseEntity.ok(new TestResultResponse().setLabId(result.getLabId()).setTestResult(result.getResult()))" predecessor_AbstractAction="_T5dKEHhLEe--C7cOyQG2EA" successor_AbstractAction="_T-7f8XhLEe--C7cOyQG2EA">
-        <localVariableUsages_SetVariableAction>
-          <variableCharacterisation_VariableUsage type="VALUE">
-            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_ok(new TestResultResponse()_setLabId(result_getLabId())_setTestResult(result_getResult()))"/>
-          </variableCharacterisation_VariableUsage>
-          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
-            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_ok(new TestResultResponse()_setLabId(result_getLabId())_setTestResult(result_getResult()))"/>
-          </namedReference__VariableUsage>
-        </localVariableUsages_SetVariableAction>
-      </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_T-7f8XhLEe--C7cOyQG2EA" entityName="Stop Action" predecessor_AbstractAction="_T-7f8HhLEe--C7cOyQG2EA"/>
-    </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_T-98NXhLEe--C7cOyQG2EA" describedService__SEFF="_T4Kwo3hLEe--C7cOyQG2EA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_T-98MHhLEe--C7cOyQG2EA" entityName="Start Action" successor_AbstractAction="_T-98MXhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T-98MXhLEe--C7cOyQG2EA" entityName="log.info(&quot;Received {} test result to insert or update from Quicktests. &quot;,list.getTestResults().size())" predecessor_AbstractAction="_T-98MHhLEe--C7cOyQG2EA" successor_AbstractAction="_T-98MnhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T-98MnhLEe--C7cOyQG2EA" entityName="list.getTestResults().stream().map(tr -> testResultService.convertQuickTest(tr,list.getLabId())).forEach(testResultService::createOrUpdate)" predecessor_AbstractAction="_T-98MXhLEe--C7cOyQG2EA" successor_AbstractAction="_T-98M3hLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_T-98M3hLEe--C7cOyQG2EA" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_T-98MnhLEe--C7cOyQG2EA" successor_AbstractAction="_T-98NHhLEe--C7cOyQG2EA">
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_Ldl3RI1jEe-qz5r0XYzzyg" describedService__SEFF="_LXrchI1jEe-qz5r0XYzzyg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_LdlQM41jEe-qz5r0XYzzyg" entityName="Start Action" successor_AbstractAction="_Ldl3QI1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_Ldl3QI1jEe-qz5r0XYzzyg" entityName="log.info(&quot;Received {} test result to insert or update from Quicktests. &quot;,list.getTestResults().size())" predecessor_AbstractAction="_LdlQM41jEe-qz5r0XYzzyg" successor_AbstractAction="_Ldl3QY1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_Ldl3QY1jEe-qz5r0XYzzyg" entityName="list.getTestResults().stream().map(tr -> testResultService.convertQuickTest(tr,list.getLabId())).forEach(testResultService::createOrUpdate)" predecessor_AbstractAction="_Ldl3QI1jEe-qz5r0XYzzyg" successor_AbstractAction="_Ldl3Qo1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_Ldl3Qo1jEe-qz5r0XYzzyg" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_Ldl3QY1jEe-qz5r0XYzzyg" successor_AbstractAction="_Ldl3Q41jEe-qz5r0XYzzyg">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_noContent()_build()"/>
@@ -80,13 +61,13 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_T-98NHhLEe--C7cOyQG2EA" entityName="Stop Action" predecessor_AbstractAction="_T-98M3hLEe--C7cOyQG2EA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Ldl3Q41jEe-qz5r0XYzzyg" entityName="Stop Action" predecessor_AbstractAction="_Ldl3Qo1jEe-qz5r0XYzzyg"/>
     </serviceEffectSpecifications__BasicComponent>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_T-_xY3hLEe--C7cOyQG2EA" describedService__SEFF="_T4KJk3hLEe--C7cOyQG2EA">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_T--jQHhLEe--C7cOyQG2EA" entityName="Start Action" successor_AbstractAction="_T--jQXhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T--jQXhLEe--C7cOyQG2EA" entityName="log.info(&quot;Received {} test results to insert or update from lab.&quot;,list.getTestResults().size())" predecessor_AbstractAction="_T--jQHhLEe--C7cOyQG2EA" successor_AbstractAction="_T-_xYHhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:InternalAction" id="_T-_xYHhLEe--C7cOyQG2EA" entityName="list.getTestResults().stream().map(tr -> tr.setLabId(list.getLabId())).forEach(testResultService::createOrUpdate)" predecessor_AbstractAction="_T--jQXhLEe--C7cOyQG2EA" successor_AbstractAction="_T-_xYXhLEe--C7cOyQG2EA"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_T-_xYXhLEe--C7cOyQG2EA" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_T-_xYHhLEe--C7cOyQG2EA" successor_AbstractAction="_T-_xYnhLEe--C7cOyQG2EA">
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_LdnFY41jEe-qz5r0XYzzyg" describedService__SEFF="_LXsDk41jEe-qz5r0XYzzyg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_LdmeU41jEe-qz5r0XYzzyg" entityName="Start Action" successor_AbstractAction="_LdmeVI1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_LdmeVI1jEe-qz5r0XYzzyg" entityName="log.info(&quot;Received {} test result to insert or update from PoC-NATs. &quot;,list.getTestResults().size())" predecessor_AbstractAction="_LdmeU41jEe-qz5r0XYzzyg" successor_AbstractAction="_LdnFYI1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_LdnFYI1jEe-qz5r0XYzzyg" entityName="list.getTestResults().stream().map(tr -> testResultService.convertPocNat(tr,list.getLabId())).forEach(testResultService::createOrUpdate)" predecessor_AbstractAction="_LdmeVI1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdnFYY1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_LdnFYY1jEe-qz5r0XYzzyg" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_LdnFYI1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdnFYo1jEe-qz5r0XYzzyg">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_noContent()_build()"/>
@@ -96,46 +77,65 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_T-_xYnhLEe--C7cOyQG2EA" entityName="Stop Action" predecessor_AbstractAction="_T-_xYXhLEe--C7cOyQG2EA"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_LdnFYo1jEe-qz5r0XYzzyg" entityName="Stop Action" predecessor_AbstractAction="_LdnFYY1jEe-qz5r0XYzzyg"/>
+    </serviceEffectSpecifications__BasicComponent>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_LdlQMo1jEe-qz5r0XYzzyg" describedService__SEFF="_LXrcgY1jEe-qz5r0XYzzyg">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_LYJWkY1jEe-qz5r0XYzzyg" entityName="Start Action" successor_AbstractAction="_LYLy0I1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_LYLy0I1jEe-qz5r0XYzzyg" entityName="log.info(&quot;Received {} test results to insert or update from lab.&quot;,list.getTestResults().size())" predecessor_AbstractAction="_LYJWkY1jEe-qz5r0XYzzyg" successor_AbstractAction="_LYLy0Y1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_LYLy0Y1jEe-qz5r0XYzzyg" entityName="list.getTestResults().stream().map(tr -> tr.setLabId(list.getLabId())).forEach(testResultService::createOrUpdate)" predecessor_AbstractAction="_LYLy0I1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdlQMI1jEe-qz5r0XYzzyg"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_LdlQMI1jEe-qz5r0XYzzyg" entityName="ResponseEntity.noContent().build()" predecessor_AbstractAction="_LYLy0Y1jEe-qz5r0XYzzyg" successor_AbstractAction="_LdlQMY1jEe-qz5r0XYzzyg">
+        <localVariableUsages_SetVariableAction>
+          <variableCharacterisation_VariableUsage type="VALUE">
+            <specification_VariableCharacterisation specification="PrimitiveType.ResponseEntity_noContent()_build()"/>
+          </variableCharacterisation_VariableUsage>
+          <namedReference__VariableUsage xsi:type="stoex:NamespaceReference" referenceName="PrimitiveType">
+            <innerReference_NamespaceReference xsi:type="stoex:VariableReference" referenceName="ResponseEntity_noContent()_build()"/>
+          </namedReference__VariableUsage>
+        </localVariableUsages_SetVariableAction>
+      </steps_Behaviour>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_LdlQMY1jEe-qz5r0XYzzyg" entityName="Stop Action" predecessor_AbstractAction="_LdlQMI1jEe-qz5r0XYzzyg"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_T_sU-HhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_TestResultRepository">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_T_sU93hLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_TestResultRepository Provider" providedInterface__OperationProvidedRole="_T_aBEXhLEe--C7cOyQG2EA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_LeRMsY1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_TestResultRepository">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LeRMsI1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_TestResultRepository Provider" providedInterface__OperationProvidedRole="_Ld_f541jEe-qz5r0XYzzyg"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_T_uKIHhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult">
-    <assemblyContexts__ComposedStructure id="_T_uxMHhLEe--C7cOyQG2EA" encapsulatedComponent__AssemblyContext="_T_sU-HhLEe--C7cOyQG2EA"/>
-    <assemblyContexts__ComposedStructure id="_T_uxMnhLEe--C7cOyQG2EA" encapsulatedComponent__AssemblyContext="_T_aBE3hLEe--C7cOyQG2EA"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_T_v_UHhLEe--C7cOyQG2EA" requiringAssemblyContext_AssemblyConnector="_T_uxMnhLEe--C7cOyQG2EA" providingAssemblyContext_AssemblyConnector="_T_uxMHhLEe--C7cOyQG2EA" providedRole_AssemblyConnector="_T_sU93hLEe--C7cOyQG2EA" requiredRole_AssemblyConnector="_T_aBEnhLEe--C7cOyQG2EA"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_LeRMs41jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_service_TestResultService">
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_LeRMso1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_TestResultRepository Consumer" requiredInterface__OperationRequiredRole="_Ld_f541jEe-qz5r0XYzzyg"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_T_uKInhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_TestResultController">
-    <assemblyContexts__ComposedStructure id="_T_uxNHhLEe--C7cOyQG2EA" encapsulatedComponent__AssemblyContext="_T_aBFXhLEe--C7cOyQG2EA"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_T_wmYHhLEe--C7cOyQG2EA" innerProvidedRole_ProvidedDelegationConnector="_T_aBFHhLEe--C7cOyQG2EA" outerProvidedRole_ProvidedDelegationConnector="_T_uKIXhLEe--C7cOyQG2EA" assemblyContext_ProvidedDelegationConnector="_T_uxNHhLEe--C7cOyQG2EA"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_T_uKIXhLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1 Provider" providedInterface__OperationProvidedRole="_T_aBEHhLEe--C7cOyQG2EA"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_LeSa0I1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult">
+    <assemblyContexts__ComposedStructure id="_LeTo8I1jEe-qz5r0XYzzyg" encapsulatedComponent__AssemblyContext="_LeRMs41jEe-qz5r0XYzzyg"/>
+    <assemblyContexts__ComposedStructure id="_LeTo8o1jEe-qz5r0XYzzyg" encapsulatedComponent__AssemblyContext="_LeRMsY1jEe-qz5r0XYzzyg"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_LeU3EI1jEe-qz5r0XYzzyg" requiringAssemblyContext_AssemblyConnector="_LeTo8I1jEe-qz5r0XYzzyg" providingAssemblyContext_AssemblyConnector="_LeTo8o1jEe-qz5r0XYzzyg" providedRole_AssemblyConnector="_LeRMsI1jEe-qz5r0XYzzyg" requiredRole_AssemblyConnector="_LeRMso1jEe-qz5r0XYzzyg"/>
   </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_T_aBEHhLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1">
-    <signatures__OperationInterface id="_T4KJkHhLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1/app/result[POST]" returnType__OperationSignature="_T4GfMHhLEe--C7cOyQG2EA">
-      <parameters__OperationSignature dataType__Parameter="_T4JigHhLEe--C7cOyQG2EA" parameterName="request" modifier__Parameter="in"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_LeTB4Y1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_TestResultController">
+    <assemblyContexts__ComposedStructure id="_LeTB4o1jEe-qz5r0XYzzyg" encapsulatedComponent__AssemblyContext="_LeAG8Y1jEe-qz5r0XYzzyg"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_LeVeII1jEe-qz5r0XYzzyg" innerProvidedRole_ProvidedDelegationConnector="_LeAG8I1jEe-qz5r0XYzzyg" outerProvidedRole_ProvidedDelegationConnector="_LeTB4I1jEe-qz5r0XYzzyg" assemblyContext_ProvidedDelegationConnector="_LeTB4o1jEe-qz5r0XYzzyg"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_LeTB4I1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1 Provider" providedInterface__OperationProvidedRole="_Ld_f6I1jEe-qz5r0XYzzyg"/>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Ld_f541jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_TestResultRepository"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_Ld_f6I1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1">
+    <signatures__OperationInterface id="_LXq1cI1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1/quicktest/result[POST]" returnType__OperationSignature="_LXnyII1jEe-qz5r0XYzzyg">
+      <parameters__OperationSignature dataType__Parameter="_LXmkAI1jEe-qz5r0XYzzyg" parameterName="request" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_T4HGQHhLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1/pocnat/results[POST]" returnType__OperationSignature="_T4GfMHhLEe--C7cOyQG2EA">
-      <parameters__OperationSignature dataType__Parameter="_T4FREHhLEe--C7cOyQG2EA" parameterName="list" modifier__Parameter="in"/>
+    <signatures__OperationInterface id="_LXsDkI1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1/app/result[POST]" returnType__OperationSignature="_LXnyII1jEe-qz5r0XYzzyg">
+      <parameters__OperationSignature dataType__Parameter="_LXmkAI1jEe-qz5r0XYzzyg" parameterName="request" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_T4KwoHhLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1/pocnat/result[POST]" returnType__OperationSignature="_T4GfMHhLEe--C7cOyQG2EA">
-      <parameters__OperationSignature dataType__Parameter="_T4JigHhLEe--C7cOyQG2EA" parameterName="request" modifier__Parameter="in"/>
+    <signatures__OperationInterface id="_LXoZMI1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1/pocnat/result[POST]" returnType__OperationSignature="_LXnyII1jEe-qz5r0XYzzyg">
+      <parameters__OperationSignature dataType__Parameter="_LXmkAI1jEe-qz5r0XYzzyg" parameterName="request" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_T4JigXhLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1/quicktest/result[POST]" returnType__OperationSignature="_T4GfMHhLEe--C7cOyQG2EA">
-      <parameters__OperationSignature dataType__Parameter="_T4JigHhLEe--C7cOyQG2EA" parameterName="request" modifier__Parameter="in"/>
+    <signatures__OperationInterface id="_LXrchI1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1/quicktest/results[POST]" returnType__OperationSignature="_LXnyII1jEe-qz5r0XYzzyg">
+      <parameters__OperationSignature dataType__Parameter="_LXrcg41jEe-qz5r0XYzzyg" parameterName="list" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_T4Kwo3hLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1/quicktest/results[POST]" returnType__OperationSignature="_T4GfMHhLEe--C7cOyQG2EA">
-      <parameters__OperationSignature dataType__Parameter="_T4KwonhLEe--C7cOyQG2EA" parameterName="list" modifier__Parameter="in"/>
+    <signatures__OperationInterface id="_LXsDk41jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1/pocnat/results[POST]" returnType__OperationSignature="_LXnyII1jEe-qz5r0XYzzyg">
+      <parameters__OperationSignature dataType__Parameter="_LXsDko1jEe-qz5r0XYzzyg" parameterName="list" modifier__Parameter="in"/>
     </signatures__OperationInterface>
-    <signatures__OperationInterface id="_T4KJk3hLEe--C7cOyQG2EA" entityName="SPRING-APPLICATION/api/v1/lab/results[POST]" returnType__OperationSignature="_T4GfMHhLEe--C7cOyQG2EA">
-      <parameters__OperationSignature dataType__Parameter="_T4KJknhLEe--C7cOyQG2EA" parameterName="list" modifier__Parameter="in"/>
+    <signatures__OperationInterface id="_LXrcgY1jEe-qz5r0XYzzyg" entityName="SPRING-APPLICATION/api/v1/lab/results[POST]" returnType__OperationSignature="_LXnyII1jEe-qz5r0XYzzyg">
+      <parameters__OperationSignature dataType__Parameter="_LXrcgI1jEe-qz5r0XYzzyg" parameterName="list" modifier__Parameter="in"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_T_aBEXhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_TestResultRepository"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_T4FREHhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_model_PocNatResultList"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_T4GfMHhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_ResponseEntity"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_T4JigHhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_model_TestResultRequest"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_T4KJknhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_model_TestResultList"/>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_T4KwonhLEe--C7cOyQG2EA" entityName="app_coronawarn_testresult_model_QuickTestResultList"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_LXmkAI1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_model_TestResultRequest"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_LXnyII1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_ResponseEntity"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_LXrcgI1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_model_TestResultList"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_LXrcg41jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_model_QuickTestResultList"/>
+  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_LXsDko1jEe-qz5r0XYzzyg" entityName="app_coronawarn_testresult_model_PocNatResultList"/>
 </repository:Repository>

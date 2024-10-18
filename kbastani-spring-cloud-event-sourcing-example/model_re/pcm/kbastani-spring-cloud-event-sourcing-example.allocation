@@ -1,189 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_ouZ_sHhLEe-NMuXh_4KaKA">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="__57KUI1jEe-PjMncXKEsgQ">
   <targetResourceEnvironment_Allocation href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#/"/>
-  <system_Allocation href="kbastani-spring-cloud-event-sourcing-example.system#_ouQOsnhLEe-NMuXh_4KaKA"/>
-  <allocationContexts_Allocation id="_ouYKgHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD_HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhFHhLEe-NMuXh_4KaKA"/>
+  <system_Allocation href="kbastani-spring-cloud-event-sourcing-example.system#__5xZVI1jEe-PjMncXKEsgQ"/>
+  <allocationContexts_Allocation id="__55VII1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOoY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEoY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxkHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD-HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIGXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__55VIY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOqY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEmI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxkXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq9XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhDXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__55VIo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOmY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qElI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxknhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD-nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhF3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__55VI41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOjo1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdg41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxk3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq8nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhBnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__55VJI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOh41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdho1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxlHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD6nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhGHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__55VJY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOio1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEnI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxlXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD63hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIFXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558MI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOg41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qrqI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxlnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD-3hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhCXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558MY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOk41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEqo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxl3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq-HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhBXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558Mo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOrI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEmY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxmHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD73hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhBHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558M41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOho1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEm41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxmXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD9HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhEnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558NI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOgo1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qro41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxmnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq-3hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIF3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558NY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOpI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdiI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxm3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD5HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhB3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558No1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOrY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEoI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxnHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD6XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhC3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558N41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOiI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qrpo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxnXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD_XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhAnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558OI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOlI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEpI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxnnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD4nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhE3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558OY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOnI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qrp41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxn3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD7XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIEXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558Oo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOno1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdgo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxoHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq9nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIE3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558O41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOlY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qrpY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxoXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD4HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIEnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558PI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOiY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEno1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxonhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq-nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhAXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558PY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOhY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdhI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxo3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD53hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIGnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558Po1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOgY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qrpI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxpHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD4XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIHnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558P41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOl41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qroo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxpXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD8HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhFXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558QI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOhI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qroY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxpnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq_nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhG3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558QY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOkY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEo41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouYxp3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD5XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIG3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__558Qo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOmo1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEqI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYoHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq_XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhEHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jQI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOkI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdgY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYoXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD83hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIH3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jQY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOjI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEk41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYonhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq-XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhD3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jQo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOqo1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEp41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYo3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD6HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIGHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jQ41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOj41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEn41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYpHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq_HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhCHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jRI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOq41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdh41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYpXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD7HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIEHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jRY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOn41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qElo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYpnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD9XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhGXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jRo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOoo1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEnY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYp3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq83hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhAHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jR41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOjY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEl41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYqHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq_3hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhEXhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jSI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOo41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEk41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYqXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq8HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhCnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jSY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOmI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEkY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYqnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq9HhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhDHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jSo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOgI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEoo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYq3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD93hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIHHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jS41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOko1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdhY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYrHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD8XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhDnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jTI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOqI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5pdgI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYrXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD9nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIFnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jTY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOm41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEqY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYrnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD43hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhGnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jTo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOi41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qElY1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYr3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD5nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhFnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jT41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOlo1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qroI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYsHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD8nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIFHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jUI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOp41jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEkI1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYsXhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD-XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhHHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jUY1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOnY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEq41jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYsnhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSD7nhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouKIIHhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jUo1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOoI1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEmo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYs3hLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq8XhLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhAnhLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jU41jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOpY1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEko1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_ouZYtHhLEe-NMuXh_4KaKA">
-    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#_ouSq93hLEe-NMuXh_4KaKA"/>
-    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#_ouJhA3hLEe-NMuXh_4KaKA"/>
+  <allocationContexts_Allocation id="__56jVI1jEe-PjMncXKEsgQ">
+    <resourceContainer_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.resourceenvironment#__5zOpo1jEe-PjMncXKEsgQ"/>
+    <assemblyContext_AllocationContext href="kbastani-spring-cloud-event-sourcing-example.system#__5qEpo1jEe-PjMncXKEsgQ"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>

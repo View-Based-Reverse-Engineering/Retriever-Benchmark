@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_TDS-JHhLEe-J2q0JnEc3mA">
-  <assemblyContexts__ComposedStructure id="_TDPTwHhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_service_StatementClient Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC3gUXhLEe-J2q0JnEc3mA"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_51CPsY1jEe-TzrWRfSl0Vg">
+  <assemblyContexts__ComposedStructure id="_509-QI1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_service_StatementClient Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50hSVY1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTwXhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_api_CardServiceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDAqTnhLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_509-QY1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_service Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_5033oY1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTwnhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_api_StatementServiceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC3gU3hLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_509-Qo1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_api_CardServiceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50k8so1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTw3hLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_MonitorDashboardApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDGw7XhLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_509-Q41jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_MonitorDashboardApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50hSV41jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTxHhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_service_CardClient Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC-1FnhLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_509-RI1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_api_CardServiceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50k8so1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTxXhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_service_CardStatementServiceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC-1GnhLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_509-RY1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_api_StatementServiceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50sRgI1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTxnhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_service Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDKbRXhLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_509-Ro1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_service_CardClient Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50sRfo1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTx3hLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_api_StatementServiceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC3gU3hLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_509-R41jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_api_StatementServiceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50sRgI1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTyHhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_api_CardServiceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDAqTnhLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_50-lUI1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_service_CardStatementServiceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50zmPI1jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_TDPTyXhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_MonitorDashboardApplication Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDGw7XhLEe-J2q0JnEc3mA"/>
+  <assemblyContexts__ComposedStructure id="_50-lUY1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_MonitorDashboardApplication Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50hSV41jEe-TzrWRfSl0Vg"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_TDRI8HhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_service_StatementClient Connector" requiringAssemblyContext_AssemblyConnector="_TDPTxXhLEe-J2q0JnEc3mA" providingAssemblyContext_AssemblyConnector="_TDPTwHhLEe-J2q0JnEc3mA">
-    <providedRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC3gUHhLEe-J2q0JnEc3mA"/>
-    <requiredRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC-1GHhLEe-J2q0JnEc3mA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_50_zcI1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_service_CardClient Connector" requiringAssemblyContext_AssemblyConnector="_50-lUI1jEe-TzrWRfSl0Vg" providingAssemblyContext_AssemblyConnector="_509-Ro1jEe-TzrWRfSl0Vg">
+    <providedRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50sRfY1jEe-TzrWRfSl0Vg"/>
+    <requiredRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50zmOo1jEe-TzrWRfSl0Vg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_TDRI8XhLEe-J2q0JnEc3mA" entityName="com_spring_netflix_oss_microservices_service_CardClient Connector" requiringAssemblyContext_AssemblyConnector="_TDPTxXhLEe-J2q0JnEc3mA" providingAssemblyContext_AssemblyConnector="_TDPTxHhLEe-J2q0JnEc3mA">
-    <providedRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC-1FXhLEe-J2q0JnEc3mA"/>
-    <requiredRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC-1GXhLEe-J2q0JnEc3mA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_50_zcY1jEe-TzrWRfSl0Vg" entityName="com_spring_netflix_oss_microservices_service_StatementClient Connector" requiringAssemblyContext_AssemblyConnector="_50-lUI1jEe-TzrWRfSl0Vg" providingAssemblyContext_AssemblyConnector="_509-QI1jEe-TzrWRfSl0Vg">
+    <providedRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50hSVI1jEe-TzrWRfSl0Vg"/>
+    <requiredRole_AssemblyConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50zmO41jEe-TzrWRfSl0Vg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TDSXEHhLEe-J2q0JnEc3mA" entityName="card-service/api Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TDRwAHhLEe-J2q0JnEc3mA" assemblyContext_ProvidedDelegationConnector="_TDPTwXhLEe-J2q0JnEc3mA">
-    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDAqTXhLEe-J2q0JnEc3mA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_51BooI1jEe-TzrWRfSl0Vg" entityName="statement-service/api Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_51BBkI1jEe-TzrWRfSl0Vg" assemblyContext_ProvidedDelegationConnector="_509-RY1jEe-TzrWRfSl0Vg">
+    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50sRf41jEe-TzrWRfSl0Vg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TDSXEnhLEe-J2q0JnEc3mA" entityName="statement-service/api Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TDSXEXhLEe-J2q0JnEc3mA" assemblyContext_ProvidedDelegationConnector="_TDPTwnhLEe-J2q0JnEc3mA">
-    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC3gUnhLEe-J2q0JnEc3mA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_51Booo1jEe-TzrWRfSl0Vg" entityName="card-service/api Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_51BooY1jEe-TzrWRfSl0Vg" assemblyContext_ProvidedDelegationConnector="_509-Qo1jEe-TzrWRfSl0Vg">
+    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50k8sY1jEe-TzrWRfSl0Vg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TDS-IXhLEe-J2q0JnEc3mA" entityName="card-statement-composite/api/statement-by-card Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TDS-IHhLEe-J2q0JnEc3mA" assemblyContext_ProvidedDelegationConnector="_TDPTxnhLEe-J2q0JnEc3mA">
-    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDKbRHhLEe-J2q0JnEc3mA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_51BopI1jEe-TzrWRfSl0Vg" entityName="monitor-dashboard/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_51Boo41jEe-TzrWRfSl0Vg" assemblyContext_ProvidedDelegationConnector="_509-Q41jEe-TzrWRfSl0Vg">
+    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50hSVo1jEe-TzrWRfSl0Vg"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_TDS-I3hLEe-J2q0JnEc3mA" entityName="monitor-dashboard/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_TDS-InhLEe-J2q0JnEc3mA" assemblyContext_ProvidedDelegationConnector="_TDPTw3hLEe-J2q0JnEc3mA">
-    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TDGw7HhLEe-J2q0JnEc3mA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_51CPsI1jEe-TzrWRfSl0Vg" entityName="card-statement-composite/api/statement-by-card Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_51BopY1jEe-TzrWRfSl0Vg" assemblyContext_ProvidedDelegationConnector="_509-QY1jEe-TzrWRfSl0Vg">
+    <innerProvidedRole_ProvidedDelegationConnector href="fernandoabcampos-spring-netflix-oss-microservices.repository#_5033oI1jEe-TzrWRfSl0Vg"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TDRwAHhLEe-J2q0JnEc3mA" entityName="card-service/api Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC25RHhLEe-J2q0JnEc3mA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_51BBkI1jEe-TzrWRfSl0Vg" entityName="statement-service/api Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50grRY1jEe-TzrWRfSl0Vg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TDSXEXhLEe-J2q0JnEc3mA" entityName="statement-service/api Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC25RnhLEe-J2q0JnEc3mA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_51BooY1jEe-TzrWRfSl0Vg" entityName="card-service/api Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50hSU41jEe-TzrWRfSl0Vg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TDS-IHhLEe-J2q0JnEc3mA" entityName="card-statement-composite/api/statement-by-card Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC25Q3hLEe-J2q0JnEc3mA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_51Boo41jEe-TzrWRfSl0Vg" entityName="monitor-dashboard/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50hSUY1jEe-TzrWRfSl0Vg"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TDS-InhLEe-J2q0JnEc3mA" entityName="monitor-dashboard/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_TC25R3hLEe-J2q0JnEc3mA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_51BopY1jEe-TzrWRfSl0Vg" entityName="card-statement-composite/api/statement-by-card Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="fernandoabcampos-spring-netflix-oss-microservices.repository#_50grRo1jEe-TzrWRfSl0Vg"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

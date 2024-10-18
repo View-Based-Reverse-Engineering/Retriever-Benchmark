@@ -1,337 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_ouQOsnhLEe-NMuXh_4KaKA">
-  <assemblyContexts__ComposedStructure id="_ouJhAHhLEe-NMuXh_4KaKA" entityName="demo 6 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlMXhLEe-NMuXh_4KaKA"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="__5xZVI1jEe-PjMncXKEsgQ">
+  <assemblyContexts__ComposedStructure id="__5pdgI1jEe-PjMncXKEsgQ" entityName="demo_account_AccountRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bg41jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhAXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountServiceV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE9XhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdgY1jEe-PjMncXKEsgQ" entityName="DatabaseInitializer Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__44BhI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhAnhLEe-NMuXh_4KaKA" entityName="demo_login_LoginController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE-nhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdgo1jEe-PjMncXKEsgQ" entityName="demo_inventory_InventoryRepository Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bho1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhA3hLEe-NMuXh_4KaKA" entityName="demo_inventory_InventoryRepository Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9c3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdg41jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__44BiI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhBHhLEe-NMuXh_4KaKA" entityName="demo_login_HttpSessionSecurityContextRepository Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9dXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdhI1jEe-PjMncXKEsgQ" entityName="demo_catalog_CatalogInfoRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bio1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhBXhLEe-NMuXh_4KaKA" entityName="demo_UserService Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9eHhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdhY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__44BjI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhBnhLEe-NMuXh_4KaKA" entityName="demo_catalog_CatalogInfoRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9enhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdho1jEe-PjMncXKEsgQ" entityName="demo_login_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bjo1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhB3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9fHhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdh41jEe-PjMncXKEsgQ" entityName="demo 5 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6q41jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhCHhLEe-NMuXh_4KaKA" entityName="demo_login_AuthenticationManager Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9fnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5pdiI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserControllerV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__47Ey41jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhCXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartControllerV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9gXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEkI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__485-Y1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhCnhLEe-NMuXh_4KaKA" entityName="demo_login_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otidDnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEkY1jEe-PjMncXKEsgQ" entityName="demo_UserRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__485-41jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhC3hLEe-NMuXh_4KaKA" entityName="demo_order_OrderEventRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5QXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEko1jEe-PjMncXKEsgQ" entityName="demo_product_ProductRepository Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__485_Y1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhDHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5Q3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEk41jEe-PjMncXKEsgQ" entityName="demo_login_LoginController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5NYpY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhDXhLEe-NMuXh_4KaKA" entityName="demo_account_AccountRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5RXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qElI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogControllerV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__486AI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhDnhLEe-NMuXh_4KaKA" entityName="demo_product_ProductRepository Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5R3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qElY1jEe-PjMncXKEsgQ" entityName="demo_login_AuthenticationManager Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__4_9To1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhD3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5SXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qElo1jEe-PjMncXKEsgQ" entityName="demo_cart_CartEventRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__4_9UI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhEHhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryServiceV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5TnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEl41jEe-PjMncXKEsgQ" entityName="demo_config_DatabaseInitializer Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkUo1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhEXhLEe-NMuXh_4KaKA" entityName="demo 2 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlNnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEmI1jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryServiceV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkV41jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhEnhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryControllerV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5UXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEmY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartControllerV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkWo1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhE3hLEe-NMuXh_4KaKA" entityName="demo_UserRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKsXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEmo1jEe-PjMncXKEsgQ" entityName="demo_login_HttpSessionSecurityContextRepository Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq8I1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhFHhLEe-NMuXh_4KaKA" entityName="demo_v1_Session Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKs3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEm41jEe-PjMncXKEsgQ" entityName="demo_login_ClientDetailsService Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq8o1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhFXhLEe-NMuXh_4KaKA" entityName="demo_invoice_InvoiceRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKtXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEnI1jEe-PjMncXKEsgQ" entityName="demo_user_UserClientV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq9I1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhFnhLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKt3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEnY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartServiceV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq_I1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhF3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountControllerV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKunhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEno1jEe-PjMncXKEsgQ" entityName="demo_invoice_InvoiceRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq_o1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhGHhLEe-NMuXh_4KaKA" entityName="demo_config_DatabaseInitializer Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otq_6HhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEn41jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderControllerV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5GrAY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhGXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserControllerV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otq_63hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEoI1jEe-PjMncXKEsgQ" entityName="demo_v1_Session Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Mxno1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhGnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartServiceV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcJXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEoY1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5MxoI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhG3hLEe-NMuXh_4KaKA" entityName="demo Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlOnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEoo1jEe-PjMncXKEsgQ" entityName="demo 2 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6oY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouJhHHhLEe-NMuXh_4KaKA" entityName="demo 3 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlPHhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEo41jEe-PjMncXKEsgQ" entityName="demo_order_OrderEventRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5NYoI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIEHhLEe-NMuXh_4KaKA" entityName="demo 5 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlPnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEpI1jEe-PjMncXKEsgQ" entityName="demo 3 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6o41jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIEXhLEe-NMuXh_4KaKA" entityName="demo 4 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlQHhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEpY1jEe-PjMncXKEsgQ" entityName="demo_login_LoginController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5NYpY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIEnhLEe-NMuXh_4KaKA" entityName="demo_cart_CartEventRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcJ3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEpo1jEe-PjMncXKEsgQ" entityName="demo_UserService Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5RDBo1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIE3hLEe-NMuXh_4KaKA" entityName="demo_UserController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcKnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEp41jEe-PjMncXKEsgQ" entityName="demo_v1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6p41jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIFHhLEe-NMuXh_4KaKA" entityName="demo_user_UserRepository Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot0J23hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEqI1jEe-PjMncXKEsgQ" entityName="demo 6 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6qY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIFXhLEe-NMuXh_4KaKA" entityName="demo_user_UserClientV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot0J3XhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEqY1jEe-PjMncXKEsgQ" entityName="demo Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6ro1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIFnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderControllerV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot0J4HhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEqo1jEe-PjMncXKEsgQ" entityName="demo_UserController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5RDCY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIF3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot63jnhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qEq41jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountServiceV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX0I1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIGHhLEe-NMuXh_4KaKA" entityName="demo_v1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlM3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qroI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserServiceV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX041jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIGXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserServiceV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot63kXhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qroY1jEe-PjMncXKEsgQ" entityName="demo_user_UserRepository Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX1Y1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIGnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogServiceV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot7elHhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qroo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogServiceV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Y-0I1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIG3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogControllerV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot7el3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qro41jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Y-0o1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIHHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I8XhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qrpI1jEe-PjMncXKEsgQ" entityName="demo 4 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6pY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIHXhLEe-NMuXh_4KaKA" entityName="demo_login_LoginController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE-nhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qrpY1jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryControllerV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5Y-1Y1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIHnhLEe-NMuXh_4KaKA" entityName="demo_login_ClientDetailsService Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I83hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qrpo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderServiceV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpPI1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIH3hLEe-NMuXh_4KaKA" entityName="DatabaseInitializer Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I9HhLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qrp41jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpPo1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_ouKIIHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderServiceV1 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I-3hLEe-NMuXh_4KaKA"/>
+  <assemblyContexts__ComposedStructure id="__5qrqI1jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountControllerV1 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="kbastani-spring-cloud-event-sourcing-example.repository#__5dQQY1jEe-PjMncXKEsgQ"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouLWMHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_CatalogServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="_ouKIG3hLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIGnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot7ekHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot7elnhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5r5wI1jEe-PjMncXKEsgQ" entityName="demo_v1_InventoryServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="__5qrpY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEmI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkU41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Y-1I1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouLWMXhLEe-NMuXh_4KaKA" entityName="demo_invoice_InvoiceRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhFXhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKtHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otq_53hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg0I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Connector" requiringAssemblyContext_AssemblyConnector="__5qEq41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEkI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__485-I1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YXzY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouLWMnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_ouKIGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIHHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I8HhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot7ek3hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg0Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="__5qrpo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qro41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Y-0Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpOo1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouLWM3hLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhFnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKtnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otq_5nhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg0o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="__5qEnY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qro41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Y-0Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq941jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouLWNHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIHHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I8HhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcJHhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg041jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEl41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdg41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bh41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkUY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouLWNXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_ouJhAXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIF3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot63jXhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE8XhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg1I1jEe-PjMncXKEsgQ" entityName="demo_user_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qroI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qroY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX1I1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX0o1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9QHhLEe-NMuXh_4KaKA" entityName="demo_user_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouKIGXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIFHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot0J2nhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot63kHhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg1Y1jEe-PjMncXKEsgQ" entityName="user-service/ Connector" requiringAssemblyContext_AssemblyConnector="__5qEnI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEqI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6qI1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq841jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9QXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhDHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5QnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcInhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg1o1jEe-PjMncXKEsgQ" entityName="demo_order_OrderRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qrpo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdg41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bh41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpOI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9QnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="_ouKIGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhDHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5QnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot7ekXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg141jEe-PjMncXKEsgQ" entityName="demo_api_v1_OrderServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="__5qEn41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qrpo1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpNo1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5GrAI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9Q3hLEe-NMuXh_4KaKA" entityName="demo_login_ClientDetailsService Connector" requiringAssemblyContext_AssemblyConnector="_ouJhAnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIHnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I8nhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE93hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg2I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Connector" requiringAssemblyContext_AssemblyConnector="__5qEnY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEkI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__485-I1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq-o1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9RHhLEe-NMuXh_4KaKA" entityName="demo_order_OrderEventRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouKIIHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhC3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5QHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I-XhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5sg2Y1jEe-PjMncXKEsgQ" entityName="demo_account_AccountRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEq41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdgI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bgo1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YXzo1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9RXhLEe-NMuXh_4KaKA" entityName="demo_v1_InventoryServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhEnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhEHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5SnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5UHhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH4I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$3 Connector" requiringAssemblyContext_AssemblyConnector="__5qrpo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEkI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__485-I1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpN41jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9RnhLEe-NMuXh_4KaKA" entityName="demo_UserService Connector" requiringAssemblyContext_AssemblyConnector="_ouKIE3hLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhBXhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9dnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcKXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH4Y1jEe-PjMncXKEsgQ" entityName="demo_inventory_InventoryRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEmI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdgo1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__44BhY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkVY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9R3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhAXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhB3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9e3hLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE9HhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH4o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="__5qroo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdhY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bi41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX141jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9SHhLEe-NMuXh_4KaKA" entityName="demo_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhBXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhE3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKsHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9d3hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH441jEe-PjMncXKEsgQ" entityName="demo_UserRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEpo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEkY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__485-o1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5RDBY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9SXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhAXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhD3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5SHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE83hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH5I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="__5qEnY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qrp41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpPY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq9o1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9SnhLEe-NMuXh_4KaKA" entityName="demo_inventory_InventoryRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhEHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhA3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9cnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5THhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH5Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_ShoppingCartServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="__5qEmY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEnY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq9Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkWY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouL9S3hLEe-NMuXh_4KaKA" entityName="demo_login_AuthenticationManager Connector" requiringAssemblyContext_AssemblyConnector="_ouJhAnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhCHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9fXhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE-XhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH5o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_UserServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="__5pdiI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qroI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX0Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__47Eyo1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkUHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_AccountServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhF3hLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhAXhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE8HhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKuXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH541jEe-PjMncXKEsgQ" entityName="demo_login_AuthenticationManager Connector" requiringAssemblyContext_AssemblyConnector="__5qEk41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qElY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__4_9TY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5NYo41jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkUXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIF3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot63jXhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcIXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH6I1jEe-PjMncXKEsgQ" entityName="demo_login_HttpSessionSecurityContextRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEk41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEmo1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5GD7Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5NYoo1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkUnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OrderServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="_ouKIFnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIIHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I9XhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot0J33hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH6Y1jEe-PjMncXKEsgQ" entityName="demo_order_OrderEventRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qrpo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEo41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5MxoY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpOY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkU3hLEe-NMuXh_4KaKA" entityName="demo_v1_Session Connector" requiringAssemblyContext_AssemblyConnector="_ouJhEHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhFHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKsnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5S3hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH6o1jEe-PjMncXKEsgQ" entityName="demo_invoice_InvoiceRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEl41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEno1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq_Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkUI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkVHhLEe-NMuXh_4KaKA" entityName="user-service/ Connector" requiringAssemblyContext_AssemblyConnector="_ouKIFXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhGXhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otq_6XhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot0J3HhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tH641jEe-PjMncXKEsgQ" entityName="demo_api_v1_AccountServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="__5qrqI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEq41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YXy41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5dQQI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkVXhLEe-NMuXh_4KaKA" entityName="demo_catalog_CatalogInfoRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouKIGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhBnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9eXhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot7eknhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu8I1jEe-PjMncXKEsgQ" entityName="demo_login_ClientDetailsService Connector" requiringAssemblyContext_AssemblyConnector="__5qEk41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEm41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq8Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5NYpI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkVnhLEe-NMuXh_4KaKA" entityName="user-service/ Connector" requiringAssemblyContext_AssemblyConnector="_ouKIFXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIEXhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlP3hLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot0J3HhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu8Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="__5qEnY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdhY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bi41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq-I1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkV3hLEe-NMuXh_4KaKA" entityName="demo_login_HttpSessionSecurityContextRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhAnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhBHhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9dHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE-HhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu8o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="__5qroo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEoY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Mxn41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX2I1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkWHhLEe-NMuXh_4KaKA" entityName="demo_cart_CartEventRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIEnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcJnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ots1HnhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu841jEe-PjMncXKEsgQ" entityName="demo_catalog_CatalogInfoRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qroo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdhI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__44BiY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX2Y1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkWXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhD3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5SHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcI3hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu9I1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="__5qrpo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qrp41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpPY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpO41jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkWnhLEe-NMuXh_4KaKA" entityName="demo_order_OrderRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouKIIHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhFnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otpKtnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I93hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu9Y1jEe-PjMncXKEsgQ" entityName="demo_api_v1_RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="__5qEnY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEoY1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Mxn41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq-Y1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkW3hLEe-NMuXh_4KaKA" entityName="demo_api_v1_ShoppingCartServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhCXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhGnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ots1HXhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9gHhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu9o1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="__5qEq41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qrp41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5cpPY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YXzI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouMkXHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_UserServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIGXhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot63j3hLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otq_6nhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu941jEe-PjMncXKEsgQ" entityName="demo_api_v1_CatalogServiceV1 Connector" requiringAssemblyContext_AssemblyConnector="__5qElI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qroo1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YX1o1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__485_41jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouNLYHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="_ouKIIHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhD3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5SHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I-HhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu-I1jEe-PjMncXKEsgQ" entityName="demo_cart_CartEventRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEnY1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qElo1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__4_9T41jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq-41jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouNLYXhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Connector" requiringAssemblyContext_AssemblyConnector="_ouJhGnhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhB3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9e3hLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ottcIHhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu-Y1jEe-PjMncXKEsgQ" entityName="demo_UserService Connector" requiringAssemblyContext_AssemblyConnector="__5qEqo1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEpo1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5RDBI1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5RDCI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouNLYnhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate Connector" requiringAssemblyContext_AssemblyConnector="_ouKIIHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouKIF3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot63jXhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I-nhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5tu-o1jEe-PjMncXKEsgQ" entityName="demo_product_ProductRepository Connector" requiringAssemblyContext_AssemblyConnector="__5qEmI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEko1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__485_I1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkVo1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouNLY3hLEe-NMuXh_4KaKA" entityName="demo_account_AccountRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhAXhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhDXhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5RHhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE8nhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5uWAI1jEe-PjMncXKEsgQ" entityName="demo_v1_Session Connector" requiringAssemblyContext_AssemblyConnector="__5qEmI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qEoI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5MxnY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5AkVI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouNLZHhLEe-NMuXh_4KaKA" entityName="demo_api_v1_OAuth2RestTemplate$3 Connector" requiringAssemblyContext_AssemblyConnector="_ouKIIHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhB3hLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otc9e3hLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ot_I9nhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5uWAY1jEe-PjMncXKEsgQ" entityName="user-service/ Connector" requiringAssemblyContext_AssemblyConnector="__5qEnI1jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5pdiI1jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__47EyY1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Gq841jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_ouNLZXhLEe-NMuXh_4KaKA" entityName="demo_product_ProductRepository Connector" requiringAssemblyContext_AssemblyConnector="_ouJhEHhLEe-NMuXh_4KaKA" providingAssemblyContext_AssemblyConnector="_ouJhDnhLEe-NMuXh_4KaKA">
-    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5RnhLEe-NMuXh_4KaKA"/>
-    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otk5TXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="__5uWAo1jEe-PjMncXKEsgQ" entityName="demo_api_v1_OAuth2RestTemplate$2 Connector" requiringAssemblyContext_AssemblyConnector="__5qEq41jEe-PjMncXKEsgQ" providingAssemblyContext_AssemblyConnector="__5qro41jEe-PjMncXKEsgQ">
+    <providedRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5Y-0Y1jEe-PjMncXKEsgQ"/>
+    <requiredRole_AssemblyConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5YXz41jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouPAkHhLEe-NMuXh_4KaKA" entityName="account-service/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouOZgHhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouJhHHhLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlO3hLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5vkII1jEe-PjMncXKEsgQ" entityName="catalog-service/v1 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5u9EI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5qEoo1jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6oI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouPAknhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouPAkXhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouJhEXhLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlNHhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5wLMY1jEe-PjMncXKEsgQ" entityName="order-service/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5wLMI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5qrpI1jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6pI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouPAlHhLEe-NMuXh_4KaKA" entityName="user-service/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouPAk3hLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouJhEXhLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlNXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5wLM41jEe-PjMncXKEsgQ" entityName="inventory-service/v1 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5wLMo1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5qEp41jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6po1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouPAlnhLEe-NMuXh_4KaKA" entityName="inventory-service/v1 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouPAlXhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouKIGHhLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlMnhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5wyQY1jEe-PjMncXKEsgQ" entityName="user-service/login Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5wyQI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5qEk41jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5NYoY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouPnoXhLEe-NMuXh_4KaKA" entityName="user-service/login Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouPnoHhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouJhAnhLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_otYE9nhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5wyQ41jEe-PjMncXKEsgQ" entityName="shopping-cart-service/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5wyQo1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5qEpI1jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6oo1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouPno3hLEe-NMuXh_4KaKA" entityName="catalog-service/v1 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouPnonhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouKIEHhLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlPXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5wyRY1jEe-PjMncXKEsgQ" entityName="account-service/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5wyRI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5pdh41jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6qo1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouPnpXhLEe-NMuXh_4KaKA" entityName="shopping-cart-service/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouPnpHhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouJhAHhLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlMHhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5xZUY1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5xZUI1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5qEqY1jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6rI1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ouQOsXhLEe-NMuXh_4KaKA" entityName="order-service/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_ouQOsHhLEe-NMuXh_4KaKA" assemblyContext_ProvidedDelegationConnector="_ouJhG3hLEe-NMuXh_4KaKA">
-    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#_ouBlOXhLEe-NMuXh_4KaKA"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="__5xZU41jEe-PjMncXKEsgQ" entityName="user-service/user Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="__5xZUo1jEe-PjMncXKEsgQ" assemblyContext_ProvidedDelegationConnector="__5qEqY1jEe-PjMncXKEsgQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="kbastani-spring-cloud-event-sourcing-example.repository#__5g6rY1jEe-PjMncXKEsgQ"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouOZgHhLEe-NMuXh_4KaKA" entityName="account-service/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otXd6XhLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5u9EI1jEe-PjMncXKEsgQ" entityName="catalog-service/v1 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__44BcY1jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouPAkXhLEe-NMuXh_4KaKA" entityName="SPRING-APPLICATION/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otW23nhLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5wLMI1jEe-PjMncXKEsgQ" entityName="order-service/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__43adI1jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouPAk3hLEe-NMuXh_4KaKA" entityName="user-service/user Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otXd5HhLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5wLMo1jEe-PjMncXKEsgQ" entityName="inventory-service/v1 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__43aeY1jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouPAlXhLEe-NMuXh_4KaKA" entityName="inventory-service/v1 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otXd43hLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5wyQI1jEe-PjMncXKEsgQ" entityName="user-service/login Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__44BdI1jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouPnoHhLEe-NMuXh_4KaKA" entityName="user-service/login Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otW233hLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5wyQo1jEe-PjMncXKEsgQ" entityName="shopping-cart-service/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__44Bf41jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouPnonhLEe-NMuXh_4KaKA" entityName="catalog-service/v1 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otW21XhLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5wyRI1jEe-PjMncXKEsgQ" entityName="account-service/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__44BfY1jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouPnpHhLEe-NMuXh_4KaKA" entityName="shopping-cart-service/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otXd8HhLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5xZUI1jEe-PjMncXKEsgQ" entityName="SPRING-APPLICATION/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__43acY1jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ouQOsHhLEe-NMuXh_4KaKA" entityName="order-service/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#_otXd6nhLEe-NMuXh_4KaKA"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="__5xZUo1jEe-PjMncXKEsgQ" entityName="user-service/user Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="kbastani-spring-cloud-event-sourcing-example.repository#__43ac41jEe-PjMncXKEsgQ"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

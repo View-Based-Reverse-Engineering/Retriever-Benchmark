@@ -1,485 +1,485 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_0STgsXhLEe-iLsOaKDW0Cg">
-  <assemblyContexts__ComposedStructure id="_0SLk4HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ConceptReferenceController1_9 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qvaf3hLEe-iLsOaKDW0Cg"/>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_gmGspI1kEe-igbCBrOKh-A">
+  <assemblyContexts__ComposedStructure id="_gl_X4I1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerDocController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkp7KI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk4XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_VisitConfigurationController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RnkP3hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_X4Y1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_UserService Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkrwW41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk4nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SessionController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qzr7XhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_X4o1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseRestController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glS0X41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk43hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_UnknownResourceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qzr73hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_X441kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ConceptReferenceController1_9 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkvavo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk5HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ClearDbCacheController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RqnjHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_X5I1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_controller_SettingsFormController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glVQlI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk5XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_UnknownResourceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qzr73hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_X5Y1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_SessionController1_9 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gk06UY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk5nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SessionController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qzr7XhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_X5o1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_MainResourceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gk6Z4I1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk53hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ChangePasswordController1_8 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RLfYHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_X541kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_NameTemplateController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glKRcY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk6HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ClobDatatypeStorageController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RPJtHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-8I1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SearchIndexController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glMtv41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk6XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerDocController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RIcBXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-8Y1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsComplexValueController1_8 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glLfkY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk6nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_NameTemplateController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RTbLnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-8o1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_DatatypeService Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glPxDI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk63hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SearchIndexController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RdMJHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-841kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ChangePasswordController1_8 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glg2xo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk7HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_api_RestService Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RVQXHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-9I1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsService Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glS0Xo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk7XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LocaleAndThemeConfigurationController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RVQYHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-9Y1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_VisitConfigurationController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glPxE41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk7nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_SessionController1_9 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RYTsXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-9o1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseRestController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glS0X41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk73hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_AddressTemplateController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RgPdnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-941kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ClearDbCacheController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glTbYo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk8HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsService Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RhdonhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_--I1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_UserService Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glVQko1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk8XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_HL7MessageController1_8 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RiEoXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_--Y1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ConceptReferenceController1_9 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkvavo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk8nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_PasswordResetController2_2 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Rkg8HhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_--o1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LoggedInUsersController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glaJFI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk83hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_NameTemplateController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RTbLnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_--41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_FormResourceController1_9 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glbXQo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk9HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_VisitConfigurationController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RnkP3hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-_I1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_AddressTemplateController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glfBkY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk9XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_controller_SettingsFormController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Q1hHnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-_Y1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gl5RTY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk9nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ConceptReferenceController1_9 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qvaf3hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-_o1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_PasswordResetController2_2 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkxP8I1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk93hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_UserService Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0R9ifnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl_-_41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LocaleAndThemeConfigurationController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glwub41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk-HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ChangePasswordController1_8 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RLfYHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__AI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_UnknownResourceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkne6Y1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk-XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerSpecificationController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qx2vnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__AY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LocaleAndThemeConfigurationController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glwub41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk-nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerSpecificationController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Qx2vnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__Ao1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_HL7MessageController1_8 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkrwXo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SLk-3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_controller_SettingsFormController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Q1hHnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__A41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LoggedInUsersController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glaJFI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML8HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_SessionController1_9 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RYTsXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__BI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ClearDbCacheController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glTbYo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML8XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ImplementationIdController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Q5LenhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__BY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_PasswordResetController2_2 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkxP8I1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML8nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_MainResourceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Q810XhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__Bo1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_AddressTemplateController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glfBkY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML83hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerDocController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RIcBXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__B41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_UnknownResourceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkne6Y1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML9HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsComplexValueController1_8 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RKRMXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__CI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ClobDatatypeStorageController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glGABI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML9XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsComplexValueController1_8 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RKRMXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__CY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SearchIndexController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glMtv41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML9nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_PasswordResetController2_2 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Rkg8HhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__Co1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerSpecificationController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glN73o1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML93hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseRestController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RVQXXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__C41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseUriSetup Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glPxDo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML-HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LoggedInUsersController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0ReaTnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__DI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SessionController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glVQkI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML-XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SearchIndexController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RdMJHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__DY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_api_RestService Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glPxEI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML-nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ImplementationIdController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Q5LenhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__Do1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerDocController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gkp7KI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML-3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseRestController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RVQXXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__D41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_VisitConfigurationController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glPxE41kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML_HhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LoggedInUsersController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0ReaTnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__EI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_controller_SwaggerSpecificationController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glN73o1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML_XhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0SCa-3hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gl__EY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ImplementationIdController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glXs3I1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML_nhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_FormService Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RhdnnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmAI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_SessionController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glVQkI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SML_3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseUriSetup Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RhdoHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmAY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_controller_SettingsFormController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glVQlI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMAHhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_LocaleAndThemeConfigurationController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RVQYHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmAo1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ImplementationIdController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glXs3I1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMAXhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_AddressTemplateController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RgPdnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmA41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsComplexValueController1_8 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glLfkY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMAnhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0SDpF3hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmBI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:CompositeComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gl4qOo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMA3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_UserService Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RqniXhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmBY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_FormService Provider Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glbXPo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMBHhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_ClearDbCacheController2_0 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0RqnjHhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmBo1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_SessionController1_9 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gk06UY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMBXhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_MainSubResourceController Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0Rsct3hLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmB41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_0_NameTemplateController2_0 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glKRcY1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMBnhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_DatatypeService Provider Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0R54HnhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmCI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ChangePasswordController1_8 Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_glg2xo1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <assemblyContexts__ComposedStructure id="_0SMMB3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_FormResourceController1_9 Assembly Context">
-    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_0R54InhLEe-iLsOaKDW0Cg"/>
+  <assemblyContexts__ComposedStructure id="_gmAmCY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_MainSubResourceController Assembly Context">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="openmrs-openmrs-module-webservices-rest.repository#_gljTGI1kEe-igbCBrOKh-A"/>
   </assemblyContexts__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBIHhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_0SLk63hLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk7HhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RVQW3hLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RdMI3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0II1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_UserService Connector" requiringAssemblyContext_AssemblyConnector="_gl_-841kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl_--I1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glVQkY1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glg2xY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBIXhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_FormService Connector" requiringAssemblyContext_AssemblyConnector="_0SMMB3hLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SML_nhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RhdnXhLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0R54IHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0IY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_gl_-8I1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__DY1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxD41kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glMtvo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBInhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseUriSetup Connector" requiringAssemblyContext_AssemblyConnector="_0SML8nhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SML_3hLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Rhdn3hLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Q810HhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0Io1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_gl_-941kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__DY1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxD41kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glTbYY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBI3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsService Connector" requiringAssemblyContext_AssemblyConnector="_0SML9HhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk8HhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RhdoXhLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RKRMHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0I41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_UserService Connector" requiringAssemblyContext_AssemblyConnector="_gl_-_o1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl_X4Y1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkrwWo1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkxP741kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBJHhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_0SLk7nhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk7HhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RVQW3hLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RYTsHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0JI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ClobDatatypeStorageController Connector" requiringAssemblyContext_AssemblyConnector="_gl_--41kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__CI1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glFY_Y1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glbXQY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBJXhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_0SML8nhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk7HhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RVQW3hLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Q8O1XhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0JY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_gl_X5o1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__DY1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxD41kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gk6Z3o1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBJnhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs2_2_UserService Connector" requiringAssemblyContext_AssemblyConnector="_0SLk8nhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk93hLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0R9ifXhLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Rkg73hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0Jo1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseUriSetup Connector" requiringAssemblyContext_AssemblyConnector="_gmAmCY1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__C41kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxDY1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gljTF41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBJ3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_DatatypeService Connector" requiringAssemblyContext_AssemblyConnector="_0SLk6HhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SMMBnhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0R54HXhLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RPJs3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmB0J41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_gmAmCY1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__DY1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxD41kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gljTFo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBKHhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_MainResourceController Connector" requiringAssemblyContext_AssemblyConnector="_0SLk8XhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SML8nhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Q8O1HhLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RiEoHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmCbMI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_DatatypeService Connector" requiringAssemblyContext_AssemblyConnector="_gl__CI1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl_-8o1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxC41kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glGAA41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBKXhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_ClobDatatypeStorageController Connector" requiringAssemblyContext_AssemblyConnector="_0SMMB3hLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk6HhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RPJsXhLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0R54IXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmCbMY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_9_FormService Connector" requiringAssemblyContext_AssemblyConnector="_gl_--41kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gmAmBY1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glbXPY1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glbXQI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBKnhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_0SLk5HhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk7HhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RVQW3hLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Rqni3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmCbMo1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_gl_X5Y1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__DY1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxD41kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gk06UI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBK3hLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_api_RestService Connector" requiringAssemblyContext_AssemblyConnector="_0SMMBXhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SLk7HhLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RVQW3hLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RsctnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmCbM41kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseUriSetup Connector" requiringAssemblyContext_AssemblyConnector="_gl_X5o1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl__C41kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxDY1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gk6Z341kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOBLHhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_UserService Connector" requiringAssemblyContext_AssemblyConnector="_0SLk53hLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SMMA3hLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RqniHhLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RLfX3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmCbNI1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_openmrs1_8_ObsService Connector" requiringAssemblyContext_AssemblyConnector="_gl_-8Y1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl_-9I1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glS0XY1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_glLfkI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_0SOoMHhLEe-iLsOaKDW0Cg" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_BaseUriSetup Connector" requiringAssemblyContext_AssemblyConnector="_0SMMBXhLEe-iLsOaKDW0Cg" providingAssemblyContext_AssemblyConnector="_0SML_3hLEe-iLsOaKDW0Cg">
-    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Rhdn3hLEe-iLsOaKDW0Cg"/>
-    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RsctXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_gmCbNY1kEe-igbCBrOKh-A" entityName="org_openmrs_module_webservices_rest_web_v1_0_controller_MainResourceController Connector" requiringAssemblyContext_AssemblyConnector="_gl__Ao1kEe-igbCBrOKh-A" providingAssemblyContext_AssemblyConnector="_gl_X5o1kEe-igbCBrOKh-A">
+    <providedRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gk6Z2I1kEe-igbCBrOKh-A"/>
+    <requiredRole_AssemblyConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkrwXY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SP2UHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$5 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SPPQHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML8XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Q5LeXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmDpUI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$37 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmDCQI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qRY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SP2UnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$27 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SP2UXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk5HhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RqninhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmDpUo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$33 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmDpUY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_o1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkxP7o1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SP2VHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$23 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SP2U3hLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk4XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RnkPnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmDpVI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$26 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmDpU41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_X441kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkvavY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SP2VnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$12 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SP2VXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML_XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SCa93hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmDpVo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$35 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmDpVY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qRo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SP2WHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$26 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SP2V3hLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCDHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmDpWI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$5 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmDpV41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gmAmBI1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qNo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SP2WnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$21 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SP2WXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk6nhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RTbLXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmDpWo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$14 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmDpWY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qR41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SQdYXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$17 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SQdYHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML-HhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0ReaTXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmDpXI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$36 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmDpW41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-841kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glg2w41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SQdY3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$36 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SQdYnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCDXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmEQYY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$31 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmEQYI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gmAmBI1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qN41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SQdZXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$15 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SQdZHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCDnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmEQY41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$13 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmEQYo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-941kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glTbYI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SQdZ3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$4 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SQdZnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk7XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RVQXnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmEQZY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$18 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmEQZI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qSI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SQdaXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/module/webservices/rest/apiDocs Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SQdaHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk6XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RIcBHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmEQZ41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmEQZo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RQI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SQda3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/rest/v1/hl7 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SQdanhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCD3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmEQaY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$21 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmEQaI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_o1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkxP7Y1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SQdbXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$30 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SQdbHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCEHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmEQa41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmEQao1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl__EY1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glXs2o1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREcXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$10 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREcHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk8nhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Rkg7nhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmE3cY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$25 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmE3cI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl__EY1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glXs241kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREc3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/*/value Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREcnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML9HhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RJqLXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmE3c41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$8 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmE3co1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RQY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREdXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$37 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREdHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCEXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmE3dY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmE3dI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_X5Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gk06T41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREd3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/ Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREdnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk7nhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RYTrnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmE3d41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$30 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmE3do1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_41kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glwubo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREeXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$11 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREeHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk7nhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RYTr3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmE3eY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$9 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmE3eI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-9Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxEY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREe3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$24 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREenhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCEnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFegI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$32 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmE3eo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_X5Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gk06TY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREfXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$7 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREfHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML8XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Q5LeHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFego1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$23 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFegY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RQo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SREf3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$16 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SREfnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk63hLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RdMInhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFehI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/module/webservices/rest/settings Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFeg41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_X5I1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glVQk41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SRrgXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$19 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SRrgHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCE3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFeho1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$11 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFehY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_--o1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glaJE41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SRrg3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/rest/unknownResource Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SRrgnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk43hLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Qzr7nhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFeiI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$20 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFeh41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RQ41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SRrhXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$25 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SRrhHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML_XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SCa-HhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFeio1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/module/webservices/rest/swagger_json Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFeiY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl__Co1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glN73Y1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SRrh3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/module/webservices/rest/settings Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SRrhnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk9XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Q1hHXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFejI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$29 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFei41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RRI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SRriXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$32 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SRriHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCFHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFejo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$38 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFejY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RRY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SRri3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$22 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SRrinhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDCFXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFekI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$10 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFej41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RRo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSkHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$38 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SRrjHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk4XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RnkPXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFeko1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/rest/v1/hl7 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFekY1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RR41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSknhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$31 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSkXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk73hLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RgPdXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmFelI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/*/value Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmFek41kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-8Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glK4m41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSlHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$28 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSk3hLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML_XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SCa-XhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFkY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$16 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFkI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RSI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSlnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/rest/v1/form/*/value Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSlXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SML_XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SCa-nhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFk41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/rest/v1/form/*/value Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFko1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gmAmBI1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qOI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSmHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$9 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSl3hLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk8nhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Rkg7XhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFlY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$27 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFlI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gmAmBI1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl4qOY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSmnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$18 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSmXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDpEHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFl41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$24 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFlo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_I1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glfBkI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSnHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$33 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSm3hLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk53hLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RLfXXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFmY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$28 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFmI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RSY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSnnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$35 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSnXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk53hLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RLfXnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFm41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$7 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFmo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_X5Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gk06To1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSoHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$20 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSn3hLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk7XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RVQX3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFnY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$17 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFnI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-9Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glPxEo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SSSonhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$2 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SSSoXhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDpEXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFn41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$19 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFno1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-8I1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glMtvY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SS5oXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$34 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5oHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDpEnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFoY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$34 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFoI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RSo1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SS5o3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/module/webservices/rest/swagger_json Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5onhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk-XhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0Qx2vXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFo41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$4 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFoo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RS41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SS5pXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$8 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5pHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDpE3hLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFpY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$22 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFpI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_41kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glwubY1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SS5p3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$6 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5pnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk7nhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0RYTrXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFp41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/module/webservices/rest/apiDocs Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFpo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_X4I1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkp7J41kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SS5qXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$13 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5qHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDpFHhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFqY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$15 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFqI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-841kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glg2xI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SS5q3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$29 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5qnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDpFXhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGFq41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/rest/unknownResource Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGFqo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl__AI1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gkne6I1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0SS5rXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$3 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5rHhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SLk4HhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0QvafnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGsoY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$12 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGsoI1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_X541kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_glKRcI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_0STgsHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$14 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_0SS5rnhLEe-iLsOaKDW0Cg" assemblyContext_ProvidedDelegationConnector="_0SMMAnhLEe-iLsOaKDW0Cg">
-    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_0SDpFnhLEe-iLsOaKDW0Cg"/>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_gmGso41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$6 Delegation Connector" outerProvidedRole_ProvidedDelegationConnector="_gmGsoo1kEe-igbCBrOKh-A" assemblyContext_ProvidedDelegationConnector="_gl_-_Y1kEe-igbCBrOKh-A">
+    <innerProvidedRole_ProvidedDelegationConnector href="openmrs-openmrs-module-webservices-rest.repository#_gl5RTI1kEe-igbCBrOKh-A"/>
   </connectors__ComposedStructure>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SPPQHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$5 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMWnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmDCQI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$37 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ2I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SP2UXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$27 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMXXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmDpUY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$33 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ2Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SP2U3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$23 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMU3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmDpU41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$26 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm35Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SP2VXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$12 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvafHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmDpVY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$35 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkne4Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SP2V3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$26 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzaHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmDpV41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$5 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm32I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SP2WXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$21 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0Qvad3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmDpWY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$14 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm3041kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SQdYHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$17 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvaeHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmDpW41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$36 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQyo1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SQdYnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$36 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMX3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmEQYI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$31 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkne4o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SQdZHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$15 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzanhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmEQYo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$13 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ0Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SQdZnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$4 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMWXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmEQZI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$18 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm3441kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SQdaHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/module/webservices/rest/apiDocs Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzbHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmEQZo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$3 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm33o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SQdanhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/rest/v1/hl7 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvadXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmEQaI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$21 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkne441kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SQdbHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$30 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMXHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmEQao1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$2 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ0I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREcHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$10 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMV3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmE3cI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$25 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm31o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREcnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/*/value Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzZ3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmE3co1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$8 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ3I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREdHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$37 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvadHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmE3dI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/ Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm33Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREdnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/ Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMWHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmE3do1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$30 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm35o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREeHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$11 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzZXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmE3eI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$9 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm31Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREenhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$24 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzcnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmE3eo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$32 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkne5o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREfHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$7 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMYHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFegY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$23 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm3241kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SREfnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$16 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0Quza3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFeg41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/module/webservices/rest/settings Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm32Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SRrgHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$19 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0Quzd3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFehY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$11 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm34Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SRrgnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/rest/unknownResource Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvacnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFeh41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$20 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm33I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SRrhHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$25 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzZHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFeiY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/module/webservices/rest/swagger_json Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ3o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SRrhnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/module/webservices/rest/settings Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0Quzc3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFei41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$29 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm3141kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SRriHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$32 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzdnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFejY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$38 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm3341kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SRrinhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$22 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzdHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFej41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$10 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkne4I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SRrjHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$38 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzbnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFekY1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/rest/v1/hl7 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ041kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSkXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$31 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzeHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmFek41kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/*/value Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkne5I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSk3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$28 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvadnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFkI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$16 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ1Y1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSlXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/rest/v1/form/*/value Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzZnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFko1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/rest/v1/form/*/value Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm34I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSl3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$9 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzcXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFlI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$27 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ1I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSmXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$18 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMVnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFlo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$24 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQzI1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSm3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$33 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzbXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFmI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$28 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQzo1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSnXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$35 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzYnhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFmo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$7 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm30o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSn3hLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$20 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMVHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFnI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$17 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ141kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SSSoXhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$2 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvafXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFno1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$19 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQy41kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5oHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$34 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvacHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFoI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$34 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQ2o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5onhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/module/webservices/rest/swagger_json Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0Qvac3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFoo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$4 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm31I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5pHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$8 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMYXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFpI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$22 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm34o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5pnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$6 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QvaeXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFpo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/module/webservices/rest/apiDocs Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm35I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5qHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$13 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzcHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFqI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$15 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm32o1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5qnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$29 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuMVXhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGFqo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/rest/unknownResource Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkmQzY1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5rHhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$3 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0QuzYHhLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGsoI1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$12 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm30I1kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
-  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_0SS5rnhLEe-iLsOaKDW0Cg" entityName="SPRING-APPLICATION/$14 Delegation-Provider">
-    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_0Quzb3hLEe-iLsOaKDW0Cg"/>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_gmGsoo1kEe-igbCBrOKh-A" entityName="SPRING-APPLICATION/$6 Delegation-Provider">
+    <providedInterface__OperationProvidedRole href="openmrs-openmrs-module-webservices-rest.repository#_gkm3541kEe-igbCBrOKh-A"/>
   </providedRoles_InterfaceProvidingEntity>
 </system:System>

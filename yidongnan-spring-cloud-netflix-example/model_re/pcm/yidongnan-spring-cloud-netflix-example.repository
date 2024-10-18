@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_3arm5HhLEe-ZRqBXho9v1g">
-  <components__Repository xsi:type="repository:BasicComponent" id="_3abvRXhLEe-ZRqBXho9v1g" entityName="net_devh_hystrix_HystrixWrappedServiceBClient">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3abvQnhLEe-ZRqBXho9v1g" entityName="net_devh_hystrix_HystrixWrappedServiceBClient Provider" providedInterface__OperationProvidedRole="_3abINnhLEe-ZRqBXho9v1g"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3abvQ3hLEe-ZRqBXho9v1g" entityName="net_devh_feign_ServiceBClient Provider" providedInterface__OperationProvidedRole="_3abINXhLEe-ZRqBXho9v1g"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3abvRHhLEe-ZRqBXho9v1g" entityName="net_devh_feign_ServiceBClient Consumer" requiredInterface__OperationRequiredRole="_3abINXhLEe-ZRqBXho9v1g"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_3USrAXhLEe-ZRqBXho9v1g" describedService__SEFF="_3T4bUHhLEe-ZRqBXho9v1g">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_3URc4XhLEe-ZRqBXho9v1g" entityName="Start Action" successor_AbstractAction="_3USrAHhLEe-ZRqBXho9v1g"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_3USrAHhLEe-ZRqBXho9v1g" entityName="Stop Action" predecessor_AbstractAction="_3URc4XhLEe-ZRqBXho9v1g"/>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" xmlns:stoex="http://sdq.ipd.uka.de/StochasticExpressions/2.2" id="_xl_VOI1kEe-zfuMkuYBebw">
+  <components__Repository xsi:type="repository:BasicComponent" id="_xlwEpI1kEe-zfuMkuYBebw" entityName="net_devh_hystrix_HystrixWrappedServiceBClient">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xlwEoY1kEe-zfuMkuYBebw" entityName="net_devh_hystrix_HystrixWrappedServiceBClient Provider" providedInterface__OperationProvidedRole="_xlvdko1kEe-zfuMkuYBebw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xlwEoo1kEe-zfuMkuYBebw" entityName="net_devh_feign_ServiceBClient Provider" providedInterface__OperationProvidedRole="_xlvdlY1kEe-zfuMkuYBebw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xlwEo41kEe-zfuMkuYBebw" entityName="net_devh_feign_ServiceBClient Consumer" requiredInterface__OperationRequiredRole="_xlvdlY1kEe-zfuMkuYBebw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_xfzNoY1kEe-zfuMkuYBebw" describedService__SEFF="_xfZlAI1kEe-zfuMkuYBebw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_xfx_gY1kEe-zfuMkuYBebw" entityName="Start Action" successor_AbstractAction="_xfzNoI1kEe-zfuMkuYBebw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_xfzNoI1kEe-zfuMkuYBebw" entityName="Stop Action" predecessor_AbstractAction="_xfx_gY1kEe-zfuMkuYBebw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_3afZpnhLEe-ZRqBXho9v1g" entityName="net_devh_ServiceB1Controller">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3afZpHhLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_3abIOHhLEe-ZRqBXho9v1g"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3afZpXhLEe-ZRqBXho9v1g" entityName="net_devh_Registration Consumer" requiredInterface__OperationRequiredRole="_3abvQHhLEe-ZRqBXho9v1g"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_3ZsvcXhLEe-ZRqBXho9v1g" describedService__SEFF="_3TINYHhLEe-ZRqBXho9v1g">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_3USrA3hLEe-ZRqBXho9v1g" entityName="Start Action" successor_AbstractAction="_3ZsIYHhLEe-ZRqBXho9v1g"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_3ZsIYHhLEe-ZRqBXho9v1g" entityName="registration.getServiceId() + &quot; (&quot; + registration.getHost()+ &quot;:&quot;+ registration.getPort()+ &quot;)&quot;+ &quot;===>Say &quot;+ msg" predecessor_AbstractAction="_3USrA3hLEe-ZRqBXho9v1g" successor_AbstractAction="_3ZsvcHhLEe-ZRqBXho9v1g">
+  <components__Repository xsi:type="repository:BasicComponent" id="_xlzvBo1kEe-zfuMkuYBebw" entityName="net_devh_ServiceB1Controller">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xlzvBI1kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_xlvdlo1kEe-zfuMkuYBebw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xlzvBY1kEe-zfuMkuYBebw" entityName="net_devh_Registration Consumer" requiredInterface__OperationRequiredRole="_xlvdlI1kEe-zfuMkuYBebw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_xlBE0o1kEe-zfuMkuYBebw" describedService__SEFF="_xfXIwI1kEe-zfuMkuYBebw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_xlAdxI1kEe-zfuMkuYBebw" entityName="Start Action" successor_AbstractAction="_xlBE0I1kEe-zfuMkuYBebw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_xlBE0I1kEe-zfuMkuYBebw" entityName="registration.getServiceId() + &quot; (&quot; + registration.getHost()+ &quot;:&quot;+ registration.getPort()+ &quot;)&quot;+ &quot;===>Say &quot;+ msg" predecessor_AbstractAction="_xlAdxI1kEe-zfuMkuYBebw" successor_AbstractAction="_xlBE0Y1kEe-zfuMkuYBebw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.registration_getServiceId() + &quot; (&quot; + registration_getHost()+ &quot;:&quot;+ registration_getPort()+ &quot;)&quot;+ &quot;===>Say &quot;+ msg"/>
@@ -24,27 +24,30 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_3ZsvcHhLEe-ZRqBXho9v1g" entityName="Stop Action" predecessor_AbstractAction="_3ZsIYHhLEe-ZRqBXho9v1g"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_xlBE0Y1kEe-zfuMkuYBebw" entityName="Stop Action" predecessor_AbstractAction="_xlBE0I1kEe-zfuMkuYBebw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_3aic9XhLEe-ZRqBXho9v1g" entityName="net_devh_feign_ServiceBClient">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3aic83hLEe-ZRqBXho9v1g" entityName="net_devh_feign_ServiceBClient Provider" providedInterface__OperationProvidedRole="_3abINXhLEe-ZRqBXho9v1g"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3aic9HhLEe-ZRqBXho9v1g" entityName="service-b/ Consumer" requiredInterface__OperationRequiredRole="_3abvQXhLEe-ZRqBXho9v1g"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_3algR3hLEe-ZRqBXho9v1g" describedService__SEFF="_3T4bUHhLEe-ZRqBXho9v1g">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_3algRXhLEe-ZRqBXho9v1g" successor_AbstractAction="_3algRnhLEe-ZRqBXho9v1g"/>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_3algRnhLEe-ZRqBXho9v1g" predecessor_AbstractAction="_3algRXhLEe-ZRqBXho9v1g"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xl2yXI1kEe-zfuMkuYBebw" entityName="net_devh_feign_ServiceBClient">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xl2yWo1kEe-zfuMkuYBebw" entityName="net_devh_feign_ServiceBClient Provider" providedInterface__OperationProvidedRole="_xlvdlY1kEe-zfuMkuYBebw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xl2yW41kEe-zfuMkuYBebw" entityName="service-b/ Consumer" requiredInterface__OperationRequiredRole="_xlvdl41kEe-zfuMkuYBebw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_xl51pY1kEe-zfuMkuYBebw" describedService__SEFF="_xfZlAI1kEe-zfuMkuYBebw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_xl51o41kEe-zfuMkuYBebw" successor_AbstractAction="_xl51pI1kEe-zfuMkuYBebw"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_xl51pI1kEe-zfuMkuYBebw" predecessor_AbstractAction="_xl51o41kEe-zfuMkuYBebw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_3algSXhLEe-ZRqBXho9v1g" entityName="net_devh_controller_Registration Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3algSHhLEe-ZRqBXho9v1g" entityName="net_devh_controller_Registration Provider" providedInterface__OperationProvidedRole="_3abIOXhLEe-ZRqBXho9v1g"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xl51p41kEe-zfuMkuYBebw" entityName="net_devh_controller_Registration Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xl51po1kEe-zfuMkuYBebw" entityName="net_devh_controller_Registration Provider" providedInterface__OperationProvidedRole="_xlvdk41kEe-zfuMkuYBebw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_3algTXhLEe-ZRqBXho9v1g" entityName="net_devh_controller_AServiceController">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3algSnhLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/$2 Provider" providedInterface__OperationProvidedRole="_3abIN3hLEe-ZRqBXho9v1g"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3algS3hLEe-ZRqBXho9v1g" entityName="net_devh_hystrix_HystrixWrappedServiceBClient Consumer" requiredInterface__OperationRequiredRole="_3abINnhLEe-ZRqBXho9v1g"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3algTHhLEe-ZRqBXho9v1g" entityName="net_devh_controller_Registration Consumer" requiredInterface__OperationRequiredRole="_3abIOXhLEe-ZRqBXho9v1g"/>
-    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_3ZsvdnhLEe-ZRqBXho9v1g" describedService__SEFF="_3T5CYHhLEe-ZRqBXho9v1g">
-      <steps_Behaviour xsi:type="seff:StartAction" id="_3Zsvc3hLEe-ZRqBXho9v1g" entityName="Start Action" successor_AbstractAction="_3ZsvdHhLEe-ZRqBXho9v1g"/>
-      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_3ZsvdHhLEe-ZRqBXho9v1g" entityName="registration.getServiceId() + &quot; (&quot; + registration.getHost()+ &quot;:&quot;+ registration.getPort()+ &quot;)&quot;+ &quot;===>name:&quot;+ name+ &quot;&lt;br/>&quot;+ serviceBClient.printServiceB()" predecessor_AbstractAction="_3Zsvc3hLEe-ZRqBXho9v1g" successor_AbstractAction="_3ZsvdXhLEe-ZRqBXho9v1g">
+  <components__Repository xsi:type="repository:BasicComponent" id="_xl51qY1kEe-zfuMkuYBebw" entityName="service-b/ Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xl51qI1kEe-zfuMkuYBebw" entityName="service-b/ Provider" providedInterface__OperationProvidedRole="_xlvdl41kEe-zfuMkuYBebw"/>
+  </components__Repository>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xl51rY1kEe-zfuMkuYBebw" entityName="net_devh_controller_AServiceController">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xl51qo1kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/$2 Provider" providedInterface__OperationProvidedRole="_xlwEoI1kEe-zfuMkuYBebw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xl51q41kEe-zfuMkuYBebw" entityName="net_devh_controller_Registration Consumer" requiredInterface__OperationRequiredRole="_xlvdk41kEe-zfuMkuYBebw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xl51rI1kEe-zfuMkuYBebw" entityName="net_devh_hystrix_HystrixWrappedServiceBClient Consumer" requiredInterface__OperationRequiredRole="_xlvdko1kEe-zfuMkuYBebw"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_xlAdwo1kEe-zfuMkuYBebw" describedService__SEFF="_xfaMEI1kEe-zfuMkuYBebw">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_xfzNo41kEe-zfuMkuYBebw" entityName="Start Action" successor_AbstractAction="_xlAdwI1kEe-zfuMkuYBebw"/>
+      <steps_Behaviour xsi:type="seff:SetVariableAction" id="_xlAdwI1kEe-zfuMkuYBebw" entityName="registration.getServiceId() + &quot; (&quot; + registration.getHost()+ &quot;:&quot;+ registration.getPort()+ &quot;)&quot;+ &quot;===>name:&quot;+ name+ &quot;&lt;br/>&quot;+ serviceBClient.printServiceB()" predecessor_AbstractAction="_xfzNo41kEe-zfuMkuYBebw" successor_AbstractAction="_xlAdwY1kEe-zfuMkuYBebw">
         <localVariableUsages_SetVariableAction>
           <variableCharacterisation_VariableUsage type="VALUE">
             <specification_VariableCharacterisation specification="PrimitiveType.registration_getServiceId() + &quot; (&quot; + registration_getHost()+ &quot;:&quot;+ registration_getPort()+ &quot;)&quot;+ &quot;===>name:&quot;+ name+ &quot;&lt;br/>&quot;+ serviceBClient_printServiceB()"/>
@@ -54,49 +57,46 @@
           </namedReference__VariableUsage>
         </localVariableUsages_SetVariableAction>
       </steps_Behaviour>
-      <steps_Behaviour xsi:type="seff:StopAction" id="_3ZsvdXhLEe-ZRqBXho9v1g" entityName="Stop Action" predecessor_AbstractAction="_3ZsvdHhLEe-ZRqBXho9v1g"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_xlAdwY1kEe-zfuMkuYBebw" entityName="Stop Action" predecessor_AbstractAction="_xlAdwI1kEe-zfuMkuYBebw"/>
     </serviceEffectSpecifications__BasicComponent>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_3aojnnhLEe-ZRqBXho9v1g" entityName="service-b/ Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3aojnXhLEe-ZRqBXho9v1g" entityName="service-b/ Provider" providedInterface__OperationProvidedRole="_3abvQXhLEe-ZRqBXho9v1g"/>
+  <components__Repository xsi:type="repository:BasicComponent" id="_xl849I1kEe-zfuMkuYBebw" entityName="net_devh_Registration Provider">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xl84841kEe-zfuMkuYBebw" entityName="net_devh_Registration Provider" providedInterface__OperationProvidedRole="_xlvdlI1kEe-zfuMkuYBebw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:BasicComponent" id="_3apKoXhLEe-ZRqBXho9v1g" entityName="net_devh_Registration Provider">
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3apKoHhLEe-ZRqBXho9v1g" entityName="net_devh_Registration Provider" providedInterface__OperationProvidedRole="_3abvQHhLEe-ZRqBXho9v1g"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_xl-uIo1kEe-zfuMkuYBebw" entityName="net_devh">
+    <assemblyContexts__ComposedStructure id="_xl_VMI1kEe-zfuMkuYBebw" encapsulatedComponent__AssemblyContext="_xl2yXI1kEe-zfuMkuYBebw"/>
+    <assemblyContexts__ComposedStructure id="_xl_VMo1kEe-zfuMkuYBebw" encapsulatedComponent__AssemblyContext="_xlwEpI1kEe-zfuMkuYBebw"/>
+    <assemblyContexts__ComposedStructure id="_xl_VNI1kEe-zfuMkuYBebw" encapsulatedComponent__AssemblyContext="_xl51rY1kEe-zfuMkuYBebw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_xmAjUI1kEe-zfuMkuYBebw" requiringAssemblyContext_AssemblyConnector="_xl_VMo1kEe-zfuMkuYBebw" providingAssemblyContext_AssemblyConnector="_xl_VMI1kEe-zfuMkuYBebw" providedRole_AssemblyConnector="_xl2yWo1kEe-zfuMkuYBebw" requiredRole_AssemblyConnector="_xlwEo41kEe-zfuMkuYBebw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_xmAjUY1kEe-zfuMkuYBebw" requiringAssemblyContext_AssemblyConnector="_xl_VNI1kEe-zfuMkuYBebw" providingAssemblyContext_AssemblyConnector="_xl_VMo1kEe-zfuMkuYBebw" providedRole_AssemblyConnector="_xlwEoY1kEe-zfuMkuYBebw" requiredRole_AssemblyConnector="_xl51rI1kEe-zfuMkuYBebw"/>
+    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_xmAjUo1kEe-zfuMkuYBebw" requiringAssemblyContext_AssemblyConnector="_xl_VMo1kEe-zfuMkuYBebw" providingAssemblyContext_AssemblyConnector="_xl_VMo1kEe-zfuMkuYBebw" providedRole_AssemblyConnector="_xlwEoo1kEe-zfuMkuYBebw" requiredRole_AssemblyConnector="_xlwEo41kEe-zfuMkuYBebw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_xmBKYY1kEe-zfuMkuYBebw" innerProvidedRole_ProvidedDelegationConnector="_xl51qo1kEe-zfuMkuYBebw" outerProvidedRole_ProvidedDelegationConnector="_xl-uII1kEe-zfuMkuYBebw" assemblyContext_ProvidedDelegationConnector="_xl_VNI1kEe-zfuMkuYBebw"/>
+    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_xmBxcI1kEe-zfuMkuYBebw" innerRequiredRole_RequiredDelegationConnector="_xl2yW41kEe-zfuMkuYBebw" outerRequiredRole_RequiredDelegationConnector="_xl-uIY1kEe-zfuMkuYBebw" assemblyContext_RequiredDelegationConnector="_xl_VMI1kEe-zfuMkuYBebw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xl-uII1kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/$2 Provider" providedInterface__OperationProvidedRole="_xlwEoI1kEe-zfuMkuYBebw"/>
+    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_xl-uIY1kEe-zfuMkuYBebw" entityName="service-b/ Consumer" requiredInterface__OperationRequiredRole="_xlvdl41kEe-zfuMkuYBebw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_3aqYwnhLEe-ZRqBXho9v1g" entityName="net_devh">
-    <assemblyContexts__ComposedStructure id="_3aq_0HhLEe-ZRqBXho9v1g" encapsulatedComponent__AssemblyContext="_3aic9XhLEe-ZRqBXho9v1g"/>
-    <assemblyContexts__ComposedStructure id="_3aq_0nhLEe-ZRqBXho9v1g" encapsulatedComponent__AssemblyContext="_3abvRXhLEe-ZRqBXho9v1g"/>
-    <assemblyContexts__ComposedStructure id="_3arm4HhLEe-ZRqBXho9v1g" encapsulatedComponent__AssemblyContext="_3algTXhLEe-ZRqBXho9v1g"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_3as1AHhLEe-ZRqBXho9v1g" requiringAssemblyContext_AssemblyConnector="_3aq_0nhLEe-ZRqBXho9v1g" providingAssemblyContext_AssemblyConnector="_3aq_0HhLEe-ZRqBXho9v1g" providedRole_AssemblyConnector="_3aic83hLEe-ZRqBXho9v1g" requiredRole_AssemblyConnector="_3abvRHhLEe-ZRqBXho9v1g"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_3as1AXhLEe-ZRqBXho9v1g" requiringAssemblyContext_AssemblyConnector="_3arm4HhLEe-ZRqBXho9v1g" providingAssemblyContext_AssemblyConnector="_3aq_0nhLEe-ZRqBXho9v1g" providedRole_AssemblyConnector="_3abvQnhLEe-ZRqBXho9v1g" requiredRole_AssemblyConnector="_3algS3hLEe-ZRqBXho9v1g"/>
-    <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_3as1AnhLEe-ZRqBXho9v1g" requiringAssemblyContext_AssemblyConnector="_3aq_0nhLEe-ZRqBXho9v1g" providingAssemblyContext_AssemblyConnector="_3aq_0nhLEe-ZRqBXho9v1g" providedRole_AssemblyConnector="_3abvQ3hLEe-ZRqBXho9v1g" requiredRole_AssemblyConnector="_3abvRHhLEe-ZRqBXho9v1g"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_3auDIXhLEe-ZRqBXho9v1g" innerProvidedRole_ProvidedDelegationConnector="_3algSnhLEe-ZRqBXho9v1g" outerProvidedRole_ProvidedDelegationConnector="_3aqYwHhLEe-ZRqBXho9v1g" assemblyContext_ProvidedDelegationConnector="_3arm4HhLEe-ZRqBXho9v1g"/>
-    <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_3auDInhLEe-ZRqBXho9v1g" innerRequiredRole_RequiredDelegationConnector="_3aic9HhLEe-ZRqBXho9v1g" outerRequiredRole_RequiredDelegationConnector="_3aqYwXhLEe-ZRqBXho9v1g" assemblyContext_RequiredDelegationConnector="_3aq_0HhLEe-ZRqBXho9v1g"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3aqYwHhLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/$2 Provider" providedInterface__OperationProvidedRole="_3abIN3hLEe-ZRqBXho9v1g"/>
-    <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_3aqYwXhLEe-ZRqBXho9v1g" entityName="service-b/ Consumer" requiredInterface__OperationRequiredRole="_3abvQXhLEe-ZRqBXho9v1g"/>
+  <components__Repository xsi:type="repository:CompositeComponent" id="_xl-uJI1kEe-zfuMkuYBebw" entityName="net_devh_ServiceB1Controller">
+    <assemblyContexts__ComposedStructure id="_xl_VNo1kEe-zfuMkuYBebw" encapsulatedComponent__AssemblyContext="_xlzvBo1kEe-zfuMkuYBebw"/>
+    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_xmBKYI1kEe-zfuMkuYBebw" innerProvidedRole_ProvidedDelegationConnector="_xlzvBI1kEe-zfuMkuYBebw" outerProvidedRole_ProvidedDelegationConnector="_xl-uI41kEe-zfuMkuYBebw" assemblyContext_ProvidedDelegationConnector="_xl_VNo1kEe-zfuMkuYBebw"/>
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_xl-uI41kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_xlvdlo1kEe-zfuMkuYBebw"/>
   </components__Repository>
-  <components__Repository xsi:type="repository:CompositeComponent" id="_3aqYxHhLEe-ZRqBXho9v1g" entityName="net_devh_ServiceB1Controller">
-    <assemblyContexts__ComposedStructure id="_3arm4nhLEe-ZRqBXho9v1g" encapsulatedComponent__AssemblyContext="_3afZpnhLEe-ZRqBXho9v1g"/>
-    <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_3auDIHhLEe-ZRqBXho9v1g" innerProvidedRole_ProvidedDelegationConnector="_3afZpHhLEe-ZRqBXho9v1g" outerProvidedRole_ProvidedDelegationConnector="_3aqYw3hLEe-ZRqBXho9v1g" assemblyContext_ProvidedDelegationConnector="_3arm4nhLEe-ZRqBXho9v1g"/>
-    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_3aqYw3hLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/ Provider" providedInterface__OperationProvidedRole="_3abIOHhLEe-ZRqBXho9v1g"/>
-  </components__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3abINXhLEe-ZRqBXho9v1g" entityName="net_devh_feign_ServiceBClient">
-    <signatures__OperationInterface id="_3T4bUHhLEe-ZRqBXho9v1g" entityName="printServiceB">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xlvdko1kEe-zfuMkuYBebw" entityName="net_devh_hystrix_HystrixWrappedServiceBClient"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xlvdk41kEe-zfuMkuYBebw" entityName="net_devh_controller_Registration"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xlvdlI1kEe-zfuMkuYBebw" entityName="net_devh_Registration"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xlvdlY1kEe-zfuMkuYBebw" entityName="net_devh_feign_ServiceBClient">
+    <signatures__OperationInterface id="_xfZlAI1kEe-zfuMkuYBebw" entityName="printServiceB">
       <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3abINnhLEe-ZRqBXho9v1g" entityName="net_devh_hystrix_HystrixWrappedServiceBClient"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3abIN3hLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/$2">
-    <signatures__OperationInterface id="_3T5CYHhLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/$2">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xlvdlo1kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/">
+    <signatures__OperationInterface id="_xfXIwI1kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/">
       <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3abIOHhLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/">
-    <signatures__OperationInterface id="_3TINYHhLEe-ZRqBXho9v1g" entityName="SPRING-APPLICATION/">
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xlvdl41kEe-zfuMkuYBebw" entityName="service-b/"/>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_xlwEoI1kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/$2">
+    <signatures__OperationInterface id="_xfaMEI1kEe-zfuMkuYBebw" entityName="SPRING-APPLICATION/$2">
       <returnType__OperationSignature xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3abIOXhLEe-ZRqBXho9v1g" entityName="net_devh_controller_Registration"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3abvQHhLEe-ZRqBXho9v1g" entityName="net_devh_Registration"/>
-  <interfaces__Repository xsi:type="repository:OperationInterface" id="_3abvQXhLEe-ZRqBXho9v1g" entityName="service-b/"/>
 </repository:Repository>

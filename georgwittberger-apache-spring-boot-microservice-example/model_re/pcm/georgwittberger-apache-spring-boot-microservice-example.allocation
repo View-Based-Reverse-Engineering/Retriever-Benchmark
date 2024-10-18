@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_TqrHMHhLEe-Igv4lBP7nAw">
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_w_9FYI1jEe-f5aBHuaViHQ">
   <targetResourceEnvironment_Allocation href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#/"/>
-  <system_Allocation href="georgwittberger-apache-spring-boot-microservice-example.system#_TqjycnhLEe-Igv4lBP7nAw"/>
-  <allocationContexts_Allocation id="_TqqgIHhLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOsHhLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIEnhLEe-Igv4lBP7nAw"/>
+  <system_Allocation href="georgwittberger-apache-spring-boot-microservice-example.system#_w_2Xto1jEe-f5aBHuaViHQ"/>
+  <allocationContexts_Allocation id="_w_73QI1jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z-I1jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUYI1jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgIXhLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOtnhLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIF3hLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eUI1jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z9o1jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUZI1jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgInhLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOt3hLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIFHhLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eUY1jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z9I1jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUYo1jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgI3hLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOtXhLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIEHhLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eUo1jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z9Y1jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUZY1jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgJHhLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOuHhLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIFnhLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eU41jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z941jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUY41jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgJXhLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOtHhLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIGHhLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eVI1jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z8Y1jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUZo1jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgJnhLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOsnhLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIEHhLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eVY1jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z8I1jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUaI1jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgJ3hLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOsXhLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIFXhLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eVo1jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z841jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUY41jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
-  <allocationContexts_Allocation id="_TqqgKHhLEe-Igv4lBP7nAw">
-    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_TqmOs3hLEe-Igv4lBP7nAw"/>
-    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_TqgIEXhLEe-Igv4lBP7nAw"/>
+  <allocationContexts_Allocation id="_w_8eV41jEe-f5aBHuaViHQ">
+    <resourceContainer_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.resourceenvironment#_w_4z8o1jEe-f5aBHuaViHQ"/>
+    <assemblyContext_AllocationContext href="georgwittberger-apache-spring-boot-microservice-example.system#_w_zUYY1jEe-f5aBHuaViHQ"/>
   </allocationContexts_Allocation>
 </allocation:Allocation>
